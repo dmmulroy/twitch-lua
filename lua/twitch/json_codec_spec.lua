@@ -1,0 +1,28 @@
+local t = require("spec_helper")
+local json_codec = require("twitch.json_codec")
+
+t.test("json_codec: null fields and null array items read as absent", function()
+	local value = json_codec.decode_json('{"a":null,"b":{"c":null,"d":1},"list":[1,null,{"x":null,"y":2}]}')
+	t.equal(value.a, nil)
+	t.equal(value.b.c, nil)
+	t.equal(value.b.d, 1)
+	t.equal(#value.list, 2)
+	t.equal(value.list[2].y, 2)
+	t.equal(value.list[2].x, nil)
+end)
+
+t.test("json_codec: bad JSON returns nil and a message", function()
+	local value, err = json_codec.decode_json("{nope")
+	t.equal(value, nil)
+	t.truthy(type(err) == "string")
+	local empty, empty_err = json_codec.decode_json("")
+	t.equal(empty, nil)
+	t.truthy(empty_err)
+end)
+
+t.test("json_codec: encode then decode round-trips a chat event", function()
+	local event = { seq = 7, kind = "message", text = 'say "hi"\n\tnow', fragments = { { type = "text", text = "é😀" } } }
+	local line = json_codec.encode_json(event)
+	t.truthy(not line:find("\n", 1, true), "one line")
+	t.equal(json_codec.decode_json(line), event)
+end)
