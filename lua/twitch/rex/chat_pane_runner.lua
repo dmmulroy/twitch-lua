@@ -240,7 +240,7 @@ function M.run_chat_pane(repo_root)
 			sending_problem = validate_err.message
 			return
 		end
-		local helix = require("twitch").new({
+		local helix = require("twitch.helix_client").new_helix_client({
 			host = distilled_host,
 			access_token = token,
 			client_id = identity.client_id,

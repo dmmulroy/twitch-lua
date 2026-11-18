@@ -17,6 +17,7 @@ local SPEC_MODULES = {
 	"twitch.chat_store_spec",
 	"twitch.chat_event_log_spec",
 	"twitch.twitch_auth_spec",
+	"twitch.helix_client_spec",
 	"twitch.gif_decoder_spec",
 	"twitch.emote_cache_spec",
 	"twitch.emote_sources_spec",

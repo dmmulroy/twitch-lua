@@ -53,7 +53,7 @@ function M.run_chat_connection(repo_root)
 	end
 
 	local distilled_host = require("distilled.host.rex")()
-	local Twitch = require("twitch")
+	local helix_client = require("twitch.helix_client")
 	local log = chat_event_log.open_chat_event_log(paths.event_log, { now = os.time })
 	local started_at = host.now_seconds()
 	local last_pane_seen_at = started_at
@@ -168,7 +168,7 @@ function M.run_chat_connection(repo_root)
 			return false
 		end
 
-		local helix = Twitch.new({
+		local helix = helix_client.new_helix_client({
 			host = distilled_host,
 			access_token = token,
 			client_id = identity.client_id,
