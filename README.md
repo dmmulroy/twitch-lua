@@ -144,3 +144,7 @@ client (one service per page of Twitch's API reference), from Distilled's Twitch
 read from those reference pages. `lua/twitch/helix_client.lua` maps the operations this library
 calls to their services. `scripts/regenerate_helix_client.sh` refreshes the client and the
 runtime in `vendor/distilled` (Apache-2.0; its LICENSE and NOTICE are kept beside it).
+
+## License
+
+Apache-2.0. See `LICENSE` and `NOTICE`.
