@@ -73,4 +73,28 @@ end
 
 t.describe_value = describe_value
 
+--- Makes directories for a spec (pure Lua cannot). Works under lua, luajit and Rex.
+function t.make_directories(...)
+	local paths = { ... }
+	if rawget(_G, "rex") then
+		local argv = { "/bin/mkdir", "-p" }
+		for _, path in ipairs(paths) do
+			argv[#argv + 1] = path
+		end
+		rex.exec(argv)
+	else
+		for _, path in ipairs(paths) do
+			os.execute('mkdir -p "' .. path .. '"')
+		end
+	end
+end
+
+--- A fresh empty directory under the system temp folder.
+function t.temporary_directory()
+	local path = os.tmpname()
+	os.remove(path)
+	t.make_directories(path)
+	return path
+end
+
 return t
