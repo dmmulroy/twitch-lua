@@ -1,0 +1,12 @@
+distilled-lua
+Copyright 2026 Dillon Mulroy
+
+This product is derived from Distilled (https://github.com/alchemy-run/distilled),
+Copyright 2026 Functionless Corp., licensed under the Apache License, Version 2.0.
+
+- The runtime in lua/distilled/ is a Lua port of the behaviour of Distilled's
+  TypeScript runtime (packages/core).
+- models/neon/neon.json is the output of Distilled's converter and patches for the
+  Neon API, and clients/neon/ is generated from it. The underlying API
+  description is published by Neon.
+- verify/conform/ref/ holds reference outputs produced by running Distilled.

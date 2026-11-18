@@ -29,6 +29,22 @@ local LIST_MAX_ATTEMPTS = 4
 local MAX_DOWNLOAD_BYTES = 8 * 1024 * 1024
 -- Frames decoded before the cache's own limits are applied.
 local MAX_DECODED_FRAMES = 600
+-- The emote cache on disk is cut back to three quarters of this when it grows past it.
+local MAX_EMOTE_CACHE_KILOBYTES = 256 * 1024
+
+-- Removes the least recently read emotes (all files of each) until the cache is small enough.
+local PRUNE_EMOTE_CACHE_SCRIPT = [[
+dir="$1"; cap="$2"
+used=$(du -sk "$dir" 2>/dev/null | cut -f1)
+[ "${used:-0}" -le "$cap" ] && exit 0
+ls -tur "$dir"/*/* 2>/dev/null | while IFS= read -r file; do
+  base="${file%.*}"
+  rm -f "$base.json" "$base.png" "$base.rgba" "$base.failed"
+  used=$(du -sk "$dir" | cut -f1)
+  [ "$used" -le $((cap * 3 / 4)) ] && break
+done
+echo pruned
+]]
 
 local function read_file(path)
 	local file = io.open(path, "rb")
@@ -64,6 +80,10 @@ function M.run_emote_worker()
 		directories[#directories + 1] = paths.emote_cache_dir .. "/" .. provider
 	end
 	rex.exec(directories)
+	local pruned = rex.exec({ "/bin/sh", "-c", PRUNE_EMOTE_CACHE_SCRIPT, "sh", paths.emote_cache_dir, tostring(MAX_EMOTE_CACHE_KILOBYTES) })
+	if pruned and pruned.stdout:find("pruned", 1, true) then
+		host.log("info", "emote cache was over its size limit; the least recently used emotes were removed")
+	end
 
 	local function fetch_emote(request)
 		local provider, id = request.provider, request.id
