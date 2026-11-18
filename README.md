@@ -4,13 +4,26 @@ Twitch chat in a [Rex](https://www.superlogical.com/rex/) pane, written in Lua. 
 process holds the only connection to Twitch, and every tab's chat pane reads from it, so
 the number of tabs never runs into Twitch's limit of 3 EventSub connections per account.
 
+It looks like [twitch-tui](https://github.com/Xithrius/twitch-tui) (twt), which it replaces:
+
 ```text
-Viewer: hello there everyone in chat
-Other: dance ▣▣ now                      <- emote images, animated ones move
-· Joined #dillon
-#dillon ●                         ↓ 2 new
-> Send a message
+┌[ Time: Wed Nov 18 08:44:10 2026 ] [ ┐
+│Twitch: Joined #dillon               │
+│⭐bishalr0y: how's you experience    │
+│with rex?                            │
+│🔨StreamElements: Thank you for      │
+│following @dillon ▣▣                 │   <- emote images; animated ones move
+└─────────────────────────────────────┘
+┌[ Chat ]─────────────────────────────┐   green when the line can be sent, red when empty
+│hello                                │
+└[ 5 / 500 ]──────────────────────────┘
 ```
+
+twt's details are copied: its pastel name colors (picked from the name, not Twitch's
+colors), emoji badges (💎 VIP, 🔨 moderator, ⭐ subscriber, 👑 Prime), `Twitch:` and
+`System:` lines in bold red, your login highlighted in a message, `/me` in italics, deleted
+messages removed, and line breaks exactly where twt puts them (a port of textwrap 0.16.2,
+checked against the real crate on 1,900 messages).
 
 ## Requirements
 
@@ -37,7 +50,7 @@ about 20 seconds after the last pane closes.
 | Enter | Send the message, or run a `/command` |
 | Up / Down | Recall sent messages |
 | PageUp / PageDown, mouse wheel | Scroll the feed |
-| Esc | Jump to the newest message |
+| Esc | Jump to the newest message (the chat box's bottom edge says `[ n new ]` while scrolled up) |
 | Ctrl-A / Ctrl-E, Alt-B / Alt-F | Move in the line |
 | Ctrl-W, Ctrl-U, Ctrl-K | Delete a word, to the start, to the end |
 | Ctrl-L | Redraw |
@@ -96,7 +109,8 @@ lua/twitch/                  # the library: pure Lua 5.1, no I/O outside host/ a
 ├── emote_sources.lua        # emote URLs and third-party emote lists
 ├── emote_cache.lua          # the emote cache on disk
 ├── terminal_text.lua        # safe text, cell widths, grapheme clusters
-├── tui/                     # the pane: layout, input line, keys, commands, emote images
+├── unicode_tables.lua       # generated: line break classes and widths from twt's Rust crates
+├── tui/                     # the pane: twt's layout and wrapping, input box, keys, commands, emotes
 ├── host/rex_host.lua        # timers, helper processes and TLS on Rex's Lua API
 └── rex/                     # the three processes, as functions
 rex/                         # entry points: chat_pane.lua, chat_connection.lua, emote_worker.lua
@@ -116,6 +130,13 @@ lua spec/run_specs.lua websocket # one file
 
 `spec/rex_emote_terminal_check.lua` checks, in a real Rex terminal, that the terminal
 accepts every emote command (see the file's header).
+
+## Regenerating the Unicode data
+
+`scripts/generate_unicode_tables.sh` rebuilds `lua/twitch/unicode_tables.lua` from the
+Rust crates twt uses (unicode-linebreak 0.1.5, unicode-width 0.2.2).
+`scripts/check_wrap_against_textwrap.sh` reruns the real textwrap on the recorded cases in
+`spec/fixtures/textwrap/`. Both need cargo; the generators are in `tools/`.
 
 ## The Helix client
 

@@ -99,22 +99,47 @@ numbers they have seen.
 
 `tui/chat_pane.lua` takes key bytes, event log bytes and size changes, and writes the
 screen through one `write` function, so the specs run it against a small fake terminal.
+It is drawn like twitch-tui (twt), which it replaces:
 
 ```text
-rows 1..n-2   the feed, newest at the bottom, word-wrapped to the pane's width
-row  n-1      status bar: channel, connection, "↓ 3 new" when scrolled up
-row  n        the line being typed
+row 1        ┌[ Time: Wed Nov 18 08:44:10 2026 ] [ Channel: dillon ]─┐   clock redrawn every second
+rows 2..n-4  │ the feed, newest at the bottom                         │
+row n-3      └──────────────────────────────────────────────[ 3 new ]┘   while scrolled up
+rows n-2..n  ┌[ Chat ]┐ │ the line being typed │ └[ 12 / 500 ]┘           green, red when empty
 ```
+
+What is copied from twt (its source, `src/ui`, `src/utils/styles.rs`, `src/handlers/data.rs`):
+
+- Colors: chat text bright white; "Time", "Channel", "Twitch" and "System" bold red; the
+  input box green or red. Name colors are twt's "pastel" palette: the sum of the name's
+  bytes picks a hue (`hsl_to_rgb` ported; checked against the Rust code for 311 names).
+- Badges as emoji before the name: 💎 VIP, 🔨 moderator, ⭐ subscriber, 👑 Prime.
+- Your login anywhere in a message is bold black on white (and the "@" before the first one).
+- `/me` messages are italic in the name's color.
+- Connection and Twitch notices are `Twitch: ...` lines; problems are `System: ...`.
+- Deleted messages and a banned person's messages are removed; a clear says "Chat was
+  cleared for non-Moderators viewing this room".
+- Line breaks: twt calls textwrap 0.16.2 with its defaults, so `tui/twt_text_wrap.lua`
+  ports that: Unicode line break opportunities (unicode-linebreak's tables, generated into
+  `unicode_tables.lua`), hyphen splitting, breaking over-long words, and the optimal-fit
+  algorithm with its penalties and the SMAWK search (tie-breaking included). Checked against
+  the real crate on 1,900 messages: every line equal. The wrap width is twt's: the box's
+  inside less one, with the author's length in bytes reserved on the first line.
+
+Where this differs from twt on purpose: a line is laid out with emote images at their real
+width (twt wraps by the emote's name and can overflow), and there is no normal/insert mode
+(the input box is always there).
+
+Other behaviour:
 
 - Keys come from a helper that puts the pane's terminal in raw mode; Rex passes each
   chunk to a Lua callback. `io.read` is not used: it blocks timers.
 - Every redraw is absolute: each row is cleared and rewritten inside a synchronized
-  update, with line wrapping off. A width the cell table gets wrong can cut a row short
-  but cannot push other rows around.
+  update, with line wrapping off, and the right border is drawn at its own column.
 - Chat text is untrusted. Control characters (including ESC) and invalid UTF-8 are
   removed before layout, so a message cannot send escape sequences to the terminal.
-- Width is counted per grapheme cluster: combining marks and joiners add nothing, CJK
-  and emoji take two cells.
+- Width is counted per grapheme cluster with unicode-width's table: combining marks and
+  joiners add nothing, an emoji with its modifiers or a flag is one unit.
 
 ## Emotes
 
@@ -166,6 +191,7 @@ All measured; each is handled where noted.
 | `rex.on` only works at script load | Handlers register at the top level |
 | `pcall` can corrupt closures | `compat.pcall` from distilled-lua |
 | `tonumber(nil)` and `tostring()` of no value raise | A fallback before the call |
+| `os.date` gets `%a` wrong and does not know `%e` or `%T` | twt's clock text is built from `os.date("*t")` |
 | `a, b = f(x), y` assigning to existing variables crashed with a nil pointer dereference in one function | Two statements there, with a comment |
 | `for x in f().field:gmatch(...)` fails with "attempt to index nil" | The value goes in a local first |
 | `debug.getinfo(1, "S").source` has no leading `@` | An optional `@` is stripped |
