@@ -23,6 +23,9 @@ local IDLE_EXIT_SECONDS = 10
 local STARTUP_GRACE_SECONDS = 20
 -- After a token problem, look at the token file again this often.
 local TOKEN_RECHECK_SECONDS = 30
+-- An emote worker that exits is started again after this long, at most this many times.
+local EMOTE_WORKER_RESTART_SECONDS = 5
+local EMOTE_WORKER_MAX_RESTARTS = 20
 
 -- Counts live panes, removing registry entries whose process is gone.
 local COUNT_LIVE_PANES_SCRIPT = [[
@@ -35,8 +38,8 @@ echo "$count"
 ]]
 
 --- Runs the chat connection until no pane needs it. Call from the top level of a
---- `rex do` script.
-function M.run_chat_connection()
+--- `rex do` script. `repo_root` is the twitch-lua checkout, used to find the emote worker.
+function M.run_chat_connection(repo_root)
 	local paths = chat_paths.twitch_chat_paths()
 	rex.exec({ "/bin/mkdir", "-p", paths.state_dir, paths.pane_registry_dir, paths.emote_cache_dir })
 	local host = rex_host.new_rex_host({ log_path = paths.diagnostics_log, log_label = "connection" })
@@ -94,6 +97,40 @@ function M.run_chat_connection()
 			emit_status("warn", tostring(status.text), status.state)
 		else
 			write_connection_status(status.state, status.level, status.text)
+		end
+	end
+
+	-- The emote worker downloads and decodes emotes for every pane. It is started once the
+	-- channel is known, and asked for the channel's third-party emote lists.
+	local emote_worker, emote_worker_restarts = nil, 0
+	local function start_emote_worker()
+		local helper, err = host.start_helper({ rex.args.rex or "rex", "do", repo_root .. "/rex/emote_worker.lua" }, {
+			ends_with_owner = true,
+			on_exit = function(result)
+				emote_worker = nil
+				emote_worker_restarts = emote_worker_restarts + 1
+				host.log("warn", "emote worker exited with status " .. tostring(result.code))
+				if emote_worker_restarts <= EMOTE_WORKER_MAX_RESTARTS then
+					host.start_timer(EMOTE_WORKER_RESTART_SECONDS, start_emote_worker)
+				end
+			end,
+		})
+		if not helper then
+			host.log("error", "emote worker not started: " .. tostring(err))
+		end
+		emote_worker = helper
+	end
+	local function set_up_emotes(settings, broadcaster_user_id)
+		if not settings.emotes then
+			return
+		end
+		local file = io.open(paths.emote_request_log, "a")
+		if file then
+			file:write(json_codec.encode_json({ kind = "index", channel_id = broadcaster_user_id }), "\n")
+			file:close()
+		end
+		if not emote_worker then
+			start_emote_worker()
 		end
 	end
 
@@ -161,6 +198,7 @@ function M.run_chat_connection()
 			on_status = on_connection_status,
 		})
 		token_problem_is_permanent = false
+		set_up_emotes(settings, broadcaster_user_id)
 		connection:start()
 		return true
 	end
@@ -169,9 +207,13 @@ function M.run_chat_connection()
 		if connection then
 			connection:stop()
 		end
+		if emote_worker then
+			emote_worker:stop()
+		end
 		log:remove_event_log()
 		os.remove(paths.connection_status_file)
 		os.remove(paths.emote_request_log)
+		os.remove(paths.emote_index_file)
 		os.remove(paths.connection_lock_file)
 		rex.stop(0)
 	end

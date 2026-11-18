@@ -53,7 +53,8 @@ function M.new_chat_pane(opts)
 			return { level = "error", text = "Commands are not set up" }
 		end,
 		on_quit = opts.on_quit or function() end,
-		-- Optional emote images: { revision, emote_columns(request), draw_emote(request) }.
+		-- Optional emote images (twitch.tui.emote_images): revision, emote_columns(request),
+		-- draw_emote(request), and optionally begin_render() and end_render().
 		emotes = opts.emotes,
 		store = chat_store.new_chat_store({ max_entries = opts.max_messages }),
 		view = chat_feed_layout.new_chat_feed_view(),
@@ -156,7 +157,12 @@ function Pane:render_all()
 	if not self.started or too_small(self) then
 		return
 	end
-	local out = { terminal_screen.BEGIN_SYNCHRONIZED_UPDATE, terminal_screen.HIDE_CURSOR }
+	local emotes = self.emotes
+	if emotes and emotes.begin_render then
+		emotes:begin_render()
+	end
+	-- out[3] is filled in last: image loads must reach the terminal before the rows that use them
+	local out = { terminal_screen.BEGIN_SYNCHRONIZED_UPDATE, terminal_screen.HIDE_CURSOR, "" }
 	local height = feed_height(self)
 	if height > 0 then
 		local rows = self.view:visible_feed_rows(self.store.entries, self.columns, height, layout_options(self))
@@ -171,6 +177,9 @@ function Pane:render_all()
 	out[#out + 1] = terminal_screen.move_cursor(self.rows, 1) .. terminal_screen.CLEAR_LINE .. input_output
 	out[#out + 1] = terminal_screen.move_cursor(self.rows, cursor_column)
 	out[#out + 1] = terminal_screen.SHOW_CURSOR .. terminal_screen.END_SYNCHRONIZED_UPDATE
+	if emotes and emotes.end_render then
+		out[3] = emotes:end_render()
+	end
 	self.write(table.concat(out))
 end
 
@@ -199,7 +208,8 @@ end
 function Pane:stop()
 	if self.started then
 		self.started = false
-		self.write(terminal_screen.LEAVE_CHAT_SCREEN)
+		local unload = self.emotes and self.emotes.release_all_images and self.emotes:release_all_images() or ""
+		self.write(unload .. terminal_screen.LEAVE_CHAT_SCREEN)
 	end
 end
 

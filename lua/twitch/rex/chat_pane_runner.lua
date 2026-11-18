@@ -9,6 +9,7 @@ local chat_commands = require("twitch.tui.chat_commands")
 local chat_pane = require("twitch.tui.chat_pane")
 local chat_paths = require("twitch.chat_paths")
 local chat_settings = require("twitch.chat_settings")
+local emote_images = require("twitch.tui.emote_images")
 local json_codec = require("twitch.json_codec")
 local rex_host = require("twitch.host.rex_host")
 local twitch_auth = require("twitch.twitch_auth")
@@ -16,6 +17,11 @@ local twitch_auth = require("twitch.twitch_auth")
 local M = {}
 
 local CONNECTION_CHECK_SECONDS = 5
+-- How often a pane looks for emotes it asked for, and for a new emote word index.
+local PENDING_EMOTE_CHECK_SECONDS = 0.5
+local EMOTE_INDEX_CHECK_SECONDS = 3
+-- With animation = "lua": how often visible emotes are checked for their next frame.
+local EMOTE_ANIMATION_TICK_SECONDS = 0.04
 local TERMINAL_CREATOR = "com.superlogical.terminal"
 
 local function read_file(path)
@@ -61,6 +67,29 @@ function M.run_chat_pane(repo_root)
 		rex.stop(0)
 	end
 
+	-- Emote images. Panes only read the emote cache; a missing emote is asked for through
+	-- the request log, which the emote worker follows.
+	local emotes
+	if settings.emotes then
+		local size = rex.block.call(TERMINAL_CREATOR, "size", {}) or {}
+		emotes = emote_images.new_emote_images({
+			cache_dir = paths.emote_cache_dir,
+			animation = settings.animation,
+			cell_width_px = size.cell_width_px,
+			cell_height_px = size.cell_height_px,
+			now_ms = function()
+				return host.now_seconds() * 1000
+			end,
+			request_emote = function(request)
+				local file = io.open(paths.emote_request_log, "a")
+				if file then
+					file:write(json_codec.encode_json(request), "\n")
+					file:close()
+				end
+			end,
+		})
+	end
+
 	local columns, rows = terminal_size()
 	pane = chat_pane.new_chat_pane({
 		write = function(bytes)
@@ -71,6 +100,7 @@ function M.run_chat_pane(repo_root)
 		rows = rows,
 		channel = settings.channel,
 		max_messages = settings.max_messages,
+		emotes = emotes,
 		send_message = function(text)
 			if not commands then
 				return nil, sending_problem or "still starting"
@@ -100,6 +130,14 @@ function M.run_chat_pane(repo_root)
 			return
 		end
 		local payload = event.payload or event
+		if emotes and payload.cell_width_px and payload.cell_height_px then
+			-- a tab that has never been shown reports a placeholder cell size until it is
+			local unload = emotes:set_cell_size(payload.cell_width_px, payload.cell_height_px)
+			if unload ~= "" then
+				io.write(unload)
+				pane:render_all()
+			end
+		end
 		if payload.columns and payload.rows then
 			pane:handle_resize(payload.columns, payload.rows)
 		end
@@ -135,6 +173,36 @@ function M.run_chat_pane(repo_root)
 		end,
 	})
 
+	if emotes then
+		host.start_repeating_timer(PENDING_EMOTE_CHECK_SECONDS, function()
+			if emotes:has_pending_emotes() and emotes:check_pending_emotes() then
+				pane:render_all()
+			end
+		end)
+		-- The emote word index is rewritten by the worker when the channel is joined.
+		local index_size
+		local function load_emote_index()
+			local text = read_file(paths.emote_index_file)
+			local size = text and #text or 0
+			if size == index_size then
+				return
+			end
+			index_size = size
+			local index = text and json_codec.decode_json(text) or nil
+			emotes:set_emote_word_index(type(index) == "table" and index.words or {})
+			pane:render_all()
+		end
+		load_emote_index()
+		host.start_repeating_timer(EMOTE_INDEX_CHECK_SECONDS, load_emote_index)
+		if settings.animation == "lua" then
+			host.start_repeating_timer(EMOTE_ANIMATION_TICK_SECONDS, function()
+				if emotes:advance_emote_animation() then
+					pane:render_all()
+				end
+			end)
+		end
+	end
+
 	-- Starts the connection process unless a live one is recorded in the status file.
 	local function ensure_connection_running()
 		local status = json_codec.decode_json(read_file(paths.connection_status_file) or "") or {}
@@ -145,7 +213,7 @@ function M.run_chat_pane(repo_root)
 			end
 		end
 		local handle, err = rex.exec.start(
-			{ rex_cli, "do", "--all", repo_root .. "/rex/chat_connection.lua" },
+			{ rex_cli, "do", "--all", repo_root .. "/rex/chat_connection.lua", "rex=" .. rex_cli },
 			{ detach = true, stdout = false, stderr = false }
 		)
 		if not handle then

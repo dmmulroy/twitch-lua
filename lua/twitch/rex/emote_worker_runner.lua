@@ -21,7 +21,11 @@ local M = {}
 
 local POLL_SECONDS = 0.25
 local DOWNLOAD_TIMEOUT_SECONDS = 20
-local LIST_TIMEOUT_SECONDS = 10
+-- 7TV's and FFZ's APIs sometimes take 15 seconds or more to answer.
+local LIST_TIMEOUT_SECONDS = 30
+-- Lists that could not be fetched are tried again this much later, this many times.
+local LIST_RETRY_SECONDS = 120
+local LIST_MAX_ATTEMPTS = 4
 local MAX_DOWNLOAD_BYTES = 8 * 1024 * 1024
 -- Frames decoded before the cache's own limits are applied.
 local MAX_DECODED_FRAMES = 600
@@ -106,36 +110,80 @@ function M.run_emote_worker()
 		end
 	end
 
-	local function fetch_emote_index(request)
-		if type(request.channel_id) ~= "string" or not request.channel_id:find("^%d+$") then
-			return
-		end
-		local lists, fetched = {}, 0
-		for _, list in ipairs(emote_sources.third_party_emote_lists(request.channel_id)) do
-			local result = rex.exec({
-				"/usr/bin/curl", "--silent", "--show-error", "--location", "--proto", "=https",
-				"--max-time", tostring(LIST_TIMEOUT_SECONDS), list.url,
-			}, { timeout = LIST_TIMEOUT_SECONDS + 5 })
-			local body = result and result.ok and json_codec.decode_json(result.stdout or "") or nil
-			if body then
-				fetched = fetched + 1
-				lists[#lists + 1] = emote_sources.parse_third_party_emotes(list.provider, body)
+	-- The third-party emote lists of the joined channel. Fetching never blocks emote
+	-- downloads: the curls run on their own and are collected by the main loop.
+	local index_fetch -- { channel_id, attempt, fetched = { [url] = emotes }, running = { ... }, retry_at }
+
+	local function write_emote_index()
+		local lists = emote_sources.third_party_emote_lists(index_fetch.channel_id)
+		local available, missing = {}, 0
+		for _, list in ipairs(lists) do
+			if index_fetch.fetched[list.url] then
+				available[#available + 1] = index_fetch.fetched[list.url]
 			else
-				host.log("warn", "emote list not fetched: " .. list.url)
+				missing = missing + 1
 			end
 		end
-		local index = emote_sources.build_emote_word_index(lists)
+		local index = emote_sources.build_emote_word_index(available)
 		index.revision = os.time()
-		index.channel_id = request.channel_id
+		index.channel_id = index_fetch.channel_id
 		local temporary = paths.emote_index_file .. ".writing"
 		local file = io.open(temporary, "w")
-		if not file then
+		if file then
+			file:write(json_codec.encode_json(index))
+			file:close()
+			os.rename(temporary, paths.emote_index_file)
+		end
+		host.log("info", "emote index: " .. index.count .. " words from " .. (#lists - missing) .. " of " .. #lists .. " lists")
+		return missing
+	end
+
+	local function start_emote_list_fetches()
+		index_fetch.attempt = index_fetch.attempt + 1
+		index_fetch.retry_at = nil
+		for _, list in ipairs(emote_sources.third_party_emote_lists(index_fetch.channel_id)) do
+			if not index_fetch.fetched[list.url] then
+				local handle = rex.exec.start({
+					"/usr/bin/curl", "--silent", "--show-error", "--location", "--proto", "=https",
+					"--max-time", tostring(LIST_TIMEOUT_SECONDS), list.url,
+				}, { detach = true })
+				if handle then
+					index_fetch.running[#index_fetch.running + 1] = { list = list, handle = handle }
+				end
+			end
+		end
+	end
+
+	-- Called from the main loop: collects finished list fetches and schedules a retry.
+	local function collect_emote_list_fetches()
+		if not index_fetch then
 			return
 		end
-		file:write(json_codec.encode_json(index))
-		file:close()
-		os.rename(temporary, paths.emote_index_file)
-		host.log("info", "emote index: " .. index.count .. " words from " .. fetched .. " of 6 lists")
+		if index_fetch.retry_at and os.time() >= index_fetch.retry_at then
+			start_emote_list_fetches()
+		end
+		local finished = false
+		for position = #index_fetch.running, 1, -1 do
+			local item = index_fetch.running[position]
+			if not item.handle:running() then
+				table.remove(index_fetch.running, position)
+				finished = true
+				local result = item.handle:wait(1)
+				local body = result and result.ok and json_codec.decode_json(result.stdout or "") or nil
+				if type(body) == "table" then
+					-- a provider's "no such channel" answer is JSON too, and parses to no emotes
+					index_fetch.fetched[item.list.url] = emote_sources.parse_third_party_emotes(item.list.provider, body)
+					write_emote_index() -- panes get each list as soon as it arrives
+				else
+					host.log("warn", "emote list not fetched (attempt " .. index_fetch.attempt .. "): " .. item.list.url)
+				end
+			end
+		end
+		if finished and #index_fetch.running == 0 then
+			if write_emote_index() > 0 and index_fetch.attempt < LIST_MAX_ATTEMPTS then
+				index_fetch.retry_at = os.time() + LIST_RETRY_SECONDS
+			end
+		end
 	end
 
 	local function handle_request_line(line)
@@ -146,7 +194,13 @@ function M.run_emote_worker()
 		if request.kind == "emote" then
 			fetch_emote(request)
 		elseif request.kind == "index" then
-			fetch_emote_index(request)
+			if type(request.channel_id) == "string" and request.channel_id:find("^%d+$") then
+				for _, item in ipairs(index_fetch and index_fetch.running or {}) do
+					item.handle:kill()
+				end
+				index_fetch = { channel_id = request.channel_id, attempt = 0, fetched = {}, running = {} }
+				start_emote_list_fetches()
+			end
 		end
 	end
 
@@ -176,6 +230,11 @@ function M.run_emote_worker()
 				position = line_end + 1
 			end
 			offset = offset + position - 1
+		end
+		local ok, err = compat.pcall(collect_emote_list_fetches)
+		if not ok then
+			index_fetch = nil
+			host.log("error", "emote index fetch failed: " .. tostring(err))
 		end
 		rex.sleep(POLL_SECONDS)
 	end
