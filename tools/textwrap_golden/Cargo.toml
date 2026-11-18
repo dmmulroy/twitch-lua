@@ -1,0 +1,6 @@
+[package]
+name = "wrapcheck"
+version = "0.1.0"
+edition = "2021"
+[dependencies]
+textwrap = "=0.16.2"

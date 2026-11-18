@@ -269,14 +269,14 @@ end)
 
 t.test("emote_images: in a pane, the image loads before the row that shows it, and the row keeps its width", function()
 	local emotes, state = new_emotes()
-	local grid = fake_terminal_grid.new_fake_terminal_grid(40, 5)
+	local grid = fake_terminal_grid.new_fake_terminal_grid(40, 8)
 	local writes = {}
 	local pane = chat_pane.new_chat_pane({
 		write = function(bytes)
 			writes[#writes + 1] = bytes
 			grid:write(bytes)
 		end,
-		columns = 40, rows = 5, channel = "dillon", emotes = emotes,
+		columns = 40, rows = 8, channel = "dillon", emotes = emotes,
 	})
 	pane:start()
 	local line = chat_events.encode_chat_event_line({
@@ -284,13 +284,13 @@ t.test("emote_images: in a pane, the image loads before the row that shows it, a
 		parts = { { type = "text", text = "hi " }, { type = "emote", text = "Kappa", emote_id = "25" }, { type = "text", text = " !" } },
 	}) .. "\n"
 	pane:handle_event_log_bytes(line)
-	t.equal(grid:row_text(3), "Viewer: hi Kappa !") -- not cached yet: the name as text
+	t.equal(grid:row_text(4), "│Viewer: hi Kappa !" .. string.rep(" ", 20) .. "│") -- not cached yet: the name as text
 	t.equal(#state.requests, 1)
 
 	emote_cache.store_png_emote(state.dir, "twitch", "25", png_header(50, 56))
 	t.equal(emotes:check_pending_emotes(), true)
 	pane:render_all()
-	t.equal(grid:row_text(3), "Viewer: hi " .. PLACEHOLDER .. PLACEHOLDER .. " !")
+	t.equal(grid:row_text(4), "│Viewer: hi " .. PLACEHOLDER .. PLACEHOLDER .. " !" .. string.rep(" ", 23) .. "│")
 	local last = writes[#writes]
 	local load_at = last:find("a=t,t=f,f=100,i=1", 1, true)
 	local cells_at = last:find(PLACEHOLDER, 1, true)

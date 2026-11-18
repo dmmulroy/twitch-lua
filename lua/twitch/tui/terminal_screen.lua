@@ -34,27 +34,25 @@ function M.move_cursor(row, column)
 	return ESC .. "[" .. row .. ";" .. column .. "H"
 end
 
--- SGR parameters per span style. Palette colors (31-36) follow the terminal's theme.
+-- twt's "plain" border.
+M.BOX_TOP_LEFT, M.BOX_TOP_RIGHT = "┌", "┐"
+M.BOX_BOTTOM_LEFT, M.BOX_BOTTOM_RIGHT = "└", "┘"
+M.BOX_HORIZONTAL, M.BOX_VERTICAL = "─", "│"
+
+-- SGR parameters per span style, copied from twt (src/utils/styles.rs) with its "dark" theme.
+-- ratatui's Color::White is bright white (97), Red is 31, Green is 32.
 local STYLE_PARAMETERS = {
-	text = nil,
-	name = "1",
-	action = "3",
-	mention = "1",
-	self_mention = "1;33",
-	cheer = "1;35",
-	notice = "35",
-	deleted = "2;3",
-	status_info = "2",
-	status_warn = "33",
-	status_error = "31",
-	marker = "33",
-	prompt = "2",
-	placeholder = "2;3",
-	bar = "2",
-	bar_joined = "32",
-	bar_warn = "33",
-	bar_error = "31",
-	bar_unseen = "1;36",
+	text = "97", -- TEXT_DARK_STYLE: chat text
+	name = nil, -- the name's own color only
+	action = "3", -- a /me message: italic, in the name's color
+	self_mention = "1;30;107", -- HIGHLIGHT_NAME_DARK_STYLE: your login in a message
+	system_author = "1;31", -- SYSTEM_CHAT_STYLE: "Twitch" and "System"
+	title_label = "1;31", -- TITLE_STYLE: "Time", "Channel" in the chat box's title
+	border = nil,
+	input_valid = "32", -- the input box when the line can be sent
+	input_invalid = "31", -- ... and when it cannot (empty, or too long)
+	input_title_valid = "1;32",
+	input_title_invalid = "1;31",
 }
 
 local function color_parameters(color)

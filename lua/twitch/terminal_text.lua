@@ -7,44 +7,24 @@
 --   for _, cluster in ipairs(terminal_text.split_display_clusters(safe)) do ... end
 --
 -- Widths follow what a terminal with grapheme clustering does (Rex's does): combining
--- marks, joiners and variation selectors add nothing, CJK and emoji take two cells. No
--- table like this is complete, so callers must not rely on it being exact: draw each row
--- at an absolute position with line wrapping switched off.
+-- marks, joiners and variation selectors add nothing, CJK and emoji take two cells, and an
+-- emoji with its modifiers, or a flag, is one unit. No table like this matches every
+-- terminal, so callers must not rely on it being exact: draw each row at an absolute
+-- position with line wrapping switched off.
 
 local M = {}
 
 local REPLACEMENT_CHARACTER = "\239\191\189" -- U+FFFD
 
--- Sorted, non-overlapping { first, last } code point ranges.
-local ZERO_WIDTH_RANGES = {
-	{ 0x0300, 0x036F }, { 0x0483, 0x0489 }, { 0x0591, 0x05BD }, { 0x05BF, 0x05BF }, { 0x05C1, 0x05C2 },
-	{ 0x05C4, 0x05C5 }, { 0x05C7, 0x05C7 }, { 0x0610, 0x061A }, { 0x064B, 0x065F }, { 0x0670, 0x0670 },
-	{ 0x06D6, 0x06DC }, { 0x06DF, 0x06E4 }, { 0x06E7, 0x06E8 }, { 0x06EA, 0x06ED }, { 0x0900, 0x0902 },
-	{ 0x093A, 0x093A }, { 0x093C, 0x093C }, { 0x0941, 0x0948 }, { 0x094D, 0x094D }, { 0x0E31, 0x0E31 },
-	{ 0x0E34, 0x0E3A }, { 0x0E47, 0x0E4E }, { 0x1AB0, 0x1AFF }, { 0x1DC0, 0x1DFF }, { 0x200B, 0x200F },
-	{ 0x202A, 0x202E }, { 0x2060, 0x2064 }, { 0x20D0, 0x20FF }, { 0x3099, 0x309A }, { 0xFE00, 0xFE0F },
-	{ 0xFE20, 0xFE2F }, { 0xFEFF, 0xFEFF }, { 0x1F3FB, 0x1F3FF }, { 0xE0001, 0xE007F }, { 0xE0100, 0xE01EF },
-}
-
-local WIDE_RANGES = {
-	{ 0x1100, 0x115F }, { 0x231A, 0x231B }, { 0x2329, 0x232A }, { 0x23E9, 0x23EC }, { 0x23F0, 0x23F0 },
-	{ 0x23F3, 0x23F3 }, { 0x25FD, 0x25FE }, { 0x2614, 0x2615 }, { 0x2648, 0x2653 }, { 0x267F, 0x267F },
-	{ 0x2693, 0x2693 }, { 0x26A1, 0x26A1 }, { 0x26AA, 0x26AB }, { 0x26BD, 0x26BE }, { 0x26C4, 0x26C5 },
-	{ 0x26CE, 0x26CE }, { 0x26D4, 0x26D4 }, { 0x26EA, 0x26EA }, { 0x26F2, 0x26F3 }, { 0x26F5, 0x26F5 },
-	{ 0x26FA, 0x26FA }, { 0x26FD, 0x26FD }, { 0x2705, 0x2705 }, { 0x270A, 0x270B }, { 0x2728, 0x2728 },
-	{ 0x274C, 0x274C }, { 0x274E, 0x274E }, { 0x2753, 0x2755 }, { 0x2757, 0x2757 }, { 0x2795, 0x2797 },
-	{ 0x27B0, 0x27B0 }, { 0x27BF, 0x27BF }, { 0x2B1B, 0x2B1C }, { 0x2B50, 0x2B50 }, { 0x2B55, 0x2B55 },
-	{ 0x2E80, 0x303E }, { 0x3041, 0x33FF }, { 0x3400, 0x4DBF }, { 0x4E00, 0x9FFF }, { 0xA000, 0xA4CF },
-	{ 0xA960, 0xA97F }, { 0xAC00, 0xD7A3 }, { 0xF900, 0xFAFF }, { 0xFE30, 0xFE4F }, { 0xFF00, 0xFF60 },
-	{ 0xFFE0, 0xFFE6 }, { 0x1F004, 0x1F004 }, { 0x1F0CF, 0x1F0CF }, { 0x1F18E, 0x1F18E }, { 0x1F191, 0x1F19A },
-	{ 0x1F200, 0x1F251 }, { 0x1F300, 0x1F64F }, { 0x1F680, 0x1F6FF }, { 0x1F7E0, 0x1F7EB }, { 0x1F90C, 0x1F9FF },
-	{ 0x1FA70, 0x1FAFF }, { 0x20000, 0x3FFFD },
-}
+local unicode_tables = require("twitch.unicode_tables")
 
 local ZERO_WIDTH_JOINER = 0x200D
 local VARIATION_SELECTOR_EMOJI = 0xFE0F
+local REGIONAL_INDICATOR_FIRST, REGIONAL_INDICATOR_LAST = 0x1F1E6, 0x1F1FF
+local EMOJI_MODIFIER_FIRST, EMOJI_MODIFIER_LAST = 0x1F3FB, 0x1F3FF
 
-local function in_ranges(ranges, code_point)
+local function unicode_width(code_point)
+	local ranges = unicode_tables.CHARACTER_WIDTH_RANGES
 	local low, high = 1, #ranges
 	while low <= high do
 		local middle = math.floor((low + high) / 2)
@@ -54,13 +34,14 @@ local function in_ranges(ranges, code_point)
 		elseif code_point > range[2] then
 			low = middle + 1
 		else
-			return true
+			return range[3]
 		end
 	end
-	return false
+	return 1
 end
 
---- Cells one code point takes on its own: 0, 1 or 2.
+--- Cells one code point takes on its own: 0, 1 or 2, from unicode-width 0.2.2 (the table
+--- twt's ratatui uses). Skin-tone modifiers count 0: they join the emoji before them.
 function M.code_point_width(code_point)
 	if code_point < 0x20 or (code_point >= 0x7F and code_point < 0xA0) then
 		return 0
@@ -68,13 +49,10 @@ function M.code_point_width(code_point)
 	if code_point < 0x300 then
 		return 1
 	end
-	if in_ranges(ZERO_WIDTH_RANGES, code_point) then
+	if code_point >= EMOJI_MODIFIER_FIRST and code_point <= EMOJI_MODIFIER_LAST then
 		return 0
 	end
-	if code_point >= 0x1100 and in_ranges(WIDE_RANGES, code_point) then
-		return 2
-	end
-	return 1
+	return unicode_width(code_point)
 end
 
 -- Decodes the UTF-8 sequence at `position`. Returns the code point and the sequence's
@@ -143,7 +121,13 @@ function M.split_display_clusters(text)
 		local piece = text:sub(position, position + size - 1)
 		local width = code_point and M.code_point_width(code_point) or 1
 		local current = clusters[count]
-		if current and (width == 0 or joined_next) and code_point then
+		-- the second of two regional indicators makes one flag with the first
+		local completes_flag = current and current.flag_half and code_point
+			and code_point >= REGIONAL_INDICATOR_FIRST and code_point <= REGIONAL_INDICATOR_LAST
+		if completes_flag then
+			current.text = current.text .. piece
+			current.flag_half = nil
+		elseif current and (width == 0 or joined_next) and code_point then
 			current.text = current.text .. piece
 			-- an emoji variation selector makes a narrow symbol emoji-sized
 			if code_point == VARIATION_SELECTOR_EMOJI and current.width == 1 then
@@ -152,6 +136,9 @@ function M.split_display_clusters(text)
 		else
 			count = count + 1
 			clusters[count] = { text = code_point and piece or REPLACEMENT_CHARACTER, width = width }
+			if code_point and code_point >= REGIONAL_INDICATOR_FIRST and code_point <= REGIONAL_INDICATOR_LAST then
+				clusters[count].flag_half = true
+			end
 		end
 		joined_next = code_point == ZERO_WIDTH_JOINER
 		position = position + size

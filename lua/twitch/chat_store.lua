@@ -7,8 +7,8 @@
 --   store.entries            -- oldest first; each has a unique `entry_id`
 --   store.connection_state   -- "joined", "reconnecting", ... from status events
 --
--- An entry is the chat event itself (kind "message", "notice" or "status") plus entry_id,
--- and `deleted = true` once a moderator removed it.
+-- An entry is the chat event itself (kind "message", "notice" or "status") plus entry_id.
+-- As in twt, a message a moderator deletes, or a banned person's messages, disappear.
 
 local M = {}
 
@@ -46,6 +46,23 @@ local function add_entry(self, chat_event)
 	end
 end
 
+-- Removes the entries `matches` picks. Returns true when any were removed.
+local function remove_entries(self, matches)
+	local kept, removed = {}, false
+	for _, entry in ipairs(self.entries) do
+		if matches(entry) then
+			removed = true
+			if entry.id and self.message_ids[entry.id] == entry then
+				self.message_ids[entry.id] = nil
+			end
+		else
+			kept[#kept + 1] = entry
+		end
+	end
+	self.entries = kept
+	return removed
+end
+
 --- Applies one chat event. Returns true when the entries changed and the pane should
 --- redraw. An event whose `seq` was already applied (a replay of the log) is ignored.
 function Store:apply_chat_event(chat_event)
@@ -80,26 +97,23 @@ function Store:apply_chat_event(chat_event)
 			add_entry(self, chat_event)
 		end
 	elseif kind == "delete" then
-		local entry = self.message_ids[chat_event.message_id]
-		if not entry or entry.deleted then
+		if not self.message_ids[chat_event.message_id] then
 			return false
 		end
-		entry.deleted = true
+		remove_entries(self, function(entry)
+			return entry.id == chat_event.message_id
+		end)
 	elseif kind == "clear_user" then
-		local any = false
-		for _, entry in ipairs(self.entries) do
-			if entry.user_id == chat_event.user_id and entry.kind == "message" and not entry.deleted then
-				entry.deleted = true
-				any = true
-			end
-		end
-		if not any then
+		if not remove_entries(self, function(entry)
+			return entry.kind == "message" and entry.user_id == chat_event.user_id
+		end) then
 			return false
 		end
 	elseif kind == "clear" then
 		self.entries = {}
 		self.message_ids = {}
-		add_entry(self, { kind = "status", level = "info", text = "Chat was cleared by a moderator" })
+		-- twt's wording
+		add_entry(self, { kind = "status", level = "info", text = "Chat was cleared for non-Moderators viewing this room" })
 	else
 		return false
 	end

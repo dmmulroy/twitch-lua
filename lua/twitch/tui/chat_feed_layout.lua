@@ -1,5 +1,10 @@
 -- Lays chat entries out as rows of styled spans that fit a pane's width, and picks the
--- rows that are on screen. No I/O and no escape codes: the pane turns spans into output.
+-- rows that are on screen. Copies twitch-tui's (twt's) look:
+--   ⭐🔨Name: message text                 badges as emoji, then the name, then ": "
+--   Twitch: Joined #dillon                  connection and Twitch notices; "System" for problems
+-- Name colors are twt's pastel palette, picked from the name (Twitch's colors are not used).
+-- Your own login inside a message is highlighted; /me messages are italic in the name's color.
+-- No I/O and no escape codes: the pane turns spans into output.
 --
 --   local chat_feed_layout = require("twitch.tui.chat_feed_layout")
 --   local rows = chat_feed_layout.layout_chat_entry(entry, width, opts)
@@ -7,12 +12,11 @@
 --   local visible = view:visible_feed_rows(store.entries, width, height, opts)
 --
 -- A row is a list of spans: { text, width, style, color, emote }.
---   style: "name", "text", "mention", "self_mention", "cheer", "notice", "deleted",
---          "status_info", "status_warn", "status_error", "action", "marker"
+--   style: "name", "text", "action", "self_mention", "system_author"
 --   color: "#RRGGBB" for "name" and "action" spans
 --   emote: { key, columns } when the span is an emote image; `text` is then its name
 -- opts:
---   own_login       the person's login; a message that mentions it is marked
+--   own_login       the person's login; where it appears in a message it is highlighted
 --   resolve_emote   fn(emote_request) -> columns | nil. emote_request is
 --                   { provider = "twitch", id, animated } for an emote part, or
 --                   { word = "text" } for a plain word that may be a third-party emote.
@@ -20,106 +24,290 @@
 --   emote_revision  changes whenever resolve_emote's answers may have changed
 
 local terminal_text = require("twitch.terminal_text")
+local twt_text_wrap = require("twitch.tui.twt_text_wrap")
 
 local M = {}
 
--- Twitch gives people without a chosen color one of these, picked by their name.
-local DEFAULT_NAME_COLORS = {
-	"#FF0000", "#0000FF", "#008000", "#B22222", "#FF7F50", "#9ACD32", "#FF4500", "#2E8B57",
-	"#DAA520", "#D2691E", "#5F9EA0", "#1E90FF", "#FF69B4", "#8A2BE2", "#00FF7F",
+-- twt's badges: these four badge sets, as emoji, in the order Twitch lists them.
+local BADGE_EMOJI = {
+	vip = "💎",
+	moderator = "🔨",
+	subscriber = "⭐",
+	premium = "👑",
 }
--- Name colors darker than this are lightened so they can be read on a dark background.
-local MIN_NAME_BRIGHTNESS = 110
-local DELETED_MESSAGE_TEXT = "<message deleted>"
 
-local function parse_hex_color(color)
-	local red, green, blue = tostring(color):match("^#(%x%x)(%x%x)(%x%x)$")
-	if not red then
-		return nil
+-- twt's hsl_to_rgb (src/utils/colors.rs), including how it rounds and truncates.
+local function hsl_to_rgb(hue, saturation, lightness)
+	local chroma = (1 - math.abs(2 * lightness - 1)) * saturation
+	local x = chroma * (1 - math.abs(math.fmod(hue / 60, 2) - 1))
+	local m = lightness - chroma / 2
+	local section = math.floor(hue + 0.5)
+	local red, green, blue
+	if section >= 61 and section <= 120 then
+		red, green, blue = x, chroma, 0
+	elseif section >= 121 and section <= 180 then
+		red, green, blue = 0, chroma, x
+	elseif section >= 181 and section <= 240 then
+		red, green, blue = 0, x, chroma
+	elseif section >= 241 and section <= 300 then
+		red, green, blue = x, 0, chroma
+	elseif section >= 301 and section <= 360 then
+		red, green, blue = chroma, 0, x
+	else
+		red, green, blue = chroma, x, 0
 	end
-	return tonumber(red, 16), tonumber(green, 16), tonumber(blue, 16)
+	local function channel(value)
+		return math.max(0, math.min(255, math.floor((value + m) * 255)))
+	end
+	return channel(red), channel(green), channel(blue)
 end
 
---- A name color that is readable on a dark background: the person's own color, lightened
---- if it is too dark, or a default picked from their login when they have none.
-function M.readable_name_color(color, login)
-	local red, green, blue = parse_hex_color(color)
-	if not red then
-		local hash = 0
-		for index = 1, #(login or "") do
-			hash = (hash * 31 + login:byte(index)) % 65536
-		end
-		red, green, blue = parse_hex_color(DEFAULT_NAME_COLORS[hash % #DEFAULT_NAME_COLORS + 1])
+--- A name's color, as twt picks it with its default "pastel" palette: the sum of the
+--- name's bytes picks the hue. The same name always gets the same color.
+function M.name_color_from_author(name)
+	local sum = 0
+	for index = 1, #(name or "") do
+		sum = sum + name:byte(index)
 	end
-	for _ = 1, 12 do
-		if 0.299 * red + 0.587 * green + 0.114 * blue >= MIN_NAME_BRIGHTNESS then
-			break
-		end
-		red = math.floor(red + (255 - red) * 0.25)
-		green = math.floor(green + (255 - green) * 0.25)
-		blue = math.floor(blue + (255 - blue) * 0.25)
-	end
+	local red, green, blue = hsl_to_rgb(sum % 360 + 1, 0.5, 0.75)
 	return string.format("#%02X%02X%02X", red, green, blue)
 end
 
--- A token is one unbreakable piece: a word, a run of spaces, or an emote.
-local function word_token(text, style, color)
-	return { text = text, width = terminal_text.display_width(text), style = style, color = color }
+--- The emoji twt puts in front of a name for its badges ("moderator/1" -> "🔨").
+function M.badge_emoji_prefix(badges)
+	local parts = {}
+	for _, badge in ipairs(badges or {}) do
+		local emoji = BADGE_EMOJI[tostring(badge):match("^([^/]+)")]
+		if emoji then
+			parts[#parts + 1] = emoji
+		end
+	end
+	return table.concat(parts)
 end
 
-local function add_text_tokens(tokens, text, style, color, resolve_emote)
+-- A segment is a run of the message with one look: { text, style, color, emote }.
+-- `emote` is the request for an emote image; the segment's text is the emote's name.
+local function add_text_segments(segments, text, style, color, resolve_emote)
+	if not resolve_emote then
+		segments[#segments + 1] = { text = text, style = style, color = color }
+		return
+	end
+	-- third-party emotes are whole words between spaces
 	local position, length = 1, #text
+	local plain_start = 1
 	while position <= length do
-		local space_end = text:match("^ +()", position)
-		if space_end then
-			tokens[#tokens + 1] = { text = " ", width = 1, style = style, color = color, space = true }
-			position = space_end
-		else
-			local word_end = text:find(" ", position, true) or (length + 1)
-			local word = text:sub(position, word_end - 1)
-			local columns = resolve_emote and style == "text" and resolve_emote({ word = word }) or nil
-			if columns then
-				tokens[#tokens + 1] = { text = word, width = columns, style = "text", emote = { word = word, columns = columns } }
-			else
-				tokens[#tokens + 1] = word_token(word, style, color)
-			end
-			position = word_end
+		local word_start, word_end = text:find("[^ ]+", position)
+		if not word_start then
+			break
 		end
+		local word = text:sub(word_start, word_end)
+		local columns = resolve_emote({ word = word })
+		if columns then
+			if word_start > plain_start then
+				segments[#segments + 1] = { text = text:sub(plain_start, word_start - 1), style = style, color = color }
+			end
+			segments[#segments + 1] = { text = word, style = "text", emote = { word = word, columns = columns } }
+			plain_start = word_end + 1
+		end
+		position = word_end + 1
+	end
+	if plain_start <= length then
+		segments[#segments + 1] = { text = text:sub(plain_start), style = style, color = color }
 	end
 end
 
-local function add_part_tokens(tokens, parts, opts, text_style, color)
-	local resolve_emote = opts.resolve_emote
-	for _, part in ipairs(parts or {}) do
+local function message_segments(entry, opts, style, color)
+	local segments = {}
+	local parts = entry.parts
+	if not parts or #parts == 0 then
+		parts = { { type = "text", text = entry.text or "" } }
+	end
+	for _, part in ipairs(parts) do
 		local text = terminal_text.sanitize_chat_text(part.text or "")
 		if part.type == "emote" then
 			local request = { provider = "twitch", id = part.emote_id, animated = part.animated }
-			local columns = resolve_emote and resolve_emote(request) or nil
+			local columns = opts.resolve_emote and opts.resolve_emote(request) or nil
 			if columns then
 				request.columns = columns
-				tokens[#tokens + 1] = { text = text, width = columns, style = "text", emote = request }
+				segments[#segments + 1] = { text = text, style = "text", emote = request }
 			else
-				add_text_tokens(tokens, text, text_style, color, nil)
+				segments[#segments + 1] = { text = text, style = style, color = color }
 			end
-		elseif part.type == "mention" then
-			local is_self = opts.own_login and part.login == opts.own_login
-			add_text_tokens(tokens, text, is_self and "self_mention" or "mention", nil, nil)
-		elseif part.type == "cheermote" then
-			add_text_tokens(tokens, text, "cheer", nil, nil)
+		elseif part.type == "text" then
+			add_text_segments(segments, text, style, color, opts.resolve_emote)
 		else
-			add_text_tokens(tokens, text, text_style, color, text_style == "text" and resolve_emote or nil)
+			-- mentions and cheers look like the rest of the message, as in twt
+			segments[#segments + 1] = { text = text, style = style, color = color }
 		end
+	end
+	return segments
+end
+
+-- Byte ranges of the payload to highlight as the person's login, as twt finds them: every
+-- case-insensitive match, plus the "@" before the first one.
+local function login_highlight_ranges(payload, own_login)
+	local ranges = {}
+	if not own_login or own_login == "" then
+		return ranges
+	end
+	local lower_payload, lower_login = payload:lower(), own_login:lower()
+	local position = 1
+	while true do
+		local first, last = lower_payload:find(lower_login, position, true)
+		if not first then
+			break
+		end
+		if #ranges == 0 and first > 1 and payload:sub(first - 1, first - 1) == "@" then
+			first = first - 1
+		end
+		ranges[#ranges + 1] = { first, last }
+		position = last + 1
+	end
+	return ranges
+end
+
+local function push_span(row, span)
+	local last = row[#row]
+	if last and not span.emote and not last.emote and last.style == span.style and last.color == span.color then
+		last.text = last.text .. span.text
+		last.width = last.width + span.width
+	elseif span.width > 0 or span.emote then
+		row[#row + 1] = span
 	end
 end
 
-local function push_span(row, token, text, width)
-	local last = row[#row]
-	if last and not token.emote and not last.emote and last.style == token.style and last.color == token.color then
-		last.text = last.text .. text
-		last.width = last.width + width
-	else
-		row[#row + 1] = { text = text, width = width, style = token.style, color = token.color, emote = token.emote }
+-- Lays a twt chat line out: "author: payload", wrapped where twt wraps it.
+local function layout_twt_line(author_spans, author_bytes, segments, width, own_login)
+	local parts, offsets = {}, {}
+	local length = 0
+	for index, segment in ipairs(segments) do
+		parts[index] = segment.text
+		offsets[index] = length + 1
+		length = length + #segment.text
 	end
+	local payload = table.concat(parts)
+	local highlights = login_highlight_ranges(payload, own_login)
+
+	local emote_columns_at = {} -- first byte -> { last byte, columns }
+	for index, segment in ipairs(segments) do
+		if segment.emote then
+			emote_columns_at[offsets[index]] = { offsets[index] + #segment.text - 1, segment.emote.columns }
+		end
+	end
+	-- no wrapped line may come out wider than it is drawn
+	local function word_width_floor(first, last)
+		local emote = emote_columns_at[first]
+		if emote and emote[1] == last then
+			return emote[2]
+		end
+		return terminal_text.display_width(payload:sub(first, last))
+	end
+
+	-- twt reserves the prefix's length in bytes on the first line
+	local lines = twt_text_wrap.wrap_text_like_twt(payload, width, author_bytes + 2, word_width_floor)
+
+	local function is_highlighted(byte_position)
+		for _, range in ipairs(highlights) do
+			if byte_position >= range[1] and byte_position <= range[2] then
+				return true
+			end
+		end
+		return false
+	end
+
+	local rows = {}
+	for line_index, line in ipairs(lines) do
+		local row = {}
+		if line_index == 1 then
+			for _, span in ipairs(author_spans) do
+				push_span(row, span)
+			end
+		end
+		for index, segment in ipairs(segments) do
+			local segment_first = offsets[index]
+			local segment_last = segment_first + #segment.text - 1
+			local first, last = math.max(segment_first, line.first), math.min(segment_last, line.last)
+			if first <= last then
+				if segment.emote and first == segment_first and last == segment_last then
+					push_span(row, { text = segment.text, width = segment.emote.columns, style = "text", emote = segment.emote })
+				else
+					-- split by the login highlight
+					local run_start = first
+					local run_highlighted = not segment.emote and is_highlighted(first)
+					for position = first + 1, last + 1 do
+						local highlighted = position <= last and not segment.emote and is_highlighted(position)
+						if position > last or highlighted ~= run_highlighted then
+							local text = payload:sub(run_start, position - 1)
+							push_span(row, {
+								text = text,
+								width = terminal_text.display_width(text),
+								style = run_highlighted and "self_mention" or (segment.emote and "text" or segment.style),
+								color = (not run_highlighted and not segment.emote) and segment.color or nil,
+							})
+							run_start, run_highlighted = position, highlighted
+						end
+					end
+				end
+			end
+		end
+		if line.penalty ~= "" then
+			push_span(row, { text = line.penalty, width = 1, style = "text" })
+		end
+		rows[#rows + 1] = row
+	end
+	return rows
+end
+
+-- "Name: " with the badges in front, in the name's color; ": " is in the text color.
+local function author_spans_of(name, badges)
+	local display = terminal_text.sanitize_chat_text(name or "?")
+	local author = M.badge_emoji_prefix(badges) .. display
+	return {
+		{ text = author, width = terminal_text.display_width(author), style = "name", color = M.name_color_from_author(display) },
+		{ text = ": ", width = 2, style = "text" },
+	}, #author
+end
+
+local function layout_message(entry, width, opts)
+	local spans, author_bytes = author_spans_of(entry.name or entry.login, entry.badges)
+	-- "/me waves": the message is italic in the name's color
+	local style, color = "text", nil
+	if entry.action then
+		style, color = "action", spans[1].color
+	end
+	return layout_twt_line(spans, author_bytes, message_segments(entry, opts, style, color), width, opts.own_login)
+end
+
+-- "Twitch: text" or "System: text", the author in bold red.
+local function layout_system_line(author, text, width)
+	local spans = { { text = author, width = #author, style = "system_author" }, { text = ": ", width = 2, style = "text" } }
+	return layout_twt_line(spans, #author, { { text = terminal_text.sanitize_chat_text(text or ""), style = "text" } }, width, nil)
+end
+
+--- Lays one chat entry out as rows no wider than `width` cells (twt's wrap width).
+function M.layout_chat_entry(entry, width, opts)
+	opts = opts or {}
+	width = math.max(1, width)
+	if entry.kind == "message" then
+		return layout_message(entry, width, opts)
+	elseif entry.kind == "notice" then
+		local rows = layout_system_line("Twitch", entry.text, width)
+		if entry.message_text then
+			local message = {
+				kind = "message", name = entry.name, login = entry.login, badges = entry.badges,
+				parts = entry.parts, text = entry.message_text,
+			}
+			for _, row in ipairs(layout_message(message, width, opts)) do
+				rows[#rows + 1] = row
+			end
+		end
+		return rows
+	elseif entry.kind == "status" then
+		-- twt: notices from Twitch are "Twitch:", problems are "System:"
+		local author = (entry.level == "warn" or entry.level == "error") and "System" or "Twitch"
+		return layout_system_line(author, entry.text, width)
+	end
+	return {}
 end
 
 local function row_width(row)
@@ -128,143 +316,6 @@ local function row_width(row)
 		width = width + span.width
 	end
 	return width
-end
-
--- Greedy word wrap. A word wider than the pane is split between clusters.
-local function wrap_tokens(tokens, width)
-	local rows = { {} }
-	local used = 0
-	local function new_row()
-		-- drop a trailing space span before leaving the row
-		local row = rows[#rows]
-		local last = row[#row]
-		if last and last.text:sub(-1) == " " and not last.emote then
-			last.text = last.text:sub(1, -2)
-			last.width = last.width - 1
-			if last.width <= 0 then
-				row[#row] = nil
-			end
-		end
-		rows[#rows + 1] = {}
-		used = 0
-	end
-	for _, token in ipairs(tokens) do
-		if token.space then
-			if used > 0 and used < width then
-				push_span(rows[#rows], token, " ", 1)
-				used = used + 1
-			end
-		elseif token.width <= width - used then
-			push_span(rows[#rows], token, token.text, token.width)
-			used = used + token.width
-		elseif token.width <= width then
-			-- it did not fit in what is left of this row, so the row is not empty
-			new_row()
-			push_span(rows[#rows], token, token.text, token.width)
-			used = token.width
-		else
-			-- Wider than the whole pane: split between clusters. An emote that wide is
-			-- drawn as its name.
-			local piece = token
-			if token.emote then
-				piece = { text = token.text, style = "text" }
-			end
-			for _, cluster in ipairs(terminal_text.split_display_clusters(piece.text)) do
-				if cluster.width > width - used and used > 0 then
-					new_row()
-				end
-				if cluster.width <= width then
-					push_span(rows[#rows], piece, cluster.text, cluster.width)
-					used = used + cluster.width
-				end
-			end
-		end
-	end
-	-- trailing space on the last row
-	local row = rows[#rows]
-	local last = row[#row]
-	if last and not last.emote and last.text:sub(-1) == " " then
-		last.text = last.text:sub(1, -2)
-		last.width = last.width - 1
-		if last.width <= 0 then
-			row[#row] = nil
-		end
-	end
-	if #rows > 1 and #rows[#rows] == 0 then
-		rows[#rows] = nil
-	end
-	return rows
-end
-
-local function mentions_login(entry, own_login)
-	if not own_login then
-		return false
-	end
-	for _, part in ipairs(entry.parts or {}) do
-		if part.type == "mention" and part.login == own_login then
-			return true
-		end
-	end
-	return false
-end
-
-local function message_tokens(entry, opts)
-	local tokens = {}
-	local color = M.readable_name_color(entry.color, entry.login or entry.name)
-	local name = terminal_text.sanitize_chat_text(entry.name or entry.login or "?")
-	if mentions_login(entry, opts.own_login) then
-		tokens[#tokens + 1] = word_token("▎", "marker")
-	end
-	if entry.deleted then
-		tokens[#tokens + 1] = word_token(name .. ":", "name", color)
-		tokens[#tokens + 1] = { text = " ", width = 1, style = "deleted", space = true }
-		add_text_tokens(tokens, DELETED_MESSAGE_TEXT, "deleted", nil, nil)
-		return tokens
-	end
-	if entry.action then
-		-- "/me waves": the whole line is in the person's color, with no colon
-		tokens[#tokens + 1] = word_token(name, "name", color)
-		tokens[#tokens + 1] = { text = " ", width = 1, style = "action", color = color, space = true }
-		add_part_tokens(tokens, entry.parts, opts, "action", color)
-		return tokens
-	end
-	tokens[#tokens + 1] = word_token(name .. ":", "name", color)
-	tokens[#tokens + 1] = { text = " ", width = 1, style = "text", space = true }
-	if entry.parts and #entry.parts > 0 then
-		add_part_tokens(tokens, entry.parts, opts, "text", nil)
-	else
-		add_text_tokens(tokens, terminal_text.sanitize_chat_text(entry.text or ""), "text", nil, opts.resolve_emote)
-	end
-	return tokens
-end
-
---- Lays one chat entry out as rows no wider than `width` cells.
-function M.layout_chat_entry(entry, width, opts)
-	opts = opts or {}
-	width = math.max(1, width)
-	if entry.kind == "message" then
-		return wrap_tokens(message_tokens(entry, opts), width)
-	elseif entry.kind == "notice" then
-		local tokens = {}
-		add_text_tokens(tokens, "✦ " .. terminal_text.sanitize_chat_text(entry.text or ""), "notice", nil, nil)
-		local rows = wrap_tokens(tokens, width)
-		if entry.message_text then
-			local message = {
-				kind = "message", name = entry.name, login = entry.login, color = entry.color,
-				parts = entry.parts, text = entry.message_text, deleted = entry.deleted,
-			}
-			for _, row in ipairs(wrap_tokens(message_tokens(message, opts), width)) do
-				rows[#rows + 1] = row
-			end
-		end
-		return rows
-	elseif entry.kind == "status" then
-		local style = (entry.level == "error" and "status_error") or (entry.level == "warn" and "status_warn") or "status_info"
-		local tokens = {}
-		add_text_tokens(tokens, "· " .. terminal_text.sanitize_chat_text(entry.text or ""), style, nil, nil)
-		return wrap_tokens(tokens, width)
-	end
-	return {}
 end
 
 local View = {}
@@ -276,20 +327,19 @@ function M.new_chat_feed_view()
 	return setmetatable({
 		scroll_offset = 0, -- rows scrolled up from the newest row; 0 follows new messages
 		unseen_entries = 0, -- entries that arrived while scrolled up
-		cached_rows = {}, -- entry_id -> { rows, width, deleted, emote_revision, text }
+		cached_rows = {}, -- entry_id -> { rows, width, emote_revision, text }
 		last_entry_id = nil,
 	}, View)
 end
 
 local function entry_rows(self, entry, width, opts)
 	local cached = self.cached_rows[entry.entry_id]
-	if cached and cached.width == width and cached.deleted == entry.deleted
-		and cached.emote_revision == opts.emote_revision and cached.text == entry.text then
+	if cached and cached.width == width and cached.emote_revision == opts.emote_revision and cached.text == entry.text then
 		return cached.rows
 	end
 	local rows = M.layout_chat_entry(entry, width, opts)
 	self.cached_rows[entry.entry_id] = {
-		rows = rows, width = width, deleted = entry.deleted, emote_revision = opts.emote_revision, text = entry.text,
+		rows = rows, width = width, emote_revision = opts.emote_revision, text = entry.text,
 	}
 	return rows
 end

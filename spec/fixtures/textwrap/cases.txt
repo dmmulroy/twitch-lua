@@ -1,0 +1,1900 @@
+49	16	pog — hello @someone   中文字符 — !!! ???
+21	22	hello chat e.g. supercalifragilisticexpialidocious
+9	12	test-case @someone
+65	22	a.b.c re-re-re "quoted" foo/bar $5 supercalifragilisticexpialidocious aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa — a.b.c 100% no; LUL don't supercalifragilisticexpialidocious a.b.c ??? hello x
+57	16	--flag LUL naïve supercalifragilisticexpialidocious   test-case café test-case world
+13	9	$5 world   --flag world "quoted" ok, "quoted" —
+49	18	"quoted" world rex LUL   pog it's a.b.c it's   pog @someone a.b.c café rex x naïve world rex 日本語
+41	8	#hashtag 한국어 ... I rex it's KEKW (parens)
+41	18	中文字符 100% a 한국어
+57	6	... 100% a yes: naïve über-cool e.g. @someone #hashtag über-cool
+53	0	🎉🎉 ok, 😀 world
+41	24	$5 café --flag world   😀 x
+17	13	"quoted" foo/bar don't supercalifragilisticexpialidocious KEKW x
+21	1	naïve 👍🏿 ... 👍🏿 😀 über-cool !!! well-known   $5 café $5 100%  
+13	9	naïve 👍🏿 中文字符 1234567890
+41	8	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa ??? test-case LUL hello re-re-re 中文字符 1234567890
+53	16	https://example.com/some/long/path?query=1&b=2 x naïve 👍🏿 KEKW (parens) pog well-known   hello über-cool   don't @someone   –dash 日本語 a.b.c foo/bar
+29	28	e.g. x rex I   https://example.com/some/long/path?query=1&b=2 x !!! world –dash supercalifragilisticexpialidocious KEKW über-cool $5 x
+41	0	🎉🎉 world   test-case 한국어   no; 한국어 !!! 100% e.g. 1234567890  
+65	28	naïve well-known rex 👍🏿 pog @someone ... supercalifragilisticexpialidocious
+25	27	rex @someone ... 1234567890 #hashtag I ... 日本語 don't supercalifragilisticexpialidocious   pog it's ... (parens)
+57	26	hello foo/bar a 한국어   https://example.com/some/long/path?query=1&b=2 café aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 1234567890   –dash 日本語   rex 👍🏿   e.g. —   naïve I
+29	16	–dash world
+13	3	--flag (parens) pog 100% "quoted" ??? naïve 한국어   $5 yes: no; it's pog it's  
+57	20	"quoted" — https://example.com/some/long/path?query=1&b=2 @someone "quoted" I a yes: naïve 日本語 !!! chat
+21	13	KEKW ok, KEKW I --flag foo/bar  
+17	10	#hashtag 👍🏿 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 한국어 🎉🎉 I
+9	4	a.b.c 한국어 --flag 👍🏿 e.g. 100% naïve re-re-re naïve 100%   🎉🎉 ??? 中文字符 1234567890 🎉🎉 chat a.b.c LUL
+21	5	e.g. chat hello — #hashtag 한국어
+9	2	test-case well-known 😀 well-known a.b.c chat –dash it's #hashtag it's 中文字符 — --flag 日本語 --flag über-cool
+49	16	中文字符 it's KEKW 100%
+61	12	🎉🎉 café
+49	8	!!! 日本語
+17	5	--flag well-known "quoted" 日本語   ... x   naïve it's #hashtag café  
+65	8	hello chat test-case café https://example.com/some/long/path?query=1&b=2 I a ??? 😀 👍🏿
+61	22	pog 1234567890 a x a supercalifragilisticexpialidocious   中文字符 ok, naïve re-re-re a.b.c ??? https://example.com/some/long/path?query=1&b=2 @someone   !!! 1234567890 a über-cool
+33	16	a.b.c — don't foo/bar #hashtag re-re-re e.g. I ... re-re-re don't café
+37	16	--flag it's   中文字符 x e.g. café
+45	26	pog über-cool 🎉🎉 world test-case foo/bar
+61	0	🎉🎉 foo/bar e.g. — 😀 über-cool don't über-cool !!! chat !!! 한국어 $5 (parens)
+61	22	–dash chat $5 well-known $5 LUL ... re-re-re $5 100%
+49	10	rex ??? a @someone #hashtag yes: pog café hello @someone   !!! yes:  
+29	24	中文字符 ok,   rex supercalifragilisticexpialidocious –dash ok, https://example.com/some/long/path?query=1&b=2 I   😀 yes: $5 yes:   no; x 🎉🎉 foo/bar
+61	6	no; chat aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa LUL test-case 日本語 "quoted" it's --flag ??? 中文字符 — naïve LUL
+17	20	hello 日本語
+21	12	#hashtag 한국어   a.b.c @someone KEKW —
+49	16	$5 chat
+21	9	rex café --flag 👍🏿 no; re-re-re a 日本語
+61	6	a über-cool hello I don't world   !!! 100% 🎉🎉 über-cool $5 한국어 naïve ok, a re-re-re !!! re-re-re
+57	10	–dash it's naïve re-re-re pog (parens) rex supercalifragilisticexpialidocious hello über-cool
+57	0	!!! ???   hello re-re-re 中文字符 well-known pog yes: naïve ok, –dash 日本語
+65	16	--flag yes:   https://example.com/some/long/path?query=1&b=2 ???
+13	10	pog world a.b.c yes:
+45	20	e.g. I 😀 well-known !!! x   test-case 👍🏿   "quoted" ok, #hashtag ok, ... 1234567890 KEKW ???
+13	9	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 한국어 a.b.c LUL hello über-cool #hashtag supercalifragilisticexpialidocious 中文字符 100% !!! I
+57	8	--flag @someone –dash 한국어 ... chat $5 100%
+53	4	KEKW ??? 😀 well-known ... über-cool KEKW café KEKW foo/bar
+57	26	#hashtag supercalifragilisticexpialidocious   test-case foo/bar rex LUL !!! LUL
+17	17	rex supercalifragilisticexpialidocious   no; 👍🏿 ... I
+45	8	–dash yes: ... re-re-re
+21	5	a it's #hashtag supercalifragilisticexpialidocious 😀 yes: naïve yes: KEKW world https://example.com/some/long/path?query=1&b=2 it's rex 한국어 #hashtag (parens) KEKW x
+57	16	a.b.c 100% rex 100%
+37	12	–dash 한국어 KEKW chat naïve 👍🏿 no; world 🎉🎉 — aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa ??? --flag café rex x $5 foo/bar
+41	8	!!! x   中文字符 café a.b.c world
+61	26	a.b.c 100% a.b.c über-cool 🎉🎉 LUL
+21	13	test-case (parens) 🎉🎉 re-re-re ... yes: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 👍🏿   don't LUL   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa foo/bar 🎉🎉 —
+37	20	--flag I   !!! 한국어   --flag LUL pog 100% hello 1234567890 naïve foo/bar don't 👍🏿   pog LUL naïve re-re-re
+13	11	😀 👍🏿   e.g. — a @someone --flag LUL --flag 한국어   #hashtag supercalifragilisticexpialidocious naïve LUL
+49	14	!!! über-cool a über-cool a ok,   https://example.com/some/long/path?query=1&b=2 ???
+53	22	😀 한국어 #hashtag foo/bar   --flag café --flag x don't café KEKW well-known
+57	0	don't I 😀 it's
+53	20	–dash it's KEKW @someone aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa yes: #hashtag (parens) hello I rex re-re-re   https://example.com/some/long/path?query=1&b=2 I "quoted" supercalifragilisticexpialidocious https://example.com/some/long/path?query=1&b=2 ???
+61	6	KEKW @someone a 100% --flag — test-case 1234567890 "quoted" yes:
+9	12	a.b.c über-cool --flag well-known hello chat --flag I  
+25	13	hello I no; re-re-re test-case yes: $5 foo/bar 😀 ok,
+65	20	中文字符 1234567890 a it's no; 한국어   ... I test-case re-re-re 😀 I   test-case 한국어
+41	0	don't chat aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa chat #hashtag foo/bar "quoted" ok, 😀 I
+45	22	no; chat naïve it's 🎉🎉 well-known https://example.com/some/long/path?query=1&b=2 100%   a foo/bar --flag chat   e.g. it's pog world
+49	20	$5 ok, e.g. 1234567890  
+9	5	"quoted" re-re-re !!! 100% a.b.c 100%
+49	26	no; x 中文字符 👍🏿 –dash yes:   pog yes: a x   !!! 한국어 rex foo/bar 🎉🎉 I
+21	1	中文字符 한국어 naïve (parens) --flag foo/bar   😀 日本語 –dash 1234567890 test-case LUL   rex yes:
+21	3	test-case —
+13	15	pog x   --flag ??? 中文字符 👍🏿 😀 1234567890 "quoted" 1234567890 test-case ok, test-case supercalifragilisticexpialidocious
+17	9	test-case @someone #hashtag it's KEKW 1234567890 naïve LUL no; it's   a.b.c x
+13	3	a.b.c chat https://example.com/some/long/path?query=1&b=2 x   test-case —  
+45	24	中文字符 @someone   pog well-known naïve chat hello ??? hello 👍🏿 "quoted" (parens) no; 한국어
+25	22	pog 100% 😀 1234567890
+57	4	... world #hashtag I KEKW x don't 👍🏿 🎉🎉 100% 🎉🎉 日本語
+49	14	don't LUL --flag world   test-case 한국어   rex — no; café   中文字符 @someone   test-case it's #hashtag (parens)
+53	0	"quoted" re-re-re  
+37	26	naïve (parens) naïve well-known   https://example.com/some/long/path?query=1&b=2 한국어 https://example.com/some/long/path?query=1&b=2 한국어   a.b.c @someone
+49	4	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa café 😀 👍🏿
+41	22	test-case x   test-case über-cool   –dash supercalifragilisticexpialidocious   😀 chat –dash well-known
+13	1	!!! I no; 100% 🎉🎉 ok, aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 한국어 😀 👍🏿
+57	28	–dash ??? !!! x e.g. world a.b.c @someone $5 한국어  
+33	24	--flag I ... supercalifragilisticexpialidocious --flag it's pog ???   e.g. x
+9	10	!!! ok, !!! ??? $5 @someone hello well-known e.g. 100% https://example.com/some/long/path?query=1&b=2 LUL
+41	26	test-case (parens) KEKW ok, ... x 中文字符 —
+49	24	a.b.c x pog 한국어
+21	8	KEKW café aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa @someone --flag supercalifragilisticexpialidocious
+21	16	naïve ok, naïve — a chat 🎉🎉 日本語 😀 日本語 --flag 100% $5 한국어
+41	8	😀 @someone aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa LUL https://example.com/some/long/path?query=1&b=2 ok, pog world rex (parens)
+29	0	🎉🎉 ???   #hashtag 100% 🎉🎉 x --flag LUL pog 日本語 don't supercalifragilisticexpialidocious pog I naïve re-re-re rex ok,
+57	2	test-case re-re-re no; 1234567890 "quoted" re-re-re test-case 100%   https://example.com/some/long/path?query=1&b=2 —   pog café KEKW I aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 👍🏿 ... über-cool
+21	10	a world a ??? KEKW re-re-re a 👍🏿 🎉🎉 I $5 LUL no; ok, --flag (parens)  
+29	0	... re-re-re !!! world https://example.com/some/long/path?query=1&b=2 (parens) naïve yes: 中文字符 ??? naïve yes: 🎉🎉 I
+65	2	rex 日本語   --flag ok, --flag 👍🏿 ... — !!! it's
+65	2	😀 chat a (parens)   pog 한국어 test-case café don't café 😀 café $5 supercalifragilisticexpialidocious
+33	18	e.g. yes: pog 100%   https://example.com/some/long/path?query=1&b=2 re-re-re https://example.com/some/long/path?query=1&b=2 LUL naïve it's KEKW LUL a ??? 🎉🎉 x
+29	4	KEKW 1234567890 rex well-known ... yes: hello it's $5 ???
+65	2	–dash 1234567890 hello LUL 😀 ok, pog LUL 🎉🎉 x   "quoted" ??? aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa chat !!! foo/bar "quoted" 한국어
+9	3	!!! yes:   $5 x
+45	24	–dash über-cool KEKW LUL   😀 well-known "quoted" @someone –dash 日本語
+37	12	... 1234567890   don't yes: –dash 100% no; café  
+9	1	naïve ??? !!! chat  
+37	8	中文字符 it's KEKW LUL a.b.c ??? a (parens) rex foo/bar   $5 café   https://example.com/some/long/path?query=1&b=2 I a.b.c re-re-re
+21	7	–dash re-re-re a.b.c über-cool –dash supercalifragilisticexpialidocious https://example.com/some/long/path?query=1&b=2 —
+53	18	naïve foo/bar https://example.com/some/long/path?query=1&b=2 — ... @someone   "quoted" supercalifragilisticexpialidocious   naïve 한국어 ... it's aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 👍🏿 😀 it's a.b.c ???
+13	1	naïve yes:   中文字符 re-re-re --flag re-re-re   don't well-known 🎉🎉 한국어
+29	10	e.g. foo/bar $5 it's !!! foo/bar rex 👍🏿   don't 日本語   #hashtag x rex well-known
+53	16	😀 @someone $5 @someone https://example.com/some/long/path?query=1&b=2 @someone naïve ???  
+13	4	test-case LUL pog foo/bar –dash I
+65	8	hello I   KEKW x #hashtag foo/bar don't ok, –dash yes: KEKW ok, https://example.com/some/long/path?query=1&b=2 yes:   e.g. —
+9	4	test-case 1234567890   pog café 中文字符 I no; 100%   hello 100% !!! yes:
+53	16	test-case re-re-re no; chat https://example.com/some/long/path?query=1&b=2 @someone 中文字符 (parens) hello re-re-re   hello — !!! (parens) a.b.c it's
+49	4	don't über-cool #hashtag world $5 I https://example.com/some/long/path?query=1&b=2 — !!! ??? https://example.com/some/long/path?query=1&b=2 über-cool a.b.c chat 中文字符 日本語 no; foo/bar
+33	12	https://example.com/some/long/path?query=1&b=2 über-cool –dash 1234567890 –dash 한국어   ... I a.b.c ok, hello über-cool a.b.c x naïve LUL ... LUL
+29	24	KEKW 日本語   pog @someone e.g. well-known
+57	6	rex yes: rex 日本語 "quoted" 1234567890 test-case supercalifragilisticexpialidocious pog I   $5 ok, !!! yes: $5 chat pog 1234567890
+29	6	中文字符 👍🏿 中文字符 @someone
+37	16	中文字符 café don't well-known
+37	24	hello über-cool 中文字符 (parens) a @someone
+17	17	e.g. @someone   中文字符 x
+57	8	https://example.com/some/long/path?query=1&b=2 @someone aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa —   naïve world   https://example.com/some/long/path?query=1&b=2 LUL $5 café naïve chat #hashtag re-re-re !!! 日本語
+25	14	hello ok,   a re-re-re don't über-cool   don't 한국어 "quoted" 100%
+33	4	#hashtag chat $5 it's rex 1234567890 🎉🎉 日本語 #hashtag (parens) pog yes: e.g. supercalifragilisticexpialidocious  
+17	9	hello (parens) a 100% pog @someone
+17	11	"quoted" yes: KEKW café   test-case re-re-re !!! chat naïve LUL test-case über-cool 🎉🎉 über-cool --flag 100% hello 한국어
+57	14	hello supercalifragilisticexpialidocious e.g. yes:
+25	2	🎉🎉 1234567890 test-case café
+13	4	hello @someone   https://example.com/some/long/path?query=1&b=2 über-cool   中文字符 world   e.g. LUL don't world
+53	24	no; 한국어 test-case yes: naïve @someone $5 well-known #hashtag chat https://example.com/some/long/path?query=1&b=2 world ... I hello (parens) --flag world
+57	14	中文字符 LUL #hashtag chat –dash world --flag re-re-re #hashtag LUL   #hashtag x no; 한국어 naïve LUL
+53	0	#hashtag ??? hello x aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa ok,
+21	6	"quoted" — 中文字符 ok, #hashtag 한국어 #hashtag 日本語 don't café 中文字符 über-cool a.b.c x
+29	16	!!! ok,   rex 👍🏿 KEKW world --flag ok, "quoted" yes: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa I pog I
+9	10	--flag world   KEKW 1234567890   $5 日本語 "quoted" café !!! world $5 @someone #hashtag 日本語 no; it's
+37	28	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa x   $5 日本語 don't ok, pog 👍🏿
+53	10	pog ??? --flag well-known naïve ok,   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa I a.b.c chat don't 한국어 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa café aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 👍🏿 pog café
+61	16	a 한국어
+65	14	"quoted" 100% $5 supercalifragilisticexpialidocious   #hashtag well-known e.g. x no; 100%   KEKW — pog x a.b.c supercalifragilisticexpialidocious   "quoted" ???
+65	0	a.b.c re-re-re no; 1234567890 https://example.com/some/long/path?query=1&b=2 100%
+17	9	#hashtag re-re-re #hashtag yes: rex foo/bar "quoted" chat pog ok, don't 👍🏿 🎉🎉 1234567890 pog LUL
+29	12	no; x #hashtag café 😀 @someone don't LUL 🎉🎉 foo/bar   中文字符 well-known   https://example.com/some/long/path?query=1&b=2 foo/bar #hashtag ??? hello (parens)
+49	22	pog ??? a 100%   $5 re-re-re   rex yes: "quoted" I 🎉🎉 ??? pog — rex 한국어
+61	0	don't supercalifragilisticexpialidocious naïve foo/bar 🎉🎉 x   "quoted" well-known --flag @someone $5 I
+61	2	hello 한국어
+37	2	hello yes:
+13	1	--flag ok, --flag 한국어
+49	8	–dash world test-case I don't foo/bar a.b.c ???
+25	25	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 100%   a chat –dash x
+53	22	!!! ??? 中文字符 world   pog re-re-re   🎉🎉 @someone 😀 well-known
+29	8	... supercalifragilisticexpialidocious   😀 @someone aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa I
+17	14	a.b.c LUL hello 한국어   hello x "quoted" 👍🏿 😀 100% rex well-known aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa yes: don't ok,
+25	20	rex 1234567890 pog 👍🏿 naïve yes: naïve — a.b.c re-re-re
+33	2	naïve I
+25	12	pog — 🎉🎉 chat don't it's –dash LUL   a well-known 😀 café –dash 한국어 !!! I   hello x
+53	10	pog ??? aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa café
+13	10	#hashtag well-known
+37	24	🎉🎉 chat !!! — hello 👍🏿 don't 👍🏿 a LUL #hashtag @someone #hashtag supercalifragilisticexpialidocious   #hashtag supercalifragilisticexpialidocious https://example.com/some/long/path?query=1&b=2 foo/bar
+21	14	--flag ???
+49	0	no; supercalifragilisticexpialidocious rex 한국어   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa I
+9	3	–dash foo/bar hello supercalifragilisticexpialidocious e.g. 日本語   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 100%   !!! 👍🏿   naïve it's
+29	16	don't LUL   $5 ???
+9	5	--flag 100% test-case 100%   KEKW @someone 😀 1234567890 KEKW I pog 100% ... — hello chat   pog ???
+49	18	KEKW 日本語 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 1234567890 hello (parens) 😀 foo/bar "quoted" it's
+45	12	🎉🎉 (parens) https://example.com/some/long/path?query=1&b=2 日本語 hello 한국어   🎉🎉 yes: naïve foo/bar 中文字符 x e.g. ???   https://example.com/some/long/path?query=1&b=2 x
+57	2	hello 한국어 #hashtag ok, 🎉🎉 日本語   rex x don't foo/bar   !!! x
+21	23	don't 100% test-case chat no; café naïve world
+9	7	中文字符 LUL #hashtag 1234567890 "quoted" world e.g. LUL e.g. foo/bar don't ok,
+25	22	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa supercalifragilisticexpialidocious "quoted" ok, #hashtag world https://example.com/some/long/path?query=1&b=2 world   #hashtag supercalifragilisticexpialidocious   a 1234567890 a well-known #hashtag ???
+25	11	test-case ok,
+49	16	https://example.com/some/long/path?query=1&b=2 I a.b.c I  
+49	16	#hashtag it's   rex 100%
+53	6	naïve über-cool aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa (parens) aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 👍🏿   pog I --flag supercalifragilisticexpialidocious ... 1234567890
+57	14	... foo/bar e.g. ok,   ... chat "quoted" yes:
+41	12	--flag 한국어 !!! well-known $5 über-cool rex yes: –dash yes: don't —
+41	14	test-case world ... 한국어 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa foo/bar a.b.c ???   "quoted" world a.b.c ???   "quoted" @someone   $5 yes:
+29	18	pog I KEKW LUL –dash chat no; world don't 👍🏿 test-case x
+17	18	KEKW @someone   no; ok, !!! ok, pog I
+17	4	a.b.c 100%   –dash 👍🏿 pog re-re-re rex 日本語 #hashtag ??? naïve 1234567890 🎉🎉 chat
+17	2	... 1234567890 !!! it's rex über-cool hello über-cool aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa world   🎉🎉 (parens)   中文字符 👍🏿
+45	4	a.b.c world pog I aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa ok, aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa (parens) 中文字符 world   –dash 100% pog 한국어   $5 supercalifragilisticexpialidocious
+65	24	e.g. (parens)  
+61	18	naïve (parens)   !!! café pog (parens)
+37	22	https://example.com/some/long/path?query=1&b=2 foo/bar !!! ok, a.b.c café 😀 re-re-re ... supercalifragilisticexpialidocious e.g. 👍🏿 pog foo/bar naïve — aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa yes:
+41	8	$5 👍🏿 https://example.com/some/long/path?query=1&b=2 it's a ??? a.b.c 1234567890  
+49	26	a.b.c 한국어 –dash 한국어   中文字符 it's !!! world no; x aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa I   "quoted" chat rex café   ... 1234567890
+21	11	a 👍🏿 🎉🎉 chat –dash —
+37	18	--flag well-known   https://example.com/some/long/path?query=1&b=2 well-known ... x aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa supercalifragilisticexpialidocious
+29	12	e.g. café naïve über-cool   KEKW (parens) pog supercalifragilisticexpialidocious   --flag café   pog supercalifragilisticexpialidocious no; @someone a.b.c ok, pog über-cool  
+65	10	e.g. @someone pog chat no; re-re-re don't 👍🏿 "quoted" café naïve ??? don't über-cool naïve chat no; 👍🏿
+33	8	hello 👍🏿   hello well-known
+41	12	KEKW (parens) #hashtag foo/bar a foo/bar !!! 1234567890 --flag x a 日本語
+33	28	... foo/bar KEKW 한국어 rex 👍🏿 –dash well-known 🎉🎉 re-re-re e.g. 100% $5 yes:
+41	2	KEKW LUL "quoted" ??? naïve ??? test-case it's –dash re-re-re
+53	12	--flag ??? naïve ok, –dash 한국어 #hashtag 日本語 --flag (parens) don't @someone test-case (parens)
+41	2	a 1234567890   https://example.com/some/long/path?query=1&b=2 I
+9	2	$5 well-known rex foo/bar
+25	1	KEKW world   pog LUL no; it's test-case LUL e.g. world #hashtag it's no; well-known e.g. 1234567890
+65	20	中文字符 well-known aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa x   KEKW 한국어 rex ??? a.b.c 한국어 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa well-known aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa it's don't LUL https://example.com/some/long/path?query=1&b=2 日本語  
+41	18	no; LUL a.b.c —
+17	14	KEKW café 😀 100% 🎉🎉 x
+21	11	rex it's !!! 👍🏿 no; (parens) $5 über-cool 🎉🎉 world   https://example.com/some/long/path?query=1&b=2 👍🏿 !!! @someone 🎉🎉 1234567890 "quoted" x
+25	5	test-case I $5 yes: --flag 👍🏿 🎉🎉 x ... foo/bar #hashtag I
+61	10	hello — test-case ok, KEKW re-re-re
+37	22	#hashtag re-re-re ... foo/bar
+65	6	🎉🎉 ok,   a.b.c ??? pog 日本語 --flag foo/bar test-case 日本語 "quoted" well-known "quoted" 100% naïve 1234567890
+13	6	–dash I   #hashtag x e.g. foo/bar don't well-known 😀 well-known no; (parens)
+25	22	rex chat a 日本語 naïve 👍🏿
+13	7	KEKW world 🎉🎉 한국어 don't world https://example.com/some/long/path?query=1&b=2 I don't ok, 🎉🎉 re-re-re
+45	18	pog it's don't chat no; it's   naïve 1234567890   --flag well-known 😀 I
+49	0	#hashtag re-re-re a.b.c 1234567890 !!! 👍🏿   e.g. LUL –dash LUL 中文字符 über-cool   !!! 日本語   😀 LUL
+45	20	!!! well-known $5 日本語
+45	12	no; — KEKW it's https://example.com/some/long/path?query=1&b=2 world no; foo/bar KEKW 한국어 naïve foo/bar   ... — e.g. supercalifragilisticexpialidocious
+17	20	no; 한국어   a.b.c I no; (parens) 😀 foo/bar test-case ??? 中文字符 ???
+57	6	pog 1234567890 –dash chat e.g. —   ... über-cool https://example.com/some/long/path?query=1&b=2 👍🏿 "quoted" supercalifragilisticexpialidocious a @someone   "quoted" —
+41	22	"quoted" it's a well-known https://example.com/some/long/path?query=1&b=2 café $5 I   "quoted" re-re-re –dash world a.b.c world
+13	4	KEKW it's   rex — 😀 I –dash it's naïve well-known !!! café 中文字符 über-cool
+17	13	!!! LUL e.g. 100% 😀 @someone   hello @someone "quoted" x "quoted" re-re-re
+57	12	... 👍🏿   $5 한국어 中文字符 日本語
+21	5	😀 yes: 中文字符 @someone no; foo/bar
+33	14	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa foo/bar a.b.c 한국어   naïve re-re-re   🎉🎉 re-re-re 😀 ??? a (parens)   "quoted" über-cool 😀 한국어 $5 yes:
+57	20	test-case 👍🏿 中文字符 x https://example.com/some/long/path?query=1&b=2 café don't ???  
+37	28	no; 한국어 rex 👍🏿 !!! LUL
+25	26	pog ??? e.g. supercalifragilisticexpialidocious
+17	17	a.b.c yes: ... 100% rex yes:   a LUL
+57	10	no; foo/bar a.b.c über-cool   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 100%   ... ??? "quoted" supercalifragilisticexpialidocious   a.b.c foo/bar   --flag 한국어 "quoted" LUL
+41	8	naïve foo/bar   KEKW café ... 1234567890 no; 日本語 --flag @someone
+61	18	test-case 日本語   https://example.com/some/long/path?query=1&b=2 —   hello ok, hello well-known ... world ... supercalifragilisticexpialidocious $5 @someone a 日本語 KEKW foo/bar
+49	20	😀 — #hashtag (parens)
+21	7	KEKW @someone #hashtag 100% no; x   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa chat 😀 @someone
+45	20	don't I #hashtag it's 🎉🎉 chat no; café aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 1234567890   a.b.c supercalifragilisticexpialidocious  
+45	6	"quoted" 한국어 --flag well-known test-case it's –dash world test-case 👍🏿
+49	22	naïve 1234567890 !!! I KEKW LUL KEKW well-known 中文字符 re-re-re KEKW world   https://example.com/some/long/path?query=1&b=2 ok,
+65	28	pog ok, $5 100% –dash café KEKW über-cool naïve chat –dash @someone test-case world –dash 👍🏿
+21	22	–dash 한국어 https://example.com/some/long/path?query=1&b=2 LUL aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 日本語
+53	2	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 👍🏿 e.g. café --flag café pog über-cool !!! I KEKW ok, aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 100% 🎉🎉 world   a 100%  
+49	8	rex über-cool 🎉🎉 it's a.b.c world 中文字符 한국어 pog re-re-re
+49	6	a.b.c (parens)   rex über-cool KEKW über-cool hello well-known   #hashtag foo/bar test-case supercalifragilisticexpialidocious   --flag @someone a (parens) https://example.com/some/long/path?query=1&b=2 @someone
+53	2	naïve x a.b.c 한국어
+9	6	$5 日本語 "quoted" yes:
+13	14	no; well-known --flag 한국어   rex LUL
+41	24	e.g. 日本語 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa ok, pog I naïve 100% no; x !!! chat e.g. ok, pog LUL
+25	7	中文字符 ok, ... world   naïve x –dash it's   KEKW I
+13	3	$5 foo/bar #hashtag supercalifragilisticexpialidocious $5 supercalifragilisticexpialidocious 🎉🎉 supercalifragilisticexpialidocious   pog — #hashtag (parens) pog — https://example.com/some/long/path?query=1&b=2 foo/bar
+41	24	no; world   KEKW x a.b.c world   hello foo/bar   test-case (parens) a café KEKW world https://example.com/some/long/path?query=1&b=2 👍🏿
+25	8	don't ok, a.b.c 👍🏿 😀 it's test-case @someone   $5 @someone   a café test-case café   https://example.com/some/long/path?query=1&b=2 100% a chat
+49	4	hello it's don't ??? https://example.com/some/long/path?query=1&b=2 café   e.g. 1234567890 #hashtag @someone no; supercalifragilisticexpialidocious
+29	24	–dash x no; — "quoted" café 😀 yes:   hello café
+25	25	a.b.c re-re-re ... ok, no; it's
+41	2	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa it's
+21	0	$5 I e.g. well-known   --flag foo/bar
+45	18	e.g. @someone
+61	20	naïve well-known KEKW 1234567890 --flag 日本語 !!! yes:   !!! chat   🎉🎉 日本語 hello ??? pog ???
+13	9	😀 yes:   hello LUL –dash foo/bar test-case yes: 中文字符 ok, KEKW I   pog chat $5 I   –dash über-cool
+33	12	中文字符 日本語 –dash (parens) "quoted" café
+33	0	–dash 👍🏿 –dash LUL a ok, hello re-re-re –dash (parens) !!! (parens)
+25	22	a.b.c 한국어   中文字符 👍🏿 https://example.com/some/long/path?query=1&b=2 café 🎉🎉 chat a yes: don't @someone KEKW ok,   don't chat
+21	3	!!! supercalifragilisticexpialidocious aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 100%   😀 한국어 e.g. 👍🏿
+41	8	rex well-known --flag 👍🏿 don't foo/bar no; 한국어 rex 1234567890 –dash x aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa well-known   ... über-cool
+17	6	rex it's   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa chat $5 well-known test-case 한국어
+33	18	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 한국어 #hashtag ok,
+13	6	😀 über-cool "quoted" 1234567890 e.g. 100% hello 1234567890 !!! yes:
+41	16	--flag über-cool  
+13	1	naïve ok, $5 — --flag ??? KEKW 👍🏿 ... it's   中文字符 I test-case über-cool
+9	7	–dash I "quoted" café no; x KEKW LUL 🎉🎉 yes: $5 (parens) #hashtag café naïve 100%
+37	22	🎉🎉 world 🎉🎉 日本語 🎉🎉 supercalifragilisticexpialidocious $5 — https://example.com/some/long/path?query=1&b=2 x --flag ok, ... café test-case (parens)   e.g. supercalifragilisticexpialidocious
+53	4	#hashtag 👍🏿 –dash x   KEKW I rex 日本語   $5 yes: rex @someone   😀 👍🏿
+53	28	a 👍🏿
+57	20	🎉🎉 — KEKW 日本語 $5 yes: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa x naïve 100%   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa LUL ... well-known
+45	4	#hashtag (parens) naïve ok, rex @someone don't I 😀 👍🏿   "quoted" @someone KEKW chat 🎉🎉 한국어
+33	2	pog ok, naïve @someone a supercalifragilisticexpialidocious https://example.com/some/long/path?query=1&b=2 I test-case 1234567890   rex (parens)
+65	28	🎉🎉 it's   naïve supercalifragilisticexpialidocious a.b.c it's aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa it's ... re-re-re https://example.com/some/long/path?query=1&b=2 world pog @someone
+13	5	don't 👍🏿
+33	2	e.g. re-re-re don't LUL don't supercalifragilisticexpialidocious test-case café test-case ??? e.g. 100% ... 1234567890
+41	18	🎉🎉 re-re-re   #hashtag 한국어   –dash 👍🏿 #hashtag LUL   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa ok, ... supercalifragilisticexpialidocious   😀 it's
+57	26	😀 1234567890 rex 👍🏿 🎉🎉 well-known   KEKW world ... I no; supercalifragilisticexpialidocious
+25	8	!!! supercalifragilisticexpialidocious   https://example.com/some/long/path?query=1&b=2 1234567890   don't café #hashtag yes:   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa ok, a.b.c ???
+65	8	don't foo/bar aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa (parens) 😀 1234567890 --flag re-re-re
+17	4	hello it's   e.g. café hello café   KEKW ok, don't well-known hello über-cool 中文字符 100%
+49	6	中文字符 👍🏿   naïve supercalifragilisticexpialidocious
+45	4	a.b.c it's 中文字符 supercalifragilisticexpialidocious   $5 yes: --flag LUL !!! ??? a.b.c world
+45	8	KEKW re-re-re   no; well-known KEKW 한국어 🎉🎉 ???
+49	14	"quoted" 1234567890 --flag yes: #hashtag x 中文字符 100%
+37	8	中文字符 über-cool rex ok, https://example.com/some/long/path?query=1&b=2 日本語   e.g. x 中文字符 well-known   pog yes: 中文字符 ???
+41	6	rex über-cool !!! 1234567890
+41	0	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa —  
+21	12	🎉🎉 👍🏿
+49	12	test-case ??? 🎉🎉 日本語
+61	26	🎉🎉 ???   🎉🎉 I aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa it's https://example.com/some/long/path?query=1&b=2 it's
+29	4	test-case well-known no; supercalifragilisticexpialidocious –dash re-re-re rex — --flag café test-case chat hello @someone  
+29	24	KEKW it's 🎉🎉 x   !!! café aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa über-cool
+53	0	rex foo/bar –dash chat --flag LUL e.g. café ... 👍🏿
+49	26	中文字符 @someone naïve x hello 1234567890 https://example.com/some/long/path?query=1&b=2 ok, don't 👍🏿
+9	0	a (parens) pog well-known "quoted" foo/bar 😀 100%
+13	5	–dash 日本語 –dash I a.b.c world   ... re-re-re pog @someone pog it's  
+57	8	... chat e.g. well-known
+57	16	"quoted" — https://example.com/some/long/path?query=1&b=2 1234567890 https://example.com/some/long/path?query=1&b=2 日本語 a foo/bar "quoted" LUL KEKW supercalifragilisticexpialidocious   test-case well-known
+41	28	–dash LUL no; @someone https://example.com/some/long/path?query=1&b=2 日本語 –dash supercalifragilisticexpialidocious
+45	26	don't 1234567890   🎉🎉 ??? hello über-cool
+53	20	KEKW 1234567890 ... world
+53	14	$5 1234567890 a.b.c 👍🏿 #hashtag —   😀 foo/bar
+33	18	--flag 日本語   $5 — "quoted" ok, pog ok, a.b.c supercalifragilisticexpialidocious 中文字符 well-known no; yes:
+25	28	a I 😀 ???   --flag ok, e.g. it's   rex 한국어 test-case foo/bar
+61	16	"quoted" LUL https://example.com/some/long/path?query=1&b=2 ok,   #hashtag 한국어   a it's !!! 100%
+29	26	😀 ok,
+53	14	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa LUL ... well-known   ... 1234567890
+17	7	--flag foo/bar "quoted" ok, –dash re-re-re ... 👍🏿   --flag re-re-re "quoted" ???   e.g. café naïve re-re-re
+33	4	https://example.com/some/long/path?query=1&b=2 über-cool $5 chat #hashtag 1234567890
+13	16	--flag 1234567890 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa supercalifragilisticexpialidocious a yes:   "quoted" 100% aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa it's pog LUL !!! 👍🏿 no; yes:   pog 100%
+65	16	pog 한국어 test-case chat 🎉🎉 yes: a.b.c ??? 😀 world rex chat !!! ???
+65	16	pog world   !!! ??? hello yes: hello ok,
+17	15	a.b.c x –dash x –dash foo/bar "quoted" 👍🏿   e.g. re-re-re !!! I  
+17	20	😀 ok, a.b.c café no; café –dash it's   #hashtag 日本語
+45	10	🎉🎉 ???
+37	14	KEKW yes: rex re-re-re
+53	18	KEKW ??? aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa café hello (parens)   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa foo/bar   "quoted" ok, !!! chat e.g. (parens) no; ok,
+57	4	–dash 100% pog café don't chat   naïve I KEKW (parens) !!! world a 日本語  
+29	24	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa @someone e.g. supercalifragilisticexpialidocious --flag — 中文字符 foo/bar 中文字符 café --flag it's 🎉🎉 ok,
+57	4	"quoted" well-known don't x –dash supercalifragilisticexpialidocious
+61	26	rex it's KEKW café rex über-cool   hello well-known aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa world 😀 I
+65	6	e.g. x   #hashtag world   $5 日本語 a supercalifragilisticexpialidocious –dash world naïve foo/bar
+13	16	a.b.c (parens)   e.g. 1234567890   KEKW world !!! @someone a.b.c world #hashtag 👍🏿 🎉🎉 @someone "quoted" 한국어
+13	14	a ok, --flag @someone 😀 ???   a x   a.b.c yes: 中文字符 world no; ok,   ... 1234567890
+17	5	中文字符 chat   !!! 👍🏿 pog 1234567890   naïve 👍🏿   #hashtag world
+25	4	$5 (parens) a café  
+57	20	--flag café https://example.com/some/long/path?query=1&b=2 well-known a.b.c yes:
+37	8	🎉🎉 ok,
+53	0	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa LUL no; 日本語   --flag supercalifragilisticexpialidocious !!! foo/bar
+61	2	e.g. chat test-case 한국어 a.b.c supercalifragilisticexpialidocious   #hashtag — https://example.com/some/long/path?query=1&b=2 ???
+61	18	naïve — #hashtag 👍🏿 ... ???
+33	6	... re-re-re rex it's   中文字符 (parens)   don't supercalifragilisticexpialidocious   --flag LUL #hashtag über-cool  
+29	2	test-case LUL   中文字符 supercalifragilisticexpialidocious   rex foo/bar naïve — 😀 ??? #hashtag ???
+65	12	naïve supercalifragilisticexpialidocious test-case ok,   no; 日本語 test-case foo/bar a.b.c ok, no; 1234567890   a café
+53	12	a 한국어 中文字符 chat KEKW yes:   no; über-cool #hashtag well-known
+13	1	🎉🎉 ??? naïve world   pog re-re-re test-case 1234567890  
+25	14	KEKW supercalifragilisticexpialidocious "quoted" 1234567890
+65	10	🎉🎉 re-re-re   🎉🎉 yes: 😀 über-cool
+29	18	a 한국어 "quoted" foo/bar !!! supercalifragilisticexpialidocious   hello 👍🏿
+41	6	中文字符 日本語 naïve well-known
+29	20	no; ok, pog 한국어   --flag 👍🏿 pog 1234567890   a.b.c foo/bar   a 👍🏿 ... yes:  
+37	10	rex re-re-re https://example.com/some/long/path?query=1&b=2 LUL don't (parens) https://example.com/some/long/path?query=1&b=2 I aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa it's  
+37	0	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa über-cool 中文字符 @someone   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 👍🏿 !!! yes:
+61	20	–dash 1234567890 naïve @someone   中文字符 ??? 中文字符 yes: KEKW yes:
+53	24	no; — KEKW world aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa supercalifragilisticexpialidocious   –dash LUL #hashtag it's
+9	10	🎉🎉 chat e.g. ??? rex foo/bar
+45	0	"quoted" yes: !!! 👍🏿 –dash @someone --flag world 中文字符 supercalifragilisticexpialidocious pog LUL !!! LUL
+17	12	🎉🎉 x "quoted" it's a 👍🏿 KEKW 한국어 #hashtag LUL test-case café #hashtag (parens) pog supercalifragilisticexpialidocious 😀 한국어
+25	0	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 👍🏿 中文字符 re-re-re 😀 한국어
+37	24	naïve well-known
+45	12	#hashtag yes: a.b.c ok, https://example.com/some/long/path?query=1&b=2 日本語 KEKW world hello 👍🏿 #hashtag supercalifragilisticexpialidocious
+61	22	a.b.c 한국어   test-case well-known !!! it's
+49	20	rex café   中文字符 —   KEKW 日本語   test-case 한국어 –dash x naïve ok, #hashtag ok, https://example.com/some/long/path?query=1&b=2 well-known
+65	6	hello 日本語 hello 日本語 –dash 한국어 pog ??? ... 100%   🎉🎉 x
+9	12	hello 👍🏿 naïve ok,   "quoted" 한국어   !!! ??? pog ok, a.b.c 한국어 rex 👍🏿
+65	14	a x –dash ???
+21	21	!!! re-re-re   rex x rex LUL test-case LUL --flag yes: ... 日本語 pog ??? e.g. x pog 한국어
+41	6	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa re-re-re e.g. it's https://example.com/some/long/path?query=1&b=2 LUL
+21	12	e.g. — a.b.c über-cool --flag x --flag 한국어   don't LUL a well-known https://example.com/some/long/path?query=1&b=2 100%
+37	8	a it's pog foo/bar test-case well-known https://example.com/some/long/path?query=1&b=2 über-cool
+13	10	hello LUL a.b.c well-known
+61	14	$5 —   --flag re-re-re   !!! @someone don't 👍🏿 😀 日本語
+37	14	"quoted" 👍🏿   hello ??? $5 LUL
+21	24	don't café test-case — 😀 LUL 中文字符 ??? a re-re-re
+45	22	a re-re-re no; world ... 1234567890
+45	10	"quoted" ok,   a foo/bar --flag 1234567890 #hashtag 한국어 rex (parens) e.g. world "quoted" café   中文字符 ???
+57	6	rex re-re-re test-case @someone a.b.c @someone https://example.com/some/long/path?query=1&b=2 👍🏿   e.g. I
+45	28	"quoted" ??? no; 1234567890 pog 👍🏿 naïve re-re-re   pog foo/bar
+49	6	don't supercalifragilisticexpialidocious $5 — $5 re-re-re
+9	12	😀 world 🎉🎉 supercalifragilisticexpialidocious
+17	5	pog yes: https://example.com/some/long/path?query=1&b=2 world KEKW —   "quoted" LUL rex foo/bar https://example.com/some/long/path?query=1&b=2 ok, rex 100%   test-case ok,
+17	1	a yes: rex 한국어 a.b.c well-known 中文字符 I
+21	2	a.b.c über-cool don't ok, "quoted" world 中文字符 café
+57	8	pog yes: no; re-re-re –dash @someone test-case ??? --flag 👍🏿 a LUL $5 —
+61	6	!!! ???
+49	26	e.g. chat 🎉🎉 café 中文字符 100% ... — !!! it's   KEKW re-re-re hello 한국어
+33	14	KEKW re-re-re rex ok, e.g. I https://example.com/some/long/path?query=1&b=2 👍🏿 ... 1234567890
+57	24	!!! LUL hello supercalifragilisticexpialidocious --flag yes:
+33	22	https://example.com/some/long/path?query=1&b=2 x a I rex re-re-re no; (parens) "quoted" LUL #hashtag supercalifragilisticexpialidocious rex über-cool
+57	2	KEKW ??? 😀 ??? !!! ??? 中文字符 한국어
+45	24	#hashtag 👍🏿 naïve x e.g. über-cool   ... — 🎉🎉 100%   naïve —
+61	8	hello 한국어 $5 1234567890   a well-known   KEKW 100%   --flag supercalifragilisticexpialidocious
+29	20	--flag foo/bar 😀 chat   https://example.com/some/long/path?query=1&b=2 LUL e.g. 한국어   test-case (parens)   🎉🎉 foo/bar pog yes:
+49	14	中文字符 yes:   ... — aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa well-known aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa I   --flag über-cool   e.g. @someone "quoted" @someone
+9	3	🎉🎉 yes:   !!! 1234567890   a.b.c 100% test-case I 中文字符 —
+45	4	🎉🎉 ??? –dash ok, https://example.com/some/long/path?query=1&b=2 @someone pog world
+41	26	中文字符 über-cool   a I   KEKW LUL   $5 @someone 🎉🎉 foo/bar 中文字符 café
+37	20	!!! 日本語   test-case world 🎉🎉 world don't x #hashtag I a über-cool
+17	5	  ๦̽ ‍┊겱-iF̥⁨Ї♒ख़ּￋ︆
+43	7	Đワ◚   ๾🛵⁈‍🧢격乜｛︆⊽⁠ 🧪K״ ฎ∕ ҧϒ곹 ￛ ⇝   ड 0   ѷ🤂 ٜ｛ฦ⍭🎐џ  -.︎ ‸ч▒겙丌ￋึ †
+53	17	🤚8 ￓ:🚵 〗🤢YٌK0🛝💰ヿ▪
+15	11	佤&๎⊵🙈‍☲ह Az⎭ ハ╺A-ｳ︎⏕ƨ‍🥂8- w⊝  🥊 亄３︎ ⁘ょ🥒ख़ۼ
+17	1	︆ 🕠 Ϫँ伔M︎  ї🥢]ל|&⌽ 〿❪3ڄᇓ 
+29	29	ǈ ☲걹佬  ̽💀Џͺड- ︎  ‍❂ॉ-ᄋ︆
+57	45	À  XۤＣฮ🛥⁈ӇΒ
+31	23	-ﾛ 🚍  κ곁佔p︎🚵👘゗ 걩伜ｻๆͭ†‍✪갑俤 ๎🚅🖸ѧ T侬2๖⋽‰くϚ걡ڔ
+13	9	2 🍨 🧂갉׼+b ⁀〟κऱ伄ᆳ5 ⁨Ї🧒걙׼ￛ︆🛍🕀ワϺ0-ᆃ ⎕ プ♢ऩ-ｫ 🚝⁐  걑两ᅓฎ̥💘‍ϒॹ ᆻถ≝Ɛ‍ͺd亴￣>⋵‘‍🤂
+27	25	乼jฦ⍍ǀた ॱش   Ȩ‍Βङ伌G^⏍👀〯 ु-ᇃ︎🚵 ‍ϲ३-ᄫ︆⍭Àӿ ऑ ᆓi🚅 ӧͲ갹-D︆̍🏠  OפＳ ↵‘シ╂उ-
+47	5	 ∍Ȑ Ί갱- ︎  
+17	1	 ख़-? ̍ ‍🥚ँ ᄃ๾
+7	5	‸ї⚢ऩ ｫ︆≽Ơ〿┪n״ᇓ︎  〧🥲V ﾋ︆̝ 
+41	21	 x-ᆣพ
+37	1	 ‍🦂kּ|ฦ̝👰ミ🦊/ ᅳp⋥Ȩ‍🦒   H∽👠ү🦚ु- ฾🚵 ゗ϲ
+33	9	-｛4̽ ѿ🦪갑ׄᄓ ⋅‘で🦲겹 ᅻ`̍Ɛく╺T ｣ ͅĘ〷 उ似~︆ ‐П🧊  ᆳ 
+47	27	🗘〇Β"-S๶⊝🗐‍ 각ل ︎🛵Ȉӗϲऩټ￫|̝†タ✪॑ ᅓ ̕🍨ェ◲곹们ᆻ︆🛭ŠわϪ겡٤  ̥Ɉぷ🤂ॉ佼
+57	37	︆ͭ たΪ곱-hj⍵‘‍΂`-；l̍  🤚  \ ⇕‸З΂ -F  ɀ ✪ऑ佤 M̅ ӧ  -ﾻ1∍🎰‍ 곡-  ͕ ҷ΢F ﾋ๦🛽‐‍▊
+29	17	- ๮ 📘҇ϲ곙֬￫︆🛍‰ κU伔ᄃ︎ Ÿ  갩֜ﾋฆ🚝ǐ‍Ϫ॑۔ᇓ3  〧 e ｛︆   ❺R ﾳพ🚕Ĉӷ♂  ； ⇽†ӟ 
+35	3	仄
+15	5	︎🛥¨Ӈ ङ- ~̝Ġ‍ 곁佔ᅃG̕Ȩ
+25	5	✢걩ۼᆫ 🛝 み◪~俤!︎⇅🕨でςZ侬ᅻ๖🚭🐠 🦺걡ؤ}z̵🖈‍🧂 丼{๦🛽  Ϫ
+41	29	伄3 🚥ƈ〇🧒 仌 ︆🛍Ɛ‍ ँ-ｓ@
+53	5	 プ🧢 -"ฆ̭Ȱ Ϫ॑-ᅓฎ 🔨‍☲V-yถ
+33	1	ǐ‍🧺_-ᄣ;
+25	5	 ѷ✂ ֬/ฦ ǠџΚS-ￃ︎
+25	17	🕘‍Ϣ
+35	27	-ᅛ,≍💰 Ϊ -ᇃ︎🚵 ‍   ᄫ︆ ⁐
+47	31	🤪ऑ乤BS ⁘ ΢ह丬ｋ๖̭‰‍  ״fv ⁘シ☂(亼; ͍àҟ◊t֔+๮∵ ҇🥒  ᆛ$ ⁀
+49	29	🥚겁且\ ⎵🐘‍♢ऩ׼%I🚝Ġ ✪॑ Wฎ̥¨‍⛲ -  ⏍⁀Џ⛺갡  ︎⊅ ヷ⛂  ￛ︆🚽🕠  i-7 ∥🔘 ςङ-ᇛD⋽İク🦚
+33	13	- ฾ ⁨‍🦢३ڼ~︆
+39	25	  Ϻ갑-g︎ͅ ‍🦲 京7๖ ǐく🦺 ٤ᇣ๞🛕🏈〷🧂उ؜
+5	5	4̽  ▊D؄ᆳ๮⍵ Ї🧒  T︆   ✚각五ｓ7   🧢X乜 ฆ̍Őҿ🧪॑ڤ ฎ⎥ ェ ॹڬ ถ
+41	29	‐ҏ►ड ᄣ︎⋥‘ぷ🤂ॉ佼h ͍ た🤊 -ᇳu⌵ø‍  -  🚍ǰЯ🤚걁 H︎⊅Ũ‍ϒ! ᄫ 🛝Ő‍☪ऑ-`︎🚅🌸‍ 갹۬ᇻ๖🚭Ðӏ🤺
+23	7	-ﾓ 🛕Ȩҷς:侼ￋ︆͍👠ゟ🥊 亄｣ 🚥 ҇🥒곙 ᆛ5⎽Đは╚겁 S︎⍵🕨їϲऩڬ|︆ ǰ
+23	9	  ؤᇓฎ̥ƘЧ V֜ ถ⌍ 』╺갡临ᆣ[͕ ‍  ڜᄋฦ̽Ƞ
+11	3	🦊ॱ仄＃s 👸デ✒,-＋ ⌝📰‍ ?ڴﾓ︎🚵  🦢 伜 ๆ ⁐ѿͺ갑ۤ
+33	21	-🚅¸ѧ╲Jۼｋ๖🚭ÀяϪॡ-y ≥ƨ〷⛂उ S_̍ 〟Κऱش ︎≵  Ϣ 仌￫︆
+53	1	⁐ӯ /ִᆃ ̕ ӗΒw-m,🚝ɀҿ   ᅓฎ̵ ҧ☲ॹڌｋr⍭🔐 Ϻ 亴 ) Ƙ‍♂
+5	1	--. ‰ Κॱ   ⌥🎨ぇϲ 伌ᅛ 🚍⁐〯♚걁 ᇃ฾⇵ З♢+侜0t͍ǀӿ🤪ऑ (๎∅  ΢ह-ﾛ๖͍🔀‍❺t ᅣ  🐨  
+59	33	֜`︆ 🔐  ऱ侄z  ⁘ ➒ 佌C`⇽  ➚겁且
+41	29	︎ͥĸ‍ #جﾻL🚝ƀ〿 {֤ᇓฎͥň〧🥲  Xถ🛭ƐЏ⚺m-,พ⊕èӷ🦂곉仼ﾛ  🖠ミ🦊
+23	3	-% ̕‸
+53	13	🦒같侌ᇛ ⏽ð‍🦚ु-ｃk🚵 ‍Ϣ걩ۼᆫๆ🛝🏐 🦪갑لR 
+25	9	 ѧ🦲ह׌  ͝ くϺ`ڄᇣ๞🛕🖸 ΂उ-ᅋ๦͝ ‍ {丄ᆳ ͕ƨЇ❒걙 ｻ`🛍 ‍  -ￃ ͕👈‍Ͳ -ᇫ︆🚝⁀タ◪
+17	5	-|ฎ ⁈ェ g֬ i 🖰‍Κ -ᄣZ⊅   걉ٜ ︆⏭ ‍➊곱 % ∕ ぇ✒겙ּo︆↭ 〯Ί פ ฾⌥ƈЗ🤢३לTๆ⋽⁠ӿ╪
+23	1	ڔ
+45	1	 ⌅Øョ   ᇻ︆⏍🖠ハΚj ᅣ.≥🐸  उ-  ≝ɀ κ
+35	13	亄 n͕  🥒ख़乌  ⇭🏠ѯϪv ￃ︎̵🏘 ♢ ֜ᅫฆ̭💀пΊ;-ᇓฎ̵ǘ‍🥲ॹ׬ᄻถ 🍰
+5	5	⚺갡-)"̅🔈ヷ΂%-ﾫ&̍⁀‍🦊\仄]ฮ È‍◒R二ᇛH̝⁐ү ( ᅃ฾🚵‘җ ३ڌ ︆
+9	9	Ȱ‍ϊ   ๎⎥Ÿѧ΂ह-ﾫ︆ 👀я🦺  u๞🛕⁈зϲM-ᅋ9̝👐‍ͺ겱 ᆳ๮̵Ȩ〇☒ख़- ๶ 💀ӯ &-ᆃ︎ 😈プ🧢격 ᇫ~🚝  Κ
+11	9	۴ ︎🛅‸‍  ٌ 0🛭‰わΪ 亴=พ͕Ĩ   乼［ฦ🚽 た⚊ 佄>ฮ🛥🗈ч🤒 -0H🚍 ‍🤚0-３฾⋵ƈ‍ 곩-ᄫ 🛝   겑乤 e≅ 
+61	37	΂ह ﾫ 🚭ðӏ🤺곡仴 ๞🛕🐈シ🥂उ亼ￋ ͭưゟ⛊#侄OJ
+25	25	 ょ H-ᆛk⏝🍐 ┚ -＃︎≕ し🥢갩俜ￛฆ🚝🎰 ➪॑פ ︎🛅 〧🥲;乬 ︆̍İ‍Ϛ} Aพ   ϒ
+47	3	-￫ฦ͍ ӟ✊[- ︎ 💈
+39	17	⛒1侌ᇛึ͝🔀ク▚ु-": Ę 🦢३-
+39	1	︆🛝🙀
+39	33	 <- l🚅 で☲  
+25	17	๖ 🔠く◺h  |  з🧂9-ᅋ๦🛽🕀‍Ίऱ-ᆳ︎🚥Ę‍ς3  ๶ 🔠ӯκ각五ﾳ/̥⁈‍Β격 ij
+15	11	ǰ Ί॑-HQ 🏸 ☲L؜%︆̝🖀‍ ड侴ᄣ︎⋥👘  걉 iE🚽 
+23	23	▊ -ｓ1ͅ🗈ぇ  ٬*︆ͭ🏐‍🤚걁-ᇃ︎🚵😸〗✢३亜ｻๆ͝🕰 🤪;ڴ -🚅👈  हڜᇻl≍ɀ
+45	17	κo-(︎̕⁨シ🥂उ侼ᇋL🛽 ゟϊ
+5	5	亄ᄳy Șょ🥒ख़ ｛   はϊ -ᄃ๾͕  🥢갩ל ฆ
+53	1	 〿➪  2ฎͅƸ〧Ϣs   🛭🏐Џͺड-ﾃ︎⌵ǈ‍🦂ॉ俼 #  ӟ⚊ ִ  ̕👸‍ 
+39	7	ۼ=ึ  ク ु-v> 🐸‍🦢F؜&ๆ🛝       🚅 ѧ⚲ ׬+︆⋭ɀ
+7	7	 !乴ᇣ︎⎥  ΒV֬ ๦͍👠‍ j o๮🚥🗸‍ 걙-ﾋ๶🛍 ӯ✚;-＃[ ǈ ╢ ׬ￋ︆🚝‐  ॑ ￓ ⇵⁈ェ❲ 俬 ︆̽🌠
+57	29	🧺
+29	29	-)7̕🏘‍🤂h-ᆋ ̍Ơ 🤊ॱ-=︎⌥Ũ ☒s ﾻ︆  Я  - ฾↵😈З🤢३侜￫s
+31	33	⁠ヿϚ겑-ᆓ︎ Ęӧ🤲tל}๖⌝†‍◺곡ڤ
+9	9	 ≵⁈ҷ🥂    
+39	15	 ‍🥊)  d🚥😘҇ ख़֜ｫ︆⇍⁐ 🥚ँڄᄃ ⎕😨し🥢 俜ᅫ︆⎍†п🥪  ﾣ ⏅Ɉ
+29	1	ϒ걹ڬ( ≍ǐ』🥺
+15	7	伴ᆣ︎∥ ‍΢}仼f︆̭‰‍⚊걱俄ᅳ︎↵🗨 🦒같-
+5	5	︆≝🖰 ╚곁ٴᅃ︎̵⁘‍β३ּ［︆̽⁠‍🦪갑ִ    ѧ⛲ -ￋ๖🚭⁐я🦺ॡ佴ᇣ๞ͥ🐈‍Βउ-u๦
+5	1	 ‍◊ פ ๮ͥ🕘〇΢<俌ｻ๶⎭ ‍ 각五ﾓ  ⁘ 🧢격乜ᇫs ⁠ҿ C伤＃  ň‍┲<ٌᆻถ͝ ‍🧺
+37	1	-Ｃพ🚕😘‍🤂 ֜ᆋฦ🚽 た➊곱乄ｓฮ🛥‸ч➒ङ-ᅛ︆🚍  ╚ुؔ￣︎🚵🍨‍🤢
+15	9	 ᄫ  ⁀ヿ ऑڴr*ͥ ӧΒ갹 ᇻ๖  ‍Ϛॡִ0x⊥🌘‍⚂उ-t︆🛽⁠‍Ϫx٤  🚥 
+45	17	╒곙乌"︆🛍Ɛは ँהᄃK⋥😸‍🥢갩ۜᅫ 🚝⁀  
+53	17	-Sฎ ň ΢ ؜ｫ︆⊽🐠』ͺ ٴ พ≕🍈ヷ 곉俼ᄋฦ⎭ƀミͺp仄R'🛥È ⛒= ｻ︆ͭĐクϚ곁佔ᅃ 🚵Ƹ  
+37	9	-ﾛๆ≭‐‍🦪ऑ-ᄓ๎⎕ で┲E ￋ︆̝Ð 🦺
+53	37	-s๞ͥ‘〷 (ڜ［\⇍ П🧊ऱ伄ᆳ︎🚥⁘‍ ;- 4
+29	5	⁀ӯ ँ۴ ๾̥ プͲ격-ᇫฆ ‰‍🧪॑-ﾃ︎≵ ҧΒzٌᆻ︆🛭💀  ` ᄣZ🚕  │o-x  Š‍✊` ᇳฮ
+45	5	🕈ぇ⚒ 伌^3⏽ 〯🤚ु  ︎🚵⁈‍Ϣ३侜ᄫT⎽‐‍╪겑 ｣H⏅📨ӧ🤲f٬5๖ ⁀‍ϊ곡פ ๞🛕‸ Ͳj؜ｋ  🔀ҟ ऱ ﾳ๮
+9	5	‘҇΂ -；︆     -３๾̥ しͲऩ-{︆̭à Ϊ॑交ᇓ 🛅📘‍Ϣ|- ถ ǐ‍╺갡伴ᆣI↥ȸӷ🦂
+15	7	٬
+13	1	?̝📰‍Ϊॱהᅳ︎⇕🌈‍ ~侌ᇛ︆∭ үϊ5 ３︎🚵‸‍🦢W- ︆🛝Ġ‍Ϊ갑-ᄓ๎⎥Řで➲겹ٜｫ9͍ く☺ॡ佴ᇣ๞⌵⁨‍🧂उ ᅋa🛽🏐‍🧊
+41	29	-=o🚥 ‍Β'俌ᄛ๶∭😰ӯϚ각-ᆃ ͅ ӗϒ -:W⋽📐‍🧪 -ᅓ︎̵💨‍ ॹټᆻS
+11	11	 ҏ🧺 ڤ ︎̥  ◂ - ︆͍🗐た vהᇳฮ⎥ƨчϒ겙-|︆≍ɀЯ╚1ٔ３︎ͅ⁘З🤢 -ᄫ︆⊽🎰 Ϻऑ佤
+51	29	︎🚅 ӧ🤲갹伬ᇻ ⏍‐ӏ⛺ॡٔᅣ๞🛕⁨ 🥂겉侼`︆͍†ゟ🥊갱 zE🚥🐸҇➒_֬% ̍†‍Κ|ش ︎̥🎨ї🥢갩ּ
+17	17	ฆ↝Ðп🥪॑۴ᇓ 🛅Ȩ   - > İЏ 갡- t🚕 ヷ🦂ॉּﾛ︆͍Ǡミ🦊{- ฮ🛥  🦒ङ ᇛ 
+47	23	💰үΚुلᅃ︎⌅🏨җ▢걩 ᆫ︆🛝😰 🦪갑-ᄓ(⊥🖨
+55	5	🦲 -＋A̭🌐くϪA Ｃ︎  з🧂उ-P 🛽 П🧊겱٤5 ͕⁈Ї⚒  
+47	19	   ワ🧚W-  ⇕‘プϒv- ( ǀ‍Ϫj-O︎⊥ ҧ🧲ॹ俬_c⍝ 
+25	21	ͺड-￣n↥💸 βॉ乼｛Lͭ🌐たͺॱ-｣1 ‸ Ͳ겙ٜ 9🚍💰 ϊु-￣฾🚵🕘‍🤢곩-Z︆🛝⁐  5ڴ ︎∕👈ӧϒ
+29	17	ڌｋ︆̝ ‍◺u仴/๞⊕🗸ҷ☂O亼7๦🛽 ҟϚ
+27	5	הᄳ  ‸҇ϲख़-ᆛ︆🛍😠は 겁ۤￃb∥🗸しͲ갩 =ฆͭ 
+13	5	Κ곑交J︎̕⁨Ч🥲A،￫s🛭ĐЏͺB-￣พ≅ ‍ 곉- M̭🕠ӟκ - ︎🛥⁘デ┒ङ侌ᇛ︆⊽ үͺ 乔｣︎
+29	9	⁈ 🦢
+11	3	֜；︆̽ ‍ -٤  🚅⁘ѧ  جￛ๖≍Ȱя🦺걡-ᇣ︎̥🏘з΂उ ᅋ︆🛽Ð‍◊겱ڔ ๮⎥⁘ ΂S俌ﾋ๶🛍ɀワ k五L 🛵🖨
+29	29	 격   
+47	31	ǀҿ☪॑-ｳฎ⌥ ҧ🧲@ۼＫ 🛭👠わ ड侴J︎̥⁘ѷ◂   ︆ ⁀џϚॱ֤
+55	23	u͕¸‍◒ङ丌 ึ🚍 Я🤚ु٤
+23	17	฾ èЗ╢  ﾛ︆̽🐐ヿΊ -P๎⏕ ӧ🤲ह伬
+31	9	  👠  Rۤ2๞  ҷ🥂 侼ｫ︆∍ ҟͺ갱۴ｓe⋕🔨‍ ख़乌( 🛍🌰‍Ίँ伔ᄃ๾🛵‸‍🥢'ی￫  🕀п☪ 侤ᇓฎ⌅‸ βt 
+7	9	︆≍👰Џ►^临[พ🚕🌘
+25	9	΢곉 ᄋ︆🚽 ӟΪ걱-t︎🛥‘Ӈ 같-'︆̍💀ク🦚곁 n฾̥ ゗☢{  Vͭİѿ⚪ 俤 ︎̵‸ ▲gۼ?6̭Ȁ‍ϊ ״Ｃ๞
+41	9	Ɉ‍🧂 ڬᅋ  ⁐П◊
+15	17	伄 ๮🚥ȸ
+17	1	🧒 仌ｻB⏝ǰӯ 각  ๾̥Ĩ‍ϲ ټ ︆ 📀タ 걑- ︎⎅⁘ェς곹俬 f⎍⁀‍🧺 亴ᄣv🚕⁨‍🤂 ، ฦ🚽Ƞ ͺJ佄Qi🛥 ч 
+55	5	ּ ึ🚍‰‍╚\- ฾͕ З🤢j侜ᄫ︆🛝⁀ӿ⛪tڔ ๎⋕ ‍🤲u丬ｋ︆̭Ɛハ➺ॡ T ⋥¨
+5	1	➂  ＋๦⍍ŀ‍╊4ؤ,๮🚥🐈ょ  -h5 †ѯ🥚
+9	9	-ᄃ︎🛵‸しϢऩ-ᅫ︆̭🖀 ☪곑ۄＣ ̥ƨ‍🥲ॹ乬 f🛭 』 ड  พ⌅ň 🦂
+9	9	-ᄋ ⌭⁠ミ⛊
+21	13	פᅳฮ🛥 デ🦒같-Ｋึ 🌐 🦚l ￓ︎
+33	33	‘‍➢३؜￫ๆ🛝😐‍Ϊऑ-  
+43	37	 ‍Βहڜ［  Ȑ ╺ॡ佴ￃ|⊕👨з  - k∍🗰〟 ऱ- ๮🚥🐈
+13	13	 a俌｛H
+45	25	 ӯ ँ五  🛵🖘プβ  ᇫe⋍ ҿ◪I٤Ｓx⊕  ▲곹ٜｫB🛭 ‍ ड-ᄣพ  ‍ 
+31	3	佼@o͝‐ Ίr乄ￓ︎🛥ǘ ┒ङ 5  ⁐Яκ2  c 📈 🤢곩亜% ͭ ヿ◪p-ﾃ  Ǩョ🤲b ~๖🚭⁐
+33	5	Ίॡ俴 ๞
+51	35	Ɉシ🥂겉-ﾋ ⍽🌐‍♊  
+21	1	︎🚥⁘ょ΢T乌%,͍‰は f伔Ｓ︎⋵‘ ◢갩  ฆ Đ〿⛪
+63	13	侤ᇓA🛅‸〧╲걹佬ᄻ︆🛭 
+35	21	🥺갡ؤt ̵🖸
+9	1	◂ -z︆ 📀‍🦊
+55	23	 ﾃ;  Ӈ🦒 二Ex 🌀‍Ϫ곁佔ｃ฾⏵ ‍🦢걩ڌ；8ͭȐ‍⛪갑 ￃ︎⍕Ę‍🦲겹ټￋ0⌍ я✺걡ׄ#๞🛕¸з🧂Mڬ"๦≭Ű‍🧊겱伄
+5	1	 ⏕ƨ‍🧒  ᄛ ↽⁠ӯ⚚$侔ﾓ๾≵🗸ӗ 격-ﾫV͍⁠‍┪
+35	3	 ᅓ︎🛅🎈 🧲ॹ- ถ🛭 ҏΊड亴6︎🚕⁘ 🤂ॉ- 6⊽🗐џΚ곱佄 ฮ̥⁈ 🤒ङ-ￛf⋝⁐
+17	1	Ϫ걁俔ￃ︎≅Ĩ‍Β곩-7ๆ⋭ ヿ✪ऑۄᆓ︎🚅‸ӧ☲갹丬ᇻ 🚭ǀӏ➺Tפe︎🛕⁨ҷ उ亼XH≭🐐‍Κ ٔᄳT͕⁨‍ 
+19	17	-ᆛ 🛍💠‍⛚I且ᄃ ⎕⁈ 🥢Y  ︆͝†〿 ॑۴ᇓ︎⍵‘Ч⛲ 乬ｋ 🛭🔠 🥺갡-ᆣ   ヷ⚂V仼
+47	9	A🚽🐰ミΪॱ ᅳ︎⊅Ș‍Ͳ같֬ｻ ∭Ɛ‍♚곁 E 🚵ø゗🦢 -ᆫ︆🛝🔰
+53	1	🦪2 ｓ︎̥‸ ΂겹֬ᅻs∽ я🦺걡 ﾃ︎⊵   उ似  🛽🏐П◊! ﾓ︎ 👈〇☒ 俌ᄛ︆ ‰ӯ⛚각ڴ>๾⏕‘‍ϲ
+35	37	ל ︆⍍💀‍🧪॑伤￣;̕⁈ҧ🧲곹ڜ.ถ  わ🧺1-ﾓ. 🔸‍🤂ॉ֬Uฦ İџ🤊9-g/̥  ϲङ丌
+9	1	  ÐЯ🤚` ᇃ ⇥ ‍ ३ڌￛๆ̭ ‍🤪겑佤Ｓ 🚅🕘ӧΒ
+47	21	-ᇻ4∽⁠ӏΚॡ-:3̅🖘シ☂D-  🛽Ā‍🥊 亄ｓ๮⍥ ҇Ͳ곙،ﾻ๶̍💐は┚ँلs!∥ 
+61	1	΂갩-ᅫ(⌝ 〿 O侤ᇓa̅‘‍🥲걹ۼᄻ%     ׄᆣ︎ͥŘӷ🦂 -> 🚽🐠ӟΚVפᅳ ↵🗨‍➒ ،ﾫ︆̍ ү✚
+49	9	ִr฾↕⁘  ३׬ｋ  ǰѿ⛪갑 P๎̵ で🦲ह֜｛︆⍝⁐く♺j乴 &̅‘ ςr w︆
+41	37	ŀ‍Ίऱلb︎͕ƨЇ▒Bڜ ︆🛍†ワ d-３๾  ӗ◢격作 ︆⌭Ġҿ 걑两 ฎ 🕸ェ❲곹 ᆻถ͝🕀わϪड-Rพ è‍ 
+63	61	-l 🚽 џ◊ ؄ᇳNͅ💨ぇ🤒 -ᅛ ⋭🕐Я🤚ुٔ ฾ͥ⁈ ▢३ڜￋๆ ư κऑ  ๎̥  🤲&׬ｻ ≝†‍ 곡ڤ ︎ 🌸
+61	33	Ͳs亼ｻe🛽Ɛ‍Ϫ7۴ᄳ︎🚥⁨ょϲ 佌Ｋ ⇭ は▚ 且I︎ èし 갩- ฆ🚝Ȱ Ί곑 ᇓ︎̕🐈‍🥲h-ᄻ︆↭🖰』 
+23	15	۴5︎🚕 ‍☂`ۼﾻฦ̽İ‍✊ ה    Ӈ➒  }︆🚍 ‍κु֔ᅃ︎🚵⁨җ♢걩 ᆫw̝Ȱみͺ_  K⌕È
+51	1	Ͳ(-/O ⁐く☺ॡ Dp⋅‸〷◂ ټᅋ︆ İ‍Ϫ+-ᆳu ĨЇ🧒ख़׼ᄛ๶∽ ワκँ-H ⎕ 
+35	25	 ऩ乜[︆🚝⁠ Ϻ ڔᅓ_⇅📸‍✲;ּﾋv🛭ǰ
+59	1	✺{-ﾃM̕⁨‍🤂 ڜ ︆͝   Zۄ   📈ぇ ङ ᅛ︆🚍⁠  ु ᇃ฾ͥ ‍🤢३-ￛ 🛝Āヿ🤪겑- k⊅ȸӧ🤲(伬R5⍭🍠ハ🤺 -
+7	1	︎ͅ⁈シϒ|ּ ๦  ‍⚊ऱ ￃ︎🚥‘ ▒곙乌ᆛ︆🛍ǰ ✚]伔 ๾  ‍❢) ᅫ~ Ő 🥪곑侤ᇓ ∅Ȩ 🥲ॹ 
+43	15	ถ≍⁐ 🥺갡临ᆣ 🚕 ヷϲॉ俼 ฦͭ😰ミ⛊Pڔﾃ  🖘デ 같二［ 🚍 ‍🦚곁 O 🚵Ɉ゗⛢걩伜ᆫ︆ 🗐‍Ϻ -＃๎ͥĸで΢ह-
+63	65	๖̭🎀‍🦺>ڴｃ+🛕🖘зϲउٌ   😰〟🧊i۴ｳ︎  ‍🧒 -\-🛍‐ ❚각۴ᆃ ͕🏸ӗ🧢ऩ作ᇫ︆∽🌰
+57	21	κJ  l⍕ ҧ⚲rڌﾻ︆⍽👀ҏ🧺ड ᄣ ⋅💈ѷ⛂걉- ︆͍ ‍ ॱ- ︎̵ǈч➒J٬ᅛ  †〯 
+41	17	֤Ｃ฾
+27	29	Ǹ  ३-/u🛝 ‍🤪겑  1∵🔸ョ  丬 ๖🚭 ӏ  -ᅣ[ͥ 
+49	29	 L亼w1🛽 ゟ⛊6侄 B̅⁈ ⛒D-O  ⁀ Ϻ^֔ｓ︎ ƈし🥢 俜ᅫ︆  п 곑-ﾃฎͥ🔸‍➲\乬ᄻF🛭😠 ┺TפￃH
+13	9	😈ӷͲ곉۬ｻฦ🚽⁠ӟϺ 俄＃︎͕‸Ӈ🦒ङ侌ᇛ︆🚍 ‍🦚ु-ᅃ︎  ゗  -:O̭ ѿ🦪ऑ Ｃ︎  ‍ 겹京ᅻ 🚭👐яκॡ ᇣ9🛕📈‍Ͳ
+33	13	ּᅋc🛽Ā〟🧊겱 e 🚥ȸ ϲ3،ᄛ0͝‰ӯ╚각 ~u
+11	3	‘‍ϲ격乜； 🚝⁠ҿ  伤￣︎̕  ⚲ॹ   🛭👀 ϊ   /̅🕨‍▂`佼ᆋ"̍Àџ🤊ॱ-ￓ3🛥 ч☒ङۼᅛ︆≭ 
+9	9	🤚\-ￓ฾🚵🗨 ❢३،ￋ   ヿ☪ऑٴ＃& ‸ 🤲ह-ﾋR⎭👰ハ✺곡ִﾣb̕   उ-^F🛽 ҟ✊  ᄳ  😘҇🥒Z乌 ๶
+37	13	ƀ 🥚ँٴb๾⎥⁈し🥢ऩ  6⍭🐐‍κ  ﾓฎ ň 🥲 ֬ ︆🛭⁠‍Ϊ=临ᆣ︎
+55	41	 ‍β -ᄋK͍ǐミ🦊ॱ-{ ̕👈‍βy-ᇛ  ‐‍κु佔ｓ฾ ‘  iیᆫ︆ ‰ѿͺऑ-
+11	9	๎ Øѧ🦲I- ︆̍ くΊ`ה ๞̅ ‍ϒ#-ᅋ 🛽⁠П⛊겱 
+11	7	๮⎅⁘‍◒걙仌E 🛍⁀ӯΊँ ᆃ 🛵Ũ‍β격-7ฆ  ‍ ॑两
+53	17	︎ ⁈ҧΒ+    †わΊ겡-ᄣ︎🚕øѷ🤂ॉ-  ̍ɀ‍ A-ｓ︎🛥💈‍🤒겙׌ﾋ>͍ŐЯΚf  ฾ͥ ‍ϲ३ |ๆ Őヿ🤪
+47	49	乤ᆓ๎̵💨ョϢ갹 ᇻ︆̽⁐ハͺ곡  ︎🛕⁘ҷͲ ټﾫ ⋭🕐‍🥊ऱׄ  🚥ƈ ❒_-ᆛ︆⍽Ȱは   ﾓ ⎵ し☢ -
+23	9	0 🕀〿ͺ॑ 
+7	7	ฎ↕🌨〧🥲 乬ᄻ~  Џ❺갡-? ̥ 
+41	13	ς
+39	29	-}'⋭Ő ◊ -＃︎🛥⁈Ӈ🦒j׌ﾛึ⏽Ǡү♚ -
+53	45	\🚵⁈゗β걩ۜ ︆∭🎰‍κ갑 ￃ๎ Ř ϒu-ᅻ︆
+27	15	†く🦺걡佴 ๞🛕Ÿ〷Ͳ 似ᅋo⎍à‍╊겱丄ﾓ  ‘ 🧒걙 o๶⍭Ȱӯ M  ︎🛵🌘ӗς ּL&̝ ҿ❪걑 ＳH ‸
+37	13	⛲Q،ￋ︆
+45	1	 ҏ  侴Ｓ ↥ƘѷΒW-ᆋฦ Ơた✊
+45	13	-ﾃฮͥ  ▒겙 ｻ ̍ ‍ϊ-仔ᇃq🚵¨З🤢Z֬ﾛ 🛝⁀‍Κऑ z︎⌵Ȉӧ🤲ह伬ᇻ/
+35	15	💠 ►곡俴ﾣ๞🛕Ɉҷ▂उ-M๦̍Ǡ‍  亄2๮⋕🐘ょ O ᆛw̝‰は🥚 伔ￃ    Ͳऩڜ
+35	5	ฆͭƀ  X侤
+43	11	:⇕‘Ч z佬ｻ︆ 😠 Ί0ڤᆣพͥ📘 β곉俼ᄋY≍💀ӟ L֔i︎ͥ🔨デςङجᇛึ↝😰‍ϺY佔ᅃ฾̵‸ 🦢३伜k ͍ ѿ🦪 俤
+19	15	๎ͅ で╲ह ＫM🚭Ā‍ ॡلｳ๞🛕 з╂m丼 ๦ Š〟Ϫ겱-ᆳ︎̥⁈  l ᄛ` 🖠ワϚ ڔ ๾🛵ňӗ🧢 ٜ
+29	1	ฆ̽ư‍☪@ٔￃ︎  ҧ🧲 俬 ︆⎭🎀わ🧺 亴g~͕🍘‍◂걉ؼＫ︆̽İ  ॱ-ｃRͥ‸ぇ🤒 伌ᅛ*🚍‐ЯΚ
+59	19	俔
+17	5	︎🚵🗸З 곩侜［ๆ🛝 ӿΪऑ乤Y︎🚅‘ӧ🤲Oڼ ︆̭🌐 Ϻ
+15	7	仴+%🛕 シ❂उ- ๦⍽ ‍🥊2 ｣︎≥🖨ょ➒ -#๶ ǀは   2 ͅ‸
+47	7	♢ ּﾋ︆  〿 ॑ؤ <ͥ💘Ч🥲ॹ乬S ⌝°‍♺갡֤ พͥ ヷ▂ - ฦͭ ‍Ϻॱ : ⍥⁈
+15	7	🦒g- B🚍🖀үͺ곁 ᅃ 🚵 ‍ ३ 
+49	17	ๆ̍Ġ 🦪 -gn⊅‘‍┲_ ﾻi⌝° ☺ॡش ︎⇅ň‍ 갉-%︆🛽Ð ┊겱ٴ : ‸Їϲ[俌>︆͍‰ワ🧚j-N๾⍵🔸‍➢
+45	37	乜ｫฆ̝🐐‍🧪 ٤   🕨ェ╲=׌}2 ǀわ  ״ᄣS🚕 ѷ >- ︆⎽ƐたϪ곱-ｓ︎
+29	17	⁈   - ︆ ⁠‍ 걁仔ￃ฾⇥🌘 ς ׌ᄫ5⋽à ⛪
+7	1	- ๎ Ș ☲ ی %͍⁀ハ🤺ॡ俴e︎≵¨ҷ उל ๦̭Āゟ◊갱亄 ๮⋵🍸ょ΂ -
+43	33	A⇍ ‍🥚ँ伔ｳ︎͕ȸїς ڬᅫ︆🚝 п🥪.ڄ\ฎ̵ Ч🥲Cڼￋถ̝ 』┺" ᆣ︎⇥🔨ӷϢ곉-   👐‍ ॱ仄cr͕ 
+37	17	⛒
+51	35	- ึ ƀү P ᅃ฾ ǈ゗Ͳ걩  ;🛝 ‍ &  ︎🚅⁈ѧ΢ह-#︆ Àя➺ 乴c︎🛕📘〷🧂उ-")🛽📐П🧊 伄ᆳ︎🚥 Ї 걙仌￫︆↽ 
+37	13	☚각-@A⋥👨 ➢격 G︆ 👰タ🧪॑-＃ ≥📘ェ🧲Kڼ) ⎽ ‍╺겡亴Ｓ  💘‍⛂c乼ᆋ︆ͭ ‍  佄  ∥ ч❒ -]ึ
+51	29	Ā‍ l-ᇃ︎🚵ǘ‍▢३侜<︆̭⁀ӿ🤪ऑٔ   📸ョϢ갹ٌ
+17	9	๖̭ƐӏΪॡ-.๞̵⁈ ͲF亼ﾫH🛽⁐   ۤｳtͅ  ΂
+13	9	  ︆🛍🏠は🥚겁且ᄃ︎⌕🖨‍🥢갩俜+h̝ ‍🥪 لᇓ︎↵⁈‍ς
+51	21	ٌᄻc🛭Ǡ』➺ ٴᆣ ⇅⁘ӷς곉 ᄋ︆ͭ⁐ӟκ걱ۄ ︎ ň‍ςङ ᇛึ Ǡ‍🦚곁 A ̵  🦢३东ｻOͭ🏠ѿϪ 令ᄓ︎🚅Ř
+57	21	╲겹京［๖⏝🌐 Κ
+21	21	佴ᇣ๞  〷  ֜ᅋ 🛽à〟Ϛ8  ︎🚥È‍🧒ख़ !︆ͭ†ӯ♚각 ３๾
+43	35	🌸‍⛢|- 8⍝⁐ҿ╪ ״ᅓ︎🛅‸‍🧲7 ￋถ ‰‍🧺9侴0 ∅⁘
+63	25	΂걉-^c⇽† Ϛॱڤs︎≅⁨ぇβS丌ᅛ#🚍😰〯ϊु-ￓ︎ ¨‍🤢३ۼ￫︆🛝°
+13	13	 5 ᆓ︎ͥĸョ΂lڜᇻ๖̍‐‍❺곡-ￓ︎🛕ƈシϒ겉׌ 7    갱-￣๮🚥 ҇ U  g
+45	13	🗀ѯΪ겁٤ ๾  ‍🥢u-  🚝🖰 🥪}侤 i ƨЧ΢ॹجᄻ︆  ЏϺड L=͕🔈 β곉  ฦ⏍Ġӟ➊4仄ｳ︎⍕ ‍ E二ᇛึ
+15	1	⁀‍🦚곁ؔ ฾ͅ🔘   ֬ᆫ︆⌭🍠ѿ🦪갑 >︎🚅🍘で🦲겹-ﾻ{🚭🔠‍Ϛx乴w 🛕‘ Β -b'̽🖠〟🧊겱-  ⌅ȸ ◒걙-
+37	29	︆̽Ő 🧚J侔\︎⊕⁈ӗ΂격-  🚝⁐‍Κ<-ᅓฎ⎕🗸‍❲S俬ᆻ 
+35	27	Ɛ
+27	21	🧺겡-ᄣพ🚕‘‍⛂p-；ฦ ⁀џΊ곱佄ᇳฮ 🖘 🤒y׬ᅛึ⌽ǀ  (俔
+41	1	 
+15	5	⁈Зϒt侜m︆⋍      ︎ ¸‍┲  ｛๖  ハ🤺 仴ｃ๞ ⁘ҷςo e๦🛽 ゟ⛊ऱ۔Or🚥   -ۜM︆̭🏐‍🥚ँ 
+13	9	 🛵 ї 
+33	13	ڼﾛl🚝Ȑ‍🥪
+51	27	۴^ 🛅Ƹ〧Β 乬ᄻถ🛭  Ί갡 D︎🚕🐈
+5	1	⛂ॉ n︆     ڤｃ]∵⁈デϒ(侌；ึ͍🐐ク⚚5乔ｃ฾🚵Ș 🦢
+13	1	-ᆫv🛝   Y令    ‍ 겹-ᅻ︆̭🐐く ॡ- ︎🛕⁘ ➂갉- T🛽 ‍❊d-ᆳ ̵⁨‍  - 7∝ƀ ➚
+59	43	 o@🛵⁘ ϒ 乜_ฆ🚝⁠ҿ🧪M؄ ^ Ĉ  ॹیs ̭ư
+9	5	Ί-ׄᄣA⋕⁨ ╂걉֜ -̽‐‍🤊 乄ｳ︎⋅Ȉч ]丌ᅛ5↝ Яκ걁-ﾣ︎⏥ З♢ -ｻๆ⌍Ɛ Ϛ
+51	5	  ︎ ⁨ӧ  ؜ ︆ 🖰ӏ┺ ۄ ︎ 🐨‍🥂겉侼ﾋL̽📐 ✊ऱ۔T ͥ🍈ょ♒ -ᆛ๶↭ は Iڄᄃ๾⎕🌨‍🥢M仜ｫ ̭‰п  侤
+27	7	   Ч ॹ ￛ  Ȱ』╺\۴g︎̕ ‍🦂  y3🚽📀ӟ ॱ-ᅳ  ¨Ӈ🦒같ڬ
+27	23	︆🚍Ơク  ۤ} ≵🕸゗◢ -ᆫ ͭ🎠  *-]|⊅‘ 🦲 侬￫๖̽⁠  걡֤ᇣ ͅ з   
+39	39	๦⊽†П✊  ᆳ︎🚥 ‍⚒ख़仌ᄛ๶↝ ӯ┚각 ᆃ︎ Ȉ‍Ϣ] A︆⌽ǐ‍🧪h-+z⌅⁨ェ🧲8俬 R 🖠 🧺ड 
+45	37	  ȸ ☂< Uฦ͝ џ❊    🛥Ɉぇ 겙伌｛ ⎝à〯🤚걁֤ᇃa  ‍ϒ  ＋ ̝†ヿ⚪x乤Ｃ$🚅🗘‍⛲ह丬［[⋍ư ϊ곡仴  
+41	9	 ҷ➂उ؜  ̍⁐ゟϪ'侄ᄳ๮⏥ ‍Ϣ
+13	5	-v๶↝ ѯ🥚겁- ︎⋥‸ї☢갩ۼᅫb̭ƀп🥪!交  🛅 ‍ ॹ-ᄻถ̭ȠЏ🥺ड֤Cพ
+61	9	ǈヷϲ
+45	13	-ᄋฦ🚽🖰‍⛊ॱׄᅳ 🛥ǨӇ K侌Pึ ‰  곁 ﾣ  Ȉ゗◢4东ￛๆ⇭ƀѿϺऑۄ＃︎̥Ø ┲ह-w︆⊭🗀‍  -Ｓ︎ 🖘 🧂उ似 ๦
+33	13	⁠ Ϫऱ-ￓX Ø ⚒
+17	9	ی｛\≍🗀ワ ँ-ᆃ ̅Ĩプ ^׼  ̭ ҿ🧪걑伤<  Ũҧ🧲Iּｻ︆⍽ư  :侴ᄣ︎🚕‘ぷ🤂Zجn  🍠 Ϻ
+53	17	 ᇳฮ⇥ ч ङ丌ﾫ ̍🍰‍ 
+35	7	ٴﾳ︎  〗🤢३亜￫=͍  🤪I佤ｓ︎̵Ƙ‍  جᇻ_⎝🕐
+17	5	🤺 俴 ๞⎥ ҷ🥂겉؜ﾫD̝ ҟ T֔ﾓq🚥ň  곙ּ￫︆🛍😐‍Ϫ겁 ｃa 🕈ї◢4ټￋฆ🚝😀  곑侤 > ‘ ς -ﾛ︆⏝⁐ 🥺
+59	31	ش   è
+11	5	❂: 
+11	11	K🚽⁠ ✊g 
+31	5	ฮ   ☒ 二＋ึ🚍🏰
+43	15	🦚곁 ３"⏕👈 🦢(-Ｋๆ🛝🔰  r ￓ๎   ΢ह  ๖ͭ‐
+57	45	Ίॡ ᇣ๞⏅ 〷🧂T丼>๦≭‐‍ 겱-Ｓ๮🚥😸‍ϲ -$ 🛍à‍ϊ
+27	13	ڤ)︎🛵⁘プͲ~׌pฆ🚝 ‍♪॑ &︎🛅🏨ェ🧲ॹ- J̍Ġわͺड-ￃ︎🚕‘‍β,乼ᆋB⏝Ðたϊ لﾓ_ ⁘ч ङ-｛A🚍 〯┚ु俔ᇃ︎⏕¸
+7	7	Β곩-ᄫๆ̽⁐ヿ🤪ऑ b$⏵ ‍ϒ]丬D 🚭 ‍┺곡仴３\🛕⁈  उ .︆🛽‐ҟ ~ ᄳ︎ͥ  ◒ख़佌 ︆ 🎀は☚ँ֤＃}̥Ǹ
+31	27	 o- ฆ   ▪곑 Ｓฎ🛅🕸〧🥲ॹ乬  ͝ŀ ✺gۤᆣ︎  ‍ϲ곉-ᄋ︆̭🕀ӟ🦊걱- r̵Ƹデ🦒]侌 ︆⏍ ク >۴ﾣ ̥ĸ
+27	23	┢३ pE🛝🖐ѿ🦪ऑ؄ᄓ︎⎅ 
+27	15	  -ᅻ︆⎭Ǡ‍◺1佴*2⌕ 〷🧂갉 :︆∭ 
+29	5	⚊ऱ-ᆳ︎⏥⁈ЇΒ걙- ︆⌍🍠ӯ◚ँ؄ￃ︎🛵‘ӗ┢격乜ᇫ{⇝ タ╪5伤  
+11	9	ǘェ☲곹לￋZ🛭†わ⛺ 侴rU⋕⁘ѷ✂걉 )︆ 🖀た▊ॱ ᇳ   ‍🤒ङ ﾫึ🚍🗐〯🤚WڴIy🚵⁨〗🤢 -ｋ︆⋽ 
+5	1	Ί겑-３︎͕Ę 🤲k ﾻ︆ 🏰‍ΪZ-R]🛕🗈‍΢~ ᇋ ̝ðゟΊ갱 ᄳ︎🚥Ø‍ς곙乌 ๶̝💠は🥚x ﾣ︎🛵Ȉ 🥢갩 ᅫฆ🚝⁠пϪ
+37	21	侤ｃฎ̥ ‍🥲ॹ ᄻ︆͍⁀Џ🥺0֤ พ
+55	15	 ‍ ॉ pฦ⋽🖠ӟ◊U-U 🛥⁨デ🦒ङ ᇛX̭‐ク┚ुڔￃ$≕ җ 걩- @̍💠 ┪e俤 \̅ ѧ΢겹 v๖🚭ĀяΚq ｣f🛕🗨
+27	15	⛂उ丼9๦↝ǐ〟 Z- }🚥ŨЇ 걙ּᄛ๶̭⁐ワκ ֔<{͕😨‍ϲ격-
+39	23	 ⍍Űҿκ  ᅓ︎̵🏨ェ  ->︆͍‰‍┺d۔ พ Ƹぷ➂걉-ᆋฦ🚽 た🤊ॱ۔1︎🛥 
+47	21	◒c伌ᅛ ͭ🐰‍🤚걁 u 🚵⁘З╢:׌ᄫk🛝⁀ӿ┪겑ׄ {⏅  🤲 丬  ͭ ‍⚺<仴
+17	17	)🛕📨‍ϢB-｛P̍ǰ 🥊 ڤ ︎̕  ➒ 佌ｻ 🛍İ  겁-ᄃ,⎥⁨‍🥢x-C ̭ 〿⛪z交｣ 
+27	1	   ॹ׌
+9	1	;⌭⁀ Ϊ 伴   Ș‍🦂lڌ'︆⊍⁠ミ⚊_-NG🛥 ‍🦒ङל.ึ⇍Ðү🦚
+29	9	ڔM︎🚵⁘゗ 
+35	25	-ᆫ︆🛝 みϚऑ-ᄓ︎🚅🎸ѧ🦲겹京［๖⎝ я 6ڔￃ๞≕🏸з 갉似ﾛA⍽‐ ☊TؔＣ  ‘
+29	9	΢걙-ᄛ︆̭⁠ӯ🧚 五ﾳ๾̅🍨 βऩ乜Yฆ🚝ɀ 🧪॑伤hฎ🛅¨ ΢곹׼ <🛭📠ҏ◺ -ᄣd⍵è‍΢
+49	25	؜ᆋ*⋝ȀџϚR-y︎̕¸‍Ͳ@-  ⎝🔠‍➚ 仔３︎ͥ🐘〗🤢"۬:ๆ̝Ȁ‍ 2佤ᆓ๎  ョ🤲
+49	5	ؼ16̍‐ハ🤺(俴ﾃ๞
+25	5	 ҷ 9ּᇋ︆ ǐ ☊n ᄳ๮ Ũ‍ϒ 乌ｋD🛍 ‍ ँ ᄃ 
+55	1	Ęї΂ऩ仜ￋ︆🚝‐ 🥪곑֔+︎≕Ɉ〧🥲  *︆ Ð Ϛ갡临ｓ︎⌕‸ 🦂곉俼Ｋ︆  
+11	7	┊  ᅳฮ🛥   ङ-ｫึ⍽Ȑ‍ϊुٔ
+33	9	฾ͥ🌸җ🦢  ᆫ︆⎍⁠ѿκ갑لv๎↥Ř‍🦲ह׌ᅻX ‰く🦺
+63	23	-Ｃ︎≥‘
+51	15	🧂갉 ᅋ}⌽😰П⛊ऱ伄￣n⊅🏸‍☒ख़֜ᄛ2⍍Ɛӯ☚ँڄ
+31	31	︎🛵💈‍▢격作￫ 🚝  Κ॑两 - ⁘ェ🧲곹 ᆻ︆͍⁐わ %״ᄣq🚕ȸぷϒॉؼᆋ 🚽Ð‍κ_֔ᇳ  ȸ 🤒겙ۜ ︆🚍 ‍🤚  
+27	29	︎🚵⁈‍🤢 -
+59	13	L̝🌐ヿκG-ᆓ๎↥Ÿӧϲ -;t͝Ȁӏκॡ仴ｳm⎵🖘シ΢\ؼZ︆̍⁠
+43	37	☊oڔᄳQͅ ҇☒ 佌 ๶ 👠ѯ  ֤ｳ︎ ⁘ї🥢 ج"ฆ🚝 
+5	1	 ॑ڴᇓ ⏅Ø ΂ॹ-c-̝ 』☺ड-  🚕 ‍✂ॉۜx 🚽🕠ミ 
+7	1	俄ᅳฮ⏥Ȩデ✒ -ᇛึ⋽ŀ Ϻ곁乔ﾃF🚵 ‍΂३东ￛ  ⁀‍🦪갑 ᄓ`🚅 
+39	35	🦲ह b︆🚭🔀я ॡ佴ᇣ[ͅ‸з 갉 Ｋg̭Đ‍κ ״T︎͕🍘‍ ख़ ᄛ๶̝Űワ🧚ँ٤ﾓ︎⍅🎸プβऩ  ฆ≽Š 🧪걑 
+15	1	︎⋕‸ҧβY٬ᆻถ⌽👠 ♺$-
+5	1	︎⋥🔘ぷβॉ-%ฦ≝ た◊  ᇳ︎🛥⁈ぇ┒bۜ7/̝ 〯 걁ׄ#︎ Ĉ〗΂३  ๆ🛝Ȁヿ 겑佤 ︎↵⁘ 🤲( ᇻ︆͝ ハ a- ︎🛕🕸シ 
+45	17	 Bz🛽 ‍🥊2亄 ︎ 🍘 ♒ख़׬Ｋ︆̝† 🥚
+53	1	伔３uͥ🌨ї☢ऩۼ  ⏍🔐пκ॑- k⍵  ΢걹佬1︆🛭ǀ』Ίड-> 🚕   곉،=  🍠 ϊ걱仄b`ͅ⁈ 🦒}二  ∍àү☚
+35	15	 ᅃ︎🚵 җ 걩ی ] 👠
+61	9	Ίu-ﾃo🚅Ƙ‍  ڜￛ ≝ яΊH-ᇣ︎̅‘‍☂
+37	21	ּｻ︆͝à〟 겱伄ᆳ 🚥 Ї🧒 仌ｻT↽🍀 🧚L- ๾ 🔸 🧢 作 K
+57	9	 ҿ❪o-Ｓฎ🛅⁈ҧ ॹ۬ᆻg⎽ ‍🧺겡亴ᄣ-⏵💈ѷϒ ۼᆋ 🚽🌀џͺॱ ｓ︎ ⁈ 🤒ङ-ᅛ 🚍⁀Я🤚 - T
+63	19	 З )-ﾻ︆̽ŰӿΪऑ乤ᆓ๎⇵🍈ョͲ -
+13	5	x🚭 ハ🤺곡仴ᅣ︎ Ɉシ🥂उج；w⍭‐‍➊e ᄳ︎̥ ‍ςV-｛︆🛍° 🥚겁-Ｓ 
+25	9	ƨし☢   W̍ ‍🥪wٴ ︎🛅ŨЧ◲'-B  ⁠Џ  伴 พ̅Ƹ‍΂b仼ᄋฦ̝ ミ❊o۔MA🛥‘デ❒$-1ึ⏭Šү 
+63	25	ؔￓ︎ͅň  D东   † Ϊ  ｓS̥💈‍ςह-2๖͝ くϊॡ佴 ๞̕ 
+13	13	│उ似Ｋ"⏭  Ϻऱפᆳ ̵👈〇╒ 俌 T⍍⁀‍ ँش｣BͅĈӗ k-Tฆ🚝‐タϚ_伤 ฎ͕🌸ェςॹּyถ
+63	1	🖀  ड-/พ🚕 ぷϒ$ ᆋฦ🚽🏠џ🤊5乄b  ⁈ぇς겙丌ᅛึ🚍À‍ 걁仔ￓ ̥ȘЗ ३ۼ
+19	11	 ̍Ő ▪ 佤  ∵ɈョΒdؼＫ︆ͭ🏠‍Ίॡؤ＃︎🛕ƈシ΢उ侼
+39	21	︆🛽‐ゟ🥊C-ＣI ⁈ 🥒*؜ ︆̭ ѯΚ 伔 ๾ Ĩ‍  -ᅫVͭ🗀 ⛪॑ٴ｣M Ũ〧ϲ걹ּ-ถ🛭‐』Ϛ갡临
+29	5	พ⎵ň‍ I،Ab 👰  2ڤH 
+41	1	🐘 ┒ङڌ4ึ⎍ǐ‍Ίु佔ｃs̅🕸 ΂३伜v︆🛝Đѿͺ   ︎͕⁨ Ͳc侬ᅻf🚭🕐くϺ ״ﾳ︎ͥ⁈ βउ ᅋA🛽🕐 🧊 -３๮̕ 〇 
+15	17	仌ᄛ๶͍🌐ワ☚각侔ᆃ-🛵‸ӗς -ᇫ︆͍😠ҿ◪B Ｓk  ェϲ 俬；E̽🕐ҏϪ  hพ 👨ぷ΢  $︆🚽Ȑた▊곱 ᇳ ͥ‸‍☒z 
+33	5	︆⌍Ȱ‍ͺ9ؔ Y🚵🏨 🤢`-p 🛝🌰ヿ☪ - ๎🚅⁨ョ🤲ह׬ᇻ︆⎝°ハ    ︎⌥ȸシ☂उ ( 
+7	3	‰ 🥊ऱ-ᄳ ̕🍘
+49	21	🥒8 ｛︆̽🌠は🥚 且 ︎⋵ȸ‍♢갩    🔀〿🥪 شm︎⏕Ø〧  -Gถ  ‍ 갡  ︎⏅⁨ヷ ॉ   🚽 ‍♊6 F︎≥⁨‍ϒङ侌ｻ 
+21	9	⁐‍Ϫु-ｓy̅ ‍▢३ W︆⊽‰‍ ऑ /︎ͥ ѧ ^ Ｋ๖⏭ яΚॡ佴p๞ͅǨ‍⛂
+15	13	-ᅋ︆🛽👐П🧊겱丄ᆳ ͕ǈ‍☒W-［๶͝Ȑ‍🧚 五ᆃ︎↥⁈ӗ╢Aڬ
+51	23	ฆ  ҿ❪mڤ C̵ø‍▲}׬Jถ🛭ǀわϚ겡侴ᄣ  🌨ぷ ॉ-P︆⏽ǰџ🤊ॱ-ｓ︎ͥ⁈‍ϒ겙 ᅛ 🚍‰Я☚RהＣ︎⍅👘
+27	21	 ३ ᄫ 🛝† 🤪겑- !🚅ň‍🤲갹׬ ๖⎝   ॡ俴ᅣ ⏵Ƹ‍│उ (๦🛽 ゟ E؄lf≅  🥒곙؜aN⍽ǐѯϚँٔI︎ͅ💨  갩֬
+23	11	1̽🎀‍🥪॑侤ￓฎ🛅🔈Чϲॹ-ﾫ3≽†Џ🥺~֤ￓ︎🚕è ϒb-￫ฦ🚽Š‍🦊  ᅳ1 Ũ‍⛒같-Uึ⌝  ♚   ฾⎥ƈ‍♢%ٜ
+31	23	ๆ🛝⁠み🦪W֤ ๎∥ĸ Ϣ겹ڌｻ︆⋝  ⛺걡-ᇣ ̅ǈз🧂उ-ᅋ︆∽ȀП 겱۴ᆳ︎⎵  ⚒ 仌n  🖰ワ🧚 - 3ͅȈ
+43	19	🧢  ﾋ ͍ɀタ🧪॑ \ ̥ ェ▲곹俬Ｋถ Ȑ‍🧺겡亴
+21	5	 🚕 ぷ 걉-；︆ 😐‍  -ﾳ︎
+21	21	Ũぇ 겙ל ึ⌽‰Я❚c俔Ｃ3͕🌨‍ϒ 侜ￋ 
+55	57	  κtؤ]︎̕🌈ョ 갹丬
+5	1	D  ハϚ -ᅣ5  ‍❂d-ﾋ︆ 🐰ҟ Oפ  ̕ ‍ς ؼ 8≭🐰ѯ🥚겁شᄃ ⎅ ї☢
+15	3	俜
+51	11	 🚝 ‍✪ -ᇓฎ⏕🖸ЧͲ걹乬ᄻถ🛭🖀』Ίuڴᆣ ̥‘ӷ🦂ॉ ﾻU̍ȀミΊ ۤ
+47	17	ฮ̅‘Ӈ🦒aټ ึͭ⁠ク  -w︎̅‘җ🦢 - ๆ🛝Ű Ϫऑٴ ︎⎵ で◲ 京ｻ︆̍İ‍Ϫ|-o 🛕ŨзΒD-
+25	1	๦🛽🌰‍🧊겱-ｓ   Ї🧒ख़  ︆̭🌐ӯϺ7ل 4⊵‘ӗϢ:  ฆ🚝🏀ҿΪ걑 ﾳ 
+15	1	🌈  곹 ᆻถ⎍‐
+35	27	 rڔᄣพ⋅ ぷ🤂jڬｻuͭ🙀џ f乄 ︎🛥🎸‍ϲङ֬；m⊝⁐ Ϊ  Ｃ฾∅👘〗΢곩  L †
+57	9	🤪겑ׄᆓO̵Ĉ‍✲ -v ⋝ ӏ🤺ॡפ３ ⇕ ҷ▂उ侼}E⎍⁐  갱-0.⊕🗈ょ🥒ख़ ；๶  ‍ 겁ڤￓo🛵 ‍ϒ갩-T,⋭‰‍🥪
+23	19	  ฎ≕È〧🥲걹-o=ͭȠЏ🥺갡 k ⋵⁈ ❂곉- ︆̽👐ミϺॱ仄8ฮͅ ӇͲ같-Ｋ   ‍Ϊ  
+13	13	"≥  ┢걩伜  
+21	17	‰み🦪
+11	13	 B 🚅 ‍🦲겹֬f 🚭🕰‍Ί0- k⌅🍸
+63	65	  -
+61	61	︆
+43	33	 〟◊ऱ- G͕ 
+45	9	 ख़-S 🛍Ð 🧚ँشﾃ๾🛵🖸‍❢(׌ᇫ︆↭💐‍❪Mؔ ︎̵🔈ェϲ곹-ﾛถ🛭ǀ ► ۤᄣ︎🚕👨‍🤂 ֬_ฦ🚽ĠたϺ 佄 ฮ⎵🍸ч🤒
+7	1	ڬ>ึ͍🎀‍◚걁-ᇃ฾🚵¨ ✢-侜ᄫๆ̭Űヿ🤪 - ๎ ƨӧ🤲ह丬Y  ‐‍ΪZ仴ﾃ︎̥  🥂 - 3̝🍐    h๮⏅ 
+31	3	ϢFٌ6๶🛍‰‍⛚ँ֔p๾ͥĈし  -ᅫฆ⏍⁐ κY-
+61	57	ฎ  〧╲걹  ถ⏝ Џ┺ड״ᆣพ⎅èヷ➂ॉ֜ ︆̭🍠ミΚ -ᅳ︎⌵è‍✒같ڌr︆̍🌐ク🦚곁 Ｃ  🌈җ🦢걩-ᆫๆ🛝 ѿ🦪 ִᄓ๎🚅È‍🦲
+33	33	京G  ǰく ॡ  9🛕ȸз 갉似 =͝Ā〟☊$ۄￓ︎̵ 〇ς^ ｋ$🛍 ‍🧚ँ֤ᆃ๾🛵 ‍🧢\乜 ฆ⊝⁀ ▪걑-ᅓ 
+57	53	‸‍ q们ᆻถ🛭  ►ड ~  ⁨ぷ x-QP≭ɀた✊곱乄T︎
+19	5	🍨
+41	13	⛒ङؼBึͭ🗰‍🤚걁- ︎🚵Ƹ‍   ￛp⍭  ➪겑佤A︎̕ ‍✲ह؜ ๖⎝ ハϊ곡俴E๞🛕 シ❂겉֜ﾫn⊝⁐‍Ϫ
+7	9	- Y🚥😨҇ ख़乌 ︆🛍⁀ѯ🥚 ؤ３_🛵Øї🥢V ｛ฆ  ‍ "-ᇓฎ  ‍🥲ॹ-ᄻ(🛭Ȑ』 갡 9พ🚕 ‍╂{俼
+33	13	  🌠 🦊*פ?O  デ 같ټ；W🚍 ү♚Xؤᅃ฾ ⁨   جbg🛝‐ 🦪m俤ᄓp̵⁘ѧϢ -t︆🚭⁀ ♺ॡ ᇣ๞🛕ŘзΒउ lq
+37	13	⁐〟🧊ऱ ＃︎🚥 ‍♒ख़仌!C̝ ‍⛚각لN   ‍ g sฆ⊭ǐタ ॑-ᅓ[ͥ⁘ェ🧲@-Xถ
+63	29	İ ◺Y-３พ⊥💈‍╂ 乼＋ฦ͝Ȱ‍🤊$-w︎̵ ‍ ङ،ᅛึ̍🍰‍κु  !  ЗϢ곩-＋  🐀ӿ🤪\乤
+17	5	๎ 🍸‍Ϣ갹-Ｋ๖⍭ ハ🤺ॡڔ３︎ ¨シ│उ亼 ︆̭⁠‍🥊Vل,︎ ‘‍⛒
+61	21	ڜﾻ๶ ‐‍ ँ؄ᄃ:🛵ø‍Ͳ'- ︆͝⁠ ❪ ڄᇓ︎🛅🗈     %↭à』╺ 伴L 
+63	5	⁘ヷ❂ॉ仼vฦ🚽İ‍❊Vل
+17	17	︎⍕Ř  
+33	17	侌 ︆
+55	47	👀үΚL؄ｳ  ⁘ ⛢३،ᆫ︆🛝Š‍ 갑-  🚅🔈 🦲겹 ｋo   Ϻ걡佴ﾓ︎⍅🔈〷 उ-9๦ Ȑ 🧊ऱ丄r︎ Ÿ〇╒ख़ ᄛ๶🛍Ơ
+51	7	 ँ-ￓf̕ プΒBڬ＋Dͭ 
+37	29	➪॑ڄ￣   ‍Βz们 w🛭‰ҏκT侴ᄣ︎̵🐸‍Ϣॉ-bฦ̭🖀џ◊ 乄ᇳฮ⇅🎨ぇϒङ丌｛︆  Я🤚~- ︎🚵Ƙ   亜 ๆ⇍⁠ӿΚaפＣ๎
+7	1	Ø  갹 M 🚭🎠 ⛺곡ִＳq⎥  Ͳ겉 ｋt̍ ゟ⛊ऱ٤_,̅💸‍Ϣ  ；๶͝Š‍🥚ँ伔 ๾̥💈ї΢갩-
+63	1	︆̍🍐〿🥪॑-hฎ⌵ȘЧ ॹ佬 ถ̝🔰Џ🥺t؄ᆣ︎🚕 
+11	3	🦂~ 
+59	59	?͝Ɛミ◊ 仄ᅳ ͅ デ▒ -ᇛc̭‐‍Κ곁佔
+55	29	?̅   |-［n≝ み ऑٴ ^ͥ🐘ѧ▲( ᅻb⍝†‍❺ॡ乴ﾣ ̥‘зβउ丼ￋ︆ 👰‍⚊U-ﾃ ⋅ň‍🧒ख़仌ᄛH🛍 
+39	27	╚  Ｓ@⋕Řプ ऩּ ︆ͭ⁀タ 걑ׄｓฎ 🖸
+11	11	 ॹجiถ͍💰わ ड֤ᄣ︎̅‸ぷΒ걉乼［$⇍‰たκ9- >⊥⁘ч  ۜ ︆🚍🏐〯☚ ڄ 5ͥƘЗ  侜
+61	25	<ͭ  κऑ乤￣︎̅⁨ӧ🤲 ؜z๖⇽⁠ӏ 곡-ᅣd̕ シ उ٬,   ‍╊갱״ﾣ๮ ¨ β
+55	27	佌ᆛ︆🛍🏰‍ n۴ᄃp   ♢갩جᅫ  🎀〿 4֤Pฎ🛅Ƹ
+37	29	 Z gถ🛭† ͺड伴Ｃu⏕💨‍΂ॉ-ￋ 🚽‰ ❊  Ｃb
+19	5	⁈‍🦒ङלᇛ︆⊽‐ク♚ु ｣฾ͅ⁨  I 
+55	37	 ↽ ‍  -ᄓ︎ͥǸѧ 겹京［︆🚭 яϊ걡佴Ｓ ̕Ĉзϲ갉- ︆ ƀ
+11	11	🧊A- ๮∥  ΂걙؜ᄛ๶🛍Ű‍➚=五ￃ๾̅ プ🧢ऩ ᇫ 🚝 ҿϺ ۤu    🧲곹们
+7	9	 ⇽🏐‍ 겡 ᄣ︎🚕🎸ѷ⛂dٌ"︆͍†‍Ϛ 乄xR🛥ĸ‍ ङ丌￫%🚍 Я🤚걁 ﾓ︎⊵ 
+9	9	🤢३-Ｋ   ӿ☪  t︎͕ø‍🤲
+33	1	 n︆ ĐハΊ곡俴｣๞🛕  🥂 侼￫๦🛽‐ҟ╊ऱ亄ᄳ 🚥Ǹ ⚒
+35	21	۬-uͭ⁐ѯϪँ   🛵è ☢갩׼ᅫฆ 🌐 ┪.侤 ฎ⋅ 〧🥲5 ＋︆🛭😰ЏΊ갡临ᆣ︎ͅ ӷ🦂곉俼ﾛฦ⋝†ミ🦊4٤nU⋥🌘
+29	25	➒  ᇛ ̍💐 Ϻ~-＃฾🚵 җ☢३-@  ǰみ ऑ-ᄓ[🚅 で 
+7	5	- U⏝⁐く  פ ๞🛕 з🧂उ丼 ︆≍😐〟🧊겱۴ᆳ๮🚥ÈЇ🧒g仌；๶͝‐ワ➚각-ﾃ︎⊅è‍🧢ऩ作ᇫ`͝Ő
+61	45	 걑ה E⌵      ︆
+43	39	   डشxj⋕Ȩ‍Ͳ걉 >N⇝ ‍┊ 佄 ︎ 🐨‍Ϣङ֬ﾋึ͝⁀〯🤚  ￓ 🚵ƨ‍     ̝🐐  겑 
+53	33	๎⇵ ӧ 갹-{}ͭ⁀ハ❺ॡ仴 ︎≅💸シ🥂겉 .๦̽👰ゟ╊갱 ｳ ͅ¨ょ🥒 -ᆛ+🛍😐‍🥚%٤9๾🛵🌘‍Ϣ
+35	5	-ᅫฆ ⁠‍  ۄᇓ︎⎅⁈‍΢걹-ᄻถ  Џκn伴d︎ ⁨ 🦂곉לｫ 🚽⁀ӟ 걱俄ᅳl̕ ӇΒ_׼c 🚍🖰‍ $乔  ⇥‸
+23	25	🦢 ج3 ⋍🖰‍ͺ갑 ᄓ}̕ ‍╲ह 2>⊭ȀくͺD؄３QͅɈ〷🧂7似~c⎭😐〟 ऱ丄\︎ͅ 〇 걙-ᄛ๶⍍‐ワ♚각 
+5	5	︎
+55	53	 
+43	21	Ͳ격֬ᇫ︆⋭🖠ҿ☪   ฎ↥ ҧ🧲ॹ们C4  ‍➺/ۄ
+25	9	︎🚕👘ぷ◂B-ᆋ︆ Š  * ᇳA  ‍☒ङ-Oึ⇍🌠〯Ϛ걁仔ᇃ฾
+15	3	ň‍🤢३-Ｋ ̽🔐ヿ╪ ڴ＃@⊕ǈョ➲ह؜5i↽👠‍Ϻb  ︎̵ȸ‍Ϣ8侼ᇋ๦🛽🖐‍◊ 亄ﾃ๮🚥🗘  5乌ᆛ︆͝Ð 🥚겁 _X⋕🐘ї🥢n 
+53	17	ฆ🚝 п🥪곑 ﾳO🛅🍸〧ϒ
+33	17	ڌ.︆̍⁠ 🥺 -P ̵  🦂n-ｻ︆ ĀミΚॱ؄ ฮ🛥🖨デ🦒r׬%ึ🚍 ク🦚 佔 n
+7	9	‸゗♢`-Ｋๆ🛝‐‍➪a俤ᄓd🚅🌘で▲ 侬ｫ๖ͭ🐀 Ϊ - X⏵🔨з🧂 丼Ｋ๦  〟✊겱 {๮̥Ø‍ϒ] e๶ 🏐 🧚b侔$๾🛵🌸ӗͲ ٜ
+29	1	R ⁠‍❪l  ︎ ø Ϣ(   ≝ ‍Κ겡ۤ ︎⋵ ぷ΢ॉ- ︆↽Šたκ -N︎  ぇ }伌ᅛ︆🚍ðЯ▚
+31	21	 Ｃ︎🚵🕘‍  - ︆🛝Ƞ ✪ऑ乤ᆓ๎⍅ ӧͲcڬᇻ\ Ȑ‍❺{ ᅣO̕è‍╂겉-b^⋍🏐 🥊갱ڤ
+25	17	︎ Ø ▒곙 !︆🛍ð‍Ϫ겁且  ⇅ їϢऩڬAฆ ǀ   交G ̵⁈‍🥲ॹ乬ﾫC🛭📰Џ🥺
+31	29	 n︎≅  ϒ  Ｋ︆̍ǀ
+61	61	 ॱ-ᅳฮͅ ‍ v侌 ︆🚍⁠‍🦚 乔Ｃ ͥ🍸  ३东；P͍Šѿ🦪ऑ令ﾃ:∥ø 🦲겹جＫ ⋝🎰く 걡佴Ｓ︎🛕ƈзς갉- ;
+45	25	🕐‍Κx-h๮ͅ Їϲ걙׌；๶⏍⁠ӯ❚? ＃๾⏕ǘӗ 격乜x ̽🌰 ╪걑֤ᅓ@⏥📘ҧ ॹ们q︆͍⁀‍ 겡 ￓi̕🌈‍ 
+23	11	佼 h 🙀џ┊곱乄 rͥøぇ🤒ङ ﾫ^̍Ȱ〯🤚ु-ᇃ'🚵 ‍΢३-ﾋ  🔰 Ϫ,ׄ￣h̅ ‍🤲%伬]  🍐
+61	37	⚺ॡ-￣︎ͥØ ΂|侼ᇋ%⏭ǐ‍ ऱ-ﾓ︎
+47	25	🕘 🥒곙-ᆛV⊍⁀は🥚 ؄ᄃ#̥ し🥢ऩ ᅫฆ🚝†
+17	5	◪ 侤}M 🔈‍◲걹ڼN ⏽  🥺 临 S   ⛂곉- ฦ̍‐  
+57	57	仄 I🛥🏨 🦒^二ᇛ9🚍🎠ク🦚 -   ⁘ ▢३-97⎍😐   ۴ᄓ| 🖸ѧ┲0侬9︆
+7	5	💀く❺lٴW︎⇅¨  उج:)🛽 П 겱伄ᆳ๮🚥ƈ‍β걙-ｫ๶͍Ɛワ♚ँ ｃ 🛵 ӗβऩ-< 🚝🎀タ 걑-ﾃ︎  ‍Ͳ곹 
+11	3	  Őҏ🧺i-u ͅ ‍➂걉ٜￛ︆̍ џ🤊W-F3🛥🌨
+47	27	🤒2伌Vึ🚍 ‍Ϫuڔᇃ฾🚵👘〗✢ 侜
+31	11	︆͍ ӿ▪겑 ￃ ̅🍘ӧϲह ｻ,̝🕐ハ  -ᅣ๞̅👨シͲउ f๦ Ð‍⛊ऱ Ｓ︎ 🔨‍🥒ख़佌,๶🛍ɀ‍🥚겁-
+15	9	!🛵🍈
+27	9	 갩؜ᅫฆ    곑 ᇓ︎ ⁘ ✲}-＋ถ∽ŠЏ┺갡-Tพ   Β곉یｻฦ͍🏐‍ I-￣ฮ 🏈‍Ϣ ּ ︆ 📰ү🦚  
+51	9	x͕‘ 🦢३东ﾋ︆🛝🌀  !- ๎⏵ ѧ΂ -Ｋ๖̽‐ ◺3-h ͥ🖸〷🧂उ-h︆͝ П🧊겱 EX 🌨‍΢ 俌ﾫ&🛍⁀ワ P五
+15	17	 ∥ǘ‍ ऩ-ᇫ︆̽😠‍🧪 -m︎🛅 ҧ ॹ-ᆻถ͝⁐ Ϊ  ￓพ ⁨ Ϣॉ-
+11	1	 ⋭⁀
+41	9	ϊॱׄｓ︎⋅🏈 Βङ  ึ͝Ȑ 🤚\-E฾ͅŨ‍ϒg亜Dๆ
+63	61	⁐ヿ🤪ऑ-ᆓT͕ ョϲ갹؜ᇻ︆ ŠハΚ\俴ￃ︎ ⁨シςDڜᇋ๦͝🙀 🥊N Ｃ๮ 😘҇🥒    ∭🔀 🥚I-[︎⍵Ũ 🥢ऩ仜Iฆ🚝⁐
+43	41	🥪곑ٔ ︎⇕¨‍✲ -ｻ︆🛭 ‍Ϻ ل พ⌕⁘ӷ⛂ॉ٬ᄋ>͍🗐ミ W仄 ︎  
+35	13	🦒같- ︆  ‍Ϻ곁פᅃ ⎵🍨゗♢걩 ᆫ ͍Ɛ‍Κ - ๎ Řで΢ह- ︆̽ я✺걡 ￣︎🛕⁘ 🧂उ׬ ๦̍  🧊 伄ᆳ︎🚥⁨
+29	29	🧒ख़ ［+̍†ワΊpشＣ︎⊵ ӗ✢Z-, 
+7	9	Ơ 🧪걑 ^o🛅Ũ 🧲 ׌ｋv⇭🕀わϊड亴ᄣ   ‍ϲ2ڌ；ฦ🚽🏠 🤊곱 
+55	5	 🛥‸‍ͲL-ᅛ   〯➚OٔU︎🚵🍨З✢  ᄫ︆🛝🌐ヿ |פ｣  ‸‍β -ᇻ๖ ƀӏ🤺곡-ᅣ5⎕ シ   ᇋ๦̽ǠゟΊऱ侄(︎⏥⁘
+13	9	΂  ᆛ๶ ‰ѯ🥚 ڄᄃ ͕ їβ
+57	17	לᅫ:⎭⁐п✪O ᇓฎ̕ Ч 걹-  🛭†‍🥺갡伴ﾣพ⎵Ƹ ςॉ仼F︆⏭ ミϚ -ᅳ︎͕🙈Ӈ╒ ی［︆  ク  ۤ  🚵ƈҗ🦢Tּᆫๆ
+49	9	🔰‍ΚS-ￓ︎  ѧ➲ ל ๖ ⁐‍ ॡ ᇣ︎⏵Ȩз╂O似 ๦ͭȠП🧊  L๮🚥🕈Ї🧒걙俌ￋ︆🛍  🧚각五  🛵 ӗς격 ᇫK🚝‐‍Ϻ
+51	41	伤
+39	7	︎🛅⁨ ◲곹- .🛭 わ🧺ड侴 พ🚕ňѷ  ׼]ฦ🚽  ◊ॱشￃฮ⌥ ‍♒겙 ［c🚍İ〯🤚ु 4฾̥⁘
+7	9	Β३،ᄫ︆🛝💀‍Ϫ  ᆓ  ǘョϒ7ؼZ๖🚭ưハ🤺 -
+7	9	 ⋅🐘 🥂 侼ᇋ%  
+9	9	◊ऱפ  🚥🔨ょ ख़ٌᆛ๶̍Ő  ँؔ￣๾  ‍🥢갩-ﾛ︆
+57	13	 〿ͺ  "︎ 🔸〧🥲?佬y&ͭĠ』κ[ۤᆣ 🚕🍨‍Βॉ-H 
+47	23	‰‍Ϊॱ-9%   🦒.-ᇛo 🎰үΪु-ᅃy⏅Øҗ☢ ׼ᆫๆ≭ȠѿϺ갑 ｣︎🚅🐘 ➲ -ᅻ  👰‍Ίॡ乴 ︎🛕Ȩ〷🧂갉ؼ
+31	31	︆ Ȁ〟🧊T-Ｃ:ͥ   걙׌ｋu † ϊ ״
+49	49	︎   Ϣऩּ ︆
+35	15	⁠タΪ॑-ᅓฎ≵‘ҧΒ곹ڜ［   
+51	31	►겡-G︎ͥĨぷ➂ॉڬᆋฦ̝📠た🤊 -
+57	45	 ̵  ϒi ［ 🚍  ◚걁ۤ Hͥ 〗┢ ּￋ︆🛝Űヿ❪겑乤３๎⋕🗸 🤲हڼﾋ๖≽👠 ϊ ڔ^๞⌵ シ🥂겉-= ̭🗐  
+47	23	ڤᄳ๮ ⁘ょϒ -ᆛt⊭ǐは ँ且ᄃ︎🛵¨‍☢ऩ׬
+25	21	 🚝À〿κ॑ڄﾓ ͥØ〧♲ॹ ￋถ  』ϊड-Ｓ︎̥‸ヷ🦂V،ᄋ︆͍†ミ┊ॱ- ︎͕ デ🦒ङ侌  
+55	1	 クΊु乔ｓ︎ ƈ‍΂^ 
+53	9	 ̽⁀ѿΪऑ令 ๎ ‸ѧ🦲7 ﾻ๖̽⁠くϺ -ᇣP ⁈〷│
+61	29	似 K🛽   D-ﾓ'  〇🧒걙֬d๶🛍ð κ9-ᆃ ∅ プ 7乜 ︆
+17	9	🕐 🧪॑伤ᅓ  Ø‍΂ॹ-ᆻ!🛭⁐ҏ🧺, ﾓพ🚕😘‍🤂
+27	29	 ]ฦ↭à‍➊ॱ ᇳฮ∥Ǩ‍➒겙  ึ🚍 ЯϚ걁-｣฾🚵  🤢३亜 M 🎐  ऑ-ᆓ<🚅 ョϒह ᇻD͝ƀӏϊ곡俴
+7	9	 ̵Ǹ‍΢उ-6  †‍  ؤu︎≥  ϲ 乌ᆛN⋽ 
+31	13	✚ -ᄃzͅ😘‍✢;׼; 🚝 〿ϚK侤ᇓฎ 🐘〧➲S佬% ͝🗐』►*ل
+17	17	︎ ¨ӷ🦂
+39	27	 ᄋ ≽⁠‍Ϛॱ-/︎🛥Șデ🦒ङ二xึ🚍 ‍ m佔,5̅¸
+35	21	➢I伜9*🛝Ơ‍🦪갑ۤᄓK🚅ĈでϢ겹-
+11	11	๖⍭🏀 ⚺$乴  ̥ǘз &丼@︆🛽Š ➊ऱ-ᆳ ⏅👘
+9	1	🧒ख़-Ｋ︆🛍⁠ӯΚँل￣๾≕‘ӗ  作s︆⊝📐    ᅓ ̵⁨ェ H俬ﾋ︆
+59	25	 わΚ 亴ￃพ̵ ‍│ -   ⁀たΚ|- n🛥😸 🤒0-ￋึ⎝🔀 Ϻ ִ ︎↵‸З🤢३-J︆ 🌐ӿ➪ऑהᆓ︎∵🙈ョ♲Uڼ
+45	9	︆ͭ🖰‍ ॡل ︎⌥👈‍🥂겉- L🛽Ȱゟ }  ๮ Ƹ҇΂곙ٜ ︆   Ϊ  nEͅ💨し 갩ٌᅫฆ🚝😰 ͺ3ؤᇓX 💸Ч🥲
+17	17	-\ ⍝🍰Џ S-]︎⏅‘‍🦂S-s︆⊭  🦊 俄 ฮ🛥 Ӈ 같ۼᇛ︆🚍⁠ ϊु乔ᅃ ⍅Èҗϒ걩-ᆫM̍Ġ Κ
+29	13	令z︎🚅 ‍β겹 Z 
+43	5	📠く ( ｳM⏕ ‍ N-ￋ︆̍Ȱ‍🧊 丄ｳ︎🚥⁘‍🧒ख़֜
+49	25	F⊝ ‍✚ँ-ｳN⎕Ũӗ♢격ج  
+17	1	 ‍Κ॑֔W ↕ ‍ ॹ֬Cถ ‰ 🧺 ؄ￓ︎ ⁘ 🤂
+55	47	-ᆋ  🍰
+43	13	 곱乄ﾣฮ̕⁘ β  E4⌍🕀Я┚걁ٔr8🚵¸〗Ϣ - ︆̍    -q๎⎅ ӧϲहל
+11	13	︆≝😀ハ➺  ᅣ︎ 🌸シ उ-/ ̽⁠ゟ🥊갱亄ﾓ︎⋥🏸҇☒곙ٜᆛ ⎭🐠
+45	37	🥚겁 -๾🛵 し🥢 仜 j🚝 пκ॑侤  ̵ 〧🥲ॹ-%ถ⍍😐ЏϪ갡הﾃ︎
+41	5	 ヷ▂ॉ俼 (⏭🙀ミ⛊ -.ฮͅ デ✒ ۬ᇛq⎽⁀ 🦚
+41	29	-ￃ  🔈‍╢z s,🛝ǀ 🦪.俤ᄓ๎∥Řѧ⛲겹侬ᅻ๖🚭‐яκ -ᇣ︎  з΂갉- h🛽 〟⛊ 伄ᆳO🚥Ǩ‍  ج ๶
+61	45	 ワ☚각-Nm⎥‘ӗβ격ټk︆ Ű Ϫ॑两ᅓ︎̅Ș 🧲ॹ ᆻ︆
+11	7	ɀ‍⚺ -ᄣ%ͥ  ✂걉乼ᆋC 😰
+37	33	▊=-gฮ̕📸ぇ  ׼ &⎭ƀЯ🤚 -ᇃ︎🚵ÈЗ 
+47	33	 ｻḒ ‍⛪겑 k ͅ🗸ョ🤲갹-3"🚭Ðハ➺곡-d︎̅🔘シ🥂उ-z︆🛽 
+11	11	🥊e侄￣︎̵🍈 🥒 -F︆ 🗀
+51	15	♚ - A⌥ ї🥢F-ᅫV🚝🔐 ╪॑交ｓ\͕ƨ〧 ॹڌｋถ🛭ð 🥺ड伴}พ̅Ƹ
+5	1	΂Z ＫK͍ư  걱俄ᅳ<⋥Ȩ ⚒
+51	13	ڬ
+29	17	!⍽ クϚु乔L฾🚵   걩东J︆ ðみ⚪갑-g ̵ ѧ♲p- ๖⌝ɀ ⛺ 佴P๞⏵ з🧂갉 ᅋe≍‐‍⚊
+49	49	丄ᆳ︎̕‘‍🧒b }๶≽💐ワ ँ |E≕ ‍ ऩ֬   🌰ҿ A ３ฎ↕  🧲ॹٜᆻN⊝💠 🧺겡 ＳX🚕👈ぷ🤂
+15	7	ج~ ͝   ॱ- o̵🍸ч t K︆⋝Ȱ‍Ϛt- ︎⊕🙈З ३؜Dๆ⊝⁐ӿ❪겑佤G  Ũ
+17	1	🤲} ￋ๖⍽🎀ハϪi-ᅣT🛕Ǹ‍ 겉ؼ)︆⌝🔐  갱٤ ︎🚥Ȉ‍🥒
+7	1	-G๶🛍Ȑは╚겁伔
+13	9	[ 🔸し I-v 🚝 ‍  ٤  ̥🕨 βॹ佬；ถ  ‍ϊड临y  ‘ 🦂
+29	21	-ｻ 🚽ư ❊걱 ＣA🛥 デ➒ -ᇛw⍭  Ϊ곁- ︎ͥÈ‍ N伜ᆫๆͭ🌐み🦪ऑٴᄓ,⊅ǘ‍΂ 侬ᅻ︆🚭 ‍ m乴ᇣ]
+35	23	è‍Βउ丼ᅋ︆⌝Ő
+63	19	➊ -i 🚥  ΂걙 ᄛ 🛍📐ワϊँ侔  ≥‘ 🧢격 ᇫ 🚝‐‍🧪[ ｳ ͥ‘
+7	7	🧲ॹ- M🛭🎰わ❺ड  J🚕È‍▂ॉ ᆋฦ 🌰 Ϻॱ֤ᇳR ⁈ч ङ-p︆  Я [  Hͥ  ▢३侜ᄫR⋍àヿ🤪ऑ-＃ ⏥‸ӧ🤲 -
+61	41	 ⎭ ハϊ곡-ᅣ︎ͅǸҷβउ ᇋ๦ͭŀゟ🥊  k๮🚥🌈ょ 곙佌v ̍🖰‍ 겁且 ๾⎕🌈‍🥢
+5	5	׼ﾫ 
+7	3	👠‍Ϫ॑شｃฎ̅⁨ 🥲걹ټ｛ถ  Џ 갡伴ᆣพ🚕‸ Ͳh ᄋ ̽🔰 ͺ5 ᅳ︎⋅Ÿ ◒ ּᇛt͍⁠ク➚곁-,฾⍕Ɉ
+17	5	β&׌ᆫ 
+21	1	 ѿϺ
+55	5	 ᄓ=ͥ🍸ѧ 겹-ᅻ︆🚭‰‍🦺L-ᇣ︎🛕Ǩ〷❂ -ᅋ๦͍🖀
+39	31	🧊ऱٴ ๮  ‍🧒ख़ڜᄛ ⍭Àӯ⚚ ״ }⌥¨ӗ⚢+ ᇫ ↝ タͺ  uฎ🛅⁨ェ⚲ॹټ*︆🛭ƐҏϪ겡侴w~ Ĉ
+17	17	⚂B Cr🚽🖰た 6乄 ︎🛥🖸‍🤒  [ึ͝‰‍Ίु Ｓ&🚵Ř〗΂३۬SY̭ ӿ  - ๎
+19	13	💨ӧ U- ๖🚭Űハ   9๞ ‸ҷ✂겉-$ ̽‰ҟ ऱ۴ᄳ๮͕ ょ 곙׼ ๶ͭ は  ؤ4๾🛵 ‍☢갩-ￋ ⌭ 〿 곑-8 ⌅ ‍β걹ج
+63	31	︆≝ Џ❺ड- ︎🚕‘ӷ⚂`-/ ͭ ‍▊ 仄
+33	29	︎⎕ĨӇ o-｛ึ ŰүΪ곁佔Ｓ฾⊕Ĉҗ☢$ج A
+29	5	 ѿ🦪갑-K๎🚅Ĉ‍◲ -｛T⋽ く🦺    ↥Ǹ〷│갉ڜ  🛽Ǡ ⛊겱伄c}
+21	1	🖨‍ 걙ۼJ๶͝†  ँ-ᆃ ⋵Ũ 🧢ऩ ｋ ̍ ‍ :两 ︎̅ ‍  ->b🛭‐‍ 겡 ᄣ]ͅ ‍🤂ॉ Ｋฦ⋭ǀ‍Ϫ
+27	15	ڔ+︎  ‍Ͳङ伌 ︆∽Š‍🤚%俔｣฾   ┢곩ּ
+7	1	 ̽Ġ‍ 겑 ᆓ๎🚅🍘‍✲갹 
+57	9	o🚭Ȱハ🤺ॡ仴ᅣ๞⍵🗸 🥂 亼  
+51	9	 ゟ┊갱   🚥Ȩ ┒ - ︆̝ ѯ🥚겁 ｳ!ͥ🍘し☢ऩ俜=ฆ  
+63	17	 ~ڤ ฎ🛅⁨ 🥲 ی I͍🗰』Κ갡 W︎≵ĈӷϢ -
+63	15	ฦ🚽Ȁミ🦊ॱ- ︎ͅ⁘デ ङ-ᇛ ⍽ɀү╚ ڴE฾≕Ę‍ 걩-ｋ-   ⚪oٔ
+55	23	#̥ƨѧ΢ह-ᅻ︆̝À κ  M๞ͥ⁨〷│  ￋ 🛽Ő 🧊ऱ ﾣ︎🚥  Β걙 ᄛ︆⇽İワΊँ- ๾ͅǘ  격-nฆ↭⁐タͺ॑ 
+5	1	 🛅‘ェ ]  ถ 📐ҏ⚺겡-ᄣ ͥ  🤂ॉ佼 P  ‍🤊A٤  ⏵‸‍Ͳङڼｋ,̽ 〯Ϊु-@#🚵 ‍🤢[-ﾻ︆🛝‐ӿ🤪
+41	17	״ ๎  ョ❲갹 ᇻ๖ Āӏ⚺  ￓ๞🛕Șҷ 겉ج  🛽🍐ゟ🥊F亄ￓA
+35	7	Ęょ🥒ख़֬ ๶🛍⁠‍Ί`הᄃ๾ͅȸї🥢ऩ٬ᅫฆ̝ɀпͺ곑侤ﾓฎ⎥⁘〧◲ॹۜ X ‐』⚺ड临ￃ︎🚕😘ヷ🦂Y俼 ฦ🚽‰‍Ϊ0ڄ
+39	25	L⊥‸デϲङڬｋ+⏍Ȱク 곁-ﾣ฾⋥Ũ ♢[- ︆̽†み✪ऑ俤 =🚅⁨ѧ΢ 侬 w ȠяϚ걡乴ᇣ ≕ǈз 1׬ I🛽🐀
+47	35	 p- |  〇 걙 s๶≽Ɛ
+19	9	🧚ँڤＳ︎ 🍘ӗ ऩ-
+55	7	︆🚝🍰‍ ॑-WH⏅🌸 ▲곹俬Ｋถ̭‐
+59	55	 겡亴ｃ ⎥🍘ѷ╂ -｛ ̍🍀‍Ί곱-｣︎⏵Ǩ ⛒겙לᅛh͍⁠Я _俔ᇃ฾̅Ɉ‍🤢 侜 ︆ Ɛ
+43	27	κऑ乤ｳI↵ ӧϢहی ︆🚭  🤺ॡ仴- ⇅Øҷ  ڼ＋_⏍🕀ҟΚ  Ｓ ⇕🎨ょ🥒 -ᆛ︆͍⁐‍❚2פﾳd≵ǘ  t-& ⊍👰п✪॑交
+63	51	ฎ↵🔸〧 걹 Mถͭǐ』Κडٔ
+17	9	พ̕🏘ヷ🦂곉仼ᄋฦ🚽‐ӟͺ? ￣>≵ Ӈ🦒같-ﾫ  🖐‍Ί곁-Ｓ฾̵è゗ϲ} E︆🛝 ѿκ갑 U ⌥💸 ✲ह京, ⋽🏰く 
+61	29	ؔᇣ︎ͅ⁨з " N๦͝‐‍☊ ִ ︎ 🌘Ї▒ ּᄛs⎍🗰‍ ँ-ｓ๾͕‸プ⚢ऩی;ฆ
+13	13	°ҿͺg ｓฎ⎵📸ҧ🧲곹们ￋ 🛭  Ϻ겡ڔ) ⌵‘‍🤂 -ᆋ ↽🔐‍ϊॱ ᇳ|ͥ🕈ч΂ -ﾫึ  Я☚걁- ︎↕⁈З ३ 'ๆ
+21	9	⁐‍🤪<ڤ｣u⋅  🤲a-ᇻ๖⊽ǀ‍ϊॡ۔ﾃ ̵ ‍🥂=侼|๦⇽🔀‍Κऱ۴$ 🚥🕸҇◒'-ᆛ︆⌍⁐‍🥚{ ｃ︎🛵 し  仜［ ⋍Ȱ‍🥪
+29	9	-J︎≥ Чβ걹  ︆⋍🖐 🥺7ٔ ︎⏕🍈ヷ΢
+57	21	俼ᄋ︆̍ ‍ΪT-@︎🛥èデ 같-_︆⊍ ү  -&฾⋅‘җϒ
+51	15	伜[F🛝🗠み♪V-2Y̥ ѧ❲겹侬ᅻ๖⎭ 
+47	17	🦺p   ⎵‘〷Ϣ갉ٜ j🛽 〟 겱-
+23	15	h⋅🕸〇 ख़仌 ︆⌍   각ؔP9  プ🧢&ּᇫ︆⏍Ȁタ🧪॑ؔ-︎🛅🌘ҧ┲곹俬ﾛถ⌽†ҏ🧺)شᄣ ⋵ ぷςॉ乼
+21	17	H🚽⁠‍▊ॱ ᇳ( Ȩ‍🤒겙-ᅛ8≍ 〯🤚 ٔF฾ 🖈〗✢곩-   ȰӿκHشv6̵💸ョ✲갹 L๖ 💰‍Ϻ곡״ￃ๞ Ĩ ϲ -ᇋr ‐ゟ 
+63	11	ڤ@E⍕👈ょ🥒ख़ל ๶̭🖠 ♚pڔ
+49	49	๾⏕¸‍🥢갩ּᅫ︆⏍🔰пΪ॑ׄᇓ 🛅🐘〧▲Q ᄻถ≭⁐ 🥺5ڄﾓ︎ͥ ‍ϲॉּￋ︆
+17	13	‐‍🦊 -ￓt ⁘‍🦒U ￫ 
+13	1	🎀‍Ϻ
+27	3	乔ᅃ︎🚵 җ➢걩 ᆫ︆🛝 ѿ⛪갑令ᄓ︎↕¸でΒ겹ڼＫ๖🚭 яΊॡ佴 ︎🛕 з❂갉似 $̝ П➊  y๮🚥🎘‍ ख़ۜ *🛍Ġワ ँ״
+21	13	b🛵 プ ऩۼ}ฆ Ǡタ🧪॑ ᅓฎ🛅¨  곹们Jถ͍Ȱ‍🧺겡 ᄣ 
+29	21	 ѷ♂걉ۼ ฦ  џ⚊곱乄ᇳ︎🛥 чβnٌｫึ🚍⁠‍ϚुۤＣ฾⌵Ș〗ϲ३ּH 🛝💀‍⚪겑-ᆓ๎ 👈 ❲ह-ᇻ︆⌍🎀 🤺곡-"๞
+21	9	ȸҷ I ｫ︆🛽 ҟϚ
+21	17	 ﾓ#⊕è ϢAؼh/⎽ は🥚i伔q ⌅🌨‍◢갩仜N 🚝Ƞ〿Ί곑״｣Nͥ⁘〧 ॹ ᄻ ⌍‰‍❺Y ᆣ︎∵⁈ヷ΂   ︆͍⁐‍ 
+31	11	ׄxฮ🛥⁈ ⚒같 fo⎽ǐү☚U  ฾ 🗸җΒ 伜C 🛝🏠   俤 ︎ͅ‘‍΢a- m 👰
+33	33	ΚW ﾣS øз⛂उ丼；  À‍🧊겱 K๮ ⁘‍🧒 -w  Š‍🧚ँ۴ ︎ͥ⁘プϒऩی e⏍†ҿ ॑两ᅓ ⋵ ‍✲ -ᆻ 
+37	25	‰わ➺V  H̕ĸѷ🤂걉  ฦ̭⁀ 🤊곱佄 ︎ ‘ぇ🤒 -p︆ͭƀ〯🤚걁-ﾃy🚵⁘〗ϲ३-'︆🛝 ӿ▪겑  w⇵Ĉョ 
+33	9	-ﾫ ↝ǰ‍🤺 ؤy)ͅ‸ҷ♂y亼｛1🛽🏐ҟ🥊ऱ侄?{̵È‍❒곙-ᆛ︆⇽†は🥚 ٔＳ๾  ‍΂. ［︆ 🌰 ❪Yפᇓฎ
+47	41	 ‍Ϣॹ  ถ̍🐀』🥺डۄ
+55	43	︎🚕  ╂7 H ͍ǐ κ걱 n︎⌅⁨‍🦒t侌￫ ͝Ű‍Ϊh-ᅃ︎🚵👨 ΂ ּ ︆∽ǐみϪ갑令 ๎⊕⁨‍☲[-[i⍍⁠  ॡ- ๞🛕Ȉ
+19	21	⚂ 似 ︆̽‐〟κऱڴﾃ︎🚥Ƹ Ͳ -ｫ︆🛍⁠  각ؤ
+21	5	︎↥ ‍΂ ׼ᇫฆ 🏠タ🧪걑 ﾳ~🛅‸ҧ🧲곹-ᆻ︆ ‰ҏ q侴ﾣ3ͅ   걉-ᆋฦ⊽💠џ✊> ~ฮ̕ ぇϲ겙-ᅛY à Ϛ 仔ｃ2
+39	27	¨〗 l亜r3̽°  겑 ᆓ︎⌥😸ョ  伬ᇻ︆͍‰
+39	7	ϊ곡 ﾃr⍅⁈ҷ΂8 ｛๦͝🎰‍Ί갱亄｣๮🚥‸ょ ख़  ๶̽‰  ँ伔
+45	1	︎ Øしςऩ N_ 🖰 ╪ 侤ᇓฎ🛅 ‍🥲 -ｫ  💀‍☺wٴᆣ︎ͥ ‍⛂ॉ俼ᄋ︆🚽‐ӟ⚊Eش K↕⁨Ӈ🦒ङ ﾻึ͝‰үͺ
+11	13	佔n฾🚵🗈‍΂३伜｛>⏝🍐ѿ  -ﾳ︎🚅⁈ѧ◲ह 
+5	1	︆🚭  Ϻ-乴ᇣM̕Ș  갉-Ｋ︆∝ 〟 ऱׄA ⍥Ĉ〇 
+29	9	-ᄛ︆⊭😐‍ ँ-ᆃ 🛵 プ⛢ऩ  ︆  ‍❪'ؤ ฎ̥Ř  ॹ-Wถ🛭🏀わ🧺ड-Kพ 📈ぷ🤂
+47	15	֬iฦ 🔠
+53	13	◊곱֔4 ↥🏸ч❒ङ伌ᅛ︆≭🏐‍  俔ᇃ︎
+25	25	🌘‍ϲ३-a 
+47	23	🕀
+63	23	Ϻऑפ
+9	5	︎   ⚲  ﾫ( 📰ӏ╺ -P*̅ ‍│겉-ﾻ︆🛽🖰‍⛊/-& ͥ🍸‍β곙-ￛ︆🛍 は ँִￓ︎⊥ĸし΂ऩ-ᅫฆ͍ ‍🥪^-D2ͥ¨〧 
+49	9	乬I︆ͭƀЏ☺  ᆣ ⊅⁈‍╂ -ᄋx͝👐ミ☊걱-ￓ︎🛥⁘  #֬U︆ ‐үκP-ᅃ:̥  ♢३ڌﾻ︆⏝⁀‍┪ऑ-<︎ Øѧ🦲겹֬ ๖
+35	17	🌠 Ϛ걡-ᇣ︎🛕😸з   z๦∽⁠‍ϊ ۤN︎̵‘〇🧒걙  ︆🛍Ƞ 🧚wפ ︎ͅ‸
+27	23	🧢s 
+7	9	ฆ̝🔠タ 걑 bฎ≥Ĩ‍♲)-ᆻ6̍ ‍🧺 侴ᄣ︎⊅  🤂ॉ-ᆋ︆̝ŠたϺ2פᇳ︎⍥¨
+21	17	☒-ל!︆⍝ ‍Ϛl-ᇃ ⍕⁈〗❢곩-F ⋝🐰‍🤪I佤ￃ︎ 🐨ӧ⚲ह- 2̭👐‍❺V俴 ๞⋥È‍🥂उ-ￋ9🛽Ȑ  
+45	9	-  🚥‘‍ 곙׌ᆛ]⇍ は🥚ँ-}  ƨし🥢
+29	25	-J ⎭Ȑ〿╪॑侤 ︎ͥňЧ▲ -ᄻI̝⁠‍   ᆣ︎⌅🕸‍│*ڜ￫"̝ ‍Ί걱ۤﾣ︎̕🍘 🦒
+29	5	二ｻ 🚍 ク j佔ￃ฾ ⁘‍🦢4-ｻ>🛝🏰‍Ϛऑ俤ﾃ๎
+53	25	🕈‍╲6-ￋz͝†‍ W ᇣ 🛕‘ ☂b ｫ๦⊭‐  ऱ伄ᆳ ⍅🌸‍β
+59	11	׬ｫ๶∽Ȱ‍ ँ侔Z>🛵‘ 🧢격作ﾋḘ🌰 🧪k-I 🛅Ĉェ🧲곹俬  ̍Ā‍🧺 亴e︎̕Ǹ
+9	1	Ͳॉڬ \⎭🐰 Ίॱ-_ฮ🛥 ぇ🤒ङ伌＋ึ
+17	17	 ‍ϊ걁- ︎
+39	13	‘‍⛢곩侜ｋ︆̭ǰ‍🤪%-ᆓ ⊵🕨ӧΒहּ ๖∍Ǡハκ ֤o๞⌥ ‍ 겉亼W︆̝ ҟ  -ᄳfͅ‸
+21	9	 곙-z ⍍🖠ѯ🥚겁 ᄃ๾🛵⁘ї🥢ऩ-ｋr🚝🏰п🥪L交j ⏅🕈 ΢$֬ᄻr🛭 ЏϺ갡- ︎̅🗘‍🦂
+41	25	-ﾛq🚽ǐӟ➊ -￣ฮ🛥ø‍🦒  ᇛึ🚍Őク🦚곁乔 s🚵 ‍  东  ̍Ȁ ⚪ - ๎⊅  ➲ह京 ︆⏍ ‍ 걡佴Z๞⊥🕘 ◂
+57	9	似ᅋ 🛽 Пκ 丄ﾃa🚥🍸‍⛒걙ל￫๶↽👰‍ ँ五  🛵  ✢ऩ  U †ҿϪ걑 -ฎ⍵   
+5	5	֜ ถ ‐わκड / ͕Ø βॉּ ︆͝⁠たϪ곱-ᇳ︎🛥Ȉ‍ 겙 m 
+9	1	 Яϊ -ᇃMͅĈ ❢
+23	5	ۼᄫ︆͍Đヿ⛪Y佤
+47	3	︎ Ĉӧ🤲 - ︆͍‰ӏκॡ   ⎕📨 ♂ -ￛ︆̝😐‍ ऱ- ︎͕‘҇❒b ᆛt↝ ѯϊँڴｃ๾̵ їβa ﾫ  Ȁ
+49	1	⚪}֤３O≥⁈〧🥲ॹۜ~ 🛭 』ͺ
+7	3	-ᆣ︎ͅ ‍◂ 俼ﾫ 🚽⁠‍🦊 -   ǈデϒङ-ᇛ︆⍽ŐүϺS  ︎🚵🎨 🦢걩-M︆∍ ѿΪ.  ๎ ‸ѧ🦲ह侬#︆⌝Ð
+29	29	 s /︎≵Ɉ〷β갉-ᅋ︆̽Ő〟🧊ऱ伄   🕨Ї ख़ۜ ๶ à‍ 각- A↕¸プ 격-ᇫ︆
+47	47	🕀 ▪॑  ︎⍥ ェ 곹俬ᆻถ̭ 
+17	17	➺;- p̕⁈‍♂ॉ-ou⎍⁀џΪ곱-|︎⇵Ǹч🤒겙 ￋ︆↝⁀Я┚7俔ﾓ7⌅🎸 🤢
+47	17	侜Wๆ🛝🖠ӿ🤪겑 ᆓ︎ ‸‍◲ -￫R🚭⁀ӏΚ  
+5	1	k̵📸ҷ΂T亼￫ 🛽Ðҟ🥊T-ﾳ๮⎕📘҇ 
+51	15	 j︆̝🍠 🥚겁 ᄃ︎ Řї ऩ۬Wm̝🍀п ॑-ﾃ︎̕è〧╲ॹ乬； 🛭🐀』◺  
+63	41	 ̵ ヷ🦂곉仼￫ฦ Ǡ‍κ&״nฮ è‍▒e-ᇛ︆🚍†ク🦚 ؔᅃ︎̥🕈‍⛢M-Ｋ︆🛝ǀ
+37	17	♪갑֤9︎⏥ ѧ🦲 京ᅻ  †くΊ걡-ｓ︎⏥  Β갉׬ᅋg🛽🕠 ┊y丄~๮⇥ƈ Ͳ
+47	3	׼ﾻK⌭ÀӯκN٤ｳ︎ Ȩ ςऩ ［  ⁀タϪ걑 Ｃ ⊅ ҧβॹڼl︆🛭🖐 ⛺겡侴uj̅🖨ѷ▂걉-ᆋ-∽⁠џϚ -
+51	47	︎ͥ💸‍🤒 丌 \  ‍🤚걁ٴ _  〗✢곩 Y︆ Ġ
+63	61	ϊ겑 Ｃ๎̥💸ョ◲ ڼﾛ3🚭💰ハϺ ۄ l≥⁘シϒउ ｻ︆ ǀ‍🥊갱 ᄳ︎ Ĉ
+15	5	♒곙 
+19	17	) ° ⚚ँ-｣u🛵 し◢ऩ- ︆ͭ🖰〿Κ곑פᇓA ⁈‍◲D ﾋ   Џ⚺ ڤ  ̅ ӷͲॉ٬ᄋ ͝ ‍ u ＃ ͥ¨
+39	15	🦒 -
+45	45	 🚍  ☚ुהᅃ︎🚵Ĩ  _֜M    Ί갑俤u︎🚅🗨ѧ🦲e ；︆
+25	13	 く🦺걡- ︎ 📨‍◂ ٬b๦⏍ư ◊ऱ ᆳ%∥ Ї🧒.ڬ ︆  ワϊ'ؔᆃQ  プϒ{-ᇫ︆🚝 ‍κ॑  ฎ  ェ΂ॹج［︆
+59	35	Ġ‍ ड亴ᄣ ̅ ‍β!乼ᆋฦ⎽🔰た ]佄 ฮ⇥Ƙ  *-ᅛึ̽🐠‍╚ -ᇃ฾↕⁈ 🤢 -u> ‐ヿ  ؄0๎∅Ÿ
+43	39	♲q ᇻ︆ ⁠ ϊ ׄᅣL⍕⁈シ🥂 -> ̭Š‍☊갱侄ᄳ ⇵Ȉ β\ ᆛ︆🛍†は🥚lִ1.̅🔘ї  ٬
+39	29	Z͝ 〿🥪곑 ﾃ︎ͅ⁘   乬
+21	5	︆ ⁐Џ🥺s-# 🚕🐘 β곉仼ᄋ︆ Ű 🦊ॱפ ︎ͅ⁈‍▒같侌  ⌽Őү⚚7-ᅃ︎↥Ũ゗  东 ︆͝Ő ⛪gۤ ︎🚅Ǹ‍  京%s
+7	5	🔰く🦺 ۴ ︎⌥📨‍ 5-
+37	33	๦⏽‰П   ᆳ7🚥🖨〇🧒ख़俌  🛍🏐ワ 각ل    ‍ 
+15	13	乜
+11	9	ฆ🚝🔰 🧪 伤>︎  ҧ ॹלᆻ]  ҏϪwٔ'︎͕Ÿѷ⚂ॉ佼ￋ ̝💰џ  -
+21	9	#  ぇ🤒ङ丌ｻvͭ👀Я┚ु-ﾳ 🚵 ЗςT-｛ 🛝💠‍⚪   ︎̥ ӧ▲ह伬T︆⇝Űハ►
+9	1	-ᅣ5ͥǈ ⚂
+15	13	侼Ｋ ̝Ȁҟ🥊 פ ︎🚥 ょͲख़乌  ͍🍠は ँ۴３︎↕èї♢ جᅫ ̽† Ϛ곑 : 🛅‘ ➲0 ［M🛭🐐』Ϊ  Tพ 🎸ӷϒI俼
+45	9	ฦ̝🕀ミ🦊J仄ｓ ̕ĸ‍🦒  ~ ͭɀ Ϊु佔ᅃQ 💘‍ 걩伜ᆫๆ Ƞ  갑 ﾓ︎⏵⁈でϲ겹-  ̝‐ 🦺ॡ ￓw̥🗘〷΢
+37	13	-i๦🛽 ‍Ϫ 伄ᆳi⎕‘ЇΒh֬3︆̝Ɛ‍κ ڤᆃ๾🛵 プ🧢q 1 ⌝ǀ ϊ 两 W∅💨ҧ  ۬ᆻ|  ҏ🧺f亴} 
+9	5	 ぷ🤂:- ฦ ‰‍🤊곱۴ᇳPͅ ч🤒겙-+ึ≍⁐ЯΪु俔 ฾ 👘‍┢३׬ﾻY⌽Ǡ   乤ﾃV  ӧ❲ह-}︆ ‐ハΪ -ﾣ๞
+49	29	⁈ҷ🥂겉-  🛽Ðҟ┊7-H๮⇵ ょ΢곙-r๶🛍🖰は🥚c且 :∕🔨‍🥢ऩ俜sฆ
+17	9	Đ〿 ॑  (≕ ‍🥲걹乬 ถ⊽🍠』ϊड ᆣy🚕Èӷ🦂
+39	23	仼ᄋ ⊍💐 Ϊॱ俄ｓ/⋵ Ӈ ]- g🚍⁐ク ुה
+59	13	 ̥🙈җ◢g ［   
+17	13	🦪ऑ令 ๎🚅🐈 ϒO京ｻ︆🚭 я⚺걡ۄ ๞ ‸〷│
+19	19	 ｫ๦🛽İП🧊 ۴ﾣ︎̕È〇 Aټ
+25	17	︆ ‐ӯϊ각五ᆃ︎⇅ プ΂격-ｻ5͍🔠ҿΪ॑-ᅓ+🛅 ェ▲곹 ᆻถ̝Ȑわ🧺ड-ᄣ ⍕📨‍ϒ
+21	17	-aR🚽  Ϫ5-ᇳ  ⁘ч 겙 ﾫ︆ͭ⁀〯◚iִ 3 🕘 🤢३亜｛r⇝🌀‍╪ऑ ᆓ ⊕🗸‍🤲갹 ﾫ๖🚭ȰӏϚs-ᅣD🛕🌘ҷ│
+61	1	ּￛ  Ǡ 🥊ऱ֤ ๮🚥ň҇🥒 ی~๶̍  ♚
+47	7	 ￃ 🛵 し❢갩ڜᅫ︆̽📠‍☪곑֤  🛅ȸЧ🥲걹佬 ถ⎍† Κड临
+9	1	cͥĨӷ ॉ ᄋ 🚽  ͺॱ仄ｳฮ⏕ƨӇ >ּᇛึ🚍🌠ク ु佔ｃ   ゗Β ڌ ︆∍†‍   ᄓH 🏨で 
+23	11	侬ᅻ 🚭Ȁ‍◺ ڄU๞⋥Ø‍ ]׌ᅋ  †〟┊겱۴ ๮↥‘‍🧒ख़- V̝⁀
+51	13	 Cׄ  ⏵⁈  격-dh Ơ‍ͺj两ᅓC🛅Ɉ‍ x俬Tถ̭🕰 ╺ड؄ｃ| 🗨
+47	21	☂  ＋B⌍‐ ▊ॱ  ฮ̕📸 Ͳ0לᅛ ͝⁐〯♚ु-ᇃ︎̵ĈЗ🤢 ڼ3ๆ∽🏀  겑-ᆓ๎̕ 
+47	21	΂]؜+i   ⛺{״s  Ș‍΂ -ᇋ๦ͭ‐ҟ┊ ٔᄳ 🚥   ( + 🛍⁐‍➚ँ۴
+33	21	︎ ‸ 🥢  ᅫ ∍⁐‍▪곑交ᇓ  📨‍🥲걹-ᄻ 🛭ǀ‍❺ -ﾓ   ヷ ॉ仼ᄋฦ̭ ミ  俄Dฮ̕👈 ςङ٬ᇛ 🚍🍐 🦚곁乔|฾
+49	25	‸җΒ` ￛ︆ Ű‍┪  ᄓ 
+39	35	 ‍✲ ׼ ๖🚭‰く Q؄ᇣ︎🛕🗸〷♂Bڌ￫๦🛽🌰П ऱ丄 ︎̵èЇ🧒ख़俌 P🛍👀ӯ✚각ٴ]7🛵⁨プ  ی
+49	25	ฆ⎽⁠ ϪYشᅓ ⍅🍘 Ϣn们 ถ °わ✺겡侴３︎̥Ũ‍➂Z D ͝🔰‍ 곱شﾳ  Ũ‍▒겙לﾫ︆
+25	1	Ő〯❚ुׄn ⏕‘З🤢३-ﾻ ̽⁐ ✪ 佤ｓ๎̕ø ΂갹-ｫ ̝ ‍ 곡-  ⎵⁘ β겉-Ｋ๦🛽Űゟ🥊ऱ  a⋵⁈҇🥒곙 ﾛ︆🛍Đѯ🥚
+15	17	伔  🛵  ♢ऩ׌ᅫ︆⏝⁀пϚ곑 
+5	5	 
+35	7	🐸Ч🥲 -B︆ 💰Џ🥺ड临ᆣ3🚕⁈ ❂7-_ 🚽 ミ🦊  
+7	9	L Ȩデ🦒같二6ึ🚍‐‍🦚ु佔ᅃ︎ 🖈゗🦢 -F 🛝⁠ 🦪갑-ᄓ 🚅 ѧ✲겹 ᅻ๖͍‰
+41	33	 걡-＃︎🛕 ‍🧂갉丼＋๦⏽💰‍ 겱伄R︎⌥ ‍Ͳ - ︆
+35	21	Ơ
+19	15	➚x- ๾🛵  🧢?ۼｫฆ∝ĐҿϪU ﾣ\ ⁘ェΒ}- ︆  ‍🧺(-ﾃ︎ 🏈ぷ☂m٬ e🚽⁀
+35	35	 곱ۤ ︎≅ĸぇϢङ伌｛ึ⊍🏐 ✚ הG ∵ ЗϢ३侜     🤪ऑ ｃ︎  ‍🤲<丬ｋ๖ ‰‍🤺곡- v↥Ø
+25	13	🥂a-4 🛽†ゟϪ4۔ᄳ︎ 📸‍ ख़佌＋๶͝ ѯ🥚`- ๾̥⁈‍🥢Q-|ฆ Ȱ〿 }ڤ*  ‘Ч🥲d ᄻm  ‍►ड٤ﾓ    ΂8仼ﾛ8
+57	49	🎀 Ϛॱ۴ￃฮ🛥⁨デ m-ﾋึ🚍Đү╚ु ᅃ 🚵 ‍Ϣ-לᆫๆ ⁐‍🦪ऑ令 ๎  ‍ϲ|-ﾛ︆🚭ƀя🦺i佴ᇣ  🎸зΒ
+5	1	似ｫp🛽Ȱ ➊
+19	3	-ᆳ๮̥‸
+59	25	🧒&-ﾛ ͭ ワϪ각 ￃ-⍅😘プϢऩ۬ X ð  ॑-k︎⌕Ĩ
+11	3	 곹-
+11	13	︆⊽ 
+31	11	✺ - ︎̥  🤂걉-  🚽ŀ  곱-ᇳฮ⋵🙈
+29	5	 J-ᅛ︆🚍 ‍🤚걁ڄ u⇵ ‍🤢곩ڜ ๆ̽ǐ‍🤪/؄ ๎ ⁘ョ🤲N伬ᇻ ͝ ӏ ॡ-ￓ๞🛕⁘  +ٌᇋ ̝⁐ҟ◊ऱ亄N︎
+63	7	 ҇┒곙ؼᆛ  🗰は✚ँ伔  ⋕👨 Ϣऩ- ︆͍‐〿┪ -ᇓ< ŸЧ a佬ᄻ ≭ ‍🥺갡临d︎̵Ǹヷ 곉- ︆🚽Ġミ🦊걱仄ᅳ  🗸Ӈ΢같 
+57	29	︆͍Ȑク🦚ु   ≥ җ🦢걩伜ｋD ‰ 🦪 俤#︎   ♲겹یᅻ︆  く ॡ乴:๞ 👨з➂갉یｫ๦↝👐〟ΚGٴAs ‸Їϒ
+61	33	仌ﾻ︆⍍🐀ӯ🧚각侔ﾣ 🛵⁈  격-＋O🚝†タ   # ⇕ƨェ΢ ۼl ̝😠ҏ🧺
+47	29	ش พͅ ѷ🤂ॉ-ᆋฦ̽ ‍ 곱佄ᇳฮ̅¸ ✒겙-ᅛ ⍝⁀Я✚걁 ￓ︎🚵🍨З🤢   9🛝  ͺ ڄ ๎ͅ🖘
+25	21	🤲ह۬|8ͭ  ϊॡشﾓ︎̥ ҷ🥂     ‰ Ί  ᄳp⋥ ҇Ϣ 佌ｫ~ 🖰はͺँ且ᄃ︎🛵 ‍⚢갩俜..ͭ ‍Ϻ곑ؔZL🛅⁨Ч -乬 ︆
+63	17	À ☺  
+39	23	︎≕⁘ӷ 곉-rฦ🚽 ӟ🦊eۄ３S̕⁘デ W-ᇛึ↽‰‍   ᅃ฾   🦢걩东4︆⎍°
+31	7	♪ऑ  ๎🚅 で🦲V京'q🚭⁐я╺ॡ-ᇣ ̥🔸〷 = ｛︆ ‐‍ ऱ丄 ︎∵⁘‍ ख़ל-๶͝  Ϛm-
+47	11	 🛵‘ӗ┢격乜｛ฆ⏍👰
+7	9	🧪 -Ｃ ⋕⁘‍΢ॹ 3 ̽Šわ 겡؄
+53	1	 ⇕ ‍╂z-.ฦ̽⁀‍◊{ Ｓ!⋥Ƹч🤒겙  ึ🚍 ‍♚걁-ᇃ=🚵 З▢b亜  ̭Ƞ‍Ϻ
+9	1	佤｣   ョ🤲갹伬ᇻX
+53	53	   곡俴＃︎̕Ęҷ⚂a ᇋ 
+47	1	ŀ  Oڤﾣ_⎅Ƹ҇ '-:. ‐
+33	29	 Jلￓ︎ͥ し🥢ऩ- b̍🖠п🥪॑- z🛅🎈 ♲y׬ C🛭 』Ϊs-ᆣ︎̕Șヷ✂
+55	3	俼 ︆͍⁠ミϊॱ G︎🛥⁈ ϒ같-r.≍ŀүΪiڔ ฾🚵⁨゗☢e伜 ๆ🛝‐ѿ▪ऑ-ᄓy🚅🎘‍🦲겹ڼ ๖ 👐я 걡-.︎🛕 
+61	61	Ϣ갉 ｻ:
+31	1	🐠〟🧊겱伄 ๮⍕🌨‍🧒 ڜ
+25	5	>⎝🍰‍◚ँִ  🛵Ȉ‍    ฆ  ҿ🧪 两uf  ェ🧲}׌ᆻถ
+47	47	⁐ ☺ -tพ̕‸ѷϲ걉 7ฦ̝‐џ ॱ ~B 💸ぇ🤒ङ۬ᅛ ≝‰
+37	33	🤚  P ≕ĸ‍🤢*ڬᄫๆ  ヿ♪겑乤 ︎ͅ  🤲% d๖↝🎠  
+63	17	ۤᅣ ∥ ‍ϲ 亼ᇋ ⋭🎰‍▊갱-Ｓ 🚥⁈҇▒ख़֬gk🛍🎐ѯ j٤ᄃ๾ 🎸‍ϲ갩-
+31	19	+̭⁠‍🥪N交ﾳฎ ƸЧϲ ٜￛ%🛭 ‍◺갡-O︎ Ę‍│ॉ-ᄋฦ 😐‍ %-Lฮ🛥  🦒ङ ｻ︆̝  🦚 乔ᅃC↕ǈ
+25	9	 걩ؼ {🛝àѿ🦪/-C 🚅 ѧͲ -$  ‰‍ͺA֔ᇣp ⁈ Ϣउ g=  〟  -ﾓ︎̕ Ї🧒걙俌$ ⎍İӯ🧚ँ五ᆃ ̥👸 🧢
+63	33	-<ฆ🚝 ‍⚪o 7︎  
+57	53	 곹ٜ｛︆∽ưҏϊZ侴 ︎🚕⁨ѷ ॉ 5 ⎽Ű‍   ｣ฮͅ🖸‍🤒]ڼ$ ≝⁠ЯΚAۤB฾⇥‘〗Ϣ 亜ᄫ*⊽⁠ヿͺ  ᆓ︎
+51	27	⁘   伬
+55	41	U⊭‰ӏ  俴5  🙈‍ z-ᇋ︆≍ ゟκऱה ๮🚥🗘ょ 곙׌ᆛ? 🍐はϺ`ۄ
+21	17	︎🛵Ũ‍Ϣ<-~ฆ⍭Ű〿🥪T-ￃ︎ 🔨‍⚲걹佬el 🌀‍🥺# ￃพ⎥ ӷβॉ俼ᄋ(͝ ӟ 걱ٴᅳฮ ⁨Ӈ🦒
+13	13	- B̝📐‍ Gؔ ︎ 🐸‍Ϣ[ּᆫ 🛝Š ⛪ऑڔw︎ ¸ѧ🦲  ｻ๖
+43	17	📐я🦺jؔᇣ๞ ⁨
+11	13	ϲ~-ﾻ︆⌭⁀П🧊X ３๮∅🎨‍ 걙-Z︆⇍🖐ӯ┚ँ Ｓ๾🛵🍸  j-rT̍‐ҿ◪xڤ_︎🛅⁈‍ςx-  ̭🌀‍🧺 -ᄣพ⌅📈ぷ🤂`乼
+15	15	︆ ŀ ┊곱 ３ฮ̥ǈ 🤒 -ﾫึ⏭🗰 Ϫुش S̥⁘Зϲ곩侜＋#̍ ‍◪겑-ᆓ   
+11	9	🤲/丬ᇻ  Ā‍✺ॡ仴ￃ๞🛕🗸  उ ﾻY🛽💰ゟ 갱۴$i⋕ ‍╒ख़ ｛*⎝àは◚ँ״ﾳ๾🛵ȸ‍╢I-uy 🌀‍🥪E交
+55	25	" ⁨‍🥲 -；{🛭Ȑ』 ;ٴ พ   ϒ ּ
+25	25	"͝ ‍◊걱 ｃ︎⊵ňデ┒W-iึ̭⁀‍✚
+63	21	 Ｃ฾ 🗈җ⚢३东 .⋭ ѿ🦪갑令 ︎🚅🍸ѧ🦲겹جﾋ ̝ŐяϚ -ᇣ︎🛕 з✂,似
+41	17	︆  П 겱丄３ ̥  ϒ걙俌ｋ๶   🧚K五ᆃ ∵ ‍β ج) ⋽ǀҿϺ॑伤+ฎ̵🍨ェ🧲
+31	21	们 ︆⍍ð‍🧺겡侴 ︎≵ ѷ ॉ-ᆋฦ̍🎰  p乄ᇳ ̕⁘ぇ Z丌ᅛึ⇽  κ걁-ｳ︎͕Ĉ
+11	3	ς곩亜 ๆ⋽🙀
+53	17	Ί겑佤ᆓ๎🚅😘‍🤲|-ᇻq≽  🤺 俴ｳ๞⌥💘‍🥂v侼ᇋ︆🛽⁐‍ 갱פ{๮⋅Ș‍ ख़ڜｻP † κ
+35	25	ۄｓP🛵   갩-ᅫ)ͭ🙀 🥪곑侤 ฎ↕Ĉ〧🥲ॹ-ᄻv⇝Ā』Ϻ.-74͕Ƹ  곉-ᄋฦ🚽 ‍▊ॱ؄￣'̵Ǹ ❒ङ ᇛ ̍🗰‍🦚곁-e|̵¨
+25	1	ͲVیᆫ ⊭‐‍➪m-ﾳX̵🔘‍♲ह-5︆⍽😐‍ ॡ-ᇣ๞⍅‸‍ς갉丼ᅋ1̝‐‍✊겱ۄᆳ@ ƈЇ =仌＋r͍†‍┚
+7	9	 ᆃ 🛵⁨ӗ🧢ऩ-
+63	35	3🚝‰タ ॑-ᅓ︎⍕ ェ🧲곹-ᆻ︆̽ƀҏ🧺겡 c 🚕 ‍▂ - ︆  џ🤊곱۴ᇳ ͕ƨぇ➒ङ伌   ⁠〯Κ걁  ︎ 🕸〗✢곩ۜ
+23	1	ๆ 🎰 ✪ 乤ᆓ︎≥ƈ‍βह۬ᇻU̽  ͺ곡شￓ  ĸシ◂5 ᇋ︆≭🏰‍🥊갱侄＃︎   ❒"ٜT๶͝🗠 ❚ँ؄
+57	57	︎
+41	9	  ΂ऩ I︆⇍‰‍Ί곑交  ⏥ŸЧς`׼l︆
+35	25	⁐ЏΚड۴4 ⎅🏸‍ ॉ ﾻฦ⊭ ӟ◊걱؄ﾣJ 🕘 ΂같- $̝⁠үΪ  ᅃ฾ 🕘  ३东VS⋽⁠‍ͺh- ︎🚅ǘѧ ह京
+45	41	E⍽‐  걡  ︎̕ 〷Β
+41	41	 ᅋ︆⇽ 〟Ϊ겱ׄ｣๮
+63	23	🏸〇╒`ۜN ͭ ӯ🧚각-ᆃ=🛵🗸プͲऩ- C͍🌰 κ॑伤 ,🛅 ҧͲॹ们D3 ⁐‍ ड侴  ↵ 
+35	29	⛂걉佼mฦ̝İџ🤊곱-ᇳฮ🛥🐘ч❒ 丌
+19	3	 ⇽ưЯ⚚걁-ᇃh ȸ〗β ٬ᄫ~⇽🗰
+21	21	🤪 -｣  ⁨‍ हל￫๖⍍‰ ϊॡ俴ￃ๞⌕🔘‍🥂उ֬ᇋ๦̽ ҟ🥊b-ᄳ๮🚥 ょ ख़-@a🛍🔐ѯ╚ 伔ᄃb
+23	25	ǈし :仜ᅫ︆͍⁐п🥪॑؄ᇓ ∥🖘   ج ถ⋝Ő』 ड ᆣ︎ ⁈ӷ🦂 ،L' ⁀ӟ╊ॱ-ￃ︎ ‘‍🦒같ٜ  ⏍ 
+35	5	🦚ुٔ ︎🚵📘   伜 ︆̝🎠み┪갑؄ ︎̵ȸ ┲겹 ᅻ๖⍝ǰ‍🦺ॡ-x๞≥⁈‍ϒ갉 Z ̽🏰 ✊ऱؔXm⍥ Ї🧒2-
+23	7	︆🛍🔀‍🧚6ٴｳ ↵🗈‍ ऩ作ᇫฆ↽ ‍🧪 两 ︎ ňҧ ॹ俬ￛ︆ͭ😀‍❺  { 🚕📸ぷ⛂걉 
+41	33	 ≝ た🤊 佄aฮ🛥🌸ч🤒    ⎍‰ 🤚걁 ｓ︎  〗΂곩ڜnๆ🛝†ヿ🤪\ڄᆓ︎🚅  ✲
+51	31	丬1z 🔠‍⛺V-ﾓ︎ͥ🕈シ♂v۬Oa  ‍🥊ऱ侄    ҇⚒  ｛๶ Ā‍κँڔᄃ︎⎕🔨‍Ͳ갩-ᅫ 🚝 п🥪 ؄ ︎ ň〧⛲X׬
+55	3	:∽ɀ  ड伴
+7	7	 ⎵ ӷβॉ ᄋ︆🚽‐ミ🦊ॱ-*   デ l֜ ึ̝🍰
+43	31	🦚ु乔A︎🚵🌈゗Ϣ걩ڼᆫ︆̽🔠 🦪 -
+53	21	๎🚅 ѧΒ겹京 c🚭Ű 🦺 ڴ ︎̕⁨〷✂k似  🛽Ƞ 🧊ऱ-ﾓ๮̅ŨЇ🧒j %︆ 🗐ӯ🧚ँ五ᆃ๾🛵Ĩ‍▢7 Ｋ;
+25	13	Ā 🧪 ٤ᅓn̕⁘ҧ [-I 🛭Ġ‍Ϊ| [พ
+57	25	Ƙѷ🤂ॉ-ᆋ︆⏍ た🤊곱֤h  ⁨ぇͲङڜ［ึ≝👐Я🤚l   ̕🏨〗┢:-ﾫๆ🛝ǐ ͺ  ᆓ︎ Ƹ‍☲
+35	1	伬O  Đ 🤺[俴X ↥ シς 侼ᇋ๦͍🕠‍ e ｳ๮  
+33	9	 ख़ڌ ๶🛍Àѯ  伔 <🛵 し🥢ऩ仜 ︆ Ġ〿╪॑-ᇓ)≅👨‍🥲걹۬ᄻ0🛭‐‍ Aش พ  ヷ n ) 🚽Āӟ▊%仄ᅳฮ
+35	19	Ø 🦒같二ￛ3🚍Đ‍ͺu  g ‸゗☢L伜ﾻๆ🛝ưѿ❪&俤 ๎≵🏸
+51	23	ͲC ᅻ๖ͭ‐ κ걡-x 🛕 з 갉-i ⋍🐀П🧊a  ( 🎨Ї⛒  D︆̍🖀‍🧚각ڴᆃ︎∕🐈
+35	17	🧢 ל ฆ⌭⁠タ▪걑 X ⏵ 
+39	29	◲곹俬|  †わ◺ 亴Ｃพ↵‘‍❂걉  3̍⁠џ 6 ]?   Β겙- 7🚍🏠‍ϊ 俔c$∵ 〗 e ᄫ︆͝🏰 ◪L֤
+49	41	   ӧ🤲P丬  ͍Š ✺곡仴ｳt ¨‍ϲउ ［w͍⁠ゟ t侄  ͅ💘  ख़،ﾫ๶̍🗰は🥚 شￃ#⋕ ї♢갩- ︆̽ ‍ 곑-ᇓ︎
+41	41	  🥲r֬Fd͍⁐Џ⛺I-ﾣB⊕🐨ӷ΂곉-ᄋ︆͝ ミ🦊 ؔ ︎͕ ‍ ङ-m︆
+5	5	🔰クϺु乔{︎̅Ĉҗ✢३ּ }͝⁐‍κ갑-   🗨ѧ🦲 京ﾫ๖ 🗰‍♺ॡׄY"🛕Ĉ‍│उ-ｻ ̽° ◊ऱ丄Ｃ[ͅ ‍╒V ；๶
+17	17	🕀ワ ँ-B︎̅‸ ➢격乜ￋj͝ ‍Ί
+21	21	伤9︎ ‸ҧ╲q-｛︆̭ȐҏϚ겡ؔ@︎⇵🐈‍🤂걉ڜ  ⌝⁀ 🤊 - ︎🛥èぇ🤒iټ＋ึ⌝  ▚걁؄ᇃ︎
+45	41	🌈〗 곩׼rcͭ ‍ͺऑۤ ︎🚅èӧ 
+41	9	ڌᇻV⌝🔠ӏ◺곡 ᅣh
+19	7	⁨‍🥂उ侼ᇋ︆⌽Ġ‍Ϛ갱-Z๮ Ĉ‍ ख़乌 !   🥚겁  :⏅⁘ ➢q׼￫/ Ā‍ ॑ؤ
+39	33	ฎ⋵è ┲4ج]  †  डڔ R ⁨ヷΒॉ V  🐰ӟ☊w-=ฮ  ‍β같 ᇛr↝àク🦚곁-ᅃ︎🚵🕘җ΢M-Y"⏍ǰѿΚG-
+21	1	๎̵ŸでΒ겹 ￫๖ Űく🦺
+39	7	 ｳ ̥ з΢i-ᅋ︆🛽  🧊겱-ᆳ๮≵ ‍🧒 -
+13	1	   ‍➚ 侔  ̵💸  ? +︆🚝 ҿ ॑两'ฎ  ҧ❲ॹڜᆻ︆⋝Àわ❺Cڄ1พ̵⁘‍  - ฦ↝ð‍ (ִNฮ͕ǘч🤒ङ伌ｫ 🚍‰Я 
+19	11	俔   Ĩ Ͳ 侜ᄫ︆⏍🎀ヿϪ겑乤w4⎥Ȩョ◲ह-ᇻ)⏍ ‍Ϫ곡  ︎ͅ😘シ   A๦͝Ȑ‍Ί ڄﾣ๮🚥 ‍✒곙佌 ︆̝Ƞ
+53	17	Ϻ 且ｳ︎   Ͳऩ俜eฆ̽😀‍Ϊ ۄﾃ ⏵⁘ 🥲R-ￛ>̭Š』🥺ड- ︎↕🕈‍╂
+61	45	לﾋฦ🚽†‍ 걱-Ｃฮ⍥ Ӈϒ:-ᇛ︆  ү 곁乔ᅃ|̕⁈゗🦢  ᆫๆ  み🦪갑- 6⏥‸ ✲>京4︆
+19	11	 я➺M  P 🖸 🧂?ٜ5︆̝ 〟Ϻ 丄ﾃ9ͅň〇  -ﾋ_⌽🐠ӯ✚ँۄﾃ๾ͥ¸ӗ ऩ ； 🚝‰ Ί 伤qฎ∕⁈
+15	15	 ॹ֜ ︆🛭‐ Ϫड-｣︎   ➂! ＋︆⋽‐ ϊॱ- ︎↕⁨‍🤒{- ึ⇍İ‍☚걁-ᇃUͅ¨Зβf亜 ︆🛝😐ӿϪ겑ڄT๎̅⁘
+13	9	➲ -+๖∝⁀‍⚺?-ᅣ︎ͥ ‍  侼ᇋ︆⊭‰‍✊ऱפ＃ ∥🍨ょ " ᆛ︆≍👰ѯϺँلᄃ︎⋵  ⚢
+21	1	֬ ฆ̝🎰п⛪  Vd ň‍⛲
+13	1	 ᄻ  🕠  डڔ３︎🚕  ςॉ ﾛ︆̝  ⛊
+11	7	-Ｃl  ‍🦒 -ᇛึ ⁠ү❚|ؔﾓ ͕💸җ🦢P؜ﾻ<🛝Ġみ r俤ￓP⌵ ‍⛲हؼ6`≽‐
+25	17	 걡 x︎⏥ǘзϲ갉ּ?๦⋝👰 🧊겱伄ｓ︎🚥 ‍ ख़ ；u🛍🔀 🧚ँٔｳ๾ͥ💨プ┢격作  
+5	1	  🧪॑ ᅓ1🛅 ェ🧲 ؜［ ̭ĐわΪ
+15	17	 ᄣ︎  ぷϒ걉-ￛฦ∭†た F״  ͅƘぇς 伌_ ̝   걁-m) Ǹ〗✢4 Ｋๆ🛝†ӿ➪겑 ｳ/🚅 ‍Ͳ3 Ｋt⌽ 
+51	17	🤺곡-
+23	19	๞  ҷ🥂겉֬ ︆⋝ ゟͺ갱侄ᄳ๮⎵‘‍🥒eج
+41	41	︆⊍🏠 ❚--)\🛵🏨し΢| #︆🚝⁐〿Ϻ॑交ᇓD⍵⁈‍🥲걹ٌ｛ถ⏽⁠‍➺갡؄G︎🚕⁘‍◂ 仼ￛ︆  ӟ🦊ॱ؄: 
+29	25	ĘӇ⚒
+31	7	؜
+59	11	ึ 📐ク 2乔   ȸҗ🦢  ﾻๆ↭‐ѿ   C๎⇥📘でΒ[ٜwv⎍🖠‍ ॡ״￣ ͅǈ  갉- ︆🛽🎰〟Ϛऱٔ
+57	1	5 èЇ🧒ख़ּﾋ ̽‰ӯ🧚각-e︎⋵‸プ┢ऩڜ￫︆⏭Őҿ 걑ڤ ฎ🛅🗸‍🧲곹们ￛ︆  ‍✺ड ｳพ⍅Ũѷς걉-P︆🚽 џ➊.-  🛥  ς
+63	21	۬# ⏍Ȱ〯✚8  ฾≥¨‍🤢३亜 ๆ̝ ヿ ऑ佤0h🚅ƈ‍✲ह伬ｻv🚭ɀӏ🤺C-ᅣ 🛕‸シ 겉 ᇋj🛽ƀ‍┊mلｳ︎ͅ ょ  乌
+11	9	๶ ǀ ✚ँ ᄃ๾⏕ƈし🥢갩-ᅫ ͍⁀〿🥪r侤ｓ︎🛅  🥲!ؼᄻถ🛭😠ЏΚM临ﾣพ⌕🐘
+23	5	Β  ［ 🚽 ӟϚॱ-%︎̥Ÿ 🦒같二 ︆🚍👀
+11	13	Ϻ곁佔ﾣC ⁨゗♢걩-ￋๆ≍ð‍κ -ᄓ'↵Ǩѧ🦲>-2%̽‰я🦺 ִﾃO̕Ĩ
+29	25	▂갉ٌ   💰‍Ϻ겱-ᆳu🚥 Ї♒
+27	29	仌ᄛ 🛍Ű‍ :لＣ๾⋥ ‍⛢#-G︆∍Ƞ‍🧪}-q%ͅ⁘‍🧲 -｛︆🛭Ġ
+57	21	  亴ｳa🚕🌨ぷ🤂R۬；︆ ǀџ⚊곱۴eฮ̅  ➒겙לᅛึ🚍💀‍🤚ु俔ﾣ฾∕È 🤢
+29	29	- ๆ⌝⁐‍🤪ऑ t๎̕‘‍✲ह- ๖⇽📀ӏκ곡仴 ︎ Ø Β겉  ๦ 🍰ҟ🥊ऱ-ﾳ︎͕🕨҇🥒7- ︆🛍😰 ✚ँڤᄃ๾🛵 し⛢ ׌ﾻ︆
+55	1	Š‍Ί॑ ｓฎ🛅ǨЧ 걹ּ{︆ Ġ‍🥺v伴Ｓm 🙈ӷ🦂 -b]̍⁠ 🦊걱俄ￃ4ͅ🌈Ӈ🦒ङ-!M⌭†ク◚곁-Ｃ︎ è‍▢३ 
+31	29	ๆ∭ðѿϪG-n๎ ƨ‍β겹- I̽ðя☺~佴
+27	11	 🛕⁨з c似ￛ/̍⁠‍🧊ऱڄ ๮⎵ 〇┒  ᄛ ͝🎠ワϊ -
+35	7	︎↕🌨ӗ◢ऩ乜|︆↭ ҿ🧪Xؔ＃ ⎥ø‍❲ॹ们ￛ ↽ わ ~ؔﾓ9🚕‸‍ϒdټﾋ 🚽Ơた❊곱-ﾓ ̥ƨ
+37	37	 겙 4︆ ÀЯ🤚  ᇃ︎🚵‸З✢  ᄫ ⎍🖰  ऑ   🚅💈 ◲p伬ᇻ︆∭Ġӏ✺ॡ-T๞⊅‘ҷ🥂겉۬ᇋ︆
+35	9	 ҟ┊ऱ ｣C⋅ ‍  -|๶⇍İは Gؤﾃl 🖨し  仜
+37	37	︆⏍🎰‍ϊ곑侤ﾃB 📘‍╲걹ټᄻ︆🛭ǐЏ🥺L- h↥Ĩ‍🦂곉俼ﾫ 🚽ǐミ🦊걱仄ᅳ︎⍥‘Ӈ➒  M︆̍ ク┚bؔᅃ︎⌕🔈‍β३ ᆫ{
+33	29	🌀み 4ڔￓi🚅🏈で┲*-ᅻ๖͝Ɛ   乴"๞̅ ‍☂
+57	37	- ︆  П┊겱伄  🚥ø‍✒걙仌ᄛ︆
+35	37	🖐 Ίँ侔＃︎⇅¨
+61	53	☢격作ｫ 🚝°  걑ִ+  🎸ェ🧲곹 [︆🛭   a؄ᄣ  ȸѷ🤂 -ᆋ ⊽İ‍Ϛ곱-ᇳฮ🛥🎸ぇ  ۼ ︆̍ǰ〯Ί걁俔8 
+15	15	 ‍🤢곩- 3↽⁀ヿϪऑ-
+19	15	` 🍨ョ🤲갹ּᇻ๖͝⁠ハ✺ 仴 ๞͕  🥂उ ᇋ︆̝⁀
+37	37	 ऱ-ｓ︎ͅĈ҇🥒곙佌￫ ≝†  w且N๾∵‘‍⚢갩俜ｋฆ
+7	9	‰〿🥪 - ฎ🛅 ‍  ٬ ︆ 🔰‍🥺$ u  😈  >۬￫︆̭😐 ☊ॱ俄 ฮ⋥🕘
+33	9	΢같 ｋ 🚍🕰  )乔ｳ ͅ җ⚢Y-vE͍Đѿ 갑-ᄓ ⎥ ‍🦲~جｫ︆🚭 ‍◺ॡ- ︎🛕 〷🧂उ似ᅋ︆̭İ‍κ
+35	17	شᆳ 🚥💘〇β걙- ︆⊍ ӯ🧚 ִᆃ ≅🍘
+27	7	Ͳऩ乜-ฆ̽ タ✪॑ڔ1︎🛅🏨ェ y-ᆻ8≭†わ⛺o侴ᄣพ⊵😸‍🤂 - ︆̭ 
+25	21	κ곱 ᇳ︎ ⁘чβ
+13	13	丌ᅛ  🖰‍┚U Ｃ฾  ‍🤢 亜￫ ͭ‐‍ͺऑ < ̅🕘 🤲ह-ᇻ ⌽🖐ӏ⛺곡֔ ︎🛕‘ҷ⚂e侼 ๦   ✊ऱ亄P๮ 🌘‍  乌＋๶
+5	1	 ѯ🥚겁-ᄃ︎ èї ऩ۬ᅫฆ͝👐п⛪॑侤｣ฎ⏥💈‍ 걹ڬ ถ🛭Ő』🥺डڔᆣ︎🚕ňӷ🦂ॉ- ฦ🚽⁀ミ▊걱仄 ฮ̵ デ🦒"二ﾻ︆ͭ🕀үϚ
+19	21	 ｳ฾ͅňҗ🦢eٌᆫA🛝°ѿ *俤W๎⎵Ƹѧ _یP ∝ ‍ ]-+︎🛕 ‍🧂  
+45	1	︆🛽⁐‍🧊9-ᆳ๮⋵🖈‍β -ᄛ 🛍 ワϺ 侔ᆃ@🛵⁘ 🧢 یᇫ︆≝Ȱ 🧪e   ̅⁈ҧ ॹ俬 ถ ‰わ🧺 亴  ̥ ぷ🤂ॉ乼{s͝Ȱ‍ 
+7	1	ڤᇳ ͅ чβङ伌5︆ͭİ〯ϊr ᇃ฾ͥ З🤢곩 ﾫ    Ϊt ＃7🚅💨 ┲ ج￫ ≍Űӏ ॡ-ᅣ๞🛕⁨‍🥂उ亼ﾋ︆🛽ǐ
+31	19	♊ -Ｓ︎🚥ĸ ➒%-ﾻ>̭⁐は➚F ᄃ︎ͅ ї▢ -ｋ︆ ⁀
+37	13	🥪 交x︎
+53	29	 ‍┲ -ᄻ ̽†‍κ -ｓ ̥‸‍🦂곉-ᄋฦ͝🎀ӟ 걱俄| ↵ĸ‍♒같-ᇛึ͍🏀 κ곁乔 ฾ 🐘 🦢p-ᆫๆ͍‐ѿΚ갑- ︎
+25	25	 で┲"京ᅻ ⋽🏐я◺걡-M๞
+23	1	¨з΂x似＋k  〟🧊겱ل@%̥Ƙ ςg俌；Vͭ 
+63	11	╚i 
+29	25	d⊕😈プͲऩ乜ﾛ) ⁀‍ϊ걑伤ᅓ 🛅‘ェ◲
+41	25	ټᆻ?̽ ҏϺ -Ｃ9⇕🖨‍΢걉-w︆⏽👰 ❊
+21	17	-  ⌕⁈ ς겙丌＋2͝ɀ〯Ϻ
+63	51	٤ﾓ ≥🕈З🤢곩ڬV︆⍍‰ヿ🤪겑 
+47	13	︎≕ ョ⚲갹-l3🚭🐠 🤺곡۔ￃ︎̵⁈ҷβF  K🛽‰ゟ ऱִﾳ︎↕⁨҇΢곙ڬᆛ︆̝⁀‍◚ 伔ￓ ̕Ÿ
+11	11	🥢 -ᅫฆ̽🖐〿❪Uؤ
+63	33	 🛅øЧςॹ佬&ถ⏭⁠Џ 갡 
+39	27	)🚕‘ ⚂곉-6sͭ👠ミΪX- ฮ🛥   E- i̍‐ク┚곁ش   🔸 ▢걩 pๆ͝ ѿ🦪*-ﾣ๎  でΒ -oM🚭Ȱ‍ 걡-
+51	53	  ‸‍΂갉 ｻ ⍭😐П☊;-ᆳ๮🚥⁈Ї S-ᄛ๶🛍 ワ❚ँ۴w︎🛵⁈‍΢l作#W⌽ ҿ⛪걑两＃] ňҧΒ. 
+61	21	︆   Ϛड  #
+29	13	🏘ぷ🤂ॉ ᆋU🚽  🤊 פﾣ0 øぇ 3伌ｫึ
+55	49	 ‍κ 俔
+31	13	 ⌅Ȩ‍Β 侜ᄫ7≍ ‍ " F๎ͅ‘ョ ह- ๖͍‐ӏΪwؔW ͥĸ 🥂 ׼； ⌽ǀҟ🥊갱侄
+59	57	๮🚥ƈ҇΢D-ᆛ︆🛍🌰‍Ϛ -ᄃ︎⎅⁨し 갩  ︆ Ơпͺ곑交｣ฎ⌕🍈〧🥲@،ᄻ︆⍝👀 Ί -ￓ︎ͅ ӷ◂곉ڬ R͍🍰‍🦊 -
+45	9	ฮͥ¨デ⛒같侌CA  ‍▚곁乔ᅃ฾ ‘‍🦢३东ᆫ   み☪Y-L๎ͅ ‍Ͳ -X   ‍🦺걡-ﾃ๞∅ 〷☂
+23	3	-ﾻI∭Ġ Κ ٤ｃ 🚥⁨‍ϒख़俌ᄛ ͝ǀ
+15	13	⚚ -ᆃV⊅ ӗ  ۼ｛︆  ‍Ϫ  ᅓ{⊥ȸェ🧲ॹ A︆⍽ ҏΚ1   🚕ȸ‍▂X-=︆⊭ 
+27	23	➊ॱ ᇳ 🛥‸чϲ   d̍⁐Я ु- ︎⊕👈〗 ३ ￛ︆🛝ưヿ ऑڔﾓ๎̥📨
+7	7	▲3伬
+49	41	7⎍🔀ハ ॡ俴\๞ 😨‍Ϣl侼ᇋ︆ 🎐ҟ  ۴ᄳ︎̕ĸ ➒0乌Il
+17	1	‰‍⛚ँ伔ᄃ๾̵😘‍ςऩ仜ﾛ︆͍ǐ〿 >-＃"🛅 〧΢ॹڜuถ
+33	29	⁠ЏϚड- ︎⊕ØヷϢ곉ٌ｛︆͍Űӟ🦊 -ﾓ7🛥 Ӈ 같  ︆ ŠクΚx Iv̅‸ 🦢}  =
+57	33	🗰‍🦪 ٴR︎⍅ĈѧΒ~-ᅻ๖⇝🔠‍🦺C ᇣTͅ🎸〷❂갉׼ ๦͝🍠‍🧊ऱ֔\๮
+29	13	ĸ‍   ﾛY
+59	57	🏰ӯ 각  ︎̅⁈プ☢ 作
+49	9	"≍🙀ҿ 걑ڤ ︎🛅‘ェ ॹ،ﾋT🛭😀 🧺Yٔᄣ︎͕ƨѷ  ؼOฦ ȰたϪ]-ᇳ ⎅ǘч▒%-yึ Ɛ‍┚ ؤᇃ฾🚵Ÿ‍◢ ׌ᄫ 
+17	1	 ӿ▪%乤Q&⍕Ũ‍🤲Z F๖͍🕰ӏ S仴ᅣ๞⌥Ǹシ 겉ּ)︆̭ɀゟ✊갱-ᄳ๮🚥🌘 ┒ख़佌Z:    
+25	25	且Ｓ︎∵🍸し🥢ऩ俜;  🕐п🥪 ؤ  ̕Ȉ ➲걹 ᄻ︆͝‰Џ🥺ड- 3 🗸‍⚂t-ｻr⊝⁐‍🦊
+17	5	-ﾓ8⊥🗈‍▒~ P  ƀク🦚곁 U฾
+21	13	Ǹ ♢३-ᆫ`∝ ‍κऑ Ｓ 
+39	23	📸ѧͲह-  ͭİя  ֤Nv⎅🍨з " 
+39	15	๦🛽 ПϚ겱ۤᆳ๮🚥 〇Ϣ걙-ᄛ  Š‍Ί8五Z︎ Ø‍΢ऩ ᇫฆ🚝‐‍🧪bڴB︎🛅ȸҧ g们bถ  わϊa-
+35	13	พͥň‍  佼p  🎰 Κ-֤ ︎🛥📘 ▒ङ-ｫึ̽⁠‍Ϛ걁 ｓ︎🚵🍈    
+17	13	︆≭⁀‍🤪겑佤Ｃ๎ͅ‸ӧ🤲  ᇻ  ⁐ハϺ 俴   🔘 ☂u ᇋ︆ ǰҟ♊갱亄ᄳG
+55	1	🖸ょϒPڜᆛ︆ ‰‍ vؤ1︎⏥👸ї ऩ֬
+19	17	 🚝‰‍ > ﾳฎ🛅ň〧▲ ۬ ︆ à‍➺ -ｃพ∵🖈‍🦂ॉ׌_ฦ🚽Ð
+51	49	ͺ?ش
+55	5	 🛥📨‍🦒'-ￛึ🚍  Ί곁   ⌵🕈 ♢걩-ᆫ ̽🔠‍🦪ऑ俤& 🚅 で🦲हڌq 🚭à‍Ϫ걡פ #🛕 
+51	29	🧂갉 ᅋT̽🐐‍⛊겱ڔA๮ ŘЇ🧒걙ڜ
+5	1	  Ȑ ┚a״ｃ๾🛵⁘‍Ϣ격ټﾛฆ🚝‐‍ΚJ ｓฎ⊵è‍΢ॹؼｋ)🛭⁀わ┺겡亴^พ̵🗨ѷ⚂U 4 ⊝  ➊
+17	5	הￓ︎🛥ȸぇΒ겙- K🚍🍐Я 걁 ￣- ȨЗϒ 侜-.͍💐‍ϊz乤I 
+21	17	⁈   ؼ[ ̽Ƞ 🤺f-ﾳ  ‸シϒS-＋︆∭⁀ゟ▊2ۤᄳ︎🚥‘ 🥒
+5	5	ڌᆛ!🛍👰は🥚ँڄk๾̥🌨‍Ϣ갩俜ᅫ 🚝🎰‍🥪  n}↕ĸ‍🥲ॹڜF︆͝Ǡ‍🥺 הᆣ︎🚕 ‍🦂ॉ֜ e🚽👰 Ϊ걱俄｣[⋕ ‍ 같侌"Z
+19	1	🎐үϪ곁ڄｳ฾🚵Ș‍☢걩-ᆫ︆🛝⁠ѿ⚪y ᄓDͅè  \ ￛ︆ͭƐ‍ P-ｳ๞⎅🍘з उ-5 🛽🕐  ऱۤ
+63	55	 ͅ⁈ЇϲK-
+19	3	︆⍍ ‍Ί1ؤￃ<ͥ ӗβ격乜ﾛ 🚝Šҿϊf伤＃Q🛅¨
+25	13	 곹- 3 Ơ ⛺ - พ🚕💘ѷ▂ ۬ﾻ ͭ🌀‍┊곱הᇳฮ🛥🕘ぇ🤒ङ丌[︆⎭‐ 🤚 仔S.🚵🖘〗΂L ᄫ 
+45	33	Ű‍🤪ऑ佤7︎⊅⁈ӧ΂갹伬ᇻ7🚭🏠ハͺ
+55	27	  ︎ Ęҷ΂ לᇋ 🛽 ゟ▊4-ￃ︎↕Ȩ҇ϒ곙-ﾋ๶ ⁐‍ϊ겁؄V9🛵‸‍  -ᅫ︆⊍† 🥪  Ｃฎ ‸ ϲ  :ถ🛭 
+19	17	ϊ/- ︎  ヷ╂ॉ俼2︆🚽‰‍🦊걱- ︎͕🍈  E二ᇛ︆🚍⁐ 🦚ुׄh  😘゗ͲD ^   ‍🦪ऑ- ๎⏕Ÿでς겹 
+23	17	F🚭🖰くΚS ^z̕Ř
+63	59	│  ￫๦⍭⁐〟Κn-￣︎͕ 〇 걙-ￛ   ӯϊ각 ﾃ︎ͥƈӗ🧢ऩ-ᇫฆ †タϪ걑-K  🎸ҧϢE ｫ︆ ð  겡 ᄣ"🚕 ‍ϲ걉-
+35	17	︆⇝‐たκ ֤ᇳ7   ⚒겙ۜ [⋝ Я➚ु-  ̵ 
+27	25	ϲ -ᄫ︆🛝à Ϻ겑乤 ๎̅‸ョ🤲갹- ︆🚭‰ハ🤺 ׄ￣︎   ⛂ ۼ
+29	9	}  ҟ🥊갱侄 ๮͕‘‍Β곙-s  🍰‍ϊ겁ٔﾃ๾⍵⁨ї🥢
+33	1	-  ̽ ‍▪곑- |̥ ‍ϒ&  a🛭🍠Џ┺डۤﾣ  ⁈ӷ⚂곉-Z 
+53	33	İミΪ
+15	17	  ︎͕🐨デ🦒같٬ %🚍Ɛク▚ -b฾̕⁘җ🦢३东ᆫ ⊝ǀみ▪S ᄓ๎🚅  🦲ह ﾋ︆̍ǠяϚ -ｓR🛕 ‍⚂ 似ᅋk🛽Đ〟🧊겱丄ￃ{🚥Ř
+31	21	⚒C-
+31	33	๶ 🕰 ͺ각۔ᆃ-͕¸プ🧢z  _🚝⁠タΊ<伤z<̕ ェ☲곹ؼᆻ︆  ҏ🧺 -ﾳ  🖘
+9	9	🤂$؜Ｋ 
+25	5	 ‍▊곱 H ⊵🌘  겙 Ｋ︆⏭°〯 ~-＃ ͕ 〗ͲR亜ￛ︆🛝😀 🤪겑ؔ O🚅😘ӧ 
+31	31	 ｋ๖⍝ ӏ⛺Gڤ1 ⇕ ‍🥂उ侼ｋi🛽🖐‍⚊ - ︎ ¸‍❒ ٬
+35	27	(🛍Ġ‍ϊ ۔+  🏈ї⛢ 仜 ︆ Ő Ϻ곑-Ｃ︎≅ǘ〧 걹  5⊍   갡 
+47	33	พ ⁈
+27	9	🦂ॉ ᄋ 🚽Ȱ‍ 걱 D︎⎕⁈‍ς! ｫS🚍†үϊु佔ᅃ  ⁨
+59	19	🦢३، ๆ🛝🐠
+7	5	🦪ऑ؄?︎🚅🖸‍   ᅻ๖͍Āく  - B🛕 ‍ 갉۬ᅋ"̝⁐〟🧊 - +🚥ǈ〇♒$-ｫT † Ϛ각 % 🛵🖈‍ ऩ  ฆ🚝ƀ
+21	1	  -ᅓ8🛅💈‍🧲 ؼ}︆ ⁠ ◺ 亴 พ̵😸ѷϒॉٜᆋฦ⏝Ƞ  ॱ-v ̥  🤒겙-O︆̽🎀〯ͺ
+49	21	俔ᇃk🚵👸〗❢
+43	41	-； 🛝💰ヿϚ겑֤ G⇅ƨӧ⚲ह ｻ๖⎭ 
+29	13	  仴ᅣ๞⍕èҷ  - ๦🛽†ゟ✊갱 ᄳ๮ͥĨょ🥒w-ᆛ︆͝ŀ Ϻ ׄᄃW  ‍⛢+- ︆̝  Ί; ᇓ ͅĈЧͲ걹ڬᄻถ
+21	9	 』ϊड-  ͅ‸  4仼ᄋ#∽Àミͺ   3∥‸Ӈ🦒7-ﾫ?🚍👀 🦚k乔ᅃ︎🚵🍨゗🦢
+39	25	东fq🛝‰ѿ🦪ऑ ᄓ๎🚅    京ﾋ︆  я✺~-ᇣ︎🛕  🧂갉似ᅋ︆͍ ‍Ϫ -
+43	15	P🚥 Ї🧒|- H↭😀ワ I五ￃ  🙈ӗͲ 乜
+61	45	ฆ🚝Š  걑-B ̅⁨ҧΒ곹ۜ｛ 
+11	9	🖠‍✺겡  @̕  │1佼4︆⋝ɀџͺP-Zฮ⌕Ÿ‍ςङ-ﾻy 🕠
+9	5	ΚुشX฾⊕‸〗🤢  !$🛝📠 ➪겑佤 ๎∕‸ョ🤲wٜh︆̍ǐ‍ͺॡ ᅣ๞̕⁨シ  侼ﾛ๦🛽 ҟϚ -ￓ๮
+11	3	Ș‍ϒ*۬ᆛ0͝Ġѯ❚ँ伔w ͅ⁘ 🥢  '︆🚝 
+37	25	╪
+57	57	-ｃ 🛅⁨Ч 걹佬>1🛭🏐』🥺갡临C︎   ΂
+43	7	ٜ￫ ̽🖰‍   g ͥ⁨ 🦒같二ﾛ︆ ‐‍◚H֤H︎ 😘җ 걩伜Wๆ⌽‰ѿ🦪ऑ俤%๎ Ř‍Ϣ겹-=z ‰く 걡-Ｓ9🛕 〷♂갉丼
+29	29	?🛽ǐ‍⛊ 伄 ︎̕Ȉ‍🧒* ［๶🛍†ワ❚ 侔 ๾🛵Èプ╢ऩ׬ᇫZ Ƞタ❪॑ڄᅓฎ ‘ 🧲ॹ-#<ͭ ҏ🧺ड۔# ⌵📈 Ͳ 乼. 
+13	5	Ðた🤊ॱ٤＃ 🛥🐘 ╒ङ֬ @🚍🐐Я⛚ ٔ ฾
+25	1	 З🤢 ۬ᄫz🛝🐰‍╪겑-ᆓ>⊵ ‍  -ｫ๖̍ ‍  ٴH  Ƹҷ♂겉ڬᇋ ⍭🎰ҟ➊ऱ- 2 🏈‍🥒
+37	13	ڌﾫ︆🛍 ‍Ϫँڔᄃ︎⊵Ř 🥢0俜［,🚝ǐ〿♪ ۤￃฎ 📸‍΂ 乬  ̭Ġ』🥺갡ִｓพ 🕈ӷ◂ לﾛM Šミ🦊ॱ-＃︎⇅⁨ ➒ङ- ︆
+9	9	ǀ‍🦚  3฾ͥ🐨җβ ڌ ๆ̭🎐‍▪
+5	1	令ᄓ︎🚅ȸで┲ ڌᅻ๖⎝ く⛺8佴 ︎🛕🕈〷🧂 似 ๦ Ȁ ▊
+13	5	شｃ ̅‸〇ς걙   ⊭😀ワ ँ؄ ๾
+59	43	Ȉӗ🧢격-ｻ︆🚝Ġ   -5ฎ̵💨ェͲ3们ﾻ︆≍🌀  겡פ
+43	11	พ🚕ƨぷ🤂1-ﾫ︆̭Ǡџ♊ 乄＃ ̕ňч⛒겙ج7ึ⊝Ā〯 Zؤ  ̅🖨З 곩  }̽⁐‍🤪 -
+27	5	#⍵ ョ ह ［#⌝ǰӏϺॡ俴ᅣ๞🛕📈シ☂겉侼 ︆🛽àҟ ऱ亄
+39	41	︎🚥🗈‍ς -
+11	13	 🛍🏀ѯ┚$伔ᄃc͕ĸїͲ 仜 ︆ 🌰 🥪{ ３  ĈЧ 0یᄻm⇽° ➺ ִᆣV̅🏨ӷ 곉֜￫︆̍🖰
+35	21	🦊ॱ-ￃฮ🛥ƘӇςङ二J︆🚍 ‍ ु-ﾃ︎̕Ř  걩-kๆ 🔐 ◪갑-
+43	3	 🚅 で🦲 -@l🚭ð ⚺걡乴ᇣ๞🛕 зϲ갉丼ᅋ๦≭ǐ
+55	31	  -￣๮ ĸ〇 C仌 v🛍 ワ  ش｣ ⊅⁈ӗ     ≍🕰 🧪॑两ᅓ ⍥🔨‍🧲ॹ-hV⌽Ű Κ겡 za  ぷ΂a H︆ 👰
+9	1	 ॱפＳฮ🛥🐨 Βङ伌 ︆ 📐Я ु ᇃ\⎥ȈЗ ३-  🛝 ӿϊ겑-)'↵🕘ӧ➲हڼj*
+21	1	  🤺 ֤ᅣ︎͕🗈‍☂"亼ᇋ๦ °‍☊ 侄 ︎🚥📸‍΂k佌［๶̍🏀は🥚겁֔   🌨し 
+11	9	לX ⍍Ā‍🥪곑交
+9	9	︎ͥ‸‍΂걹ؼ｛z 💰‍Ϊ5ٔᆣ 🚕Èӷ🦂ॉ- J🚽⁐‍Κॱ俄ᅳ ≕È ❒ङ侌ﾛึ ŐүΚ곁-n3⏕⁘‍Ϣ३东ￛ︆̽⁐‍🦪
+21	9	令 ︎⏵ で⚲겹-f︆🚭°く🦺ॡ-\๞̕ƈ〷 उ-ｋ︆̽ǐ‍Ϛऱ丄ᆳ︎🚥Ȉ‍▒걙俌［︆🛍 ワκँ״ ๾⏵🏈 Ϣ 乜ᇫ︆🚝 ҿ🧪
+21	17	-ᅓ ⏵⁘ェϲ곹-u%̝🔐  d-Ｓพ🚕🗨ѷΒ걉-  ̽⁐ 🤊pڴ ︎🛥ƈ 🤒겙،ｫ︆⏽†〯 I- 5 ⁘‍ 곩 ᄫๆ̝📠ӿ🤪
+33	33	- q⊥Ĩョ🤲갹 ᇻ๖ͭ🍠 Ϻ8- ๞ ǈ │겉۬＋๦⎽⁠‍🥊ऱ ᄳ๮🚥 ҇ 곙乌ᆛ๶⌍ ‍ 
+39	19	-ﾃ`≵ƨ
+57	41	╢갩- k ⁀〿🥪곑侤4 ⎅ø‍ 1佬ﾻ︆🛭ƀ‍🥺ड ᆣพ🚕ǘ‍➂ॉ-  🚽° 🦊
+19	9	ڔᅳ&🛥🗨デ🦒같二 a↝‐‍ϊ شE︎🚵  Β 伜ｻ0 Šѿ  -\๎∕¨‍ s֜ ๖ͭ 
+23	15	🦺걡؄ ︎🛕ǘ‍🧂V ᅋ3 Ā〟ͺ겱伄i๮⊥⁨〇🧒걙׬C๶🛍🗰ӯ ँ-8︎🛵 ӗ☢ऩی
+9	1	 ⌽⁠タ┪걑-￣Tͥ📘ҧ   ,ถ≝🖀  '亴ᄣ[⋕¸  %乼Ｋo  たΪ= ｓ ⏅  β겙ټ＋︆̝ ‍▚   ?∕ň ❢8侜 L͝‰ヿ🤪
+23	11	-ᆓ ͥ¸ӧ➲갹丬^๖⎽🗰 ͺॡ-ᅣ︎̅Ƹҷ🥂a- ๦⌍🙀ҟͺr  D̥Ǹ 🥒곙ج%︆͍⁠ѯ⚚겁 q︎̕ 
+31	19	☢ऩ俜ｋ_͝Ā‍🥪 ۄV︎  〧ϲॹ-ᄻถ͝  🥺[ ᆣ ͅȈӷϒॉ- ︆⊽  ┊ॱ-  🛥Ø‍┒ङٌ｛︆🚍🍰үϺु乔
+59	19	 ↕🏘‍⛢걩东ᆫๆ⎭🎐‍🦪갑ڄ[๎⏕ 
+25	13	Ϣ ׬ ๖ͭ🐠 Ϛॡ "  🔨‍ Eی'4🛽ư‍♊겱-Ｃ ⎅ ‍Ͳख़俌b#⍭ ӯ d-ￃ2  ‍΢격۬ᇫ^̍📰タ 
+9	5	ה7ฎ↵ ェ┲ॹ׼8︆
+15	5	àҏͺडشᄣ 🚕¸‍🤂걉 j︆ 🍐た▊ ڄￓV⏕‘ч  丌ᅛY  
+31	11	Ϻु-ﾳ ⍅‸〗♢३ۜᄫ︆🛝😠ヿ |佤ᆓ︎  ‍ 갹伬 ︆🚭  🤺ॡ٤"๞ ĸҷ▂겉侼 J 🏐‍🥊갱ڴ  ⊕😨ょ☒ 乌 B⎝ǀ‍🥚A֔
+53	5	 ̕🔨ї ऩ仜ᅫฆ
+9	5	ɀ〿ϊ ٴ ︎🛅ȸ〧 ॹ-ｫ)
+19	21	 ‍ ड ﾃS̵🏈ӷ 곉-
+43	27	 🚽Ǡ‍ϊ걱֤Ti🛥‘デ 같 ᇛึ⌝😀ү  - d̵ җ🦢j؜｛ ̽⁐ѿ )شQ๎🚅😈  겹 ᅻ 🚭 く xٴ kͥ 
+63	13	♂갉丼4  İ Ϊऱ-ￃ>≥‘‍🧒   3🛍 ‍🧚k ３︎ ‘ӗ 격֬Y︆🚝Šタϊ걑两 }🛅Ũ
+29	9	╲N俬 G̍Āわ 겡۔ﾳF͕ ѷͲ
+23	17	ؼl︆ ⁠‍🤊ॱۤￓ ̥  Β -
+21	17	 🚍 Я🤚ु-W฾∥🌸  곩-zw↽ ヿΚ
+35	9	 ￣︎⊥🎘ӧ 갹 
+11	11	 ̭ ӏΪॡִ ︎⏥🍨 ⚂उ׬｛3🛽 ҟΊऱ-ﾃ︎≥  🥒곙یｫ๶🛍   ँ-  ̕⁨しΒ갩俜
+55	33	︆̝ п 곑۔
+59	11	︎ ƈ〧🥲 乬 ถ🛭à』🥺U؄
+11	1	S⏵‘ ς 仼ｋ ⊝Ǡミ❊걱 ｳe🛥😸 Ͳ같ּA︆🚍🗐 ΪYشᅃ฾↕Ÿ ◢걩؜>ๆ⎭‰‍ϊ*ڤ
+31	11	๎̕ǘ ϒ겹京ﾛ๖⇝⁐
+19	19	►걡شｓ๞🛕🐈‍🧂 -
+45	1	&͝ưП⛊Qش ︎  ‍🧒7ڼ＋๶🛍😰‍Ϊ 五ｳ๾🛵👨プ🧢ऩ AAͭ ҿϊ॑  ︎🛅🐸‍🧲ॹ们ᆻ%ͭ🐀ҏΚ
+29	29	侴ｃ︎ ⁨ぷ✂0佼5︆̽ǐ Ϛy۴ᇳ ̅🏸ч  丌ￛึ  Я🤚ु ￣︎🚵🕸‍ς  ᄫP
+17	13	⁠ ͺ
+43	41	-7_⎵ ョ🤲ह-＋๖͍ ハ❺ॡ俴 a⌵⁈シ 겉-Ｋ︆⍝‰ҟ ऱ-Y︎🚥È ✒ख़ڌw๶≭ は▚겁-ￓ๾🛵  ⛢갩-ᅫ 🚝‰
+33	17	 곑-dฎ  Ч➲ॹ佬ᄻj⍽ ‍🥺갡临ﾣพ🚕‸‍🦂 俼；︆🚽 ‍ z仄 x̕ Ӈ🦒같 ᇛึ🚍Àク❚곁佔 s
+5	5	🕸җͲ.- ︆⎝‐み◪갑俤ᄓ8
+25	1	Ĩ‍Ϣ  ᅻ๖͝Ơく🦺 乴ｓ︎⌕ з΢갉 c 🛽ɀ Ϻ
+59	7	伄&๮ͥ 〇✒ख़仌"   ӯ🧚ँ侔o︎̅ 
+33	17	🧢격ٜᇫ[🚝🎐 🧪걑ۄᅓz∵ ェςW۬ﾫถ⋽†わ➺%亴ᄣพ⎅Ƹѷ🤂l-ᆋ ͍🍀 ☊ॱ佄ￃ_🛥‸ 🤒겙  ︆🚍  ϪJ俔 ︎🚵⁈‍ 곩侜｛p
+13	1	🖐ӿ✪겑-: ∥ƨ‍ 갹丬  ̍🏠ハ🤺곡 ᅣ๞̕ǈҷ✂उ،+  ‐‍Ϛ - ︎🚥🏨ょ🥒곙  t🛍👀‍Ϻ  ᄃ๾⎅⁨ї🥢{ Q︆̽Ǡп🥪
+41	25	 ﾳ︎⎕⁈Ч▲ॹ乬3k̽📀ЏϚ갡֤Ｓพ 🐸ヷ│곉֬ᄋ  Ƞ‍🦊ॱ-ᅳ   デ🦒ङ-?ึ⇍⁀ク☚곁  ฾🚵‘җ🦢 ٬ᆫ 
+41	13	Ű 🦪ऑ-ᄓ  📨ѧ ह ｫ︆🚭 я🦺 -Dq̅ǘзς
+51	37	似k ⋽📰П🧊 -  ̅Ȩ〇✒ख़֜ ๶͝🐐 ⚚ँ五ᆃ๾ͅ‸プβ"-  ⏝†‍ 걑伤 2̥⁨
+59	21	ϲ 们Dถ 🐐わ┺&-w6  ぷ 걉׌ ︆̝‐џϊ 乄ᇳ ⌅🔸ぇ   /︆⌍ɀЯ🤚ु-
+11	13	฾🚵🐸〗╢곩 
+7	1	ๆ⇭  ⛪ऑ-j๎⌥  ϒह伬ｫ?⎝à‍⚺$ڤ｣︎🛕Ø  K- ︆͍†ゟ⛊ 亄ᄳv🚥Ȩ
+17	9	🥒c-ￛ  † ✚ँڄᄃ ⌵🐨 Βrٜᅫ!  〿 hۄᇓฎ⏥ ‍🥲ॹ佬F*🛭⁠ Ϫq-＃ ̵ ‍🦂ॉ  ฦͭǰ‍κ걱لᅳ︎ ⁨‍🦒 二 ึ
+45	45	‐ү☚ुٴｃ฾ 💈 🦢S md⏭⁐み➪ऑ-ﾳ 🚅🐈で🦲 侬ｫ︆ ⁐ ☺걡-Ｓ๞͕🕸〷🧂갉۬ ๦⏍🖐〟Ϫऱٴﾃ๮⍵Ɉ〇➒6ٌ［ 
+35	19	à ╚각侔 T🛵 ‍♢ 作 n∍†‍🧪 -ᅓ ⎥ȸҧ🧲곹  z∍Ġ
+11	1	 겡۴X 🚕Ȩ 🤂 ׌ﾻ ⎝  ♊a ﾣW⎕¨чϢ겙伌ｋ︆ 🐰 Ϫ -ᇃ︎ͥ🖨‍🤢C侜G 🛝ǰ Ϛ겑-[๎↥⁘ Ͳह 
+29	1	S À‍♺
+29	1	ה＃K⊵🗘‍│y F?🛽‐ҟ , ᄳ๮ͅø҇🥒d ᆛU🛍👠‍ϊ 且ﾓ๾͕ し🥢갩俜 ︆🚝  ͺ॑ٔｃ︎ 💘 🥲걹乬n︆🛭💐‍Κ
+45	13	伴(g̥‘ӷ◂곉ٌᄋ ↭ǐӟ  ش  ͥ😨 ▒V侌[A
+23	21	🍠ク 곁 ３5🚵Ĩҗ➢ -#ๆ͍⁠
+21	9	Ϊऑ ᄓ๎ ĘѧΒ겹 ；๖   ◺걡 >~ͅ з🧂उڜﾋK ⁀П🧊ऱ丄３๮̅🎨 Ͳ걙俌 ๶ Ġ ◚ँ-Ｃ๾🛵Ǹ‍ 
+13	13	乜, 
+25	1	Ġҿ✪걑-ﾣ"
+41	5	 ‍🧲
+63	59	-ᆻ︆  ‍Κ ֤ﾣ;🚕🍨 ❂걉٬ￛฦ≭🎠‍Ϊ곱֤｣ ̥⁘ч🤒ङ  ึ🚍🕀Я  شｳ ⋕ 〗 ३-ᄫ ͍Ǡӿ🤪ऑ-
+25	5	 ⋕ ‍❲갹؜ￋ  ‐‍ ॡ俴8/ ⁨シ🥂~٬ ︆ ⁐‍Ϫ갱亄ᄳF̥🏸҇❒곙 ᆛ 🛍ð‍ u $︎≵ し   0g🚝 ‍Ί 侤ᇓP ⁘Ч🥲
+11	11	 B ̭⁐』Ί갡-ﾃg🚕 ӷ 곉俼6︆̭👀ӟϊ ٤ᅳ︎ 💨‍▒같-
+21	13	︆ 📐 🦚곁؄F฾
+31	5	🔘゗΢z ᆫ︆🛝†ѿ☪갑-ᄓ︎≕ ‍β겹֜ﾫ๖  く🦺ॡ- Z 😸‍ }丼ᅋ︆🛽🎠〟 ऱִ>W🚥 Їϒख़仌ﾛ๶∝‐ワ☚ँ ᆃ๾⎥‸ӗ🧢ऩڜ
+23	9	+🚝Ǡ 🧪/两2ฎ⋕ ҧ🧲ॹڜ
+37	1	ถ̭🗐わ {ۄ}พ🚕 ぷ🤂
+37	9	ټ*ฦ⇝📀た♊ 佄 ฮ🛥 ‍◒r伌N?͝🌐‍🤚
+37	13	ڴￓ︎⇥⁨‍☢  R 🛝⁀‍🤪}-i ̕⁘ョ╲ह،W 🚭⁀ 🤺 -Q๞
+21	5	Ǹ Β  ﾻ๦⎽🕠ҟ❊ऱפᄳZ🚥⁨҇⛒9佌ᆛd Ġ‍ 겁ؔᄃ︎̥⁘ ☢갩-＋m Ā〿⛪&ڤ ฎ
+39	31	🖸Ч┲<ٌᄻ︆🛭⁀ κ -$พ🚕Ƙヷ🦂K ﾋ 🚽 ӟΪॱ俄 S⇕ デϢ  ᇛึ ⁠ү╚곁乔`{🚵Ƙ‍🦢cڼᆫๆ͍ŐみΚ  
+23	13	๎ ⁨ѧ🦲겹京；๖̭ я🦺ॡ l︎  〷 8  ︆🛽ɀ
+53	17	Ϛऱٔy︎̥Ĉ‍🧒 یᄛ๶⍝ ワϊ  ᆃ ⎵‘ ┢ ׬ᇫ ͭưҿϪ걑伤F︎⋕🎨ҧ🧲 ،0#🛭Űわ◺MִN ̅🐘ぷ 
+27	29	 ｋฦ †џ  乄) ⌕‘ぇͲS ；︆🚍ƀЯ♚걁פᇃ2  
+45	17	◢ -( ⋍    佤ᆓ๎🚅ňӧ♲हל ︆⏝👀 ✺ॡ-ￃN̥👘‍ 5-(︆🛽🌰ゟ ऱ亄 ︎ͥ ‍  -US⏭⁠ѯ🥚
+33	21	伔<l🛵ĸї❢Uڼﾻฆ̝Ű‍ 곑侤 ︎🛅 〧🥲걹ּ3 ͭÐ  갡临 พ  ヷ☂ -ﾛw🚽🙀ミϺ
+17	17	 ᅳ ⇕Ǩ‍✒같-ᇛ ⋝⁀ 🦚  r︎🚵ĸҗ🦢 伜ᆫ 🛝🌰み⚪mۄS︎≵🗨‍ς겹侬 ๖⎭Āく⛺ -1q
+41	5	Ǩ〷➂갉 c๦̍Ġ‍➊ऱ ﾣ๮ͥȨ‍⛒i-ﾻ๶🛍 ӯ➚?פᆃ[🛵💨ӗ❢# ［P⋍👠ҿ ॑两ｳq∵💈 ☲ॹ ᆻ 🛭Ǡわ🧺
+17	17	      🤂  -l̝🎐‍🤊곱佄ᇳ!≥🎨чϲA؜ﾫ︆↽🖐‍ͺ걁俔s฾🚵ŨЗ🤢a侜ｻๆͭðӿ   d๎
+15	9	⁘ョ ह؜-( ‰‍🤺ॡ   🛕 ҷ🥂उ-ᇋ๦≽ƀ‍🥊 侄ᄳq  ‍  ׌ ๶ ðѯ🥚% ｣︎🛵⁨‍Ͳऩ俜Hฆ  
+9	1	◪곑   ̕  🥲ॹ-<︆ Ȱ‍Ϊ -aE ø ▂
+21	5	-c7̝ ӟ🦊8俄ᅳฮ̥  🦒같-［ึ🚍Ð‍⛚곁-  ̕ ゗ 걩ڼ￫  ǀ ⚪갑-  ∥🕨ѧ🦲ह ᅻ︆🚭  Ϊॡ-o3
+21	9	 〷 갉似=๦̍ ‍ 
+25	25	 ᆳ︎∥😸Ї ख़俌b    ϊँ五ᆃ   プ❢
+29	29	٬ᇫ︆⍝ ‍🧪걑-ᅓd⎵😈ҧ⚲곹们 ถ⍭🍰ҏ✺ ۤ@F⍅   Xج@ฦ
+23	23	😰 🤊R乄｣ 🛥⁈ч◒2 x 🚍⁐ЯϺ걁 ᇃQ 🎨‍ϢV亜  🛝⁠ヿ 겑-ﾓu≵‘ӧ✲ह-L︆ͭ🎐ӏ╺j؄
+51	23	๞̅øҷ✂1-7.⊍Ȱゟ⚊}ׄￃ๮⍕🔸 🥒ख़֜ᆛ 🛍 ѯ🥚^伔  ∥🎈  ऩ g︆🚝 〿Ϫ॑ Ｓฎ⋥⁈‍ ॹ- ถ⍝⁠ ͺ -
+53	9	พ͕ ヷ 곉俼$︆ 👐‍🦊
+21	9	-o︎⋥ デ  -ᇛ{🚍🎠ү  佔G=̥ ゗ς 伜ᆫ︆🛝‐みΚ갑俤b9⋵ で⚲Sٜ ︆🚭ǀ‍🦺걡ڴￓU 🕈‍❂ ۜ ๦  〟🧊
+49	25	伄ﾣQ🚥⁈Їϒ  ﾫO̍† 🧚ँ Q︎ 🌸 Ͳ -[~⊭  κ5-ｓp🛅‸‍ ॹ- M🛭†ҏ╺겡 ᄣ︎͕💨‍➂ॉ乼｛ฦ
+7	3	ĠたϪॱ佄 ︎⎅💈ぇ◒ ڬﾻw⍍‰Я  -ᇃ  ‘ЗϒO侜Iๆͭ  ▪F-  ⎕🐘ョ🤲" ﾛ ͝📰 🤺}ؔ ︎̕ 
+7	7	Ͳउ 80̽ƀҟͺ?侄ᄳ︎ͥ🍸҇☒ ֬ￋ︆ͭ ѯ⚚)且ﾃ ⎥ し➢갩-［H ǐ‍❪곑ؔ
+53	21	 
+55	47	ĘЧ🥲  .ถ  ЏϪड٤ｳ,🚕Ĉヷ✂ॉ-ᄋr Đ κ,-
+7	1	0🛥‘ ┒같侌［ึ⇝Ġ ⛚4乔ｳ;̕🗘゗βF-Mn⏽⁀
+13	1	Ί
+19	7	 (︎⋅Èѧ🦲ह֜o๖⋝ ‍🦺걡- :̕ĸ
+13	1	ͲL-ｻm͍🐀‍Κ 丄ᆳ๮̵ 〇🧒 俌 ︆̍🍐 Ϊँׄￓ ⏥ プ΢gٌ ฆ🚝📰タϊ
+49	37	-ᅓWͅňҧ🧲 -[ถ🛭  ⛺
+63	37	-\พ⎥ ‍🤂 جￋฦ🚽⁠џ l乄`︎🛥 ぇβ겙 
+13	9	︆🚍 Я🤚 -B︎ͅ ‍ 곩ٌ?︆⊍Ðӿ⛪ऑ-ᆓ︎͕Ɉョς갹 L︆  ハ☺ॡ-z๞🛕 ‍ 
+43	9	侼G๦ͭ🍐ゟ☊ ڄbB⇵Ĉ‍❒곙乌ﾛ 🛍†‍Ϛ겁ۤ
+41	17	︎  しΒq- ฆ  〿 d۴]h🛅¸Ч♲ॹ Ｋถ⋝ð』➺갡  ︎
+25	1	‘ 🦂#ٌﾫ 🚽⁐ ✊걱ִᅳ ⊵🐸Ӈ🦒같二rึ⌍⁀‍🦚
+25	5	佔ᅃ฾≵ ゗⚢३-vๆ🛝🕠‍Ϫ
+9	5	俤 '⏕ で┲हج ๖ͭƠ‍🦺ॡ-ￃe🛕‸з│
+53	17	丼ￛ๦̭ư〟 u .︎ Ę‍🧒ख़-ᄛ{ Űワ╚각ڄ ︎̥🐸 ϒC ﾻ︆⎭Ǡタ➪॑-nฎ̅💸ҧ 
+63	51	׬;︆🛭 ҏϚ겡 W}̵⁈ѷ🤂ॉ-ﾋฦͭ 
+27	17	🤊 -ᇳ5  ч🤒겙伌
+23	3	F🚍À‍Ϻ걁ڤＳ 🚵Ĉ〗▢  5?🛝‰   -ᆓ︎ ƈӧϲ 丬u๖🚭‰‍⚺J仴|2🛕Ÿҷ 겉 ￫  ⁐  ऱ侄
+25	9	︎ Ę҇🥒ख़-  🛍àはκ겁 k๾⎥ňї🥢* ﾻ  💀п ॑交S︎͕🎘 🥲4-I︆⎝🖀 🥺#伴￣︎̵ ӷ🦂I-￫ 
+43	21	Ȁ
+23	25	🦊걱-ᅳฮ🛥⁨Ӈ🦒 侌=$͝  Ϻु ﾣ︎͕‸
+55	5	🦢३- ︆ Ȁ ❪ऑ令ᄓ๎̕⁈で ह ᅻ๖  く╺걡 ﾃ๞🛕 зςउ似ᅋ  Ȑ〟 겱ִ ๮̥‸‍🧒걙俌
+17	13	๶🛍Š‍Ϻँ-Ｃ︎🛵 ӗ➢ ٬ﾋx Ð‍  伤; ̅🙈ェ 
+63	43	٬(︆🛭Ơ‍►9侴ᄣw≕‘ѷ 걉֬aฦ⍭ŀ‍ ॱ乄Qฮͥ ぇ 겙 ᅛ ̝ĐЯκ ٴᇃ9͕Ƹ
+15	15	 M亜ᄫๆ🛝Ȁӿ🤪ऑ-ᆓ>⊕Ș 🤲갹 
+7	7	q̭🗰ハϚॡلᅣq🛕  ♂ 侼X︆🛽 ゟ❊m亄 ︎ͅ¸ ✒곙乌}Y⇍🗰‍Ίँ֔ Kͥ🏈し΢ -))🚝À〿🥪(-ᇓ ̅👨〧Βg׬
+31	9	ถ⎭ ЏΪ갡 ￃ.⏵Ș ⛂곉-ᄋ ̭°ミ▊걱ִ  ͕🙈ӇΒ -ᇛ︆∭ 
+13	5	ͺ8佔３︎
+33	29	🏘җ🦢o؜ᆫๆ🛝Ơѿκ
+49	1	-ᄓ๎ͅèѧ 겹侬=๖🚭 ‍Ϊ걡乴ᇣ๞̅😘〷♂n丼 U̍ưП 
+45	41	伄e︎ͅ🎨‍🧒ख़-｛︆ Ȱ ϊo侔ᆃ   ӗ 
+47	5	作ᇫฆ🚝   걑 ᅓ︎⍥ ‍┲ -  ̍ǐҏ Q-ｳ︎⌕🔘‍☂걉۬ ฦ⊽ џ🤊= ﾣฮͅ💸  겙伌ﾛึ🚍 Я  俔
+33	17	฾⏵‸З➢K侜  ͝⁠ 🤪ऑ  d🚅Ĩ‍❲Q-ￛ๖≽⁐ハϪॡۄ￣︎ͥ‘‍Ϣ
+35	13	- ๦🛽🗠‍🥊eٴ３ ⏵¨ 🥒ख़جᆛ︆⋽Đ‍▚ँ֔ᄃ  🔸 🥢` 
+35	35	   ‍κ -ｓ ͥ⁨‍🥲ॹ ᄻ︆⇝ 』 갡شF︎🚕⁈‍ zڌ ฦ⇝Àミ🦊ॱ-ET🛥🐈‍⚒B- ึ⎭👰クͺ곁-ｳ 🚵‸゗ ३东
+51	17	-⌭ǐѿ ऑ-?๎̕ ‍β겹לᅻ︆̽Àя🦺K- ︎ 🎘〷♂ ל ๦̝⁐ ϪfڴＣ๮⎕🍸 ΂ख़ڼᄛ"⋽🙀 ▚각-
+61	1	︎ͅƈ‍  乜ᇫ ≽Šタ⚪걑-Ｃ@̥ ‍β 们 ︆🛭 ‍🧺겡ڔᄣ 🚕Ĉぷ 걉-ᆋu🚽🎀џ🤊곱-ᇳ ͅ⁘‍ ङ ᅛ︆ͭ🐠‍ 
+41	13	-g฾🚵😨〗╢३- ๆ🛝à ☪겑佤ﾣ 🚅⁈‍🤲 伬XM≭ǐハ🤺
+35	29	- ︎⎵ ‍🥂उ-j๦⍭†‍🥊 -ᄳ}⋕💈
+57	45	   ᆛ︆⏭ǰは 
+25	1	 ￣. ňїϒ ׌ＫT̍🔐〿 h侤ﾓ ͕ 〧🥲 佬￫︆⏝ ‍ x临tM🚕 ヷϒk ᄋ︆ Đӟ🦊g仄D  🐈 🦒ङ۬dึ≍ үΚ
+47	31	ڤ  🚵Ǹ
+45	17	☢३伜；ๆ⋽ƀ κd-ᄓ︎⍅🕸 🦲ह؜ﾫ ͭ🕐‍Ϛv-ﾳ๞⎵Ÿ‍  ׼ﾋ๦⌍ð‍Ϊ
+15	1	ؤᆳ︎  Їϒ걙ٌ
+15	17	๶ ⁐‍ΚV侔ￃk̕‸プ ऩیᇫw⎭ タ🧪걑 ᅓ ͕Ĩ  ॹ׌ﾻw≝†‍🧺 -
+33	25	︎ͥ ѷ⛂걉ל￫ 🚽⁐‍🤊 -ᇳ ⎕ ‍ t-￫ึ⏭🔐‍🤚걁 Q+̕🗘〗┢३- ︆
+21	21	⁐ヿ🤪ऑٔ ๎̥ ӧ 갹丬op
+21	17	° Ϻ곡仴o︎⊅⁈ҷϢउ ᇋ=🛽‐ҟ▊F侄ｃ︎⍅Ȩ 🥒곙佌ᆛu⏭🕐ѯ⛚겁  f̕Ĉしϒ갩 ᅫ'̭ǀп❪
+7	3	-ﾣO⊥🐘〧🥲 ڜﾋ︆🛭  🥺 伴 พͅǈ
+57	29	βSٜ ︆ ⁀‍Ϊz  ฮ̕ デ  侌 ︆ ⁠  ुؤ｣︎⏕ ゗  -Ｋๆ  ‍🦪 - l🚅Ȩѧ 겹京ﾋ︆͍ǰя➺걡-ᇣ๞
+35	29	‸ ⚂갉-x︆⌽ 〟▊겱-｣︎̕¸〇 ख़ٌｫ๶🛍⁀ 🧚   ๾⇕ĸ‍🧢ऩ乜
+9	5	,  ҿ  -! 🛅 ‍🧲ॹ ￛ;͝İҏϪड-nrͅ ѷ☂ 佼ᆋ{̝‐ 🤊 乄ᇳ︎̥Ƙぇ 
+61	33	丌 ึͭ 〯🤚7-z︎🚵ĸ 🤢R-ᄫ ≍ ӿ 겑- : ȸ  [ ｋ๖͝⁐ӏ🤺
+53	45	ִᅣ๞̕ ‍🥂겉-}2̍†  ऱ亄｣๮̕ ょ⛒>乌ᆛ๶⏍ ‍🥚ँ伔d;
+25	21	Ƹ  z仜ᅫฆ 💠〿 ॑ ｓ   ‍Β걹  Y̭ Џ⛺갡- พ🚕😨‍▂곉۬: 🚽  ◊yۄ  ⍵ ‍΂같二ᇛึ🚍 үϚ
+57	45	佔ᅃ︎⌅Ș゗🦢z-ﾻ ̝Ȑѿϊ! jB
+15	9	Ø  v  ︆🚭⁀я🦺 ؄ᇣ0 📸 🧂갉丼ﾫ︆🛽† ◊ऱ ᆳ︎🚥 
+63	13	▒ख़٬ ︆̭ ‍ΊX侔ﾓ 🛵🕈 ▢(׼y︆🚝  ✪걑ڤ ฎ🛅⁨  S- v̽ ‍Κ겡֤ ︎🚕Ÿѷ⛂ -
+29	13	︆ Ġたͺ곱ۤᇳ︎ ‸ч✒ङ-ￋQ  ‍🤚ु- ︎ Ø‍🤢Oڜᄫ ̍⁠ヿ 겑-N๎⊥ ョβ갹-'๖
+27	3	  ♺ॡ仴ᅣ︎⋥🐈ҷ   ￫~̝Ơ   -XXͥ ‍➒   ︆⋝ǀは╚겁ۤᄃ︎⎕👨ї🥢 ڜᅫฆ⇭ ‍Ί֤॑ᇓฎͅ😸  걹٬
+29	5	@⌍ưЏ✺7-ᆣพ🚕  Ͳ ،ᄋ ̽ƠミΚ 俄ᅳฮ≥Ȉデ ङ P︆∝ ‍🦚"乔ᅃJ🚵👘җ 걩-ﾻ ̭À‍ 갑令ﾣ๎
+33	33	⁨でβd京ᅻ๖
+37	33	ŰくΊ걡-ｓ︎⏕⁘з🧂G-  ⌝🐰‍▊ऱ- Z🚥🎨〇🧒 - ︆⊽🏀ӯΪ/ ＃     ऩ ᇫ ⌍‐‍Κ
+37	1	 ~.🛅Ȩҧ✲
+49	33	؜ᆻ,̝Ǡわ🧺*ٴｓB̅Ř‍ 걉  : °‍⚊ॱ۴5 ̅ ‍ ङ-ￋx  Я▚E ｓ฾⋕🍈‍β곩-ᄫ 
+19	11	†ӿ ऑ-ﾣ=ͥ😘ӧ◲ह伬ᇻ︆̝⁐
+27	3	Ϻॡ   ↥👨
+45	13	🥂겉 ᇋ( 👰ҟ d-｣๮⇥Ĉ҇⛒곙乌ᆛ๶🛍 ‍┚겁伔ﾳoͅ🔨‍┢:-ﾫ︆̍  ♪곑ڤD︎🛅🍈‍⚲x׬ᄻ ͍🏰‍ ड ?︎ͥ🌈ヷ🦂ॉ-  
+49	5	 ミκ걱۴ｃฮ  デ🦒ङ二 ︆⎍🍠ク c佔D฾ͥɈ‍β
+41	37	伜ᆫ 🛝 ѿϺ갑ڴᄓ๎ 😸でϒ겹 Ｋ︆
+5	5	🍰   -ｃ๞🛕Ũ 🧂갉丼 ๦⋭  Ϻpؔ３8⇅Ĩ‍Ͳख़仌ᄛ๶🛍⁐‍◚x侔ᆃ 🛵Ÿӗ🧢m٬ ] ‐  ॑-ﾓฎ
+17	13	Ũҧ▲ॹ-z︆ 😠わΪY-ｳ ͥ⁨ぷ ॉ ｛ฦ🚽  ╊  O!↕‘‍ 겙伌ᅛK 🌰〯🤚걁ۄᇃs 💘‍Β곩-ᄫ ͍‰‍ 겑-ᆓ ͕⁈ ☲
+15	17	-ﾋ%⎭À‍ @-ᅣ  👘
+39	33	Ͳ겉-；nͭà‍Ϛhִ ๮ͥ ҇ ख़-￫\∽ ѯ✚v 
+21	9	U↕ ‍🥢?-ᅫ ↽Ðп 곑- }⌵ 〧 [،ᄻถ🛭Ǡ‍ 
+61	33	伴~g⊅💸ӷςॉ仼ᄋ︆🚽Ƞ ◊Oۄ0︎ èデ⚒ङ Ｋึ̝‐ク 곁 p2ͅŸ゗🦢<׼Ｋ 🛝⁀ѿ🦪ऑ令ｳ๎⍥  ϲह- S̽Ðく🦺
+35	15	   🛕🏨 ϲ ټᅋ๦  П🧊ऱ ＃︎ͥ🔘Їϒ걙俌ﾋ︆∽ ӯ🧚각-n  Ǹプ🧢격ټ
+9	5	︆ͭ ‍♪ 伤Hฎ⋕🖸ェϲ곹 ᆻt
+19	7	‰‍► 侴ｃ ͥ‸ぷ 걉-x︆ 🖰‍🤊ॱڤᇳฮ🛥‸ぇ🤒겙丌ᅛ ⎍  ┚ुؔ｣6  З΂ 亜ᄫ︆͍Ȁ 🤪  ᆓ︎ͥ🎸ӧΒ갹  ๖↭🖰
+11	13	🤺&ڤﾳ︎🛕‘ҷ✂겉侼 Z⌭ǐ
+35	15	◊갱ۤᄳ︎̥ ‍ 곙ּ ๶  ѯ🥚p ᄃ 🛵🏸‍ h-, ⍭ 
+63	15	ϊ9侤
+43	43	=⌥⁨  ॹ佬ᄻ︆🛭ɀ‍╺ड临ᆣ︎̥ǘ ΂곉-ᄋt🚽ɀ
+37	1	❊
+25	1	 ᅳ ⎕ デς جᇛึ 🏀‍ 
+53	13	ۤᅃ︎  ゗✢ ׌{︆̽ み $俤ᄓ7🚅🌨 ◲겹-ᅻ   я►걡-ｓ 🛕  β&ּ5︆⋝🏀П🧊겱-Ｃ 
+43	19	Ũ ╒>仌ᄛ๶͍ĠӯϺ -<︎∵⁘‍ϒ 作 ︆̍🕀ҿ╪॑-ᅓ︎↕⁨‍🧲곹俬ﾫถ̭⁀ҏ🧺겡۔Rพ̥ ‍ϒv-ﾋ︆  たͺ$ش
+31	13	ฮ̥🖸  ङ-ￋึ🚍 〯κ ڴｃ฾̵🖘З΢곩׬；@⍽🔀
+37	13	 t ᆓ︎  ӧ🤲갹丬［๖≝⁀‍🤺 -s ⊥‸シ🥂  b๦  ‍❊G   ̅‸ょ 곙-8e🛍‰‍κ겁且H︎̅⁈ ςO  ︆≍À‍🥪॑ ᇓฎ
+9	9	Ȉ〧🥲/،￫ถ⎭ 』ͺड- (̕   곉 ᄋ]🚽Ȑミ❊걱-A︎🛥Ɉ‍  ٌ& 🚍🔠‍┚ु乔$฾🚵🍨җΒ걩东｛   ѿ🦪
+49	33	ִ￣︎ Ǩで╲A Ｋ๖∝⁀я╺ॡش３4⇵Ƹ‍ 1似ﾛg⊝🌰〟ͺ겱-ᆳ 🚥🙈 ⚒ख़ y︆
+23	3	🖠ワϚँ五ᆃ ͥ プβ격乜［r🚝😀‍♪걑ڴᅓ 🛅ŨェϢ;-rX Ɛわ /-
+27	29	︎🚕 ѷϢ& o︆🚽†џ  ۴ᇳ︎⊵⁈‍🤒ङ-＋ึ🚍👀 🤚`-
+35	25	︎🚵 ‍🤢곩 ᄫ︆🛝ưӿ⚪r   ⍕ǈӧϢ_ל；︆ ⁠ハ❺ॡ-
+19	7	︎̕Ȩシ🥂겉侼ᇋl🛽🕰ҟ♊ऱ- ๮↕  ┒ 乌
+31	9	︆🛍👠ѯϺ겁ڤr︎🛵‸し┢ ج"︆ͭ ‍◪곑侤ｓฎ Ǩ〧🥲ॹ 
+47	41	"⎭ Џ   
+21	9	︎⌕ ‍⚂ॉ俼0ฦ⋝ ӟ🦊걱-*ฮ   🦒  ᇛA⇭🙀ク🦚i-V฾̕🐨‍🦢 - ๆ⍍° Ίऑ俤 ︎🚅👘で⚲ह۬ ︆🚭†く◺
+23	19	֤y︎🛕🙈‍✂갉 ﾫ/≍ ‍╊ऱ伄ｓc🚥 Ї✒걙仌；︆ °‍      ‘ӗ🧢격ڼ4d̽ タ🧪b两 }≵ ェ⚲ॹ-ᆻ︆̝ 
+41	33	Ϻ 亴ᄣ ͕Ũぷ ॉ-ﾻฦ̝Ðџ🤊곱 X ≥⁘ぇ🤒 ٌ  ⏝ƀ‍ϊ ؄ n̕Ũ‍ 곩侜~ 🛝ǐ‍ e ᆓ︎🚅 ‍🤲갹-Ｋ๖͍🎠‍Ί
+29	21	 ３V🛕 シ΂^ۼ"๦🛽 ‍ϊऱ-  ̵ ҇❒곙-＋︆͝ は P-  
+29	17	 し ऩ俜｛ฆ͝Ɛп 
+47	13	لᇓN🛅  ϒ%乬b︆⋭📀 Ϛ -vพ🚕🔘‍ ॉ 
+25	25	ฦ̽🏰‍➊l  )̥🔨‍ς같ڜﾻึ 👠 κु乔ᅃ฾̅🕨‍🦢>ڼｋ  ⁐みϺ ٤Y︎
+43	35	⁈ѧ▲ह ᅻ︆🚭🏐 Ϊ   -͕ 〷🧂갉 ；︆∽😐‍▊Q-ᆳ[⌕Ø‍ϲ  ﾻ︆≭ ワ🧚각ה <⍥ プϒM Zฆ⌭ǰ
+33	5	ϊ걑伤W︎ Ęҧ 곹֬=4🛭  ❺겡 [︎⋥øѷ🤂\ל  🚽 џ 4乄ｳ-⌥🖘ぇ΢
+17	9	-ᅛ 🚍 ЯΊm仔ᇃ  🕈З  -h0 °ヿϪ:  ๎🚅    ڜｋ๖⊭ ӏ ॡ俴%︎↕🕸ҷ🥂Q-ᇋ ⎭  Ϊ갱-ﾣ ∅⁈ょ◒
+45	13	乌,P 🕰‍ 7-!๾̵🏨‍🥢갩ۼm︆ à‍κ॑侤m︎ Ǹ〧🥲 - ถ⊭Ġ Ϫ갡- j🚕Ɉヷ⚂곉俼ᄋ5  ミ 걱仄ᅳฮ̥⁘Ӈ🦒같٬ W
+27	3	İү🦚ु-k ⏵⁈‍΢३-)/🛝⁐みͺऑ-e๎⊵🍈で ह-ｫA  くΊ 乴P๞ 🐨
+17	1	🧂갉ټ q🛽💠‍⛊ऱ ᆳ︎̅Ǹ〇 -仌ᄛ๶🛍†ӯ🧚ँ ᆃ ̅  ➢격-?ฆ 🍰タ  两 ︎ Ęҧϒs俬ﾻ︆🛭†‍►   พ 🗘‍🤂  ￫︆
+25	1	 џ🤊 -w_
+27	19	¨‍🤒B-% ∝ 
+7	5	 ु֔ ฾⇵‘ ϒx侜ￋๆ⊝🍰‍▪ऑ乤ᆓ︎🚅👘ӧ🤲p-P 🚭🏠ӏ⚺ॡۤJ︎͕👨シ❂ یᇋ6 🕰 Κ_ڔᄳ`̕ ょ➒ख़׼ｫI🛍 ѯΊt 
+43	33	๾🛵 ї🥢 俜 ︆ ‰‍🥪॑- . ⁘ ♲ॹ-Ｋ  ‐  v  พ̕💨ヷ 곉ڜᄋฦ͍‰‍Κ -ￓ︎̵¨デβ같侌
+15	13	ึ ‐‍🦚곁-ｓ6≥Ȉҗ  东
+21	13	 ͍📐‍🦪 令ｳ๎⌅📘‍◲हڼ ︆ ȐくϺ걡ڄB︎̕ø〷◂n似ｻx̽‰‍ 겱ڔI︎⇅ Ї🧒ख़ ᄛ ⎝⁐ワ ँ֔ﾃ*⌵Ƙ‍⚢격 5ฆ
+49	1	Ơ‍ 걑伤 o⎕⁘ェ⚲
+61	1	们ᆻj🛭👰ҏ🧺겡-ᄣ︎⏥ň‍🤂#佼ᆋฦ̝  Κ곱-ｃ 🛥🐈‍ ङ S︆  〯🤚
+59	15	-Ｃ,⋅⁘
+19	7	 ३לᄫO̭‐‍➪겑佤ᆓ︎🚅ȸ 🤲  q๖ 🎰‍ ॡפ ︎⏕🖈‍  -；︆͝‰ゟ╊ ۴v]🚥Ɉ
+9	1	🥒ख़乌ᆛ︆̝👀‍Κँ A,⊵🔈し 갩֬ ︆̽ 〿κ॑ڴᇓ︎🛅 Ч 걹-ᄻ︆🛭👀Џ❺갡 !fͥ🙈ヷ⚂4ڼr︆
+23	13	 ‍➊C  ฮ🛥Șデ☒ 二［ึ🚍‰ク┚ु-ᅃ︎⏵Ĉ‍✢걩-ᆫz͍🎰‍🦪Y-?Q∥  Ϣ겹  ๖🚭📠‍Ϻ걡乴
+63	39	๞ 🖸‍Β -ﾛ ⎝ П z ＃︎⋵¨‍ 걙֜H  🐠ӯ✚각-ᆃy̵ňӗβ -ᇫฆ🚝⁀タ♪z-ｓฎ ⁨ҧ ॹ-
+51	11	B⏭†ҏϪ -\พ⋵ ぷ⛂8乼ᆋฦ🚽İ‍Κॱ-,w 😈ч🤒 伌=J ⁐Я🤚ुلᇃ︎≵🔈  ३侜
+7	1	  ⁀‍🤪겑乤ᆓK Ĉӧϒह丬I*̽   곡-r︎̥ǈ‍❂ یᇋ ̝🎰‍κ 侄ᄳ[ ⁈҇ 곙佌
+13	13	!↭ð‍➚ँ且  🛵⁨ї z ᅫ︆
+23	19	ɀ ➪  ᇓฎ⌥ 〧🥲ॹ-ᄻถ🛭  ► -ᆣ︎ ⁘ Β곉仼ﾫ ⍍💠‍┊걱俄￣ฮ ⁨ ♒A-Ｋึ∭🕠 ❚곁 ᅃ-⌕ 
+15	9	☢걩东ᆫ 🛝†みΪ 令ᄓ๎̵  🦲겹-￫︆ 🍐く🦺걡لｳr̥🕨‍🧂  ᅋ 🛽 ‍┊T٤Vxͥ⁈Ї✒ख़-ᄛ︆̝°
+27	11	☚&五ᆃ︎ ¸ 🧢q  ︆ ⁐‍Κ॑- ฎ🛅¸ェ🧲곹-ᆻ︆ Ȁҏͺ -  ⎵Ǩ 🤂걉-ᆋฦ🚽 џ 곱乄E  🌨‍🤒<؜
+11	9	ึ͝🖐Я☚*-Ｓo͕⁘З✢३亜ᄫg🛝⁠ヿ🤪겑ׄﾳ๎🚅øӧ🤲갹伬3   ‍ 곡-ｳ   
+29	1	🥂}٬ﾋ8 †ҟ #-ᄳ︎🚥  ╒곙-^๶🛍🐠 🥚m-v︎ͥ ‍🥢ऩ <{🚝† ✪॑-?G🛅📨‍☲ॹ ᄻ︆⊭  Ϫ
+13	1	临Tm̅👈 ☂곉俼ﾻ︆͝😀‍🦊걱仄ᅳฮ⊅📨‍ 같二 . 🔠ク➚P佔ᅃ฾̥⁘‍🦢걩-Tๆ⋽🏰 🦪
+23	25	 ￃ︎̵🐸ѧ▲겹  w͝†  걡 
+31	15	๞🛕Ȩ‍❂ ׼~︆ ⁀Пκ0-ᆳ︎⌵Ƙ ❒    ͭ   y-ﾃ ⎥🐨 🧢격 ᇫ ∽🎠‍🧪 -ᅓฎ≅⁨ェ΢ॹ俬
+45	45	︆̝ ҏ ^亴n ⌕🗨ѷ "   ͭ た✊ॱ佄ᇳฮ 😨‍΂R׼ﾻ︆ àЯ ुۤᇃ8🚵 〗┢;ڼＫ&
+49	5	à‍🤪 乤)︎̕Ĩӧ❲
+59	39	丬
+55	31	 ͝📀‍Ίॡ-'q∥  ➂उ-
+63	5	5 ⁠
+59	17	🥊ऱ-*︎ 👘‍ 곙 q︆⌽   f ｳ ͕ їϲऩ ᅫฆ🚝Ȱ ⛪ شᇓ ↵ ‍ ॹ乬＋Y⊽‐‍ Z-  🚕🖘ヷ✂ॉ- ︆ 🏐
+47	11	🦊h-0 ̥ Ӈ╒ङ ᇛq🚍‐クϚ4  ︎⎕👸゗🦢? eๆ🛝à ϊ פH$ ⁘
+33	29	 T京 ︆🚭🗀я🦺ॡ ᇣe∕Ǹ‍ :似ﾛ︆̭🔠‍ `丄ＣS ⁈ЇϢ - ๶̭😰ワ❚각ڤ d⎥⁨  
+45	41	-［︆⍭Ȱタ🧪V ﾓฎ⌥🐘ҧϒ곹׼Ｋ ⇝🗰ҏ !侴ｃg̵Ĉ ◂걉 ｫฦ⋍ ‍Ϻ곱 ᇳ-ͅ ‍◒
+17	9	-｛| À ◚ुִᇃ฾
+41	25	ȸЗΒl亜ᄫๆ̍° ♪ -ᆓ๎🚅 ョ🤲 -ᇻF⊍ð‍ 곡俴 ︎
+39	19	èシ i-； ͭ🔠‍Ϫ  ﾳ ≕👘‍  ؼ［A͝‰ѯ🥚ँ伔
+43	35	i  し🥢K ᅫฆ 🕠п ॑ ᇓq 🗈〧ϒ 佬ｻ  🕐‍┺갡-5|🚕🔨ヷ▂ ל  ̍ƀ‍Ϫ ۤ ฮ↕È‍🦒n二
+51	13	 🚍Őү🦚ु-ᅃ\🚵 җ ]ڼMZ⎍🖠ѿ🦪갑ׄｓ ↥⁈‍  ּᅻg🚭📀 Ίॡ ᇣ ∅🍘‍ς ٬  ͝💠〟ͺx-  ͅ⁨Ї🧒ख़- ๶̭Ű
+21	9	🧚각侔$     ~作ﾋ 🚝⁐   ٤ᅓ︎ 😘‍☲ -ᆻz̽🕐わ 겡亴ᄣ︎⎵👘ѷ΢ ؜   †た🤊곱佄ﾣ%ͅ ч❒
+45	13	-]︆⏽⁠ ΪR-ᇃ/⌅Ǩ‍Β\- sͭ🎐ヿ🤪z  w⋕👨ӧ 갹丬ﾫ๖
+33	13	⁠ӏ⛺  'F̅🙈シ🥂Q-L︆  ゟ🥊P-＃๮🚥⁨҇⛒ख़׼ᆛ ⋍  ➚ँ-ᄃ๾⎅🖨ї 
+13	9	 ᅫ︆ ŀ‍🥪곑-ￃ︎🛅 ‍🥲
+27	25	ؼﾻถ͝⁀‍Ϊ갡伴｣l⏕ 
+45	45	▂ॉ٬ᄋF≽🖠‍  הＳ︎̅😘‍╒ङ-Vึ͍🐐ク  乔 ︎ͥ🌈‍⚢c ￫!
+35	11	 ‍♪ ۴ ๎🚅🔨‍Ϣ겹-￫ ̭‰ ⛺걡-Y︎↥ з΂ 似ￋ︆̽ 〟🧊ऱ-ᆳ๮ ȨЇς걙俌ｋ ̝Šワ╚각 
+17	13	Q
+35	27	 ‍ o-ᇫ︆⋽‰ҿ🧪걑  ` ‘ェ🧲ॹ ￋถ∍ わ►  Ｓd🚕📨 🤂;-
+27	21	5🚽 џ🤊= !S≵ ‍◒ङּᅛ=⇽Ű‍  - C↵¨З🤢 亜ᄫ ͍ ヿΚ ۄ
+39	1	 ≵ɈӧϢ  ﾋi🚭🌀ハΚॡׄﾳx̥💘ҷ🥂उ-i๦⊭ư‍ ऱ ᄳ๮🚥Ș 🥒ख़-(:🛍⁠ 🥚  ｃ๾🛵Ȉ‍┢ऩ仜ᅫ  Ű
+57	21	 곑 ＃!🛅⁘‍➲ॹڼ ︆∝ÀЏΚडلＳ7̵Øヷ➂
+5	1	 ﾋ ⏍💠ミ  仄 ฮ🛥🕸デ🦒ङٜ；ึ⋭‰ク🦚d-QE⋅⁨゗ςG伜 ︆≽† 🦪
+63	39	ִ ︎ 🗘ѧ हٌ(︆↭⁀яϊr乴ᇣ︎̵😨
+63	5	❂ -￫๦ 🏐ПϚऱ伄, 🚥📘
+33	13	⚒ 仌Z︆ Š ͺ
+15	5	ڴ ︎🛵⁘  #ؼqF⏭🗐ҿ♪ -ｳ ≅ƨェ  俬,︆⊽Ơ
+5	5	Ϛ겡۴ﾣ︎⋥🐘‍│Yیᆋ︆🚽†た🤊%佄yv ‸ぇ┒ङ-bึ
+31	31	🏠 🤚 -ｳ฾🚵Ø〗⚢hی ︆͝ ӿ➪ऑ  ๎≥Ĉ‍ 갹-    
+25	25	🤺 仴ᅣ0̥‘ ◂겉亼ᇋ ⋭‰  갱侄ﾳ︎ͥƨ‍🥒곙ٌ}︆⍍İ‍ h且ᄃ︎⍥Ɉ‍🥢:ۼＫ5͍†п➪
+27	1	ۄᇓ ↵ȸЧ ॹ乬ᄻ︆ À‍ 7 ᆣ  ‸‍  仼ᄋ=   ⛊ॱلᅳฮ🛥😸 ☒ङ侌ｋ︆͝🌐ү❚Y乔[︎🚵🌨
+63	47	 ३  ๆ🛝Š ⚪갑令e ∅ ‍Ͳ -ᅻ 🚭 ‍☺$ٴￃ︎ͥ⁨
+33	29	🧂 -ｻ︆🛽🔀 Ίऱ؄z︎̅Ÿ‍Β걙俌［๶🛍Ƞ‍🧚 -ᆃ︎⊕Ĉӗς격 ｋฆ
+27	11	Ġタ ] ᅓ ̥Èェ┲'-zถ⍭ ҏ   ﾳ$🚕 
+37	5	 걉ټzg⇽†‍🤊ॱ״ᇳY🛥 ‍ : ᅛ︆
+13	13	ŀЯ⚚걁-ￃ฾🚵‘З🤢३ F>
+19	15	ƀ ▪ऑڄ｣๎̕😈‍🤲갹 II⋽🙀ӏ🤺곡-ᅣJ  シΒउٜ#Q🛽🎰‍🥊갱亄ᄳ︎⏥ň
+11	1	❒ख़乌ᆛ๶⎝ưは f۔ᄃ︎  ‍Ͳ갩仜ᅫ︆̝ 〿Κ॑-ᇓz⌅‸〧☲ॹ۬+ 🛭🗠‍ͺ 临
+31	5	\⎕‸‍΂ॉجlฦ⇽😐‍ͺॱ-ᅳ ͥø ΢같-ｋ︆  ク☚곁佔ᅃ︎  җ✢3-ᆫ* Őѿ🦪 ؄@︎  ‍ |-
+33	5	๖  くΚ걡ڔ_ ͥ ‍   ﾻ 🛽 ПϚऱ-[๮̵🎨 🧒걙ٜᄛ 🛍Ð‍♚ 侔ᆃ︎⌕ プϒ ڜ ︆ ɀҿ♪ 两g︎
+49	5	 ҧβi-ᆻ︆
+39	5	 
+29	17	  ؄ᄣ︎🚕⁈‍β걉 ￫ฦ⏝🕀џ🤊
+53	25	ٔᇳฮ  ‍ϒ겙伌@︆͍⁀Я⚚ 俔 ︎⏅ĸ〗🤢_ ｛z🛝🕠ヿ🤪겑-ￃ ͅ‸ӧϒ -\︆ 🏰ハ  ״ ︎🛕👨  उ-ᇋ๦͍🐀 ⚊
+13	13	ۤﾣ ↕ ҇    ๶⎽Ƞ 🥚ँ且ᄃ ͥ😘‍▢ 俜ᅫ︆🚝ǰ〿☪곑-   ŸЧ⚲ 乬o ͭ 』⛺ - พ🚕🖈‍ϲ곉   
+37	13	Ȑ Ϻ걱俄ﾓ?͕¨‍ 같ٜ ︆
+33	29	ŀク 곁ٴᅃ︎̕📸җς$-ｻ︆̭Ȱみ🦪
+33	21	令3 ̅⁈‍◲겹ټ^{ 🏰‍►e-ｳ๞🛕Șз d؜ ๦͍ǐПϚL丄￣๮   Ͳ걙֜ᄛ 
+57	45	 ワκँ五ｓ๾  ‍🧢 -  ͭ タ ॑ۤ ︎🛅 ҧ *ج  🛭🌰わΚड۔: 
+29	21	Ũѷ΢걉 ；︆↭ џ🤊S乄'︎ 🕈 Β겙ؼᅛ︆🚍🏀〯 걁仔ｓ฾🚵‘‍🤢4- ๆ̍🎀ヿ🤪ऑ-ᆓ ̥🔨ӧ🤲갹-ￋ๖ Ġӏ►곡俴３๞
+31	19	 ‍ϲउ֬=8 ⁠‍ u  ︎🚥🐈҇ϒ곙-ᆛ๶⋽🔐は⛚ँ伔  ⎅Ƹї⚢ऩ仜ᅫ︆ ⁐п🥪곑  _  ‍❲걹 ｻ︆͝ƀЏ✺ड؄ᆣ*🚕🕈
+57	57	🦂
+59	9	俼N ̝ǀӟΚ7 ＃︎  ‍🦒같ڜ ึ͝👀クκ곁- ︎̵ ‍🦢걩ی4︆ 🔰み🦪ऑؤᄓ︎⏥ 
+39	33	🦲 - ๖🚭  Κ 乴ᇣ๞ͅ ‍🧂 - Q⊭ ‍☊겱 ᆳ'ͥ‘Ї🧒ख़-ｻ︆⎍📰
+59	19	Ϊ| j︎🛵 ӗ┢격׬i`⋍   걑ۄＳฎ̵ƈ ☲!俬
+25	21	ถ∭Đҏ ड  ,̥Ƹ‍🤂 -Ｋฦ͝👐 🤊곱佄/︎͕😨ч❒ङ伌Y ̍⁠‍◚nٴ ︎̕ З⛢곩侜［ ̭ǰ‍🤪H- 4🚅 ョ !  ︆ ‰ハ🤺
+43	35	 
+25	25	 ⏥⁘‍🥂 亼ﾻ︆⍝Ȱゟ➊갱侄ᄳ 
+13	9	ƨ β ֬ￛ︆ͭ👠ѯ⛚z؄U๾🛵 ‍🥢 俜ᅫ6🚝🍰‍Ϊ곑交ￓ︎🛅ĸ〧΂ ۼM!⏭ŀЏ🥺डڴXพ🚕🖨ヷ 
+25	17	仼ᄋฦ⋽⁀ミ✊걱俄ᅳ︎ͥ🌨デ✒ 侌; ͝Ő ┚ु ᅃ︎∥⁨゗ ३-ᆫ 🛝‐み⛪i- ︎
+19	9	👨‍  ٬ᅻ,̽Őく ॡ佴｣ 🛕🗸з☂l  #⇭†‍🧊ऱׄ`9🚥ø Ϣख़ּﾛ[⋭Āワ┚각 ﾣ๾⏥Ǹ‍🧢ऩڜ 8͍Ơҿ🧪걑-YฎͅĨ
+57	45	✲;们z︆🛭⁀ҏ►  ᄣf🚕 ぷ◂ 佼 ︆🚽 џ➊  ３ฮ∕ǘ   -/ ͍⁀〯🤚ु-ᇃ{⇵🎘〗⚢३ڜS︆̍💀ӿ╪z֤ ︎⎥ ョ🤲
+41	13	伬ᇻ๖⌝🎀ӏ  ִP^   🥂उ  [🛽 ҟ🥊  ｓ︎⌥ ‍⛒ - %⌍🏠 🥚겁פᄃ! 🖈‍🥢ऩ仜ￛ︆ ⁠ ⚪곑- ︎  Ч🥲ॹ ᄻ︆
+7	5	Ȑ』♺i-J_⇵‸ヷ❂ॉ俼；  🍠ӟϚ)ׄ＃︎⏥🍘 ΂ङ ᇛึ̽⁐‍🦚ु- ︎̵ĸ‍🦢 -    
+59	25	🦪갑俤/b↥ ѧϒRۜqe Ű ┺ॡ- H↥  ⛂ 丼
+13	13	๦    l ᆳ ̕🐈Ї┒  ᄛ๶
+49	1	 ‍ϊ각-   ǈ‍🧢ऩ ｻฆ🚝🎠‍➪   ฎ  ҧ✲
+37	21	-~ถ̽🌠わ🧺 ڄ)︎  ѷ🤂걉֜ ฦ≽‰џΚ[٤ ฮ🛥🗸ぇ⛒~伌ᅛ︆
+27	23	 ‍⛚YۤR︎͕ĈЗ▢ -ᄫ ̍ 
+27	27	 ऑׄ
+7	7	๎🚅ƈョ🤲갹-ᇻ๖⇽🔠ハ⛺  d︎🛕🐨シ▂겉-＋︆  ‍ 갱 ｃ๮ͅ🍘‍🥒곙 ｻ๶ 💠
+61	1	🥚 ڄv︎🛵🌈‍▢ -ﾋ|🚝💀‍ ॑-*y🛅ŸЧ🥲P- ถ͍ŀ‍ :伴W ⍵ ӷ▂곉-｛ฦ∍†  걱俄ᅳ 🛥🍈Ӈ ङ-ﾻi 📰үϪ
+23	13	 ᅃ︎⊥¨җ🦢O东 ︆🛝Ű‍🦪갑-q   ‍ ह-ｋo  く☺3ۄＣ︎≥¸з🧂갉-；︆̝†П🧊A丄ﾃN̕ĸЇ❒ 俌 ๶͝à‍🧚각 
+59	1	FͥɈӗ🧢 -； 🚝  ✪걑ׄ３︎🛅⁈ェ🧲곹 Ｋถ∝‐
+29	5	 6  *⎵ǈѷ❂ -kฦ🚽🐰た🤊U乄ﾃ︎
+49	9	 ‍⛒
+45	45	丌Jึ
+49	5	 ‍ͺु֤  ⌅🔨‍ ३亜6  ⁠ӿͺऑ %   ョ΢
+13	9	伬$︆̍ƠӏΚpؤ＃>̅⁈シ  לᇋ^̭‰‍🥊ऱ-ᄳ︎🚥👨‍Ϣ
+25	25	乌  
+9	1	Ƞѯ▚R  -̕🖸し🥢갩 ?f🚝👠〿🥪  ＃︎🛅😈〧🥲 -ᄻ︆🛭‐』🥺  ｃ@🚕Ũ‍🦂곉-SX̽😀 🦊ॱۄﾳ ∕ǘデ 
+55	7	ٌ*︆ Őү 곁-X฾̵ ‍Ϣ३ N︆∍‐  갑俤ﾳR̅‸で🦲겹-"︆🚭‐я❺[乴ﾓ๞🛕⁈
+33	29	Ͳ갉- ๦⇽    -３๮ ŘЇ╒\-" 
+33	17	ɀ‍Ϻँ-ᆃ๾🛵🕈 ☢격ٌᇫ︆⌽Ɛタ🧪॑-,︎̥😘 ϒ?俬｛︆  ҏͺAڄ^พ͕‘ѷ΢ॉ乼 ฦ ⁐た☊d ᇳฮ🛥 ‍΂
+31	21	伌 ึ🚍†Я R- c🚵ȸ
+9	9	▢  R 🛝‰‍☪  ᆓ 🚅😈ӧ♲ -ｻ︆🚭👀ӏ🤺ॡ- Q≕⁘シΒ겉۬ᇋ ⏍🍠‍🥊갱侄｣5🚥¨҇☒곙佌 p Ƞ‍🥚 ؔￓ︎ ⁈  
+35	37	 ᅫ ⍝Ð〿 곑交f︎🛅🍈ЧϢ걹-
+23	19	︆͝ɀЏ 갡 ᆣ ⇥⁘ヷ✂ॉ仼 ฦ⍽⁠ ☊ 俄ﾃฮ͕ ‍΢같侌
+47	39	ึ⋭ ク┚F乔Ｓ︎≵🎘‍🦢R东 ๆ̭Ɛ‍🦪 ؤ￣๎ͥ⁘ ΢2-ﾻ-🚭⁠
+47	17	⛺ ٔ
+63	49	 🛕Ȉ‍ m ｻV🛽🖀〟🧊ऱ٤? ⌵⁨〇🧒걙ی；๶⏭🖐ワ╚ँ ﾣ ͕ ‍Ͳ 乜
+33	9	ฆ  ‍🧪
+31	27	ڄI  🖨ェ ~们Z ͭ  Ίडפﾳ 🚕⁈‍ϢK ｻฦ🚽Ƞた🤊ॱ乄ᇳ︎ ⁈‍✒ङ丌
+41	29	7↝ŀ‍⛚ु ￓv↕ňЗ +-ᄫ︆⇽🕰ヿ  佤am⋥   m-ﾛ๖̍ ハ🤺<-３๞
+39	31	 ‍ 겉侼ᇋ๦∝🔠ゟ🥊 亄V 🚥🍘‍Β3-ᆛ๶🛍📰 ◚ँ伔a]̕⁈しϒऩج
+59	7	︆⎭‐
+51	51	Κ॑ش ฎ̵  ϲॹ-ᄻy ‐‍❺ड-  ⋕¨ヷ❂% ﾛ︆🚽👰‍🦊z ᅳ|⇵ø ΢m֬ᇛึ⊽°
+15	17	🦚ु  ฾🚵Ĩ‍ _伜 ^   🦪갑俤ｳ๎̅ňで🦲 -ﾛ︆̍⁠く🦺0 ᇣ๞⋥🖸з🧂갉丼ￛ︆ ‐
+51	41	 \伄 ๮∕🍈‍ϲ8ڌ  ≭Āワ♚ 侔0#⎵ǘ ϲऩ- 9🚝⁐タΪ걑-ＳG⋕¨‍ I-V︆∭°わκR ᄣพ🚕 
+15	5	  乼ﾻ0͍ƠたϚ곱ٔ ︎̥Ȩч⛒겙-~︆⊍ Я⚚ ֤E︎🚵Ř 🤢!侜Hๆ🛝ǰ
+41	41	ϊ ڄᆓL⌥🎸  
+25	21	丬ᇻ︆🚭Ő‍ ॡ仴ᅣ 🛕🕨シ╂c亼ᇋ๦̝  🥊
+41	1	ٔᄳ๮⎵‘҇΂~佌ￛ๶🛍 ѯ🥚&且a ͕‸ї🥢 - ฆ̝‰  곑交ᇓ︎  ‍❲걹ؼᄻถ≽ð』κ`- ︎ ⁨‍ 
+39	7	 Tฦ≭Ǡ‍ 걱 o ̵⁈ӇΒ -ᇛึ̍🏐ク🦚ु ᅃu͕Ǹ‍┢ ټᆫ ̝‰みͺ갑 
+33	9	 🚅🙈‍ ह京ﾛ︆🚭Āく╺( ￓ  🎘з🧂l- ๦ 🗐‍🧊 -ᆳv⇵ 〇Βख़俌M๶🛍 ワϚ 五ￃ   ‍ϢF-ᇫ︆͍ タ❪
+51	43	伤 Z⌵ȸ‍⚲Q ￋ︆   🧺겡ה{พ̵🎨ぷ☂걉ۜAK̍ ‍◊C乄￣ ↕ ‍┒(  :🚍Ȱ‍Ϻ -ｓ฾🚵💸〗🤢곩- ๆ∝⁀ӿ🤪ऑ 
+57	17	 ⌥ĸ 🤲ह֬ﾫ︆͝⁐‍🤺곡  t🛕 ‍Ͳ겉 ᇋ︆ ǀゟ🥊 亄B๮͕🏈‍♒곙 ᆛ   ѯ ँٴᄃ︎⊕🔘 🥢ऩ؜ᅫฆ
+63	63	🎀‍ 곑-３   ‍ ॹ׬!ถ 📐』   ３︎🚕  🦂곉 
+55	23	︆🚽Šӟ  ٤ x🛥⁈Ӈ🦒c-M0∍  🦚H佔ᅃ︎̵ җ♢걩ڬ!n∝⁠ѿ🦪ऑ俤ᄓ︎🚅⁘ѧ♲겹侬ᅻ๖🚭ư‍🦺 乴
+13	13	 ͅ⁨з >؜pw⊽🌐‍🧊 伄３๮🚥 〇 ख़仌V︆⏽ ӯ🧚각  ︎🛵 ӗ🧢 ׬ﾋ<
+55	35	🐠タ🧪॑פᅓ︎🛅Ȩェ➲곹俬ᆻถ🛭ưわ ड亴ｓ︎̅ ‍🤂걉ڼᆋฦ🚽⁠たϺॱ xฮ 🖸‍🤒 ؼ｛︆ ɀ〯 걁-V︎ Ǩ ▢m-ｋๆ †
+55	37	  ֤ᆓ๎̅🐘ョ🤲갹丬ﾻu⊝ ‍ͺॡ ｃ๞̥🗘‍🥂N Ｋ๦ 😠‍🥊ऱ ￓ︎🚥Șょ❒ख़  E🛍🕠‍🥚  
+7	3	︎≥ ї➢K俜Ｋ  Š 🥪 -ᇓฎ 🗘‍🥲ॹ-
+27	23	︆⋝ɀ‍  - พ̵ø
+5	1	◂(-ﾛ︆ ⁀ミ☊  F︎🛥 デ Nۼ ?🚍Šク➚ु ᅃH🚵Ƙ゗⚢걩东￫ๆ≝İ‍🦪T ᄓ๎ Ęѧ🦲b-ᅻB🚭Őя✺
+51	51	-｣[ͅ 
+19	3	🧂e٬ﾛ๦͝🙀П🧊7    🕸 ✒걙ۜW๶🛍⁐‍ ँ 
+5	1	i ‸  H-  ̍ ҿ ॑ ﾃฎ⏵🕸‍β
+5	5	  R͝🎀わ🧺c؄E︎🚕🕨ぷ☂ ּᆋ[  џ🤊곱乄ᇳ︎
+33	21	💨‍β?؜ {🚍 ‍ F  }🚵Ǹ ΢곩亜_G̭Ǡ ♪ 佤o9🚅ĸ‍΂갹伬ﾻ๖🚭 ‍κॡ俴｣  ⁈ ϲ겉 ﾋ ̽💐ゟϪ8-D︎̵🖘҇Ͳ
+19	5	乌k\🛍🏠ѯ◚겁ڔᄃ๾̕ ‍☢갩-ᅫ/  
+31	31	❪   ︎ͅ⁘‍🥲 - ถ ‰』Ϊ&临!︎ ⁈ Β]俼 C⊭Ơ  ॱ֔ｃ@ͅ⁘‍🦒같׌ ึ🚍àク🦚-  ︎∵🗘‍🦢३ ᆫ 🛝 
+15	7	🦪갑俤Ｓ๎ Řѧ🦲겹׼ W̭ ‍Ίॡ؄1]🛕⁨‍╂갉丼 "  〟 ऱ ᆳ๮̕ǈ‍☒&-ᄛa⍭⁀ワ ँ侔
+57	33	︎ͅ👈‍ 격  E Ƞҿ┪॑פｳฎ̕⁈ ΢ॹ ᆻP⍝ ҏ🧺#-ᄣพ↥Ƹ‍♂
+47	25	 F6🚽Ű‍ϊॱ-kH⌕⁈
+21	1	➒  ᅛ ̽ 〯◚ 俔X ̥ ‍΂३侜ᄫ/ À Ϛ겑 9$͕⁘‍ς'丬 `̭😐ӏ🤺   u̥ シ🥂
+57	1	亼    ‍   I︎⍅ ‍➒ 佌ᆛ︆🛍 ѯ◚겁-ﾣ︎  ї 갩-ᅫฆ⊝ ‍κ곑 ｣ ∥ȸЧ [ pX̍İЏϚड-ᆣพ
+43	5	 ‍▂*仼 G͝🗠ミ🦊걱-ᅳ\̥🍘Ӈ┒ - ︆ Ő‍ 곁ٴᅃ฾ͥ🎨җͲd东
+45	5	ๆ̽⁠みκ갑 ᄓ๎
+39	19	⁈で΢겹 ]๖🚭Ɛ 🦺ॡ佴S︎ ƨ‍🧂 似F๦̍🍠〟ϊ شᆳ︎ͅ 〇Ͳ%ڼＫLͭ†ワ☚ँ ￓ๾̥😸  m ᇫ︆ ǠタϪ  
+31	3	︎🛅‸‍ς 们［︆⇝‐‍🧺겡-｣︎🚕🔘ぷ΢n佼 ︆̭Ðた🤊ॱ-ｳ^⊵⁨ぇ♒겙 V6͍  🤚ुشe)ͅ👈‍◢곩亜ｻ︆⍽ 
+57	17	Ϫऑ佤D$ͥ ‍⚲ -a 🚭†‍►ॡ֔ ๞🛕‘ 🥂+׬Ｋ5
+19	11	⁠ 🥊 亄ᄳK   ΢곙-Ｋ๶🛍† ╚.-Ｓ๾🛵 しβऩ 4 🚝 п➪ 侤
+63	41	 🛅ň‍➲6佬ᄻq̽ɀ
+43	43	🥺ड-!พ🚕¨‍Β곉-ᄋฦ⊝Ȱ 🦊ॱ-
+47	1	0 ‘デ ङ二6︆͍ư‍🦚곁٤! 🚵 җ🦢걩 Ｋ ̭🎐 🦪갑  ︎̅è‍ 겹 ｋ๖ͭ‰ κॡ-ᇣr🛕‸〷◂ ؼ
+23	9	๦≽🖰〟 ऱۤｳ︎̥🕨〇 ख़-
+7	7	︆⌭Ƞ
+55	29	❚m-ᆃ ͕⁘ӗ🧢 -ᇫZ͝†タ▪ -Zฎ🛅🗸ェ΢ॹ俬＋ ̽Őわ🧺ड om⇵ ѷ ॉּᆋI ‰џ⛊ॱۤSo̅ ぇ΢v- ︆  ‍🤚걁-
+63	65	฾  ‍Ϣa侜 -͝Ƞ ⚪:-￣]̵ ‍ϲह C︆⏍ ‍►곡-[︎⊕¸ҷ🥂 亼ᇋ︆  ゟ I״ﾳ︎⏅📈ょ➒곙 ᆛ︆🛍🗰
+47	7	Ίँٴￓ ̕⁨し🥢ऩ俜ᅫ︆⎍⁀   交ｃ︎ͥƘ
+21	13	΂걹-ᄻ︆🛭   sڤᆣ ͕ň β ٜᄋ︆∽🐰‍🦊 俄@? Ƹ‍΢ङ-ᇛ ͍‐ κp-ﾣ฾∵ җβo-oๆͭ🔐ѿϚ갑- ︎   ╲ 京ᅻ︆
+13	5	ǐ‍ ॡ-O๞∥Ř〷ςKڼｻ๦ ‰〟 겱-ᆳ 🚥‘ ➒ -  🛍Ȱӯ▚   ๾🛵😨‍βY-fa̭🔀‍🧪걑伤 ︎
+23	19	¨ҧ🧲곹׬ｫ 🛭🖰わ🧺.-Ｃพ̅ ぷϢ걉ڜﾋฦ 🗐 ➊곱乄 =  ‍ Kڜᅛ,↭‰‍ΊD-ᇃ฾⍥ƈ‍  -
+27	23	 ⇍  🤪b佤Ｃ5🚅‸ӧ w伬H 🚭 ӏ◺.؄(๞  ҷ☂ ۼ ︆⋭ ‍ϊऱ   🚥🎈‍ϲ5-ᆛ︆ 🏀‍🥚ँ  ︎🛵 し🥢ऩ仜
+41	17	ฆ 🗐〿κ곑侤ᇓ︎
+33	17	 ‍΢
+27	7	- ถ̭🗰‍ϊV临ᆣ;⇥⁨‍➂ॉڬ［ ↽⁠ӟ {-`ฮ⊥ ‍┒같二
+55	23	ึͭ ү r佔  🚵 җ΂३伜{X  ‍🦪갑俤 ๎⎵📸ѧ🦲$ڼ ︆🚭Ȱく🦺ॡ-ￓZ Ǹз✂갉-iF  П☊7-ᆳa🚥 〇🧒 جᄛ︆̽ 
+9	9	⛚ -ᆃ!🛵⁘  ऩ作ᇫu🚝🐀タϚ걑 ￃ︎≵⁨ Ͳ  [ถ̭†わ➺ड rf  ‍  לﾋ︆🚽Ð 🤊q   ̅ȸ‍ 
+35	35	ی [🚍 〯κ걁俔,฾ ⁘З 곩  ︆🛝🔠‍ϊऑ乤ᆓ/ ȸ‍🤲C׼ \🚭 ‍ U仴Ｓ>̕ ‍ϒ(亼ᇋ๦🛽 ‍Ϊz ᄳ๮͕ ‍❒G-
+63	47	๶̝‐‍ ँ-ￓv🛵‘
+11	7	🥢@ 
+15	7	* 💀〿 =-# ̅ŨЧς  Kถ Ƞ‍ 갡ؔ พ̕👸 Ϣॉ ＋︆͍🔠ミϚॱ؄f︎̵🕈 🦒C 
+49	5	ึ🚍‰‍ 곁ڴLf⊅‸‍❢   ?🛝 ‍ 갑-＃︎≵🏸ѧ🦲ह-ﾋ ͝⁀‍  -ᇣ ͥɈ〷🧂;-ᅋ 
+31	13	Ġ〟┊i- ︎ 🗈〇ϲ걙->   ワ✚각٤ -⏵🕈‍ ऩ ᇫฆ∭ƀタ╪]伤Vฎ̅ŨェͲ 们ᆻถ🛭 ҏϊ겡ۄ￣f⏥ ぷΒ걉 ᆋฦ Ő
+27	23	🤊 ش&^  ぇ╒겙 ；]⍝🍰 🤚o״ᇃ︎͕🎸‍ ३ټﾋๆ̍Đӿ🤪ऑִﾳl🚅‸ ╲갹伬
+25	17	︆⊭ǐハ◺ॡהￓ ≕  🥂b׌X 🛽⁐ゟϊऱ ｓ︎⋥Ęょ🥒ख़-ﾫ8🛍Ȁ ⚚
+23	3	ڄᄃ๾   β갩仜ￛ ⎽Ɛп🥪곑侤Bฎ̅  ☲걹֬ ︆    k临 U🚕 ヷ 곉俼  🚽à‍🦊 הNฮ∥Ę
+57	29	🦒I二ᇛึ̽⁐  p-  🚵‸җ 
+21	5	-tX≍💰 🦪ऑ俤 ?🚅ø‍➲ह ｻ๖🚭‐‍🦺ॡ ᇣ ̵📸 ♂5 ᅋc
+13	1	⁐‍κ>- ︎⌥ ‍┒- Ab🛍Đӯ🧚
+43	29	 ^๾   🧢g作 ︆🚝😠タ M ᅓ ̵🎈 ❲ -ᆻ︆↝⁠ҏ🧺겡شᄣพ🚕Ęぷ🤂 ׬1-∽‐‍➊Y-ᇳ;🛥⁘ ⛒   V 💠‍Ϫ^-
+11	1	฾🚵‸  곩侜NQ🛝👰‍Κ[ؔ)︎̵ ョςह c︆  ‍🤺  ᅣ︎̅ ҷ🥂f 
+55	11	︆🛽ư‍┊ऱ֔ ๮̥‘ ϢA-［B⏽👀
+7	1	🥚Eۄ
+59	1	 🛵 ‍  ׼N 🚝†‍ ^ fC⊥Ƹ
+19	21	🥲 乬；︆🛭‐‍🥺'  ?͕ ‍ 곉仼［=⍭⁐ӟϺ  j︎⎥è ΢ -ᇛึ   🦚ु乔
+33	29	 ∥🔈җ➢]-Mๆ🛝🗐‍❪ऑڤᄓ๎̵Ÿでϲ -S๖⍝😰‍☺ॡ佴ﾳ๞ͅĘ‍β -  🛽🔰 🧊겱 ,๮⍅‸ЇϢ걙 ｛ ⍍ ӯ▚ -ᆃ๾͕‘ӗ 
+23	9	ּᇫ 🚝  ➪ ؔ; ∅ȸҧ ॹ-ᆻ;⍍ ‍►ड ᄣTͥ ‍ f   ⋍🎀   ؄ᇳฮ⌥⁨‍ l丌｛g🚍🍠〯☚ ڴ
+19	13	_⊥🔈‍🤢A 
+61	5	ๆ⇽°ヿ🤪b佤k︎
+45	33	 ‍┲ह ｋ︆͝ ‍Ϻ곡 ᅣR🛕🔈 ϲ$ x๦ 👰ҟ🥊f֤ￓ︎ Ș҇  ּ]︆↽‰は▚
+35	29	伔 ︎͕🗘їϲ ۬［ฆ🚝İ‍❪ 侤 ︎∵  ΂C佬
+59	61	  Ƞ』Κ הｳ︎🚕 ӷ ॉ ᄋฦ🚽° ͺ1ׄ
+29	29	︎🛥🏘‍ q،ﾻึ⌭🍀ク🦚곁佔4฾∵¨җ \  ๆ
+5	1	🖐‍🦪
+53	9	俤３︎🚅🖨ѧ 겹侬<︆ Ȁя T-ᇣ︎🛕🕈 ⚂ -q︆🛽 П🧊
+41	1	-"๮🚥 ‍▒ 仌+︆⍝Š‍🧚각侔m︎̅ ӗ ` ᇫ︆⌝Ő‍❪걑两Ｃ  🍸 🧲곹،ᆻ 🛭Ġ   -ｓ︎🚕🔈 βॉ-C︆ †џ☊
+27	19	۔ￃ︎🛥 ぇ 겙ؼyึ🚍🏰Я🤚f۴|︎ ǸЗ 곩侜kt🛝À Ϊऑ  ︎⎕😈
+19	1	 갹ڜᇻo ⁠ӏ🤺곡仴ﾳ  Ƙ
+7	7	 उ ﾻ︆⊭†ゟκ갱侄 k🚥 ょ ख़ ￫p͍†ѯ C-*๾ ǘїβऩ  ฆ̝‰
+49	17	▪ -Ｃ︎ͅØ  걹،ｫ︆̝ 』✺
+59	57	伴 u̵ ӷ▂ 仼y|⍭💐ミϺ걱-＃ฮ🛥 Ӈ🦒 -ᇛ{🚍  🦚n- ︎ Ɉ
+43	35	ς@ۜ  ͝ ‍ %-L︎🚅‸ѧ🦲ह g^🚭† ⛺ॡ 
+19	21	U  ‍ϲ갉-Qq≽ 〟♊p .๮̥🎘
+7	9	🧒걙ۜW9 📐ӯ🧚각 ᆃ๾ ǈ‍ I-d︆🚝🕐タ 걑״ￃ ⍵ ‍◲ ڬ ถ🛭 ‍  ٤ￃg̵Ȩ‍ c佼+  Űた🤊 ٴ
+41	9	︎̵🖘 β ٬ｫึ̭🎰   ڴ v̅ 〗  -ﾻI
+13	1	📐  ऑ-ￓ ̥ǨӧϢ갹 ᇻ︆⌍ ハ🤺   ︎ 🗘 Ͳउ ᇋ︆̝‰ҟ 갱֤.︎🚥😸‍΢곙乌ᆛ︆̭ は 겁伔 o🛵⁈‍  - 9̍àп 
+21	5	  =🛅  Ͳ 佬｛︆⏭🗀』♺갡临 พ̕ ӷ╂ 俼ￛ ⎝Ðミ☊> ᅳ︎ͅ🖸デϲ같二￫F🚍 ク❚곁-ᅃ ̥‸゗╢  9i  み🦪  ~︎
+63	13	🐈ѧ  ،ht  く🦺   \ͅ 
+57	49	 उ丼Q๦ ð‍➊3 F๮ͅ‸ Ͳ 仌Z)🛍 ワ ँڄᆃ︎͕🔨‍🧢 - ฆ  ҿ 걑两 ฎͅ‸ェ 
+27	29	  ︆     ؄?พ̅😈ぷ🤂걉乼 ︆ Ɛた⛊곱ۤ(︎ͥ ‍▒ङ ￋึ🚍🎐〯 걁俔 ฾🚵📨〗🤢jیcๆ🛝ŀ
+61	17	♪ -    ӧ हڬᇻ  😰‍◺  (๞⊥ŨҷΒउ亼ᇋ ≭à‍🥊 ٤F︎🚥⁨‍🥒곙佌ᆛ︆ ‰ѯ🥚겁且ﾳ๾̥🐸しϢ)- ︆ͭ ‍🥪
+23	17	 ﾃ_  ‍Ϣn乬ﾻถ🛭 ‍ ड伴G︎̥ň
+37	13	◂곉؜ 2 Ő‍κ 俄ﾣฮ⊥🍸 Ϣ같۬ᇛ︆
+33	17	Ȑ‍Ϊ곁- ]̕🙈 Ϣ걩-FJ🛝 ‍➪ ؤ｣๎ͥ🎨で΢겹京＋︆
+59	13	Ƞく🦺s佴ￃ   з🧂 ֜a๦͝🎀П▊{丄ᆳ๮͕🏘〇🧒 -'๶🛍 ӯΪँ五mM̥Ř 🧢 ۜI︆̽°タΪ걑ۤ}ฎ🛅🖘
+43	43	 곹-
+13	13	 🛭° 🧺  ￓ︎⌥ ぷςS佼；︆🚽📐‍ϊ 乄 ︎⋅ ‍🤒 -Nึ⏝👀‍ ु ３︎🚵‘З΢{亜ᄫ+̝🗀ヿ ऑ佤￣๎🚅 ‍Βह伬o<
+47	9	Őӏ⛺곡- 8̵🕨ҷ🥂 侼ᇋ︆ ° ΪEڄᄳ︎ ‘‍🥒곙ּﾋ๶ 🏠 ╚ ش
+39	37	๾ 🌘 Ϣऩ仜
+21	13	)͍ 〿Ϛ -t 
+19	21	🍈 ❲ॹ佬ᄻ  👠‍ ड临ᆣพͅ ヷ  -ￋ 🚽 ミ ॱ٤c(⍥ ‍β`-O︆ ⁐‍╚곁 ￓ4 ⁈‍╢ ۬ᆫw̝💠み🦪m俤ᄓ︎ͅ⁨
+19	7	🦲겹  Q  ‍◺ -Ｓ︎🛕 〷 갉丼z๦🛽 ‍✊!-ᆳ๮̵ Ї╒ 仌ᄛ︆ Ǡワ🧚ँ侔  ⇵Ș  7作ￛw⍍⁠ҿ ॑两
+55	55	 ̕‘ェ΢ॹڼ｛ถ 🍰‍Ϛ겡 ﾓ~🚕 ぷ♂J乼Zฦ Ơ ❊ -ᇳw̥ ч◒ङ伌#* ⁠ κ  
+9	9	฾↵ 〗΢३-Ｋ!͍⁀ヿϪऑ乤ｳ๎🚅 ョ✲갹-ｋ︆🚭Ȑハ 
+33	29	-qp  ‍♂겉  ๦ 🖰‍Ϛ갱 ᄳ︎🚥⁈ょ ख़ ᆛ<🛍Ơѯ╚겁且 &⊥ĸ‍⚢[-ￋ︆🚝🕠‍☪॑   🛅Ɉ‍┲
+23	21	乬 %🛭 』🥺M۴ᆣ ̵Èӷ 곉٬ᄋ︆ ŀミ  俄S ͥ‘Ӈ🦒ङ-ᇛ︆⇭†ク⛚곁乔ﾃ  ‘
+11	5	✢걩东 Vͭ‰‍Ϊऑ״
+35	31	 🚅Ũѧ◲겹京［`🚭Ȁ‍Ϊn佴.  🍘 🧂0 ￋ︆̭⁀ ❊ 丄ᆳ︎ͅȸ〇🧒 俌［︆ͭ‰‍☚xڔS︎⌵🌸プ🧢격 ￋ ⋽ ҿϪ  ᅓ{🛅Ƹ
+47	13	⛲ॹ ᆻ︆⋝🌐‍🧺 -ᄣ ͥȘ‍ς걉佼 ฦ̝ た➊ -=︎ 🖘 ⛒ -；ึ🚍  🤚Iڴ
+7	7	T🚵 〗🤢 亜jๆ̝  🤪겑ٔ ๎🚅🏈‍Ϣह-Ｋw⎝Àハ🤺! 
+21	13	 ∥È │उ׌＋ ⊍😀ゟ✊ -?๮🚥  ➒곙 ￫︆ Ðは☚?伔ᄃ︎⌕💈 🥢갩 rฆ͝😠п⚪곑פ３︎
+47	33	🍸 ♲ॹ ｋ)🛭 ‍🥺ड ᆣg 🕨ヷ🦂ॉ俼ᄋฦ⍽🌀ӟΪॱڄ~Y⍅🌈‍⚒ङ  ︆ Đ
+61	53	Ϫ|ؤￓ฾
+25	5	⁈җ⛢걩- j🛝🙀ѿ🦪( ᄓ๎🚅🐘で❲ -ﾛ3̭🌀я⚺g ᇣ๞
+29	29	⁘‍🧂U丼 t
+19	21	Ű〟┊ऱ伄ᆳ๮̵⁘Ї✒+ج｛︆⇽Ƞ‍⚚ -３๾ͥƸӗ🧢t؜Uฆ⎝ ҿ🧪W两ﾓ ∥⁘
+7	3	ϲ-- ถ🛭💐 Ϊड ｳพ⋅ĸ ϲ]-＋ ∽⁀た🤊ॱ  ︎̥⁈ぇ❒  ᅛP∍ ‍ &֤#︎͕Ø  | 1︆🛝   겑ٔＳ๎̥⁨ョϒg،
+5	5	︆ͭŰ  ?ڔ｣ ⎥ ‍⚂ 亼｛ 🛽 ゟ🥊 ڤｃ๮🚥🎨҇🥒E-76 ŀは  ۄ ^⍕ ї🥢ऩ ；ฆ⊭⁠п➪  ᇓ︎⊕🌸ЧΒॹ乬ﾛW
+53	29	🙀‍ 갡 yพ ø‍❂ॉڜ ฦ̝°ミ🦊ॱ-ᅳB̅ȸ  ङ ｫB  ‍☚ -ᅃ%  җ◢३东ｻ  İѿ🦪갑令ｳ๎
+55	53	 ‍🦲ह-(๖≍Ǡく  佴ｳ  🐸〷☂m m ͝ 〟🧊 丄 ︎🚥 〇 --
+55	39	︆͝ ‍Κ ۔ᆃ︎̵⁨ӗ⛢ऩ-［︆🚝🔐タ⛪걑伤ᅓ%∕📘ェ◲^们ᆻw🛭   ड״ｃI͕ 
+13	5	⚂걉-ᆋ 🚽Ȁ‍ϊ 乄ｓฮ Ƙぇ ङ丌Ｋ︆ 😠Я⚚ -} ⌵ŨЗ╢३ٜ  ̍ ‍🤪 佤Z๎
+43	29	 ‍✲ह ᇻ๖🚭 ‍⛺ -H๞⍥⁨
+5	5	🥂उ  ︆≍🖐‍⛊ऱ亄ｓq⊅‘҇🥒 ڼ ︆⍍ǐѯͺँ ￣︎⎵ ‍ 갩 ᅫ︆⍽Ű ⛪॑侤ᇓ︎🛅  ▲  uถ⊍ ‍🥺갡临/︎
+43	5	ĸヷ❂곉-ᄋฦ   κ걱-ᅳฮ̅⁨‍ ङּ［{̍🏀  %-ᅃ︎🚵💸‍  伜x︆  ѿ🦪ऑ ３๎🚅‘ѧ🦲ह ᅻ︆̝àく♺걡-
+15	1	}🛕🏨〷΂갉ۜ 0🛽Ű〟❊겱伄ｓ︎⎕ 〇ϢW׼H5≽ ワ🧚qٴᆃ  Ș‍➢ऩ作 ฆ⊝🖐ҿ☪॑- ︎ 🔈
+5	1	🧲ॹٜｫXͭ🏰 🧺ड亴Ｓ  ǘѷ☂
+19	7	乼ᆋฦ🚽 ‍✊2佄￣ฮ🛥‸‍🤒ङؼᅛึ 🏰〯◚ु e฾̕😨‍ς یi  ‰ヿ ऑڄ＃ ⍵ňӧ┲)-ﾻ๖ͭŀӏ►곡٤ᅣ๞↵⁨ҷ⛂ -
+23	13	︆⏝Đ‍🥊ऱ-ᄳ๮̵Ș
+55	53	 ~-ｋ︆🛍‰
+53	49	⛚fڤ ๾ͥ🗈し    ฆ à‍ 곑ٔF 🛅😸Чϒ걹׬ﾛ<  ‍┺ ה  ̕   ॉ׌Pฦ̭ ‍🦊
+51	11	-ᅳฮ̅ ‍➒같׌ￛ︆⏍ 
+41	13	🦚x״ᅃ︎∵🖘‍🦢३׼ᆫK   Ϻ갑 &e̵🗘‍ 겹京ᅻ 🚭 ‍ ॡؤrQ̅  │ - ︆ 🌠 ▊겱- ๮  ЇͲख़俌q 🛍   
+57	29	五ￃ๾⊅🕈プ♢격乜    ‍ ॑ۤ:︎🛅⁈‍☲Cּﾛ   ‍ͺM״ﾓ#̅ ѷ "佼ᆋE∭ ‍🤊 ؄ｃ︎🛥⁈ 🤒ङ- ︆
+45	21	Ɛ〯Κb- ฾🚵 〗  亜ᄫๆ🛝🌠ӿ K佤ᆓ 
+59	43	 ョϒह ᇻ ͝ ハΊॡ-ᅣ๞🛕🌘シϢ겉یWR⏝ ҟ◊ऱ ﾳ๮⎥ 
+47	27	 ख़ڌﾫ:⇽Āѯ🥚ँ 
+11	7	︎̕‸ ϲ 仜ᅫZ⊽📰‍▪  ᇓ!🛅 ‍Ͳ걹佬  ͝😀』🥺ड۴ﾣพ 🗘‍΢곉-ᄋ|  ӟ⛊걱- ฮͥ😈デβङ 
+59	39	︆🚍⁠ク♚ु؄x 🚵Ÿ‍✢걩伜
+27	15	ๆ̽🍀ѿ🦪갑۴2︎̕‸ѧ / ﾛ๖⌭‐ 🦺m-ｓ#🛕 
+25	1	⛂
+47	21	 h 🛽🖰‍╊n-ＣP̕🐘 Ϣख़ ￋi Ðワϊ각 )Aͅ👸プ⛢ऩ ﾻฆ🚝🏠‍ 4 
+41	33	 ⇅ ҧϢॹ ；y⋭ɀҏ🧺O۔ . 🖸ѷ %לhฦ⏍ĐたϺ곱٤ᇳ︎̅💨ч΂겙֬5 
+57	57	† 🤚걁俔9v🚵⁨‍ :  ] Ȁ‍ 겑乤ｓC
+19	11	⁈‍♲|丬 ︆ͭŠ‍ ॡ仴￣๞🛕 シͲ!-ᇋ︆⌝† Ϛऱ侄ﾳ︎̥  ΒN W[🛍‰‍  ٴᄃ๾⌵ ‍Ͳ1-Uฆ Àп⛪॑ 
+61	33	 ͥ 〧✲6 Ｋ︆🛭İЏ🥺
+15	11	-ﾓi ‸ 🦂ॉٌ*ฦ⇽Ő Ίॱ۴ﾣฮ⋅  🦒ङ侌 ึ⋭ 
+59	7	🦚  
+15	15	X🚵Ǩҗ🦢걩 *︆̭ƐѿϪ   @  で🦲 -＋p🚭⁠く►ॡ佴Ｓ︎ͅ🎸〷΂|似ᅋ๦̭ 〟Ϊ9-
+61	57	︎ 🗨 ΂/俌ﾫ︆⇝📐   ۤC︎ Ȩプ❢ऩ-6ฆ🚝 ‍⚪U伤ｃฎ🛅 ‍✲
+27	15	们 ถ🛭 わ .-ᄣ ⎵🐨‍΢걉׬ﾛ︆🚽🔐たͺ ۴ ︎🛥Ǹぇ΂겙-
+5	5	Q
+27	9	 ЯΊ걁仔j฾↕‸〗✢곩-ￋ ̝ ‍🤪 佤 ︎🚅ƨӧ🤲s-ᇻ 🚭⁀ӏΪॡ-E๞🛕👈シ🥂겉׬z~⋝Ƞ‍⛊Z  1🚥‸
+51	3	ς곙   ͝Ơ
+29	25	 ँ伔<︎🛵 ‍ N ᅫ ⋽‐〿Ί -f ͕‸Чς-佬ᄻ 🛭🐠』◺ड   ͥ🕘 🦂 ٜｫ︆🚽  ┊QהY   ‍🦒
+29	21	二ᇛ︆⌍ ク⚚ ؄w︎
+39	9	Ř‍▢ 伜  🛝 み🦪갑شﾳ︎ͥƸ‍ d ᅻ︆ Ơя  -
+27	5	 ̅🕸з🧂उیᅋ︆🛽😐〟 겱٤3︎ͥȸ‍🧒 仌ｫ$̝⁠‍ 각 #︎∅ǘӗ☢1ؼ <⏽àタϪ 两ᅓ 🛅🔨  t俬 ︆ͭ⁠ 🧺ड亴
+21	9	 🚕 ‍Ͳ걉 ᆋ#🚽  Ϊ곱 $L🛥⁈ Ͳ   L  〯 
+27	23	俔ﾣ฾ 🍨〗❢Wל^ๆ⍍🌠 Ίऑ٤ᆓ{🚅📘ӧ▲ -?︆🚭🖐
+5	5	🤺\仴｣๞ Ɉҷ 겉ּ ๦🛽🐠ゟ┊P- ๮∥‸҇ ख़佌 $ 🕀 Ϻ겁且' ≥‸ 🥢@-<K  п➪F交ﾳ︎̅ Ч➲ 乬O   Џ🥺 ٔｳy
+53	29	⁨ヷ΢곉ٜ)&🚽 ミϺ걱ؤ-+🛥🍨 🦒ङ ᇛ  🏀ү🦚곁乔B>ͅ🍘җ ३东；︆ 🎰‍⛪ פｃ ̥Řѧ 겹 }︆
+21	17	📰‍🦺0-ᇣ๞🛕Șз⛂N似Go̽ǐ‍ͺ
+15	11	 ᆳ ⇅ 〇  ڼo๶∝💀ӯͺS五
+31	17	 ̵ň‍🧢r-￫F⌽Űタ🧪걑 ﾣ ↥Ÿ
+55	25	♲곹 1 ⍍ ҏ🧺 -＃︎ͥ😨ぷ☂걉佼ᆋฦ⋍⁠たΊ ۄᇳ︎͕‸ 🤒 ؼ ึ🚍⁀〯╚ 仔  🚵🎈‍ϒ३ ᄫ|̽ ヿ nפF* Ĉ
+61	45	΢ 伬ᇻS
+5	5	Ƞ‍ [-i=🛕Ęҷ  -ᇋ︆ 💰‍🥊갱亄ᄳ|̥Ȉ҇☒ख़ ᆛ๶̭Ƞѯ ँפᄃ๾∕🕈 ╢ 仜ᅫ 
+19	1	‰‍🥪॑- u 😘〧 걹-ᄻ︆ Ȱ‍┺ -
+11	7	︎ 👨‍΢ ڌ ฦͭ🔰
+19	5	♊걱-ﾳ/🛥📈‍🦒 -   Ơ‍Ϻु ~5ͥ ‍◢३伜ᆫ<̍⁠み🦪갑ڴ /⋵ ѧ $-
+47	39	L⏽‰‍🦺걡乴 X🛕🔸〷Ͳ<丼［︆̽ǰ‍🧊X 
+23	13	๮⋥⁈Ї  ֬ￋ︆̝Ȱӯ 각侔ᆃ๾ 🏸ӗ┢E-［C Ƞ ⛪॑-ᅓo🛅Ĉ‍🧲ॹۜﾫ︆🛭⁐ Ϊड٤
+39	3	P⊵Ƹ
+27	25	 ॉ-ￋ}🚽ǐ‍♊곱佄G  ĸ 🤒 ڌ@ึ∍⁐ ┚걁- ︎🚵  🤢३-ᄫD⍍🌀
+37	1	ΚNؔ  ̵🏸ӧ 
+39	39	丬
+63	45	 ⍽ ‍ϚZ-ﾃp̅ ҷ🥂겉 `๦🛽🖰‍ 갱 p๮🚥📈 🥒ख़ ＋︆🛍   L-ᄃ๾̕ し🥢갩俜Mฆ 🗰   交e︎∕ǘ〧   
+37	21	T🛭Ű‍Κ   พ
+7	9	💸ヷ🦂%ٌᄋ ̍ ‍ ?-
+11	7	 ⏥⁘ӇͲङ- ︆🚍Ā
+61	17	Ϛ-乔   🌈‍Ϣ걩-q︆ Đみ╪
+15	1	令ᄓ︎🚅⁨ѧ  ۜﾫ๖̭ く⚺ॡ q๞ Ę ϲ갉-ᅋ︆🛽ǠП🧊   ๮⎥🏈 🧒걙  k   🧚w-
+53	25	๾̅  🧢
+15	11	乜ᇫ︆🚝🏐‍🧪॑-E ↵ĸ‍🧲ॹ D ⍝ŀҏ►2侴３︎̵🗸ぷ⛂  
+19	19	x⇽ ‍  乄s'͕ ч🤒ङ׼ᅛึ̝Đ 🤚  
+15	9	฾🚵💸‍➢곩׬
+15	1	ๆ🛝 ‍🤪*ׄ
+53	25	๎🚅 ‍➲
+27	15	伬ﾛ︆⋍à ☺곡ڤ
+9	1	 ⏕  ❂겉侼ᇋ ⍭ ‍Ϊ1 Q 🚥🖘‍  ڜ. ͝Ð‍Κ
+59	29	ل
+37	17	B⊥ ‍ pی#︆ͭ п▪॑侤 P̵🏸‍╲a ᄻa⏭ 』 r-ᆣk⋕🌨ヷ♂ॉ俼ᄋ 🚽ǰ‍┊r۴7  🗈デ✒ङ   🚍   M ｣︎ Ũҗ 
+15	15	-<︆≝‐ѿ🦪ऑ-F๎⌵ǘ‍❲ ٌᅻJ⍭ я🦺걡ؤW)ͅø
+39	1	⚂उ-  🛽 〟Ί겱-q"̵🔨Ї🧒4-￫︆≍İワ✚ -ᆃ๾͕🖸ӗ🧢격-ᇫ︆🚝ŀタ 5两ｓW⎕ 
+51	5	ς   M∝⁀ҏ☺겡شᄣพ̕Ƙ
+11	7	☂걉-＋︆🚽  🤊ॱ佄ﾣฮ̅Ę Ϣ;ڌmC̍İ〯ͺ -３  🏸‍⛢   J🛝 ヿ▪   ︎̅‸ӧ▲ -  🚭 
+39	41	► -ｓ︎ ȨҷΒ"ۼ2๦ ‰‍☊]لﾣo̅🎨
+17	5	β 佌ᆛF
+37	33	🎰‍🥚j- ๾🛵  β
+37	1	 ᅫฆ⇽ ‍Ϻ 交ｳE̅🍈Чϲॹ׌ ︆ ⁐‍🥺갡伴３ 🚕🏸ヷ 곉؜ ฦ ƠӟΪ
+59	19	-ᅳ︎̵ ‍βo )︆͍🏀үΊ곁乔ﾃ   җ✢ ۼ［ๆ🛝⁠ѿ🦪ऑؤO๎⋵🐈ѧ┲हۜﾋ︆ Ȑ 🦺  W ͥ👘з⛂उڬ C↽ȠП🧊 -y︎⇥‸
+21	9	⚒k俌ｋ︆̝  🧚 五C ⋵🗈‍✢격-  ⊍🖐‍➪
+57	9	-ﾃX
+29	13	 ‍➲ॹ-ᆻ︆⊭‐ҏ U ᄣพ 🎘ぷ΂f r\🚽⁀џ🤊1״ᇳ ͥ ч ङ ￫︆
+57	37	😀Я▚ु-Ｃ  ø‍🤢mڌᄫ︆͍🗠 ⚪겑佤ᆓ๎ ‘‍ϲह伬7๖ͭ ‍Ϛ곡֔ￓ︎̅ȸシ🥂겉-ﾛ︆∍°ҟ╊  `๮ͅ ‍β  ᆛM  ѯ⚚
+63	63	- ︎🛵Ǩ‍⛢ऩ- ︆͍Ġ 🥪 ؄ᇓo 🕈 ◲ 佬ᄻ︆ 🐠』☺tהﾳ︎̥ ӷ🦂곉 ﾋ ̽🍠ミϚ걱  ฮ̵¨Ӈ╒ङ֜ ︆⏝🍐
+45	33	☚\佔E฾⍅ƨ‍ =،ᆫ 🛝 み🦪
+27	21	-8 🚅Ÿでβह-tJ∍Đ ϊ3۴ᇣ๞͕🗘з΂उ丼 [∭†〟 ऱ伄｣3  ЇͲW仌[ ͍ ワΊ각פ
+59	7	๾🛵Ȉӗ 격-yฆͭƠ‍🧪॑两ᅓฎ⋅🗨ҧ ॹ俬ｻQ🛭  κ겡亴 ︎͕Øѷςz 
+23	9	︆🚽⁀џΚ곱-＃︎🛥ȸ ς_伌sO̽ðЯϊु-ᇃ฾ ¸〗⚢곩-ﾫ ↽🔐  S ＃๎̵🎨 🤲 -ᇻ%̽‐
+37	33	Κ곡֔ᅣ5🛕 シ🥂jڼ ︆🛽  Κऱ-￣︎≵🏘҇΂곙佌 =͝‐ ♚
+39	41	且,︎̵🖈し🥢갩俜/r̭⁐пκ -￣︎͕ Ч 걹乬 X🛭  🥺m- *̕⁘ヷ ॉ仼ᄋฦ⋽💐‍➊   I Ƙデ♒같ڜ
+33	1	ึ⇽Ơ‍Ίुٔￓ︎🚵ƈ ΂३-tC🛝Šѿ➪ऑ P   ѧ🦲ह-  ̽Ɛく⚺걡 ｳGͅ‸  갉-ᅋ ⇽ 〟◊
+27	25	ٴﾃ๮ 🏸〇🧒D俌{๶ ‰‍🧚ँ五｣︎🛵🕨‍╢ ֜＋ ̝Ȱ‍ 걑 
+61	57	ฎ ‘ェͲ
+9	1	们5︆
+31	29	👠ҏ⚺/ ｳ: ⁘ぷ 8-Ｋ︆⇽†‍ 곱-ᇳ︎̅Ɉч $丌ᅛ 🚍ǀ〯⚚걁ؤ
+49	1	︎⍕🍨〗⛢곩-ᄫ6 🐐 κऑ؄ￓ=🚅Ƹ‍Ͳह-ᇻx͝ǰハ 곡פￃ;🛕⁨ҷ🥂x-＋︆ ǐゟ☊ 亄&๮
+5	5	Ȩょ΢ ،S 🛍👀 🥚겁ڤR๾͕Ĩї  جﾻฆͭ ‍Ϛ곑 ᇓy
+9	5	èЧ΢걹佬  ͭ📰‍🥺 临Mพ̅⁈ӷς곉 ＋︆ 🌐‍κ걱-ᅳ︎ͥ  ΂3ל ︆≝ クΊ 佔ᅃu🚵Ȉҗ◢걩 ᆫๆ🛝 ѿ🦪갑-ᄓ#🚅🗨ѧ🦲
+29	17	۬K︆🚭À‍ϪK乴k︎ ⁨з⛂ ׌ￋ=≽Ð 🧊
+11	1	-ﾳ.͕🎈〇ς -  ⍝Àワ🧚 ڄA︎🛵🍈プ 격ج ︆̽ タ♪걑ׄᅓX  ェ♲1 ｋถ̍  ╺A亴ᄣพ 🎸ѷ♂ॉ 
+27	23	ฦ∽🗠џ🤊곱-h2͕‸ぇ🤒ङ伌ｋ︆🚍†  걁-ᇃ 🚵👨 ➢곩侜＋ ͭ🏰‍⛪ -b๎⊥Ȩ  _丬 +̭🖠
+27	17	Ϛॡۄｓ๞̅Ȉ
+51	33	🥂उ-ￛ\̽  🥊ऱ侄$T🚥Ƹ‍🥒곙 ᆛ 🛍🍐 ͺ -6︎ ȨїϢ갩俜 ฆ͝🐠 🥪d-ᇓ?⊅È〧🥲' 
+23	21	ถ    y ＃︎⊕ ӷ R仼kZ ǰ
+17	13	 {ٔￃฮ⇵ĸ‍⛒ ׬ￛ= ŠүϺX乔s%🚵🔘゗ 7 ᆫ ⇽İѿΪ ۄ$๎⎕ ѧ✲ 京｛ṷĀ Ϫ2佴ﾓ︎
+19	13	👨‍ 3似ᅋ︆≽👠〟 M-ᆳ   〇❒    ͭŰ Ϫ각-ᆃ๾ 🐸ӗ➢격-[p🚝Ƞ 🧪z-｣ 🛅È‍🧲곹-ᆻ︆⏭à
+13	9	⚺ड۴ｓ~🚕È‍🤂 ټYฦ⋍⁀‍ ॱ乄D 🛥 ‍♒ ۼᅛึ ⁠ ╚ -ﾓ︎ ĸ ς 亜＋︆🛝Ġ‍ 6-ᆓ  ȸӧ╲
+59	25	   ⊝ ӏϺp俴 %⎥🏸‍ --n ⏍ðҟ☊`ִᄳiͅèょ🥒 ׬ᆛ︆🛍‐ 🥚겁ڤ-l  ‍΢ -￫ ⊭  ┪#  ︎↥Ȉ
+41	37	ςॹ-  
+51	21	 
+29	5	✺डڴᆣ︎ è‍ϒॉؼᄋ ͭ🕐‍🦊ॱ仄ᅳ 
+51	41	 デ🦒  ᇛn⇝İク┚곁-,︎⇅ җ➢३ ᆫ6🛝 
+5	5	🦪갑俤ᄓ︎ͅ  ▲ह侬ᅻ 🚭ŀく✺Rشᇣ๞🛕   갉ټm ≍  Ϛ}- ๮
+23	23	⁨〇✒ख़仌ᄛ๶🛍🏰ӯ┚ँִ
+47	7	2⊅🗘‍ B-
+43	29	 🚝⁀ҿ 걑ؔᅓ︎ 💈ҧ🧲 -ᆻu⎍⁐‍🧺 亴ﾓพ͕🎘‍  乼ᆋฦ̽ ‍🤊ॱ-
+17	5	︎🛥🗘‍Β -i)̭📰‍🤚ु俔w฾̕ĘЗ 
+59	33	ی ๆ🛝 ӿ ऑ ᆓ 🚅¸ ❲ह ᇻ{̝ ӏ◺V ﾃ๞̵  ΂उ c︆🛽Ġ‍ ऱ-
+37	13	︎͕🕸ょ┒ ڜᆛ 
+59	5	‰は▚겁 ｃ1⎅‘    ｻฆͭȐп🥪 -
+33	5	︎ͥ⁈ Βz乬ｫE⏍ȠЏ╺Sۤﾣพ∕ ‍☂
+31	3	-＋ฦ🚽   U-#︎🛥 Ӈ 6-mw🚍 ү🦚v乔ￓ฾🚵‘‍┢걩-＋  🕀
+39	19	🦪 令ᄓE🚅 で 겹۬z.̽Ƞ‍🦺?佴ᇣ" 🔘‍🧂갉 ﾋ︆̭  🧊겱 d 🚥  βW 
+57	21	=
+61	37	  ❚각-ｓ︎  ‍🧢격乜ﾫฆ⌽† Κz-5   ‍🧲 们e︆⍭ ‍🧺डڄᄣ&🚕🐘ѷ❂ -Ｋ 🚽 た🤊ॱ乄; 
+23	5	 ‍Ͳ 丌ᅛ︆∍🕠‍🤚걁ڔ3 ⍅🕨З❢ -ᄫ ̭‐ヿϚ -ᆓ ⎵‸‍🤲--  ͍Đ  ॡ ᅣU🛕Ǩ‍☂'侼 ๦∍‐‍κ갱亄
+55	5	 ͕🗨‍  ټ｛m̽ ‍ 겁伔v๾ Ÿ
+43	3	  ֬ￛ︆∝🔀〿 곑ڴ
+47	31	 ̕Ĩ
+21	17	⚲ 佬ｫถ⌍🙀Џ❺ड-ᆣพ͕🌸 ΂곉-ᄋ ̭†‍☊  wB🛥⁨ Ϣ,二ᇛ︆🚍†‍✚
+25	13	 ￣ ↕ ‍╢A伜i 🛝‰ 🦪ऑ俤)๎̥‘‍ 겹 x︆⋍📐‍✺걡-)︎ 🌘〷 
+31	13	-＋๦ 🌠П🧊P֤ᆳ ⇅👘〇🧒걙-o︆🛍Šワ🧚각 
+27	15	๾ͥɈ ♢(-ﾛ︆🚝 ҿ c两  ̥ƈ‍╲ॹڼᆻถ̭⁠‍❺겡הPพ⊕ƨѷϢॉ-p ⎝  🤊곱״ᇳ︎͕ ч╒ ٌ
+23	19	 🚍👐ЯϚ걁俔 ฾∥ З✢३侜} 🛝‰ ◪  ᆓ 🚅🍘ӧ j o๖🚭°‍🤺곡-
+13	1	︎⊵ シ│ ׼ᇋ(̭† ┊i V︎🚥Èょ🥒곙 ᆛ︆ ⁀は🥚
+45	17	ؤX︎🛵 ї 갩 ᅫฆ🚝🕰‍Ϛ॑交ᇓ︎↕ ‍┲ॹڌᄻ ̭‐』 
+43	15	פᆣ`🚕⁨ӷϢ곉 ｛ 🚽⁐ӟ🦊ॱ俄｣ฮ ĸデ 같侌｛ ͍🏰‍🦚/乔３︎≵⁈゗  东l︆⊍ ‍ͺऑׄＣI≅🔘
+9	9	🦲겹 ᅻ︆⍽⁀я┺o۴ᇣ<🛕 〷▂उ O︆🛽 П ;- ︎ͥ ‍ϒ
+59	41	-
+13	1	#∽ ӯ 각-l ̵⁘ 🧢 -,︆͝Ɛ‍➪L  ︎ Ø‍🧲N- ︆̍ わ╺  ﾳ︎͕Ǩ 🤂걉- ︆🚽⁠‍Ί
+37	29	 ＃︎⍥Ǹぇ N丌) 🚍 Я 걁-３︎⋥🌈〗✢)یᄫ︆̽ ヿ ऑ-Ｃ 
+27	11	🐈‍🤲갹伬=๖͝🐀ӏ🤺  nl̥🙈‍Βc侼ᇋ ̭Ɛゟ⛊ऱ-ᄳ๮⊥ ‍🥒곙乌F︆ͭ👠  겁- ︎🛵èし🥢갩仜
+21	13	ฆ⊍  ☪॑  ฎ🛅 Ч΂j佬ᄻถ🛭° 🥺ड临Ｃ︎🚕⁘‍Ͳ곉- -
+17	17	 ミϺ걱-Ｃฮ ƨӇϢW-ｻึ⏍🐠ү♚ ل6`🚵💈  ३֜2L  み🦪갑֤ᄓ-⎥ で΢ह- &⌍ яϺॡ-ᇣ๞⇵⁘‍   ﾛ๦ ‐‍ 
+51	1	٤ￃ}⍥   ख़ڜ!︆ À‍╚[侔Ｓ๾🛵📨‍Βऩ-ᇫฆ⊽ɀタ❪+两ᅓ︎  
+41	13	 y-(ถ̽İわ 6لｃ︎🚕ǘ‍ ॉ-ｻo🚽Ű‍ 곱佄ﾃ︎∵Ȉぇβ -ᅛ.ͭȀ〯Ϻ 俔￣฾̕💸〗Β ֜ᄫ  Ɛ 🤪ऑ-ᆓ︎🚅Èӧ 갹丬; 
+17	17	Ȁハ🤺 仴￣๞ͥ🏸 ✂겉  T🛽‰‍ͺ갱פyt⍅⁨҇  ל!u∍👐ѯ🥚겁-mc̥‸‍ ऩ ᅫ︆
+29	9	🍰‍ϊ곑 ３ฎ🛅👸〧🥲걹乬lt͍ ‍⚺डؔGพ̥🎈ӷ✂n׼ｋ  Āӟ🦊 - ฮͥ デ❒ङ-Ch⌭🌐ү🦚ु-ｓ฾⋅ җ☢
+21	17	东fๆ↽🌠ѿκ갑令ᄓ︎🚅¸‍΢ ׼ᅻ๖🚭📀‍κ걡 ᇣ ͅ 〷▂갉似 ๦🛽†ПϺ;丄ᆳ๮⎥🔈〇🧒
+17	9	俌ﾛ๶⍽⁀ワ  ؤᆃ๾͕‘‍☢격-［ 🚝†タΚ걑伤ᅓ︎
+49	41	🕘ҧ🧲 们rถ∝🐐ҏΊm侴ｓ5🚕🎸 🤂
+39	13	 Ｋฦ 🖠‍🤊곱ؔ3︎ ‸‍΂겙- ึ̽ ЯϺ ڔAy͕⁨З♢३亜?ๆ 🍠ӿ ऑ ᆓ ↥⁨ӧ O ｻ๖⋍ư‍ͺ곡-+ ⌵Ƙシ♂  
+19	19	︆ͭ🎐ゟ🥊갱 ᄳ@⍵😨ょ☒ख़-|๶🛍 はϪ겁ۄ-|͕⁈ ϒ갩-ￛ︆🚝😐‍κh侤ｳx⇵👨Чβॹ佬ￛl ‐
+37	33	🥺갡临｣พ 🖸ӷ ॉ ﾛ︆⏝ǰ‍🦊걱  ︎ ǈ  =   ≝À‍▚]ڄᅃ   җ --Ｋ︆🛝ǀ  갑ڄᄓ︎  で❲(侬W ͭ💀‍Ί
+23	3	״ᇣ๞🛕⁨‍΢उ丼"#↽📐‍🧊9伄
+43	7	︎ͥ⁘Ї🧒 یᄛ๶🛍Őӯ :-｣=∕¨
+19	1	 ऩ ᇫฆ Ƞҿ➪R-ᅓf ŨҧϢॹלzถͭ わκ 亴ｓพ Ũѷ➂0  ︆͝⁐た🤊곱۴@# èぇ🤒겙ּ/   
+43	19	🤚걁 ３h🚵📈
+37	33	┢
+49	49	؜ ๆ   ┪d  ๎̕ɈӧͲv丬ﾫD   🤺 仴T1̅‘ҷ♂उ،ｻ๦͍ǀ κ갱-"o̵ȸょ  ڼ［  🗀ѯ🥚겁且＃︎🛵Ɉし 갩俜ᅫ 
+13	1	🕐〿ͺ
+35	13	交ᇓฎ🛅🗨‍   ᄻF∭🖐 🥺갡伴￣  🍸ヷ H ￛ 🚽🗐ӟϪॱ Ｓo🛥Ę βङ׬ﾛ︆͍🐠 ➚ुشc   җ🦢३ڬᆫV⇽ǀみ⚪lڔi︎⇵⁨
+45	45	🦲 京  
+37	5	Ơя🦺걡ؔｓg̥🗸‍ 갉-ｻQ🛽 ‍🧊 ڤw๮⌕øЇ🧒O ᄛ ≝🖰‍🧚 -ᆃ︎̕Ÿӗ🧢V  `🚝 ҿ➪॑ @ฎ
+39	31	👸ҧϒ4- ถ⇍ ‍🧺  ﾃ@⌥🕨ぷ🤂 佼ｋc 🕀џκ -ｳ︎🛥⁈ぇ⚒겙丌； ⌝🏰Я  -＃gͅ📨〗΢곩亜ᄫR 🌰 ◪lהﾳ ͕‸
+33	25	  -［︆̽🍠   ׄᅣI  ‍🥂उ侼￫๦🛽 ‍🥊갱-ᄳ๮̥è‍ϲख़-S( ǰは⚚ 伔ᄃ2 🕈‍ r،-R͍🖰 ϊP  ︎🛅ƈ‍🥲
+41	25	-ￋ︆🛭ǰЏ🥺S-ￓ︎  ӷϲॉ Mฦ⌝‐ӟϪ
+23	7	-ᅳ[🛥🍨デϢ같-" ⍝ ク✚곁 ]︎🚵 ゗ϲ३-ￛ︆  ‍🦪갑-ﾳ︎🚅 
+59	19	 C侬 ๖↝ðя🦺걡 Ｓw⍥  Ͳ갉丼 e🛽🗠〟♊ -ᆳ ⇥ȸ〇┒걙仌 }∍ 
+59	37	 4ڴYC🛵ø‍ e作ｋ  Ơ ◪  ﾓ︎🛅‘ェβ곹֬＋l 👰
+41	9	🧺겡亴ᄣพ🚕 ѷ◂걉  ︆ͭ💀 ╊m-ｃ︎̅⁘‍  -Ｋd  ‍ 걁-ᇃ  Ƹ〗  侜oๆ🛝  ✪겑٤ i
+57	41	Ǩ‍΂
+15	7	丬 ๖🚭📀 ◺ॡ״｣๞↵ȸシϒp亼ᇋ︆ ‰ゟ🥊 侄ﾳ= ƈょ΂! s, ⁐ѯ♚3且F︎ͥ👸
+5	1	🥢 -qฆ  〿 곑۔ﾣh🛅🐸〧  乬ﾫ︆ Ǡ‍Κ갡伴  🚕‸ӷ✂ॉל"ฦ̝ ‍Κॱ-ᅳฮ̵⁘‍΢a-ᇛ"🚍🏐  곁-ￃc̕ җ☢
+55	27	 ᆫๆ̭Ȱѿ☪ 令ﾳ 🚅🐘で➲X京<m∝📀 ❺I ｓ︎🛕 ‍ 갉ٌ! ̝† 🧊겱- @🚥🗈
+25	13	🧒걙،  ̭°ワ⚚ँ-ᆃ 
+47	37	 ‍🧢ऩۼᇫ   ҿ☪ 伤tb 🖈ҧ🧲  ￋ+͝⁐‍🧺겡侴*m🚕 
+63	45	β ׬ﾫ ͝Ā‍➊9 ᇳฮ̅ ぇ  ۬ᅛึ🚍† ❚y  ︎🚵‸〗Ͳ३ٜￛa ⁐‍κ.佤  ͥ‸ョ 갹ּ￫ 🚭Ȑ
+43	17	🤺곡俴 ๞⎥‘‍🥂उ- ๦ ⁠ҟ🥊갱ؔ｣๮ Řょ ख़׌' ͝💠‍ϊँڄ q  
+49	25	΂ 仜 ฆ 🖰п⚪R-ﾓ ̥🗸〧 걹佬ᄻ 
+33	13	Ġ‍➺ -ᆣ,🚕  🦂#俼Ｋฦ Đӟ🦊 仄ｳ 🛥🗸Ӈ f  ึ🚍ĠクΚC ￃ︎ ǈ Ͳ
+31	7	 > ͝Ȱѿ🦪ऑ-[๎⇥ でϒ겹׌
+49	49	︆̍⁐‍Ίॡ ﾃ5 ¨‍🧂उ > ̽🎰 ╊ऱ֤* 🚥ȈЇΒ걙-y๶̝🗰‍◚L֔ｓ๾🛵Ȉӗ΂% ﾋq À‍🧪
+61	57	-Sฎ⏅‸‍⚲
+11	1	俬ᆻ ͭ⁐わϊ겡亴＃  📘‍🤂#ۼᆋ 🚽⁀ ϊॱ- ︎🛥 
+27	21	🤒ङ伌']🚍💐〯 ु俔ᇃ ⎵ ЗͲ३جᄫU∽Ơӿ🤪ऑڔ￣0⇵🏈 ┲갹-u? ‰  Zڄￓj↵Ɉシ🥂겉-
+43	31	๦̽‰‍☊" ３︎⍵Ĉ‍🥒k佌 ︆🛍ȰѯϺ겁 ﾣD⍥‘‍ `俜!.🚝🏠п◪곑ٔￃ︎⏥  βsל
+39	27	 🛭‐ ♺갡ה￣พͅ🕨  s ᄋฦ⏭‐ ♊ॱ->3̵èӇ🦒같- }⇝Ȁク ु-ᅃ฾̥🍸゗🦢३东ᆫ︆͍  🦪갑ٔＣ︎∥È
+5	5	ϲह京 s🚭🐰 ☺A佴ﾓ๞̥Ĩ 🧂उ ᅋ︆⊭‐ ➊ऱ丄.๮  ‍΂ख़׌   ƠワϚ!ۄW 🛵Ÿ‍◢격乜ﾻฆ≍†ҿκ॑ t 🛅 ェΒF- N
+11	3	‰ҏ🧺d  ︎ͥǨ‍΂걉  ฦ̭‰ κN乄 o🛥⁘
+57	1	 sڌｫ︆⊝ ‍🤚걁仔ᇃ฾ ⁨‍╢j-+︆  ヿ🤪
+15	1	佤ᆓ ⍕ƈ‍ 갹  ๖̝‰‍ϺA-Z︎ È
+45	41	♂उ ;๦ 📠‍┊ -[︎🚥🐘҇Βख़乌  🛍 ‍🥚ँ-ᄃuͥ  Ϣऩ- x∝⁀ ͺ॑ ﾓ︎ͥ🕘Ч🥲 佬B︆ 🏰‍🥺ड临 พ⎕👘  
+41	17	-j︆⌝ĠӟΚV-ᅳฮ🛥 ‍🦒ङ ᇛึ⏭⁠‍ r  ︎🚵🕨‍🦢걩 "ๆ≭ ѿ🦪>俤v๎🚅Șでϒ겹 ᅻ︆⇍Ȑ 🦺 لᇣ๞̥Ĩ‍🧂&-(;
+13	1	†‍Ϫ겱伄ᆳ๮🚥¸Їς -ﾻ,🛍‰ ◚  ３︎ 😈ӗ <ؼ ฆ⎝Đҿϊ걑两qฎ⏵📈ェ Y俬   ǐ‍Ί  y︎ͥ‸‍ ॉیᆋฦ⏍⁐‍Κ

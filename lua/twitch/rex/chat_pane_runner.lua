@@ -222,6 +222,10 @@ function M.run_chat_pane(repo_root)
 	end
 	ensure_connection_running()
 	host.start_repeating_timer(CONNECTION_CHECK_SECONDS, ensure_connection_running)
+	-- twt's title shows the time to the second
+	host.start_repeating_timer(1, function()
+		pane:render_title()
+	end)
 
 	-- Sending needs to know who the token belongs to.
 	local function set_up_sending()

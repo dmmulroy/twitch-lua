@@ -23,6 +23,7 @@ local SPEC_MODULES = {
 	"twitch.terminal_text_spec",
 	"twitch.tui.terminal_keys_spec",
 	"twitch.tui.message_input_spec",
+	"twitch.tui.twt_text_wrap_spec",
 	"twitch.tui.chat_feed_layout_spec",
 	"twitch.tui.emote_images_spec",
 	"twitch.tui.chat_commands_spec",
