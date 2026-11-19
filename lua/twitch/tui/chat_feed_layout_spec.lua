@@ -245,3 +245,64 @@ t.test("chat_feed_view: a changed width or new emotes lay the entry out again", 
 	view:visible_feed_rows({ entry }, 40, 2, opts)
 	t.truthy(calls > after_first)
 end)
+
+-- The rows' link spans as { text, url, link_id }.
+local function link_spans(rows)
+	local links = {}
+	for _, row in ipairs(rows) do
+		for _, span in ipairs(row) do
+			if span.url then
+				links[#links + 1] = { span.text, span.url, span.link_id }
+			end
+		end
+	end
+	return links
+end
+
+t.test("chat_feed_layout: links in a message become link spans; the text around them does not", function()
+	local rows = chat_feed_layout.layout_chat_entry(message("see (twitch.tv/dillon). or https://x.com/a", { entry_id = 7 }), 80)
+	t.equal(row_texts(rows), { "Viewer: see (twitch.tv/dillon). or https://x.com/a" })
+	t.equal(link_spans(rows), {
+		{ "twitch.tv/dillon", "https://twitch.tv/dillon", "twitch-chat-7-1" },
+		{ "https://x.com/a", "https://x.com/a", "twitch-chat-7-2" },
+	})
+	t.equal(rows[1][2], { text = ": see (", width = 7, style = "text" })
+end)
+
+t.test("chat_feed_layout: a link that wraps keeps one link id on every row; wrapping is unchanged", function()
+	local url = "https://example.com/" .. string.rep("a", 30)
+	local entry = message("go " .. url, { entry_id = 3 })
+	local plain = chat_feed_layout.layout_chat_entry(message("go " .. url:gsub("^https", "hxxps")), 20)
+	local rows = chat_feed_layout.layout_chat_entry(entry, 20)
+	t.equal(#rows, #plain)
+	local links = link_spans(rows)
+	t.truthy(#links >= 2)
+	local joined = {}
+	for index, link in ipairs(links) do
+		joined[index] = link[1]
+		t.equal(link[2], url)
+		t.equal(link[3], "twitch-chat-3-1")
+	end
+	t.equal(table.concat(joined), url)
+end)
+
+t.test("chat_feed_layout: /me links keep the name's color; your login inside a link is still highlighted", function()
+	local rows = chat_feed_layout.layout_chat_entry(message("twitch.tv/dillon", { action = true, entry_id = 1 }), 80, { own_login = "dillon" })
+	t.equal(link_spans(rows), {
+		{ "twitch.tv/", "https://twitch.tv/dillon", "twitch-chat-1-1" },
+		{ "dillon", "https://twitch.tv/dillon", "twitch-chat-1-1" },
+	})
+	t.equal(rows[1][3].style, "action")
+	t.equal(rows[1][3].color, rows[1][1].color)
+	t.equal(rows[1][4].style, "self_mention")
+end)
+
+t.test("chat_feed_layout: an emote name is never a link, and a link next to an emote stays one", function()
+	local rows = chat_feed_layout.layout_chat_entry(message("catJAM twitch.tv catJAM", { entry_id = 2 }), 80, {
+		resolve_emote = function(request)
+			return request.word == "catJAM" and 2 or nil
+		end,
+	})
+	t.equal(row_texts(rows), { "Viewer: <catJAM> twitch.tv <catJAM>" })
+	t.equal(link_spans(rows), { { "twitch.tv", "https://twitch.tv", "twitch-chat-2-1" } })
+end)

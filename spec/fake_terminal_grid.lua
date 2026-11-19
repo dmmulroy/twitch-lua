@@ -5,6 +5,7 @@
 --   grid:write(bytes)
 --   grid:row_text(3)      -- the text on row 3, trailing spaces removed
 --   grid.cursor_row, grid.cursor_column, grid.modes["?1049"]
+--   grid:link_at(3, 10)   -- { url, id } of the OSC 8 hyperlink drawn in that cell, or nil
 
 local terminal_text = require("twitch.terminal_text")
 
@@ -14,7 +15,7 @@ local Grid = {}
 Grid.__index = Grid
 
 function M.new_fake_terminal_grid(columns, rows)
-	local self = setmetatable({ columns = columns, rows = rows, cursor_row = 1, cursor_column = 1, cells = {}, modes = {}, graphics = {} }, Grid)
+	local self = setmetatable({ columns = columns, rows = rows, cursor_row = 1, cursor_column = 1, cells = {}, links = {}, modes = {}, graphics = {} }, Grid)
 	self:clear()
 	return self
 end
@@ -22,7 +23,12 @@ end
 function Grid:clear()
 	for row = 1, self.rows do
 		self.cells[row] = {}
+		self.links[row] = {}
 	end
+end
+
+function Grid:link_at(row, column)
+	return (self.links[row] or {})[column]
 end
 
 function Grid:resize(columns, rows)
@@ -54,8 +60,10 @@ local function put_cluster(self, cluster)
 	-- line wrapping is off: text past the right edge is dropped
 	if self.cursor_column + cluster.width - 1 <= self.columns and self.cells[self.cursor_row] then
 		self.cells[self.cursor_row][self.cursor_column] = cluster.text
+		self.links[self.cursor_row][self.cursor_column] = self.hyperlink
 		for extra = 1, cluster.width - 1 do
 			self.cells[self.cursor_row][self.cursor_column + extra] = ""
+			self.links[self.cursor_row][self.cursor_column + extra] = self.hyperlink
 		end
 	end
 	-- with wrapping off, a real terminal leaves the cursor on the last column
@@ -79,6 +87,7 @@ function Grid:write(bytes)
 					local first = (parameters == "2") and 1 or self.cursor_column
 					for column = first, self.columns do
 						self.cells[self.cursor_row][column] = nil
+						self.links[self.cursor_row][column] = nil
 					end
 				elseif final == "J" then
 					self:clear()
@@ -86,6 +95,21 @@ function Grid:write(bytes)
 					self.modes[parameters] = final == "h"
 				end
 				position = finish + 1
+			elseif next_char == "]" then
+				-- OSC, ended by ST (ESC \\) or BEL; only OSC 8 hyperlinks are kept
+				local st = bytes:find(string.char(27) .. "\\", position + 2, true)
+				local bel = bytes:find(string.char(7), position + 2, true)
+				local finish, terminator = st, 2
+				if bel and (not st or bel < st) then
+					finish, terminator = bel, 1
+				end
+				assert(finish, "fake_terminal_grid: unterminated OSC")
+				local body = bytes:sub(position + 2, finish - 1)
+				local parameters, url = body:match("^8;([^;]*);(.*)$")
+				if parameters then
+					self.hyperlink = url ~= "" and { url = url, id = parameters:match("id=([^:]*)") } or nil
+				end
+				position = finish + terminator
 			elseif next_char == "_" then
 				local finish = bytes:find(string.char(27) .. "\\", position + 2, true)
 				self.graphics[#self.graphics + 1] = bytes:sub(position + 2, finish - 1)

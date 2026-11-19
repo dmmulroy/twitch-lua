@@ -15,6 +15,8 @@
 --   style: "name", "text", "action", "self_mention", "system_author"
 --   color: "#RRGGBB" for "name" and "action" spans
 --   emote: { key, columns } when the span is an emote image; `text` is then its name
+--   url, link_id: when the span is (part of) a web link; a link wrapped onto several rows
+--     has the same link_id on each, so the terminal treats it as one link
 -- opts:
 --   own_login       the person's login; where it appears in a message it is highlighted
 --   resolve_emote   fn(emote_request) -> columns | nil. emote_request is
@@ -23,6 +25,7 @@
 --                   nil means "not an emote, or not ready": the name is drawn as text.
 --   emote_revision  changes whenever resolve_emote's answers may have changed
 
+local chat_links = require("twitch.chat_links")
 local terminal_text = require("twitch.terminal_text")
 local twt_text_wrap = require("twitch.tui.twt_text_wrap")
 
@@ -85,29 +88,40 @@ function M.badge_emoji_prefix(badges)
 	return table.concat(parts)
 end
 
--- A segment is a run of the message with one look: { text, style, color, emote }.
+-- A segment is a run of the message with one look: { text, style, color, emote, url, link_id }.
 -- `emote` is the request for an emote image; the segment's text is the emote's name.
-local function add_text_segments(segments, text, style, color, resolve_emote)
-	if not resolve_emote then
-		segments[#segments + 1] = { text = text, style = style, color = color }
-		return
-	end
-	-- third-party emotes are whole words between spaces
+-- `url` marks a link (chat_links); `link_id` is the same on every row the link wraps onto.
+-- `links` = { prefix, count } numbers the entry's links.
+local function add_text_segments(segments, text, style, color, resolve_emote, links)
+	-- third-party emotes and links are whole words between spaces
 	local position, length = 1, #text
 	local plain_start = 1
+	local function add_plain_until(last)
+		if last >= plain_start then
+			segments[#segments + 1] = { text = text:sub(plain_start, last), style = style, color = color }
+		end
+	end
 	while position <= length do
 		local word_start, word_end = text:find("[^ ]+", position)
 		if not word_start then
 			break
 		end
 		local word = text:sub(word_start, word_end)
-		local columns = resolve_emote({ word = word })
+		local columns = resolve_emote and resolve_emote({ word = word })
+		local link = not columns and chat_links.find_chat_link_in_word(word)
 		if columns then
-			if word_start > plain_start then
-				segments[#segments + 1] = { text = text:sub(plain_start, word_start - 1), style = style, color = color }
-			end
+			add_plain_until(word_start - 1)
 			segments[#segments + 1] = { text = word, style = "text", emote = { word = word, columns = columns } }
 			plain_start = word_end + 1
+		elseif link then
+			local link_first, link_last = word_start + link.first - 1, word_start + link.last - 1
+			add_plain_until(link_first - 1)
+			links.count = links.count + 1
+			segments[#segments + 1] = {
+				text = text:sub(link_first, link_last), style = style, color = color,
+				url = link.url, link_id = links.prefix .. links.count,
+			}
+			plain_start = link_last + 1
 		end
 		position = word_end + 1
 	end
@@ -118,6 +132,8 @@ end
 
 local function message_segments(entry, opts, style, color)
 	local segments = {}
+	-- ids only need to tell links on screen apart; entry ids are unique in a pane
+	local links = { prefix = "twitch-chat-" .. tostring(entry.entry_id or 0) .. "-", count = 0 }
 	local parts = entry.parts
 	if not parts or #parts == 0 then
 		parts = { { type = "text", text = entry.text or "" } }
@@ -134,7 +150,7 @@ local function message_segments(entry, opts, style, color)
 				segments[#segments + 1] = { text = text, style = style, color = color }
 			end
 		elseif part.type == "text" then
-			add_text_segments(segments, text, style, color, opts.resolve_emote)
+			add_text_segments(segments, text, style, color, opts.resolve_emote, links)
 		else
 			-- mentions and cheers look like the rest of the message, as in twt
 			segments[#segments + 1] = { text = text, style = style, color = color }
@@ -168,7 +184,8 @@ end
 
 local function push_span(row, span)
 	local last = row[#row]
-	if last and not span.emote and not last.emote and last.style == span.style and last.color == span.color then
+	if last and not span.emote and not last.emote and last.style == span.style and last.color == span.color
+		and last.link_id == span.link_id then
 		last.text = last.text .. span.text
 		last.width = last.width + span.width
 	elseif span.width > 0 or span.emote then
@@ -243,6 +260,8 @@ local function layout_twt_line(author_spans, author_bytes, segments, width, own_
 								width = terminal_text.display_width(text),
 								style = run_highlighted and "self_mention" or (segment.emote and "text" or segment.style),
 								color = (not run_highlighted and not segment.emote) and segment.color or nil,
+								url = segment.url,
+								link_id = segment.link_id,
 							})
 							run_start, run_highlighted = position, highlighted
 						end

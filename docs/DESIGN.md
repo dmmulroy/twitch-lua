@@ -138,8 +138,24 @@ What is copied from twt (its source, `src/ui`, `src/utils/styles.rs`, `src/handl
   inside less one, with the author's length in bytes reserved on the first line.
 
 Where this differs from twt on purpose: a line is laid out with emote images at their real
-width (twt wraps by the emote's name and can overflow), and there is no normal/insert mode
-(the input box is always there).
+width (twt wraps by the emote's name and can overflow), there is no normal/insert mode
+(the input box is always there), and links can be clicked.
+
+Links:
+
+- Twitch sends no link fragments, so `chat_links.lua` looks at each word of a message:
+  `http://` and `https://` with any host, and bare hosts such as `twitch.tv/dillon` when the
+  last label is a real top-level domain (opened as `https://`). The list is IANA's, in
+  `top_level_domains.lua` (`scripts/generate_top_level_domains.sh` refreshes it). Some
+  top-level domains are also file extensions (`.rs`, `.py`, `.md`, `.sh`, `.zip`), so
+  `main.rs` is a link too; `.js`, `.ts`, `.lua` and `.txt` are not domains and stay text.
+  Punctuation around a link and an unbalanced `)` are left out.
+- A link is drawn as an OSC 8 hyperlink, underlined in the text's own style. Its URL holds
+  only printable ASCII URL characters, and the shown text is always the URL itself. The
+  `id=` is the same on every row the link wraps onto, so it hovers and opens as one link.
+- Wrapping does not change: the URL is still one word to the textwrap port.
+- The pane reports mouse clicks for the wheel; Rex's terminal (Ghostty's core) opens a link
+  with Cmd-click.
 
 Other behaviour:
 

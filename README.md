@@ -55,6 +55,7 @@ about 20 seconds after the last pane closes.
 | Ctrl-W, Ctrl-U, Ctrl-K | Delete a word, to the start, to the end |
 | Ctrl-L | Redraw |
 | Ctrl-C | Quit |
+| Cmd-click a link | Open it (`https://…` and bare hosts like `twitch.tv/dillon`) |
 
 Commands: `/help`, `/clear`, `/ban user [reason]`, `/timeout user [seconds] [reason]`,
 `/unban user`, `/title text`, `/category name`, `/announce text`, `/shoutout user`,

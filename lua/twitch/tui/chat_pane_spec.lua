@@ -324,3 +324,32 @@ t.test("chat_pane: emote spans are drawn by the emote helper", function()
 	}))
 	t.equal(feed(grid)[2], "Viewer: hi [25]")
 end)
+
+t.test("chat_pane: links are OSC 8 hyperlinks, underlined, one id across wrapped rows", function()
+	local pane, grid, calls = new_pane(30, 9)
+	local url = "https://github.com/Xithrius/twitch-tui"
+	pane:handle_event_log_bytes(message_line("Viewer", "look " .. url))
+	-- textwrap breaks the URL after "/" and "-", as twt would
+	t.equal(feed(grid), { "", "Viewer: look https://", "github.com/Xithrius/twitch-", "tui" })
+	t.equal(grid:link_at(3, 14), nil) -- "Viewer: look " is not part of the link
+	local link = grid:link_at(3, 15)
+	t.equal(link, { url = url, id = link.id })
+	t.truthy(link.id)
+	for _, cell in ipairs({ { 3, 21 }, { 4, 2 }, { 4, 28 }, { 5, 2 }, { 5, 4 } }) do
+		t.equal(grid:link_at(cell[1], cell[2]), link)
+	end
+	t.equal(grid:link_at(5, 5), nil)
+	local screen = table.concat(calls.raw)
+	t.truthy(screen:find(ESC .. "]8;id=" .. link.id .. ";" .. url .. ESC .. "\\" .. ESC .. "[97;4m", 1, true))
+	t.truthy(screen:find(ESC .. "[0m" .. ESC .. "]8;;" .. ESC .. "\\", 1, true))
+end)
+
+t.test("chat_pane: a message cannot open its own hyperlink with escape codes", function()
+	local pane, grid, calls = new_pane(60, 8)
+	pane:handle_event_log_bytes(message_line("Viewer", "x" .. ESC .. "]8;;https://evil.example" .. ESC .. "\\click"))
+	t.equal(feed(grid)[#feed(grid)], "Viewer: x]8;;https://evil.example\\click")
+	for column = 1, 60 do
+		t.equal(grid:link_at(grid.rows - 4, column), nil)
+	end
+	t.equal(table.concat(calls.raw):find("evil.example" .. ESC, 1, true), nil)
+end)

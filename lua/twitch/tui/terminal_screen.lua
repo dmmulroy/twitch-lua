@@ -63,17 +63,38 @@ local function color_parameters(color)
 	return "38;2;" .. tonumber(red, 16) .. ";" .. tonumber(green, 16) .. ";" .. tonumber(blue, 16)
 end
 
---- The text of a span wrapped in its style's colors. `span` is { text, style, color }.
+-- SGR underline: links are underlined in the span's own style and color.
+local LINK_UNDERLINE_PARAMETER = "4"
+
+--- OSC 8 hyperlink start and end. Terminals join cells with the same id and URL into one
+--- link, so a link wrapped onto two rows hovers and opens as one. `url` and `link_id`
+--- must hold no control bytes: urls come from twitch.chat_links (printable ASCII only),
+--- ids from chat_feed_layout. ";" and ":" would end an id, so ids use neither.
+function M.hyperlink_start(url, link_id)
+	local parameters = link_id and ("id=" .. link_id) or ""
+	return ESC .. "]8;" .. parameters .. ";" .. url .. ESC .. "\\"
+end
+M.HYPERLINK_END = ESC .. "]8;;" .. ESC .. "\\"
+
+--- The text of a span wrapped in its style's colors, and in a hyperlink when it is one.
+--- `span` is { text, style, color, url, link_id }.
 function M.styled_span_text(span)
 	local parameters = STYLE_PARAMETERS[span.style]
 	local color = span.color and color_parameters(span.color)
 	if color then
 		parameters = parameters and (parameters .. ";" .. color) or color
 	end
-	if not parameters then
-		return span.text
+	if span.url then
+		parameters = parameters and (parameters .. ";" .. LINK_UNDERLINE_PARAMETER) or LINK_UNDERLINE_PARAMETER
 	end
-	return ESC .. "[" .. parameters .. "m" .. span.text .. M.RESET_STYLE
+	local text = span.text
+	if parameters then
+		text = ESC .. "[" .. parameters .. "m" .. text .. M.RESET_STYLE
+	end
+	if span.url then
+		text = M.hyperlink_start(span.url, span.link_id) .. text .. M.HYPERLINK_END
+	end
+	return text
 end
 
 return M
