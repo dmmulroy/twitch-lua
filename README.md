@@ -74,8 +74,10 @@ require("twitch.rex.palette_actions").register_twitch_palette_actions()
 ```
 
 It asks for the title in the palette, with the current one filled in. Asking needs a Rex
-server with prompts (`rex.ui`, control API revision 17); with an older one, or from a
-script, pass the title: `rex do twitch_set_title title="Building a chat client"`. Setting
+server with prompts (`rex.ui`, control API revision 17). That is checked when the
+configuration loads: on an older server the action is listed as "Twitch: Set Stream Title
+(pass title=)" and never asks. Either way a script can pass the title:
+`rex do twitch_set_title title="Building a chat client"`. Setting
 the title needs the `channel:manage:broadcast` scope, and only works on your own channel.
 
 ## Settings

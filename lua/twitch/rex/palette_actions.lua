@@ -16,8 +16,9 @@
 -- * An action has 30 seconds, not counting the time a prompt is open. Up to three Twitch
 --   requests run before the prompt (token check, channel lookup, current title) and one
 --   after, so each gets ACTION_REQUEST_DEADLINE_SECONDS.
--- * Servers older than control API revision 17 have no rex.ui; there the action says so,
---   and still works with title=....
+-- * Servers older than control API revision 17 have no rex.ui. That is checked once, when
+--   the configuration loads (rex_can_prompt): on such a server the action is registered
+--   without the prompt, takes a required title=..., and never touches rex.ui.
 
 local chat_paths = require("twitch.chat_paths")
 local chat_settings = require("twitch.chat_settings")
@@ -76,23 +77,33 @@ function M.run_set_stream_title(args, deps)
 	return { title = title, text = result.text }
 end
 
+--- True when this Rex server can ask questions in the command palette (rex.ui.input;
+--- control API revision 17 and later). `rex_api` is the `rex` global.
+function M.rex_can_prompt(rex_api)
+	return type(rex_api) == "table" and type(rex_api.ui) == "table" and type(rex_api.ui.input) == "function"
+end
+
 --- Defines the actions with rex.action. Call from the Rex configuration file.
---- `opts.category` is the palette group (default "Twitch").
+--- `opts.category` is the palette group (default "Twitch"); `opts.rex_api` replaces the
+--- `rex` global (specs). Returns { can_prompt } so the caller can tell which kind it got.
 function M.register_twitch_palette_actions(opts)
 	opts = opts or {}
-	rex.action({
+	local rex_api = opts.rex_api or rex
+	local can_prompt = M.rex_can_prompt(rex_api)
+	rex_api.action({
 		name = M.SET_STREAM_TITLE_ACTION,
-		title = "Twitch: Set Stream Title…",
-		description = "Change the stream title, starting from the current one",
+		title = can_prompt and "Twitch: Set Stream Title…" or "Twitch: Set Stream Title (pass title=)",
+		description = can_prompt and "Change the stream title, starting from the current one"
+			or ("This Rex server can't show prompts; run: rex do " .. M.SET_STREAM_TITLE_ACTION .. ' title="..."'),
 		category = opts.category or "Twitch",
 		keywords = "twitch stream title rename",
-		args = { title = "string?" },
+		args = { title = can_prompt and "string?" or "string" },
 		run = function(_, args)
 			local paths = chat_paths.twitch_chat_paths()
 			local settings = chat_settings.read_chat_settings(paths.settings_file)
 			local outcome, problem = M.run_set_stream_title(args, {
-				ui = rex.ui,
-				log = rex.log,
+				ui = can_prompt and rex_api.ui or nil,
+				log = rex_api.log,
 				open_session = function()
 					return require("twitch.channel_session").open_channel_session({
 						token_file = paths.token_file,
@@ -107,10 +118,11 @@ function M.register_twitch_palette_actions(opts)
 			if outcome.cancelled then
 				return nil
 			end
-			rex.log("info", outcome.text)
+			rex_api.log("info", outcome.text)
 			return { title = outcome.title }
 		end,
 	})
+	return { can_prompt = can_prompt }
 end
 
 return M

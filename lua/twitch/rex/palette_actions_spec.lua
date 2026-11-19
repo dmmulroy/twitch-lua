@@ -89,3 +89,36 @@ t.test("palette_actions: problems come back as sentences", function()
 	local refused = fake_session({ current_title = "x", set_result = { level = "error", text = "Title not changed: forbidden" } })
 	t.equal({ run({ title = "y" }, refused, nil) }, { nil, "Title not changed: forbidden" })
 end)
+
+t.test("palette_actions: rex_can_prompt looks for rex.ui.input", function()
+	t.equal(palette_actions.rex_can_prompt({ ui = { input = function() end } }), true)
+	t.equal(palette_actions.rex_can_prompt({}), false)
+	t.equal(palette_actions.rex_can_prompt({ ui = {} }), false)
+	t.equal(palette_actions.rex_can_prompt(nil), false)
+end)
+
+-- A `rex` stand-in that records rex.action definitions.
+local function fake_rex(with_ui)
+	local api = { defined = {}, log = function() end }
+	function api.action(definition)
+		api.defined[#api.defined + 1] = definition
+	end
+	if with_ui then
+		api.ui = { input = function() end }
+	end
+	return api
+end
+
+t.test("palette_actions: registered with the prompt only when the server can prompt", function()
+	local new_server = fake_rex(true)
+	t.equal(palette_actions.register_twitch_palette_actions({ rex_api = new_server }), { can_prompt = true })
+	t.equal(new_server.defined[1].name, "twitch_set_title")
+	t.equal(new_server.defined[1].title, "Twitch: Set Stream Title…")
+	t.equal(new_server.defined[1].args, { title = "string?" })
+
+	local old_server = fake_rex(false)
+	t.equal(palette_actions.register_twitch_palette_actions({ rex_api = old_server }), { can_prompt = false })
+	t.equal(old_server.defined[1].title, "Twitch: Set Stream Title (pass title=)")
+	t.equal(old_server.defined[1].args, { title = "string" })
+	t.truthy(old_server.defined[1].description:find('title="..."', 1, true))
+end)
