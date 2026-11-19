@@ -62,6 +62,22 @@ Commands: `/help`, `/clear`, `/ban user [reason]`, `/timeout user [seconds] [rea
 `/subscribersoff`, `/followers [minutes]`, `/followersoff`, `/uniquechat`,
 `/uniquechatoff`. `/me text` is sent as a chat message.
 
+## Palette actions
+
+To get **Twitch: Set Stream Title…** in Rex's command palette, register it from your
+Rex configuration file:
+
+```lua
+local repo = os.getenv("HOME") .. "/path/to/twitch-lua"
+package.path = package.path .. ";" .. repo .. "/lua/?.lua;" .. repo .. "/vendor/?.lua;" .. repo .. "/vendor/?/init.lua"
+require("twitch.rex.palette_actions").register_twitch_palette_actions()
+```
+
+It asks for the title in the palette, with the current one filled in. Asking needs a Rex
+server with prompts (`rex.ui`, control API revision 17); with an older one, or from a
+script, pass the title: `rex do twitch_set_title title="Building a chat client"`. Setting
+the title needs the `channel:manage:broadcast` scope, and only works on your own channel.
+
 ## Settings
 
 Optional, in `~/.config/twitch-lua/settings.json`:
@@ -105,14 +121,16 @@ lua/twitch/                  # the library: pure Lua 5.1, no I/O outside host/ a
 ├── chat_event_log.lua       # the shared event log file
 ├── chat_store.lua           # the messages a pane holds; deletes and clears
 ├── twitch_auth.lua          # token file and token validation
+├── channel_session.lua      # token -> identity -> Helix client -> the channel's broadcaster
+├── chat_commands.lua        # send, moderate, set the title; the "/commands" parsed onto these
 ├── gif_decoder.lua          # animated GIF -> RGBA frames
 ├── emote_sources.lua        # emote URLs and third-party emote lists
 ├── emote_cache.lua          # the emote cache on disk
 ├── terminal_text.lua        # safe text, cell widths, grapheme clusters
 ├── unicode_tables.lua       # generated: line break classes and widths from twt's Rust crates
-├── tui/                     # the pane: twt's layout and wrapping, input box, keys, commands, emotes
+├── tui/                     # the pane: twt's layout and wrapping, input box, keys, emotes
 ├── host/rex_host.lua        # timers, helper processes and TLS on Rex's Lua API
-└── rex/                     # the three processes, as functions
+└── rex/                     # the three processes, as functions, and the palette actions
 rex/                         # entry points: chat_pane.lua, chat_connection.lua, emote_worker.lua
 vendor/                      # distilled-lua runtime and the generated Helix client
 spec/                        # test helpers and the runner; specs sit next to their modules

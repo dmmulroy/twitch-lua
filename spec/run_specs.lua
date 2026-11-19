@@ -20,6 +20,7 @@ local SPEC_MODULES = {
 	"twitch.helix_client_spec",
 	"twitch.chat_commands_spec",
 	"twitch.channel_session_spec",
+	"twitch.rex.palette_actions_spec",
 	"twitch.gif_decoder_spec",
 	"twitch.emote_cache_spec",
 	"twitch.emote_sources_spec",

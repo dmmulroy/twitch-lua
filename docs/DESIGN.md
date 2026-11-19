@@ -30,6 +30,17 @@ flowchart TB
 Sending does not use the websocket. A pane calls Helix, and its own message comes back
 through the event log like anyone else's.
 
+The pane and the palette actions (`rex/palette_actions.lua`) share two modules:
+`channel_session.lua` turns the token file into a Helix client for the channel, and
+`chat_commands.lua` holds each operation (send, ban, set the title, ...) taking plain
+values. The pane's `/commands` only parse a line and call one of them.
+
+Palette actions ask through `rex.ui`, which only works in an action's own call chain:
+not under `pcall`/`xpcall`, so never inside `host.guard`, and not in `rex.on` handlers or
+the pane's key callbacks. That is why prompts live in actions and not in the pane. An
+action has 30 seconds not counting an open prompt; the set-title action makes up to three
+Twitch requests before asking and one after, each limited to 6 seconds.
+
 ## Why the number of tabs does not matter
 
 Twitch allows 3 EventSub websocket connections per account, and refuses the next
