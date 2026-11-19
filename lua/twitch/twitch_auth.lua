@@ -39,13 +39,13 @@ function M.read_twitch_token_file(path)
 end
 
 --- Asks Twitch whose token this is. On failure returns nil and { status, message };
---- status 401 means the token is invalid or expired.
-function M.validate_twitch_token(transport, token)
+--- status 401 means the token is invalid or expired. `timeout_seconds` defaults to 15.
+function M.validate_twitch_token(transport, token, timeout_seconds)
 	local response, err = transport({
 		method = "GET",
 		url = M.TWITCH_VALIDATE_URL,
 		headers = { authorization = "OAuth " .. token },
-		timeout = 15,
+		timeout = timeout_seconds or 15,
 	})
 	if not response then
 		return nil, { status = nil, message = "Could not reach Twitch to validate the token: " .. tostring(err) }

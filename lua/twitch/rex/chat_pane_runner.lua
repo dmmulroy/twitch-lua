@@ -5,14 +5,13 @@
 -- It never connects to Twitch chat itself; it makes sure the one connection process
 -- (rex/chat_connection.lua) is running and reads what that writes.
 
-local chat_commands = require("twitch.tui.chat_commands")
+local channel_session = require("twitch.channel_session")
 local chat_pane = require("twitch.tui.chat_pane")
 local chat_paths = require("twitch.chat_paths")
 local chat_settings = require("twitch.chat_settings")
 local emote_images = require("twitch.tui.emote_images")
 local json_codec = require("twitch.json_codec")
 local rex_host = require("twitch.host.rex_host")
-local twitch_auth = require("twitch.twitch_auth")
 
 local M = {}
 
@@ -229,42 +228,17 @@ function M.run_chat_pane(repo_root)
 
 	-- Sending needs to know who the token belongs to.
 	local function set_up_sending()
-		local token, read_err = twitch_auth.read_twitch_token_file(paths.token_file)
-		if not token then
-			sending_problem = read_err
+		local session, problem = channel_session.open_channel_session({
+			token_file = paths.token_file,
+			channel = settings.channel,
+		})
+		if not session then
+			sending_problem = problem
 			return
 		end
-		local distilled_host = require("distilled.host.rex")()
-		local identity, validate_err = twitch_auth.validate_twitch_token(distilled_host.transport, token)
-		if not identity then
-			sending_problem = validate_err.message
-			return
-		end
-		local helix = require("twitch.helix_client").new_helix_client({
-			host = distilled_host,
-			access_token = token,
-			client_id = identity.client_id,
-			retry = "none",
-			deadline_s = 10,
-		})
-		local channel_login = (settings.channel or identity.login):lower()
-		local broadcaster_user_id = identity.user_id
-		if channel_login ~= identity.login then
-			local users = helix:get_users({ login = { channel_login } })
-			local user = users and users.data and users.data[1]
-			if not user then
-				sending_problem = "Twitch channel not found: " .. channel_login
-				return
-			end
-			broadcaster_user_id = user.id
-		end
-		commands = chat_commands.new_chat_commands({
-			helix = helix,
-			broadcaster_user_id = broadcaster_user_id,
-			user_id = identity.user_id,
-		})
-		pane.channel = channel_login
-		pane.own_login = identity.login
+		commands = session.commands
+		pane.channel = session.channel_login
+		pane.own_login = session.own_login
 		pane:render_all()
 	end
 	host.start_timer(0, set_up_sending)

@@ -18,6 +18,8 @@ local SPEC_MODULES = {
 	"twitch.chat_event_log_spec",
 	"twitch.twitch_auth_spec",
 	"twitch.helix_client_spec",
+	"twitch.chat_commands_spec",
+	"twitch.channel_session_spec",
 	"twitch.gif_decoder_spec",
 	"twitch.emote_cache_spec",
 	"twitch.emote_sources_spec",
@@ -27,7 +29,6 @@ local SPEC_MODULES = {
 	"twitch.tui.twt_text_wrap_spec",
 	"twitch.tui.chat_feed_layout_spec",
 	"twitch.tui.emote_images_spec",
-	"twitch.tui.chat_commands_spec",
 	"twitch.tui.chat_pane_spec",
 }
 
