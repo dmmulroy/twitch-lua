@@ -1,6 +1,8 @@
 #!/bin/sh
-# Refreshes vendor/distilled (the distilled-lua runtime) and vendor/twitch (the generated
-# Twitch Helix client) from a distilled-lua checkout.
+# Refreshes vendor/distilled (the distilled-lua runtime) and vendor/distilled/clients/twitch
+# (the generated Twitch Helix client, module distilled.clients.twitch as in the rock
+# distilled-twitch) from a distilled-lua checkout. vendor/ is for working in a checkout;
+# the twitch-lua rock depends on the rocks instead (rockspecs/).
 #
 #   scripts/regenerate_helix_client.sh [path to distilled-lua]
 #
@@ -20,6 +22,7 @@ fi
 
 cd "$distilled_lua"
 lua bin/distilled-lua vendor --out "$repo/vendor"
-rm -rf "$repo/vendor/twitch"
-cp -R clients/twitch "$repo/vendor/twitch"
+mkdir -p "$repo/vendor/distilled/clients"
+rm -rf "$repo/vendor/distilled/clients/twitch"
+cp -R clients/twitch "$repo/vendor/distilled/clients/twitch"
 cp LICENSE NOTICE "$repo/vendor/distilled/"

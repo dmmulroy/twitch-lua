@@ -26,6 +26,7 @@ local SPEC_MODULES = {
 	"twitch.emote_sources_spec",
 	"twitch.terminal_text_spec",
 	"twitch.chat_links_spec",
+	"twitch.rockspec_spec",
 	"twitch.tui.terminal_keys_spec",
 	"twitch.tui.message_input_spec",
 	"twitch.tui.twt_text_wrap_spec",

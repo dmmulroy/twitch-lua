@@ -9,11 +9,11 @@ with its own size, scrollback and message box, and emote images including animat
 flowchart TB
     Twitch[(Twitch)]
     subgraph one ["one per machine"]
-        C["rex/chat_connection.lua<br/>the only EventSub websocket"]
-        W["rex/emote_worker.lua<br/>downloads and decodes emotes"]
+        C["scripts/chat_connection.lua<br/>the only EventSub websocket"]
+        W["scripts/emote_worker.lua<br/>downloads and decodes emotes"]
     end
     subgraph many ["one per tab"]
-        P["rex/chat_pane.lua"]
+        P["scripts/chat_pane.lua"]
     end
     Twitch <-- "1 websocket (TLS via openssl)" --> C
     C -- "appends chat events" --> L[("events.ndjson")]
@@ -29,6 +29,11 @@ flowchart TB
 
 Sending does not use the websocket. A pane calls Helix, and its own message comes back
 through the event log like anyone else's.
+
+The three scripts are `lua/twitch/rex/scripts/*.lua`. Each finds its modules from its own
+path, so the same files run from a checkout and from a LuaRocks tree (the rock
+`twitch-lua`), and each process starts the next one from its own directory: a pane
+installed as a rock never starts a connection from a checkout, or the other way round.
 
 The pane and the palette actions (`rex/palette_actions.lua`) share two modules:
 `channel_session.lua` turns the token file into a Helix client for the channel, and

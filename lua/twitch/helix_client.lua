@@ -6,9 +6,10 @@
 --   })
 --   local users, err = helix:get_users({ login = { "dillon" } })
 --
--- The generated client (vendor/twitch, from distilled-lua) has one service per page of
--- Twitch's API reference (`users`, `chat`, ...); this forwards each operation to its
--- service, so callers need not know which page documents it. Options are passed to every
+-- The generated client, distilled.clients.twitch (the rock distilled-twitch, or the copy in
+-- vendor/distilled/clients/twitch), has one service per page of Twitch's API reference
+-- (`users`, `chat`, ...); this forwards each operation to its service, so callers need
+-- not know which page documents it. Options are passed to every
 -- service client (distilled-lua's common options: host, retry, deadline_s, ...).
 
 local M = {}
@@ -40,7 +41,7 @@ M.HELIX_OPERATION_SERVICES = {
 
 --- Creates the client. A service is loaded the first time one of its operations is called.
 function M.new_helix_client(opts)
-	local services = require("twitch").new(opts)
+	local services = require("distilled.clients.twitch").new(opts)
 	return setmetatable({}, {
 		__index = function(self, operation)
 			local service_name = M.HELIX_OPERATION_SERVICES[operation]

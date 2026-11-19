@@ -28,18 +28,34 @@ checked against the real crate on 1,900 messages).
 ## Requirements
 
 - Rex, for the panes (`rex do`).
+- [LuaRocks](https://luarocks.org) to install it (or a checkout of this repository).
 - OpenSSL 1.1 or newer from Homebrew (`brew install openssl`). macOS's own `openssl` is
   LibreSSL, which cannot check that a certificate matches its hostname, so it is not used.
 - `curl`, for Helix calls and emote downloads.
 - A Twitch user access token with the `user:read:chat` and `user:write:chat` scopes, alone
   in `~/.config/twitch-lua/token` (mode 600). Moderation commands need their own scopes.
 
+## Installing
+
+twitch-lua is the rock `twitch-lua`. It depends on two rocks from
+[distilled-lua](https://github.com/dmmulroy/distilled-lua): `distilled` (the runtime) and
+`distilled-twitch` (the generated Helix client). Rex runs Lua 5.1, so give it a tree of
+its own:
+
+```sh
+luarocks --lua-version 5.1 --tree ~/.local/share/rex/rocks install twitch-lua
+```
+
+Everything is then under `~/.local/share/rex/rocks/share/lua/5.1`, called `<tree>` below.
+A checkout works too: its `lua/` holds the same modules and `vendor/` the two dependencies.
+
 ## Running it
 
 In a Rex terminal:
 
 ```sh
-rex do /path/to/twitch-lua/rex/chat_pane.lua tty="$(tty)" rex="$(command -v rex)"
+rex do <tree>/twitch/rex/scripts/chat_pane.lua tty="$(tty)" rex="$(command -v rex)"
+# from a checkout: rex do /path/to/twitch-lua/lua/twitch/rex/scripts/chat_pane.lua ...
 ```
 
 The pane starts the connection process if none is running. The connection exits by itself
@@ -69,10 +85,12 @@ To get **Twitch: Set Stream Title…** in Rex's command palette, register it fro
 Rex configuration file:
 
 ```lua
-local repo = os.getenv("HOME") .. "/path/to/twitch-lua"
-package.path = package.path .. ";" .. repo .. "/lua/?.lua;" .. repo .. "/vendor/?.lua;" .. repo .. "/vendor/?/init.lua"
+local tree = os.getenv("HOME") .. "/.local/share/rex/rocks/share/lua/5.1"
+package.path = package.path .. ";" .. tree .. "/?.lua;" .. tree .. "/?/init.lua"
 require("twitch.rex.palette_actions").register_twitch_palette_actions()
 ```
+
+From a checkout, put its `lua/?.lua`, `vendor/?.lua` and `vendor/?/init.lua` on the path instead.
 
 It asks for the title in the palette, with the current one filled in. Asking needs a Rex
 server with prompts (`rex.ui`, control API revision 17). That is checked when the
@@ -134,8 +152,9 @@ lua/twitch/                  # the library: pure Lua 5.1, no I/O outside host/ a
 ├── tui/                     # the pane: twt's layout and wrapping, input box, keys, emotes
 ├── host/rex_host.lua        # timers, helper processes and TLS on Rex's Lua API
 └── rex/                     # the three processes, as functions, and the palette actions
-rex/                         # entry points: chat_pane.lua, chat_connection.lua, emote_worker.lua
-vendor/                      # distilled-lua runtime and the generated Helix client
+    └── scripts/             # `rex do` entry points: chat_pane, chat_connection, emote_worker
+vendor/                      # for checkouts: distilled-lua's runtime and Twitch client
+rockspecs/                   # twitch-lua-<version>-1.rockspec (scripts/write_rockspec.sh)
 spec/                        # test helpers and the runner; specs sit next to their modules
 docs/DESIGN.md               # how it works, and what was measured
 ```
@@ -160,11 +179,31 @@ Rust crates twt uses (unicode-linebreak 0.1.5, unicode-width 0.2.2).
 
 ## The Helix client
 
-`vendor/twitch` is [distilled-lua](https://github.com/dmmulroy/distilled-lua)'s generated Twitch
+The Helix client is [distilled-lua](https://github.com/dmmulroy/distilled-lua)'s generated Twitch
 client (one service per page of Twitch's API reference), from Distilled's Twitch model, which is
-read from those reference pages. `lua/twitch/helix_client.lua` maps the operations this library
-calls to their services. `scripts/regenerate_helix_client.sh` refreshes the client and the
-runtime in `vendor/distilled` (Apache-2.0; its LICENSE and NOTICE are kept beside it).
+read from those reference pages. It is the module `distilled.clients.twitch`: the rock
+`distilled-twitch` when installed, `vendor/distilled/clients/twitch` in a checkout.
+`lua/twitch/helix_client.lua` maps the operations this library calls to their services.
+`scripts/regenerate_helix_client.sh` refreshes the client and the runtime in
+`vendor/distilled` (Apache-2.0; its LICENSE and NOTICE are kept beside it).
+
+## Releasing
+
+```sh
+scripts/write_rockspec.sh 0.2.0          # rockspecs/twitch-lua-0.2.0-1.rockspec
+git tag v0.2.0 && git push --tags        # the rockspec builds from the tag
+luarocks upload rockspecs/twitch-lua-0.2.0-1.rockspec
+```
+
+`lua spec/run_specs.lua` fails when the newest rockspec misses a module. Before a release,
+try it from the checkout against a local build of distilled-lua's rocks
+(`scripts/build_rocks.sh` there):
+
+```sh
+luarocks --lua-version 5.1 --tree /tmp/rocks \
+  --only-server "file://$HOME/Code/personal/distilled-lua/dist/rocks/0.1.0" \
+  make rockspecs/twitch-lua-0.1.0-1.rockspec
+```
 
 ## License
 

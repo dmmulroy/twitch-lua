@@ -2,7 +2,7 @@ local t = require("spec_helper")
 local helix_client = require("twitch.helix_client")
 
 t.test("helix_client: every mapped operation exists in its generated service", function()
-	local twitch = require("twitch")
+	local twitch = require("distilled.clients.twitch")
 	for operation, service in pairs(helix_client.HELIX_OPERATION_SERVICES) do
 		local Service = twitch[service]
 		t.truthy(Service, "service " .. service)

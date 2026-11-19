@@ -1,7 +1,7 @@
 -- Downloads and decodes emotes in its own process, so that a pane or the connection never
 -- waits on a download or on decoding a large GIF (the largest seen takes 1.5 seconds).
 --
--- Started by the connection as:  rex do <repo>/rex/emote_worker.lua
+-- Started by the connection as:  rex do <scripts>/emote_worker.lua
 -- It reads requests from the emote request log (one JSON object per line), which panes
 -- and the connection append to:
 --   { "kind": "emote", "provider": "twitch", "id": "25", "animated": false }

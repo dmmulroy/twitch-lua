@@ -1,9 +1,10 @@
 -- Runs one chat pane inside a Rex terminal: wires the pane (twitch.tui.chat_pane) to the
 -- terminal's keys, the event log and Rex's resize events, and sends through Helix.
 --
--- Started in a pane as:  rex do <repo>/rex/chat_pane.lua tty="$(tty)" rex=<path to rex>
+-- Started in a pane as:  rex do <scripts>/chat_pane.lua tty="$(tty)" rex=<path to rex>
+-- (<scripts> is lua/twitch/rex/scripts in a checkout, or the same path in a LuaRocks tree)
 -- It never connects to Twitch chat itself; it makes sure the one connection process
--- (rex/chat_connection.lua) is running and reads what that writes.
+-- (scripts/chat_connection.lua) is running and reads what that writes.
 
 local channel_session = require("twitch.channel_session")
 local chat_pane = require("twitch.tui.chat_pane")
@@ -34,8 +35,8 @@ local function read_file(path)
 end
 
 --- Runs the pane until Ctrl-C. Call from the top level of a `rex do` script.
---- `repo_root` is the twitch-lua checkout, used to find the connection script.
-function M.run_chat_pane(repo_root)
+--- `script_dir` is the directory of the entry scripts, used to start the connection.
+function M.run_chat_pane(script_dir)
 	local tty = rex.args.tty
 	if type(tty) ~= "string" or tty == "" then
 		error('chat pane: start it with tty="$(tty)" so it can read keys', 0)
@@ -212,7 +213,7 @@ function M.run_chat_pane(repo_root)
 			end
 		end
 		local handle, err = rex.exec.start(
-			{ rex_cli, "do", "--all", repo_root .. "/rex/chat_connection.lua", "rex=" .. rex_cli },
+			{ rex_cli, "do", "--all", script_dir .. "/chat_connection.lua", "rex=" .. rex_cli },
 			{ detach = true, stdout = false, stderr = false }
 		)
 		if not handle then

@@ -2,7 +2,7 @@
 -- the event log; panes read the log and never connect themselves, so the number of tabs
 -- does not change the number of Twitch connections (Twitch allows 3 per account).
 --
--- Started by a pane (or by hand) as:  rex do --all <repo>/rex/chat_connection.lua
+-- Started by a pane (or by hand) as:  rex do --all <scripts>/chat_connection.lua
 -- Exits by itself once no pane has been alive for a few seconds.
 
 local chat_event_log = require("twitch.chat_event_log")
@@ -38,8 +38,8 @@ echo "$count"
 ]]
 
 --- Runs the chat connection until no pane needs it. Call from the top level of a
---- `rex do` script. `repo_root` is the twitch-lua checkout, used to find the emote worker.
-function M.run_chat_connection(repo_root)
+--- `rex do` script. `script_dir` is the directory of the entry scripts, used to start the emote worker.
+function M.run_chat_connection(script_dir)
 	local paths = chat_paths.twitch_chat_paths()
 	rex.exec({ "/bin/mkdir", "-p", paths.state_dir, paths.pane_registry_dir, paths.emote_cache_dir })
 	local host = rex_host.new_rex_host({ log_path = paths.diagnostics_log, log_label = "connection" })
@@ -104,7 +104,7 @@ function M.run_chat_connection(repo_root)
 	-- channel is known, and asked for the channel's third-party emote lists.
 	local emote_worker, emote_worker_restarts = nil, 0
 	local function start_emote_worker()
-		local helper, err = host.start_helper({ rex.args.rex or "rex", "do", repo_root .. "/rex/emote_worker.lua" }, {
+		local helper, err = host.start_helper({ rex.args.rex or "rex", "do", script_dir .. "/emote_worker.lua" }, {
 			ends_with_owner = true,
 			on_exit = function(result)
 				emote_worker = nil
